@@ -1,0 +1,385 @@
+{
+  "_comment": "수집할 게임 목록(한국 서버 기준). enabled=false면 건너뜀. officialDomains: 공식 출처(확정 판정). trustedDomains: 일정 전문 정리 사이트. preferredDomains: 우선해서 읽을 일정 정리 사이트. keywords/excludeKeywords: 검색 결과 관련성 필터. servers[].queries: 검색어, fetchUrls: 매번 읽을 페이지, sources: 공식 게시판(naverCafe). futuresight: 미래시 기준 서버(이 값이 있는 게임만 미래시 일정을 다룸). dcGallery: 미래시 교차 확인용 디시 갤러리(코드로만 언급 수 집계). 유출·찌라시는 다루지 않음.",
+  "trustedDomains": [
+    "bannerhistory.app",
+    "mollulog.net"
+  ],
+  "preferredDomains": [
+    "pickupcal.com",
+    "bannerhistory.app",
+    "mollulog.net",
+    "ark-gachaplanner.netlify.app",
+    "dal.wiki"
+  ],
+  "games": [
+    {
+      "id": "genshin",
+      "name": "원신",
+      "color": "#4a90d9",
+      "enabled": true,
+      "servers": [
+        {
+          "id": "kr",
+          "name": "아시아(한국)",
+          "timezone": "Asia/Shanghai",
+          "utcOffset": "+08:00",
+          "queries": [
+            "원신 픽업 기원 일정",
+            "원신 업데이트 이벤트 일정"
+          ],
+          "fetchUrls": []
+        }
+      ],
+      "searchHints": "기원(픽업 배너) 캐릭터·무기와 기간, 버전 업데이트, 주년 등 대형 이벤트, 특별 방송",
+      "officialDomains": [
+        "genshin.hoyoverse.com",
+        "hoyolab.com",
+        "hoyoverse.com",
+        "x.com/GenshinImpact",
+        "game.naver.com/lounge/Genshin"
+      ],
+      "keywords": [
+        "원신",
+        "genshin"
+      ]
+    },
+    {
+      "id": "starrail",
+      "name": "붕괴: 스타레일",
+      "color": "#8e7cc3",
+      "enabled": true,
+      "servers": [
+        {
+          "id": "kr",
+          "name": "아시아(한국)",
+          "timezone": "Asia/Shanghai",
+          "utcOffset": "+08:00",
+          "queries": [
+            "스타레일 워프 픽업 일정",
+            "붕괴 스타레일 업데이트 이벤트 일정"
+          ],
+          "fetchUrls": []
+        }
+      ],
+      "searchHints": "워프(픽업 배너) 캐릭터·광추와 기간, 버전 업데이트, 주년 등 대형 이벤트, 프리뷰 방송",
+      "officialDomains": [
+        "hsr.hoyoverse.com",
+        "hoyolab.com",
+        "hoyoverse.com",
+        "x.com/honkaistarrail"
+      ],
+      "keywords": [
+        "스타레일",
+        "star rail",
+        "붕스"
+      ]
+    },
+    {
+      "id": "zzz",
+      "name": "젠레스 존 제로",
+      "color": "#f0a020",
+      "enabled": true,
+      "servers": [
+        {
+          "id": "kr",
+          "name": "아시아(한국)",
+          "timezone": "Asia/Shanghai",
+          "utcOffset": "+08:00",
+          "queries": [
+            "젠레스 존 제로 픽업 일정",
+            "젠레스 존 제로 업데이트 이벤트 일정"
+          ],
+          "fetchUrls": []
+        }
+      ],
+      "searchHints": "독점 채널(픽업 배너) 에이전트·W-엔진과 기간, 버전 업데이트, 주년 등 대형 이벤트, 특별 방송",
+      "officialDomains": [
+        "zenless.hoyoverse.com",
+        "hoyolab.com",
+        "hoyoverse.com",
+        "x.com/ZZZ_EN"
+      ],
+      "keywords": [
+        "젠레스",
+        "zenless",
+        "젠존제"
+      ]
+    },
+    {
+      "id": "bluearchive",
+      "name": "블루 아카이브",
+      "color": "#29b6f6",
+      "enabled": true,
+      "servers": [
+        {
+          "id": "kr",
+          "name": "한국",
+          "timezone": "Asia/Seoul",
+          "utcOffset": "+09:00",
+          "queries": [
+            "블루아카이브 픽업 모집 일정",
+            "블루아카이브 미래시 픽업",
+            "블루아카이브 이벤트 업데이트 일정"
+          ],
+          "fetchUrls": []
+        }
+      ],
+      "searchHints": "한국(글로벌) 서버 픽업 모집 학생과 기간, 이벤트 스토리, 주년·페스 등 대형 이벤트, 생방송. 일본 서버 선행 일정 기반 한국 서버 미래시",
+      "officialDomains": [
+        "bluearchive.nexon.com",
+        "forum.nexon.com",
+        "x.com/KR_BlueArchive",
+        "game.naver.com/lounge/Blue_Archive"
+      ],
+      "keywords": [
+        "블루 아카이브",
+        "블루아카이브",
+        "블루아카",
+        "blue archive",
+        "ブルーアーカイブ",
+        "ブルアカ"
+      ],
+      "dcGallery": {
+        "id": "projectmx",
+        "type": "mgallery",
+        "name": "블루 아카이브",
+        "keywords": [
+          "미래시"
+        ],
+        "maxBodies": 2
+      },
+      "futuresight": "일본 서버"
+    },
+    {
+      "id": "nikke",
+      "name": "승리의 여신: 니케",
+      "color": "#e05a6d",
+      "enabled": true,
+      "servers": [
+        {
+          "id": "kr",
+          "name": "한국",
+          "timezone": "Asia/Seoul",
+          "utcOffset": "+09:00",
+          "queries": [
+            "니케 픽업 모집 일정",
+            "승리의 여신 니케 업데이트 이벤트"
+          ],
+          "fetchUrls": []
+        }
+      ],
+      "searchHints": "픽업 모집 니케와 기간, 이벤트, 주년·콜라보 등 대형 이벤트, 업데이트, 생방송",
+      "officialDomains": [
+        "nikke-kr.com",
+        "blablalink.com",
+        "x.com/NIKKE_kr",
+        "game.naver.com/lounge/nikke"
+      ],
+      "keywords": [
+        "니케",
+        "nikke"
+      ]
+    },
+    {
+      "id": "umamusume",
+      "name": "우마무스메",
+      "color": "#6cc070",
+      "enabled": true,
+      "servers": [
+        {
+          "id": "kr",
+          "name": "한국",
+          "timezone": "Asia/Seoul",
+          "utcOffset": "+09:00",
+          "queries": [
+            "우마무스메 한섭 픽업 가챠 일정",
+            "우마무스메 한섭 미래시 픽업",
+            "우마무스메 이벤트 업데이트 일정"
+          ],
+          "fetchUrls": [
+            "https://www.pickupcal.com/games/umamusume/"
+          ]
+        }
+      ],
+      "searchHints": "한국 서버 픽업 가챠(육성 우마무스메·서포트 카드)와 기간, 이벤트, 주년 등 대형 이벤트. 일본 서버 선행 일정 기반 한국 서버 미래시",
+      "officialDomains": [
+        "kakaogames.com",
+        "umamusume.kakaogames.com",
+        "x.com/umamusume_kr",
+        "game.naver.com/lounge/umamusume"
+      ],
+      "keywords": [
+        "우마무스메",
+        "우마 무스메",
+        "umamusume",
+        "ウマ娘"
+      ],
+      "dcGallery": {
+        "id": "umamusu",
+        "type": "mgallery",
+        "name": "우마무스메",
+        "keywords": [
+          "미래시"
+        ],
+        "maxBodies": 2
+      },
+      "futuresight": "일본 서버"
+    },
+    {
+      "id": "arknights",
+      "name": "명일방주",
+      "color": "#7d8a99",
+      "enabled": true,
+      "servers": [
+        {
+          "id": "kr",
+          "name": "한국",
+          "timezone": "Asia/Seoul",
+          "utcOffset": "+09:00",
+          "queries": [
+            "명일방주 헤드헌팅 픽업 일정 -엔드필드",
+            "명일방주 한섭 미래시 헤드헌팅",
+            "명일방주 이벤트 업데이트 일정 -엔드필드"
+          ],
+          "fetchUrls": [
+            "https://ark-gachaplanner.netlify.app/ko/"
+          ],
+          "sources": [
+            {
+              "type": "naverCafe",
+              "cafeId": 29703924,
+              "slug": "arknightskor",
+              "menuIds": [
+                3
+              ],
+              "maxArticles": 15,
+              "label": "명일방주 공식 카페 공지사항"
+            }
+          ]
+        }
+      ],
+      "searchHints": "한국 서버 헤드헌팅(픽업 배너) 오퍼레이터와 기간, 이벤트, 주년 등 대형 이벤트. 중국 서버 선행 일정 기반 한국 서버 미래시",
+      "officialDomains": [
+        "arknights.kr",
+        "yo-star.com",
+        "cafe.naver.com/arknightskor",
+        "cafe.naver.com/f-e/cafes/29703924",
+        "x.com/ArknightsKorea"
+      ],
+      "keywords": [
+        "명일방주",
+        "arknights",
+        "명방"
+      ],
+      "excludeKeywords": [
+        "엔드필드",
+        "endfield"
+      ],
+      "dcGallery": {
+        "id": "mibj",
+        "type": "mgallery",
+        "name": "명일방주",
+        "keywords": [
+          "미래시"
+        ],
+        "maxBodies": 2
+      },
+      "futuresight": "중국 서버"
+    },
+    {
+      "id": "endfield",
+      "name": "명일방주: 엔드필드",
+      "color": "#c9b23a",
+      "enabled": true,
+      "servers": [
+        {
+          "id": "kr",
+          "name": "아시아(한국)",
+          "timezone": "Asia/Shanghai",
+          "utcOffset": "+08:00",
+          "queries": [
+            "엔드필드 픽업 일정",
+            "명일방주 엔드필드 업데이트 이벤트"
+          ],
+          "fetchUrls": [
+            "https://www.pickupcal.com/games/endfield/"
+          ]
+        }
+      ],
+      "searchHints": "픽업(헤드헌팅) 오퍼레이터·무기 배너와 기간, 버전 업데이트, 대형 이벤트, 특별 방송",
+      "officialDomains": [
+        "endfield.gryphline.com",
+        "gryphline.com",
+        "x.com/AKEndfield"
+      ],
+      "keywords": [
+        "엔드필드",
+        "endfield"
+      ]
+    },
+    {
+      "id": "wuwa",
+      "name": "명조",
+      "color": "#d4af37",
+      "enabled": true,
+      "servers": [
+        {
+          "id": "kr",
+          "name": "아시아(한국)",
+          "timezone": "Asia/Shanghai",
+          "utcOffset": "+08:00",
+          "queries": [
+            "명조 픽업 공명자 일정",
+            "명조 워더링 웨이브 업데이트 이벤트"
+          ],
+          "fetchUrls": []
+        }
+      ],
+      "searchHints": "공명자·무기 픽업 튜닝과 기간, 버전 업데이트, 주년 등 대형 이벤트, 특별 방송",
+      "officialDomains": [
+        "wutheringwaves.kurogames.com",
+        "kurogames.com",
+        "x.com/Wuthering_Waves",
+        "game.naver.com/lounge/WutheringWaves"
+      ],
+      "keywords": [
+        "명조",
+        "wuthering",
+        "워더링"
+      ]
+    },
+    {
+      "id": "limbus",
+      "name": "림버스 컴퍼니",
+      "color": "#b5332e",
+      "enabled": true,
+      "servers": [
+        {
+          "id": "kr",
+          "name": "한국",
+          "timezone": "Asia/Seoul",
+          "utcOffset": "+09:00",
+          "queries": [
+            "림버스 컴퍼니 신규 인격 추출 일정",
+            "림버스 컴퍼니 발푸르기스의 밤 일정",
+            "림버스 컴퍼니 업데이트 예정"
+          ],
+          "fetchUrls": [
+            "https://www.pickupcal.com/games/limbus/"
+          ]
+        }
+      ],
+      "searchHints": "신규 인격·E.G.O 추출(픽업) 일정과 기간, 시즌·발푸르기스의 밤 등 대형 이벤트, 업데이트·점검",
+      "officialDomains": [
+        "limbuscompany.com",
+        "projectmoon.studio",
+        "store.steampowered.com/news/app/1973530",
+        "x.com/LimbusCompany_B"
+      ],
+      "keywords": [
+        "림버스",
+        "limbus"
+      ]
+    }
+  ]
+}

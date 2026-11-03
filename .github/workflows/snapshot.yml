@@ -1,0 +1,42 @@
+name: 참고 사이트 스냅샷
+
+on:
+  push:
+    branches: [main]
+    paths: ['config/snapshot-urls.txt']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+      - name: Playwright 설치
+        run: |
+          npm init -y >/dev/null
+          npm install --no-save playwright@1.48.2
+          npx playwright install --with-deps chromium
+      - name: 스냅샷
+        run: |
+          node scripts/tools/snapshot.cjs 2>&1 | tee snapshot.log
+          echo "::notice title=스냅샷 결과::$(tr '\n' ' ' < snapshot.log | cut -c1-900)"
+          echo "::notice title=파일::$(ls -la data/refs 2>&1 | awk '{print $5, $9}' | tr '\n' ' ' | cut -c1-900)"
+      - name: 커밋
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -f data/refs
+          git status --short | head -20
+          git commit -m "chore: 참고 사이트 스냅샷" || { echo "::warning::커밋할 변경 없음"; exit 0; }
+          for i in 1 2 3; do
+            if git pull --rebase --autostash origin main && git push; then echo "::notice::푸시 완료"; exit 0; fi
+            sleep 5
+          done
+          echo "::error::푸시 실패"; exit 1

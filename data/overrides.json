@@ -1,0 +1,6 @@
+{
+  "_comment": "AI가 틀린 일정을 직접 고치는 파일입니다. hide: 숨길 일정 id 목록 / patch: { 일정id: { 바꿀 필드 } } / add: 직접 추가할 일정. 일정 id는 사이트에서 일정을 눌러 확인하거나 data/events.json 에서 찾을 수 있습니다.",
+  "hide": [],
+  "patch": {},
+  "add": []
+}

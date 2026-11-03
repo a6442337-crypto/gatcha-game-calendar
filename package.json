@@ -1,0 +1,14 @@
+{
+  "name": "gatcha-game-calendar",
+  "private": true,
+  "type": "module",
+  "description": "서브컬처 게임 일정 자동 수집 달력",
+  "scripts": {
+    "collect": "node scripts/collect.mjs",
+    "collect:mock": "MOCK=1 node scripts/collect.mjs",
+    "build": "node scripts/build.mjs",
+    "test": "node --test test/*.test.mjs",
+    "serve": "node scripts/build.mjs && npx --yes serve _site"
+  },
+  "engines": { "node": ">=20" }
+}

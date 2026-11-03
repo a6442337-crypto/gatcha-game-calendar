@@ -1,0 +1,136 @@
+{
+ "genshin:asia": {
+  "gameName": "원신",
+  "serverName": "아시아(한국)",
+  "events": [
+   {
+    "title": "6.2 버전 업데이트",
+    "type": "update",
+    "start": "2026-11-12T06:00:00+08:00",
+    "end": null,
+    "description": "버전 업데이트 점검 후 적용",
+    "confidence": 0.95,
+    "isRumor": false,
+    "sources": [
+     {
+      "title": "공식 공지",
+      "url": "https://genshin.hoyoverse.com/ko/news/detail/100001"
+     }
+    ]
+   },
+   {
+    "title": "푸리나·나히다 기원",
+    "type": "banner",
+    "start": "2026-11-12T11:00:00+08:00",
+    "end": "2026-12-02T14:59:00+08:00",
+    "description": "1차 픽업",
+    "confidence": 0.9,
+    "isRumor": false,
+    "sources": [
+     {
+      "title": "HoYoLAB",
+      "url": "https://www.hoyolab.com/article/123"
+     }
+    ]
+   },
+   {
+    "title": "6.2 특별 방송",
+    "type": "livestream",
+    "start": "2026-11-01T20:00:00+08:00",
+    "end": null,
+    "description": "",
+    "confidence": 0.8,
+    "isRumor": false,
+    "sources": [
+     {
+      "title": "위키",
+      "url": "https://namu.wiki/w/x"
+     }
+    ]
+   },
+   {
+    "title": "6주년 기념 이벤트 '단풍 축제'",
+    "type": "event",
+    "start": "2026-10-22",
+    "end": "2026-11-05",
+    "description": "",
+    "confidence": 0.7,
+    "isRumor": false,
+    "sources": [
+     {
+      "title": "게임 기사",
+      "url": "https://example.com/a"
+     }
+    ]
+   },
+   {
+    "title": "7.3 베타 픽업 (유출)",
+    "type": "banner",
+    "start": "2026-12-03",
+    "end": null,
+    "description": "",
+    "confidence": 0.3,
+    "isRumor": true,
+    "sources": [
+     {
+      "title": "커뮤니티",
+      "url": "https://reddit.com/r/x"
+     }
+    ],
+    "basis": "datamine"
+   }
+  ]
+ },
+ "bluearchive:global": {
+  "gameName": "블루 아카이브",
+  "serverName": "한국",
+  "events": [
+   {
+    "title": "정기 점검",
+    "type": "maintenance",
+    "start": "2026-11-04T10:00:00+09:00",
+    "end": "2026-11-04T14:00:00+09:00",
+    "description": "",
+    "confidence": 0.95,
+    "isRumor": false,
+    "sources": [
+     {
+      "title": "공지",
+      "url": "https://forum.nexon.com/bluearchive/board_view?board=1&thread=1"
+     }
+    ]
+   },
+   {
+    "title": "호시노(무장) 픽업 모집",
+    "type": "banner",
+    "start": "2026-10-28T11:00:00+09:00",
+    "end": "2026-11-02T09:59:00+09:00",
+    "description": "",
+    "confidence": 0.9,
+    "isRumor": false,
+    "sources": [
+     {
+      "title": "공식 X",
+      "url": "https://x.com/KR_BlueArchive/status/1"
+     }
+    ]
+   },
+   {
+    "title": "이부키 픽업 모집 (미래시)",
+    "type": "banner",
+    "start": "2026-11-18",
+    "end": "2026-11-25",
+    "description": "일본 서버 선행 기준 예상",
+    "confidence": 0.4,
+    "isRumor": false,
+    "basis": "futuresight",
+    "sources": [
+     {
+      "title": "미래시 정리",
+      "url": "https://mollulog.net/futures"
+     }
+    ]
+   }
+  ]
+ }
+}

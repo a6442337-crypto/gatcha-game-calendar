@@ -1,0 +1,99 @@
+name: 일정 수집 및 배포
+
+on:
+  schedule:
+    - cron: '17 21 * * *'   # 매일 06:17 KST
+    - cron: '17 9 * * *'    # 매일 18:17 KST
+  workflow_dispatch:
+    inputs:
+      games:
+        description: '특정 게임만 수집 (공백 구분, 비우면 전체). 예: genshin bluearchive'
+        required: false
+        default: ''
+      diagnose:
+        description: 'API 키 진단만 실행 (사용 가능 모델·무료 한도 확인)'
+        type: boolean
+        default: false
+      skip_collect:
+        description: '수집 없이 사이트만 다시 배포'
+        type: boolean
+        default: false
+  push:
+    branches: [main]
+    paths: ['site/**', 'scripts/**', 'config/**', 'data/overrides.json', '.github/workflows/**']
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: update
+  cancel-in-progress: false
+
+jobs:
+  collect-and-deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+
+      - name: 테스트
+        run: node --test test/*.test.mjs
+
+      - name: API 진단
+        if: inputs.diagnose == true || contains(github.event.head_commit.message, '[diagnose]')
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: node scripts/diagnose.mjs
+
+      - name: 일정 수집 (무료 검색 + Gemini)
+        id: collect
+        continue-on-error: true
+        if: (github.event_name != 'push' || contains(github.event.head_commit.message, '[collect]')) && inputs.skip_collect != true && inputs.diagnose != true
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+          GEMINI_GROUNDING: ${{ vars.GEMINI_GROUNDING }}
+        run: |
+          if [ -z "$GEMINI_API_KEY" ]; then
+            echo "::warning::GEMINI_API_KEY 시크릿이 없어 수집을 건너뜁니다. Settings → Secrets and variables → Actions 에서 추가하세요."
+          else
+            node scripts/collect.mjs ${{ inputs.games }}
+          fi
+
+      - name: 수집 결과 커밋
+        if: github.event_name != 'push' || contains(github.event.head_commit.message, '[collect]') || contains(github.event.head_commit.message, '[diagnose]')
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/events.json data/state.json data/logs/last-run.json data/overrides.json
+          if git diff --cached --quiet; then
+            echo "변경 없음"
+          else
+            git commit -m "chore: 일정 자동 업데이트 $(TZ=Asia/Seoul date '+%Y-%m-%d %H:%M')"
+            for i in 1 2 3; do git pull --rebase origin main && git push && break || sleep 5; done
+          fi
+
+      - name: 사이트 빌드
+        run: node scripts/build.mjs
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+      - id: deploy
+        uses: actions/deploy-pages@v4
+
+      - name: 수집 실패 시 실행을 실패로 표시
+        if: steps.collect.outcome == 'failure'
+        run: |
+          echo "::error::일정 수집 단계가 실패했습니다. 위의 주석과 data/logs/last-run.json 을 확인하세요."
+          exit 1

@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>서브컬처 픽업 일정</title>
+  <meta name="description" content="원신, 블루 아카이브 등 서브컬처 게임 10종의 한국 서버 픽업 일정을 AI가 자동으로 모아 보여주는 달력">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📅</text></svg>">
+  <link rel="stylesheet" href="style.css">
+  <script src="vendor/fullcalendar-6.1.15.min.js"></script>
+  <script src="vendor/fullcalendar-ko-6.1.15.min.js"></script>
+</head>
+<body>
+  <header class="top">
+    <div class="brand">
+      <h1>서브컬처 픽업 일정</h1>
+      <p class="meta" id="updated">불러오는 중…</p>
+    </div>
+    <button class="btn primary" id="subscribeBtn" type="button">캘린더 구독</button>
+  </header>
+
+  <section class="toolbar" aria-label="보기와 필터">
+    <div class="tabs" role="tablist">
+      <button type="button" role="tab" data-view="timeline">픽업 타임라인</button>
+      <button type="button" role="tab" data-view="list">카드 목록</button>
+      <button type="button" role="tab" data-view="calendar">달력</button>
+    </div>
+    <div class="toggles">
+      <label class="toggle" title="일본·중국 서버 선행 일정으로 예상한 한국 서버 일정"><input type="checkbox" id="showLikely"> 미래시·예상 일정</label>
+      <label class="toggle"><input type="checkbox" id="hideEnded"> 종료 숨김</label>
+      <label class="toggle"><input type="checkbox" id="showOthers"> 픽업 외 일정</label>
+    </div>
+  </section>
+  <section class="chips-row" aria-label="게임 선택"><div class="chips" id="gameChips"></div></section>
+
+  <main class="layout">
+    <div class="main-col">
+      <div id="timelineView" class="view panel"></div>
+      <div id="listView" class="view"></div>
+      <div id="calendarView" class="view panel"><div id="calendar"></div></div>
+    </div>
+    <aside class="side">
+      <section class="panel"><h2>🔥 곧 종료되는 픽업 <small>3일 이내</small></h2><ul id="endingSoon" class="mini"></ul></section>
+      <section class="panel"><h2>⏳ 곧 시작하는 픽업 <small>14일 이내</small></h2><ul id="startingSoon" class="mini"></ul></section>
+      <section class="panel major-box"><h2>🎉 큰 이벤트 <small>주년·페스·콜라보</small></h2><ul id="majorList" class="mini"></ul></section>
+      <section class="panel"><h2>📢 업데이트·이벤트 <small>14일 이내</small></h2><ul id="others" class="mini"></ul></section>
+    </aside>
+  </main>
+
+  <footer class="foot">
+    <div class="legend-row">
+      <span class="legend"><i class="lg conf"></i>확정</span>
+      <span class="legend"><i class="lg likely"></i>예상 (미래시: 블루 아카이브·명일방주·우마무스메)</span>
+      <span class="legend"><i class="lg major"></i>큰 이벤트</span>
+      <span class="legend"><span class="kind rerun">복각</span>재픽업</span>
+    </div>
+    일정은 AI(Gemini)가 공식 공지·기사·검색 결과에서 자동으로 수집하므로 틀릴 수 있습니다. 한국 서버 기준이며, 반드시 공식 공지를 확인하세요.
+  </footer>
+
+  <dialog id="eventDialog">
+    <form method="dialog" class="dlg">
+      <div class="dlg-head"><span id="dGame" class="tag"></span><span id="dType" class="tag ghost"></span></div>
+      <h3 id="dTitle"></h3>
+      <p id="dWhen" class="when"></p>
+      <div class="cert">
+        <div class="cert-top"><b id="dTier"></b><span id="dScore"></span></div>
+        <div class="cert-bar"><i id="dBar"></i></div>
+        <p id="dBasis" class="meta"></p>
+      </div>
+      <p id="dDesc"></p>
+      <div id="dHistory" class="hist"></div>
+      <h4>출처</h4>
+      <ul id="dSources" class="sources"></ul>
+      <menu><button class="btn" value="close">닫기</button></menu>
+    </form>
+  </dialog>
+
+  <dialog id="subDialog">
+    <form method="dialog" class="dlg">
+      <h3>캘린더 구독</h3>
+      <p class="meta">픽업과 큰 이벤트가 담깁니다(미래시 예상 일정은 제목에 표시). 아래 주소를 구글 캘린더 → 다른 캘린더 추가(+) → <b>URL로 추가</b>에 붙여넣거나, 아이폰은 링크를 눌러 구독하세요.</p>
+      <ul id="feeds" class="feeds"></ul>
+      <menu><button class="btn" value="close">닫기</button></menu>
+    </form>
+  </dialog>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+node_modules/
+_site/
+.env
+data/logs/research.json
+data/refs/

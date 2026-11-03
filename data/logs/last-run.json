@@ -1,0 +1,403 @@
+{
+  "startedAt": "2026-11-03T02:55:38.900Z",
+  "model": "gemini-3.5-flash-lite",
+  "runs": [
+    {
+      "game": "genshin",
+      "server": "kr",
+      "found": 5,
+      "accepted": 5,
+      "rejected": [],
+      "search": {
+        "providers": {
+          "googleNews": {
+            "ok": 2,
+            "results": 9,
+            "errors": []
+          },
+          "bing": {
+            "ok": 2,
+            "results": 0,
+            "errors": []
+          },
+          "duckduckgo": {
+            "ok": 2,
+            "results": 20,
+            "errors": []
+          }
+        },
+        "pagesFetched": 6,
+        "pageErrors": 0,
+        "irrelevant": 10,
+        "newsResolved": 6,
+        "official": 0,
+        "results": 23,
+        "pages": 6
+      }
+    },
+    {
+      "game": "starrail",
+      "server": "kr",
+      "found": 8,
+      "accepted": 8,
+      "rejected": [],
+      "search": {
+        "providers": {
+          "googleNews": {
+            "ok": 2,
+            "results": 2,
+            "errors": []
+          },
+          "bing": {
+            "ok": 2,
+            "results": 0,
+            "errors": []
+          },
+          "duckduckgo": {
+            "ok": 2,
+            "results": 20,
+            "errors": []
+          }
+        },
+        "pagesFetched": 6,
+        "pageErrors": 0,
+        "irrelevant": 16,
+        "newsResolved": 2,
+        "official": 0,
+        "results": 20,
+        "pages": 6
+      }
+    },
+    {
+      "game": "zzz",
+      "server": "kr",
+      "found": 7,
+      "accepted": 7,
+      "rejected": [],
+      "search": {
+        "providers": {
+          "googleNews": {
+            "ok": 2,
+            "results": 6,
+            "errors": []
+          },
+          "bing": {
+            "ok": 2,
+            "results": 0,
+            "errors": []
+          },
+          "duckduckgo": {
+            "ok": 2,
+            "results": 19,
+            "errors": []
+          }
+        },
+        "pagesFetched": 6,
+        "pageErrors": 0,
+        "irrelevant": 26,
+        "newsResolved": 4,
+        "official": 0,
+        "results": 18,
+        "pages": 6
+      }
+    },
+    {
+      "game": "bluearchive",
+      "server": "kr",
+      "found": 6,
+      "accepted": 6,
+      "rejected": [],
+      "search": {
+        "providers": {
+          "googleNews": {
+            "ok": 3,
+            "results": 11,
+            "errors": []
+          },
+          "bing": {
+            "ok": 3,
+            "results": 0,
+            "errors": []
+          },
+          "duckduckgo": {
+            "ok": 2,
+            "results": 15,
+            "errors": [
+              "블루아카이브 이벤트 업데이트 일정: HTTP 202"
+            ]
+          }
+        },
+        "pagesFetched": 6,
+        "pageErrors": 0,
+        "irrelevant": 20,
+        "newsResolved": 6,
+        "official": 0,
+        "results": 21,
+        "pages": 6
+      }
+    },
+    {
+      "game": "nikke",
+      "server": "kr",
+      "found": 4,
+      "accepted": 4,
+      "rejected": [],
+      "search": {
+        "providers": {
+          "googleNews": {
+            "ok": 2,
+            "results": 17,
+            "errors": []
+          },
+          "bing": {
+            "ok": 2,
+            "results": 0,
+            "errors": []
+          },
+          "duckduckgo": {
+            "ok": 0,
+            "results": 0,
+            "errors": [
+              "니케 픽업 모집 일정: HTTP 202",
+              "승리의 여신 니케 업데이트 이벤트: HTTP 202"
+            ]
+          }
+        },
+        "pagesFetched": 5,
+        "pageErrors": 1,
+        "irrelevant": 21,
+        "newsResolved": 6,
+        "official": 0,
+        "results": 17,
+        "pages": 5
+      }
+    },
+    {
+      "game": "umamusume",
+      "server": "kr",
+      "found": 0,
+      "accepted": 0,
+      "rejected": [],
+      "search": {
+        "providers": {
+          "googleNews": {
+            "ok": 3,
+            "results": 4,
+            "errors": []
+          },
+          "bing": {
+            "ok": 3,
+            "results": 0,
+            "errors": []
+          },
+          "duckduckgo": {
+            "ok": 0,
+            "results": 0,
+            "errors": [
+              "우마무스메 한섭 픽업 가챠 일정: HTTP 202",
+              "우마무스메 한섭 미래시 픽업: HTTP 202",
+              "우마무스메 이벤트 업데이트 일정: HTTP 202"
+            ]
+          }
+        },
+        "pagesFetched": 0,
+        "pageErrors": 1,
+        "irrelevant": 11,
+        "newsResolved": 0,
+        "official": 0,
+        "results": 4,
+        "pages": 0
+      }
+    },
+    {
+      "game": "arknights",
+      "server": "kr",
+      "found": 5,
+      "accepted": 5,
+      "rejected": [],
+      "search": {
+        "providers": {
+          "googleNews": {
+            "ok": 3,
+            "results": 0,
+            "errors": []
+          },
+          "bing": {
+            "ok": 3,
+            "results": 0,
+            "errors": []
+          },
+          "duckduckgo": {
+            "ok": 0,
+            "results": 0,
+            "errors": [
+              "명일방주 헤드헌팅 픽업 일정 -엔드필드: HTTP 202",
+              "명일방주 한섭 미래시 헤드헌팅: HTTP 202",
+              "명일방주 이벤트 업데이트 일정 -엔드필드: HTTP 202"
+            ]
+          }
+        },
+        "pagesFetched": 1,
+        "pageErrors": 0,
+        "irrelevant": 20,
+        "newsResolved": 0,
+        "official": 15,
+        "results": 0,
+        "pages": 16
+      }
+    },
+    {
+      "game": "endfield",
+      "server": "kr",
+      "found": 2,
+      "accepted": 2,
+      "rejected": [],
+      "search": {
+        "providers": {
+          "googleNews": {
+            "ok": 2,
+            "results": 5,
+            "errors": []
+          },
+          "bing": {
+            "ok": 2,
+            "results": 0,
+            "errors": []
+          },
+          "duckduckgo": {
+            "ok": 0,
+            "results": 0,
+            "errors": [
+              "엔드필드 픽업 일정: HTTP 202",
+              "명일방주 엔드필드 업데이트 이벤트: HTTP 202"
+            ]
+          }
+        },
+        "pagesFetched": 1,
+        "pageErrors": 0,
+        "irrelevant": 2,
+        "newsResolved": 0,
+        "official": 0,
+        "results": 4,
+        "pages": 1
+      }
+    },
+    {
+      "game": "wuwa",
+      "server": "kr",
+      "found": 0,
+      "accepted": 0,
+      "rejected": [],
+      "search": {
+        "providers": {
+          "googleNews": {
+            "ok": 2,
+            "results": 4,
+            "errors": []
+          },
+          "bing": {
+            "ok": 2,
+            "results": 0,
+            "errors": []
+          },
+          "duckduckgo": {
+            "ok": 0,
+            "results": 0,
+            "errors": [
+              "명조 픽업 공명자 일정: HTTP 202",
+              "명조 워더링 웨이브 업데이트 이벤트: HTTP 202"
+            ]
+          }
+        },
+        "pagesFetched": 0,
+        "pageErrors": 0,
+        "irrelevant": 23,
+        "newsResolved": 0,
+        "official": 0,
+        "results": 4,
+        "pages": 0
+      }
+    },
+    {
+      "game": "limbus",
+      "server": "kr",
+      "found": 6,
+      "accepted": 6,
+      "rejected": [],
+      "search": {
+        "providers": {
+          "googleNews": {
+            "ok": 3,
+            "results": 0,
+            "errors": []
+          },
+          "bing": {
+            "ok": 3,
+            "results": 3,
+            "errors": []
+          },
+          "duckduckgo": {
+            "ok": 0,
+            "results": 0,
+            "errors": [
+              "림버스 컴퍼니 신규 인격 추출 일정: HTTP 202",
+              "림버스 컴퍼니 발푸르기스의 밤 일정: HTTP 202",
+              "림버스 컴퍼니 업데이트 예정: HTTP 202"
+            ]
+          }
+        },
+        "pagesFetched": 2,
+        "pageErrors": 0,
+        "irrelevant": 29,
+        "newsResolved": 0,
+        "official": 0,
+        "results": 1,
+        "pages": 2
+      }
+    }
+  ],
+  "community": [
+    {
+      "game": "bluearchive",
+      "gallery": "projectmx",
+      "searched": [
+        "마코토",
+        "아코",
+        "사츠키",
+        "치아키",
+        "칸나",
+        "페스"
+      ],
+      "posts": 146,
+      "attached": 3,
+      "errors": []
+    },
+    {
+      "game": "umamusume",
+      "gallery": "umamusu",
+      "searched": [],
+      "posts": 52,
+      "attached": 0,
+      "errors": []
+    },
+    {
+      "game": "arknights",
+      "gallery": "mibj",
+      "searched": [],
+      "posts": 68,
+      "attached": 0,
+      "errors": []
+    }
+  ],
+  "apiCalls": 10,
+  "modelNotes": [
+    "후보 모델: gemini-3.5-flash-lite, gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-flash-latest, gemini-omni-1.1-flash, gemini-omni-flash-preview, gemini-3.1-flash-lite, gemini-3.1-flash-lite-preview, gemini-2.5-flash-lite, gemini-flash-lite-latest"
+  ],
+  "quotaStop": null,
+  "stats": {
+    "added": 2,
+    "updated": 20,
+    "unchanged": 21
+  },
+  "finishedAt": "2026-11-03T02:58:43.657Z"
+}
