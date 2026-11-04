@@ -1,23 +1,23 @@
 {
-  "startedAt": "2026-11-03T17:06:02.102Z",
-  "model": "gemini-3-flash-preview",
+  "startedAt": "2026-11-04T17:16:53.474Z",
+  "model": "gemini-3.5-flash-lite",
   "runs": [
     {
-      "game": "genshin",
+      "game": "wuwa",
       "server": "kr",
-      "found": 6,
-      "accepted": 6,
+      "found": 4,
+      "accepted": 4,
       "rejected": [],
       "search": {
         "providers": {
           "googleNews": {
             "ok": 2,
-            "results": 15,
+            "results": 5,
             "errors": []
           },
           "bing": {
             "ok": 2,
-            "results": 10,
+            "results": 0,
             "errors": []
           },
           "duckduckgo": {
@@ -28,18 +28,51 @@
         },
         "pagesFetched": 6,
         "pageErrors": 0,
-        "irrelevant": 2,
+        "irrelevant": 23,
+        "newsResolved": 5,
+        "official": 0,
+        "results": 24,
+        "pages": 6
+      }
+    },
+    {
+      "game": "genshin",
+      "server": "kr",
+      "found": 6,
+      "accepted": 6,
+      "rejected": [],
+      "search": {
+        "providers": {
+          "googleNews": {
+            "ok": 2,
+            "results": 8,
+            "errors": []
+          },
+          "bing": {
+            "ok": 2,
+            "results": 0,
+            "errors": []
+          },
+          "duckduckgo": {
+            "ok": 2,
+            "results": 19,
+            "errors": []
+          }
+        },
+        "pagesFetched": 6,
+        "pageErrors": 0,
+        "irrelevant": 1,
         "newsResolved": 6,
         "official": 0,
-        "results": 25,
+        "results": 22,
         "pages": 6
       }
     },
     {
       "game": "starrail",
       "server": "kr",
-      "found": 8,
-      "accepted": 8,
+      "found": 7,
+      "accepted": 7,
       "rejected": [],
       "search": {
         "providers": {
@@ -61,10 +94,10 @@
         },
         "pagesFetched": 5,
         "pageErrors": 1,
-        "irrelevant": 5,
+        "irrelevant": 16,
         "newsResolved": 2,
         "official": 0,
-        "results": 20,
+        "results": 21,
         "pages": 5
       }
     },
@@ -78,7 +111,7 @@
         "providers": {
           "googleNews": {
             "ok": 2,
-            "results": 6,
+            "results": 7,
             "errors": []
           },
           "bing": {
@@ -88,16 +121,16 @@
           },
           "duckduckgo": {
             "ok": 2,
-            "results": 19,
+            "results": 20,
             "errors": []
           }
         },
         "pagesFetched": 6,
         "pageErrors": 0,
-        "irrelevant": 17,
-        "newsResolved": 4,
+        "irrelevant": 5,
+        "newsResolved": 5,
         "official": 0,
-        "results": 18,
+        "results": 20,
         "pages": 6
       }
     },
@@ -111,7 +144,7 @@
         "providers": {
           "googleNews": {
             "ok": 3,
-            "results": 9,
+            "results": 10,
             "errors": []
           },
           "bing": {
@@ -129,10 +162,10 @@
         },
         "pagesFetched": 6,
         "pageErrors": 0,
-        "irrelevant": 4,
+        "irrelevant": 3,
         "newsResolved": 6,
         "official": 0,
-        "results": 20,
+        "results": 22,
         "pages": 6
       }
     },
@@ -146,7 +179,7 @@
         "providers": {
           "googleNews": {
             "ok": 2,
-            "results": 20,
+            "results": 18,
             "errors": []
           },
           "bing": {
@@ -163,13 +196,13 @@
             ]
           }
         },
-        "pagesFetched": 0,
+        "pagesFetched": 6,
         "pageErrors": 0,
-        "irrelevant": 11,
-        "newsResolved": 0,
+        "irrelevant": 10,
+        "newsResolved": 6,
         "official": 0,
-        "results": 20,
-        "pages": 0
+        "results": 18,
+        "pages": 6
       }
     },
     {
@@ -200,20 +233,20 @@
             ]
           }
         },
-        "pagesFetched": 0,
+        "pagesFetched": 4,
         "pageErrors": 1,
-        "irrelevant": 21,
-        "newsResolved": 0,
+        "irrelevant": 31,
+        "newsResolved": 4,
         "official": 0,
         "results": 4,
-        "pages": 0
+        "pages": 4
       }
     },
     {
       "game": "arknights",
       "server": "kr",
-      "found": 6,
-      "accepted": 6,
+      "found": 8,
+      "accepted": 8,
       "rejected": [],
       "search": {
         "providers": {
@@ -239,7 +272,7 @@
         },
         "pagesFetched": 1,
         "pageErrors": 0,
-        "irrelevant": 10,
+        "irrelevant": 20,
         "newsResolved": 0,
         "official": 15,
         "results": 0,
@@ -249,8 +282,8 @@
     {
       "game": "endfield",
       "server": "kr",
-      "found": 4,
-      "accepted": 4,
+      "found": 2,
+      "accepted": 2,
       "rejected": [],
       "search": {
         "providers": {
@@ -283,43 +316,6 @@
       }
     },
     {
-      "game": "wuwa",
-      "server": "kr",
-      "found": 0,
-      "accepted": 0,
-      "rejected": [],
-      "search": {
-        "providers": {
-          "googleNews": {
-            "ok": 2,
-            "results": 4,
-            "errors": []
-          },
-          "bing": {
-            "ok": 2,
-            "results": 0,
-            "errors": []
-          },
-          "duckduckgo": {
-            "ok": 0,
-            "results": 0,
-            "errors": [
-              "명조 픽업 공명자 일정: HTTP 202",
-              "명조 워더링 웨이브 업데이트 이벤트: HTTP 202"
-            ]
-          }
-        },
-        "pagesFetched": 0,
-        "pageErrors": 0,
-        "irrelevant": 13,
-        "newsResolved": 0,
-        "official": 0,
-        "results": 4,
-        "pages": 0
-      },
-      "error": "Gemini 접속 실패: The operation was aborted due to timeout"
-    },
-    {
       "game": "limbus",
       "server": "kr",
       "found": 5,
@@ -349,7 +345,7 @@
         },
         "pagesFetched": 1,
         "pageErrors": 0,
-        "irrelevant": 12,
+        "irrelevant": 31,
         "newsResolved": 0,
         "official": 0,
         "results": 0,
@@ -365,19 +361,19 @@
         "페스",
         "이부키",
         "이로하",
-        "마코토",
-        "사츠키",
-        "네루"
+        "네루",
+        "교복",
+        "리오"
       ],
-      "posts": 163,
-      "attached": 6,
+      "posts": 154,
+      "attached": 5,
       "errors": []
     },
     {
       "game": "umamusume",
       "gallery": "umamusu",
       "searched": [],
-      "posts": 51,
+      "posts": 59,
       "attached": 0,
       "errors": []
     },
@@ -385,25 +381,29 @@
       "game": "arknights",
       "gallery": "mibj",
       "searched": [],
-      "posts": 68,
+      "posts": 69,
       "attached": 0,
       "errors": []
     }
   ],
-  "apiCalls": 23,
+  "apiCalls": 28,
   "modelNotes": [
-    "후보 모델: gemini-3.5-flash-lite, gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-flash-latest, gemini-omni-1.1-flash, gemini-omni-flash-preview, gemini-3.1-flash-lite, gemini-3.1-flash-lite-preview, gemini-2.5-flash-lite, gemini-flash-lite-latest",
-    "gemini-3.5-flash-lite: 503 반복 → 다른 모델 우선",
+    "후보 모델: gemini-3-flash-preview, gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-2.5-flash, gemini-flash-latest, gemini-omni-1.1-flash, gemini-omni-flash-preview, gemini-3.5-flash-lite, gemini-3.1-flash-lite, gemini-3.1-flash-lite-preview, gemini-2.5-flash-lite, gemini-flash-lite-latest",
+    "gemini-3-flash-preview: 503 반복 → 다른 모델 우선",
     "gemini-3.8-flash: 503 반복 → 다른 모델 우선",
     "gemini-3.7-flash: 503 반복 → 다른 모델 우선",
     "gemini-3.6-flash: 503 반복 → 다른 모델 우선",
-    "gemini-3.5-flash: 503 반복 → 다른 모델 우선"
+    "gemini-3.5-flash: 503 반복 → 다른 모델 우선",
+    "gemini-2.5-flash: 모델 사용 불가(404)",
+    "gemini-flash-latest: 503 반복 → 다른 모델 우선",
+    "gemini-omni-1.1-flash: 무료 한도 0(이 모델/기능은 무료 미지원) — GenerateContentInputTokensPerModelPerMinute-FreeTier, GenerateRequestsPerMinutePerProjectPerModel-FreeTier, GenerateRequestsPerDayPerProjectPerModel-FreeTier — You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usa",
+    "gemini-omni-flash-preview: 무료 한도 0(이 모델/기능은 무료 미지원) — GenerateContentInputTokensPerModelPerMinute-FreeTier, GenerateRequestsPerMinutePerProjectPerModel-FreeTier, GenerateRequestsPerDayPerProjectPerModel-FreeTier — You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usa"
   ],
   "quotaStop": null,
   "stats": {
-    "added": 7,
-    "updated": 20,
-    "unchanged": 25
+    "added": 12,
+    "updated": 21,
+    "unchanged": 22
   },
-  "finishedAt": "2026-11-03T17:27:46.999Z"
+  "finishedAt": "2026-11-04T17:35:47.899Z"
 }
