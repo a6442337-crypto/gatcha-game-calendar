@@ -1,9 +1,9 @@
 {
-  "startedAt": "2026-11-04T17:16:53.474Z",
+  "startedAt": "2026-11-05T01:28:06.296Z",
   "model": "gemini-3.5-flash-lite",
   "runs": [
     {
-      "game": "wuwa",
+      "game": "genshin",
       "server": "kr",
       "found": 4,
       "accepted": 4,
@@ -12,45 +12,12 @@
         "providers": {
           "googleNews": {
             "ok": 2,
-            "results": 5,
+            "results": 9,
             "errors": []
           },
           "bing": {
-            "ok": 2,
-            "results": 0,
-            "errors": []
-          },
-          "duckduckgo": {
             "ok": 2,
             "results": 20,
-            "errors": []
-          }
-        },
-        "pagesFetched": 6,
-        "pageErrors": 0,
-        "irrelevant": 23,
-        "newsResolved": 5,
-        "official": 0,
-        "results": 24,
-        "pages": 6
-      }
-    },
-    {
-      "game": "genshin",
-      "server": "kr",
-      "found": 6,
-      "accepted": 6,
-      "rejected": [],
-      "search": {
-        "providers": {
-          "googleNews": {
-            "ok": 2,
-            "results": 8,
-            "errors": []
-          },
-          "bing": {
-            "ok": 2,
-            "results": 0,
             "errors": []
           },
           "duckduckgo": {
@@ -64,15 +31,15 @@
         "irrelevant": 1,
         "newsResolved": 6,
         "official": 0,
-        "results": 22,
+        "results": 25,
         "pages": 6
       }
     },
     {
       "game": "starrail",
       "server": "kr",
-      "found": 7,
-      "accepted": 7,
+      "found": 5,
+      "accepted": 5,
       "rejected": [],
       "search": {
         "providers": {
@@ -92,26 +59,26 @@
             "errors": []
           }
         },
-        "pagesFetched": 5,
-        "pageErrors": 1,
+        "pagesFetched": 6,
+        "pageErrors": 0,
         "irrelevant": 16,
         "newsResolved": 2,
         "official": 0,
-        "results": 21,
-        "pages": 5
+        "results": 20,
+        "pages": 6
       }
     },
     {
       "game": "zzz",
       "server": "kr",
-      "found": 6,
-      "accepted": 6,
+      "found": 7,
+      "accepted": 7,
       "rejected": [],
       "search": {
         "providers": {
           "googleNews": {
             "ok": 2,
-            "results": 7,
+            "results": 6,
             "errors": []
           },
           "bing": {
@@ -127,18 +94,18 @@
         },
         "pagesFetched": 6,
         "pageErrors": 0,
-        "irrelevant": 5,
-        "newsResolved": 5,
+        "irrelevant": 16,
+        "newsResolved": 4,
         "official": 0,
-        "results": 20,
+        "results": 19,
         "pages": 6
       }
     },
     {
       "game": "bluearchive",
       "server": "kr",
-      "found": 13,
-      "accepted": 13,
+      "found": 12,
+      "accepted": 12,
       "rejected": [],
       "search": {
         "providers": {
@@ -162,10 +129,10 @@
         },
         "pagesFetched": 6,
         "pageErrors": 0,
-        "irrelevant": 3,
+        "irrelevant": 13,
         "newsResolved": 6,
         "official": 0,
-        "results": 22,
+        "results": 20,
         "pages": 6
       }
     },
@@ -184,7 +151,7 @@
           },
           "bing": {
             "ok": 2,
-            "results": 0,
+            "results": 10,
             "errors": []
           },
           "duckduckgo": {
@@ -196,13 +163,13 @@
             ]
           }
         },
-        "pagesFetched": 6,
-        "pageErrors": 0,
+        "pagesFetched": 5,
+        "pageErrors": 1,
         "irrelevant": 10,
         "newsResolved": 6,
         "official": 0,
-        "results": 18,
-        "pages": 6
+        "results": 25,
+        "pages": 5
       }
     },
     {
@@ -233,20 +200,20 @@
             ]
           }
         },
-        "pagesFetched": 4,
+        "pagesFetched": 0,
         "pageErrors": 1,
-        "irrelevant": 31,
-        "newsResolved": 4,
+        "irrelevant": 1,
+        "newsResolved": 0,
         "official": 0,
         "results": 4,
-        "pages": 4
+        "pages": 0
       }
     },
     {
       "game": "arknights",
       "server": "kr",
-      "found": 8,
-      "accepted": 8,
+      "found": 7,
+      "accepted": 7,
       "rejected": [],
       "search": {
         "providers": {
@@ -308,11 +275,47 @@
         },
         "pagesFetched": 1,
         "pageErrors": 0,
-        "irrelevant": 2,
+        "irrelevant": 12,
         "newsResolved": 0,
         "official": 0,
         "results": 5,
         "pages": 1
+      }
+    },
+    {
+      "game": "wuwa",
+      "server": "kr",
+      "found": 0,
+      "accepted": 0,
+      "rejected": [],
+      "search": {
+        "providers": {
+          "googleNews": {
+            "ok": 2,
+            "results": 5,
+            "errors": []
+          },
+          "bing": {
+            "ok": 2,
+            "results": 0,
+            "errors": []
+          },
+          "duckduckgo": {
+            "ok": 0,
+            "results": 0,
+            "errors": [
+              "명조 픽업 공명자 일정: HTTP 202",
+              "명조 워더링 웨이브 업데이트 이벤트: HTTP 202"
+            ]
+          }
+        },
+        "pagesFetched": 0,
+        "pageErrors": 0,
+        "irrelevant": 24,
+        "newsResolved": 0,
+        "official": 0,
+        "results": 5,
+        "pages": 0
       }
     },
     {
@@ -345,7 +348,7 @@
         },
         "pagesFetched": 1,
         "pageErrors": 0,
-        "irrelevant": 31,
+        "irrelevant": 21,
         "newsResolved": 0,
         "official": 0,
         "results": 0,
@@ -373,7 +376,7 @@
       "game": "umamusume",
       "gallery": "umamusu",
       "searched": [],
-      "posts": 59,
+      "posts": 62,
       "attached": 0,
       "errors": []
     },
@@ -386,24 +389,15 @@
       "errors": []
     }
   ],
-  "apiCalls": 28,
+  "apiCalls": 10,
   "modelNotes": [
-    "후보 모델: gemini-3-flash-preview, gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-2.5-flash, gemini-flash-latest, gemini-omni-1.1-flash, gemini-omni-flash-preview, gemini-3.5-flash-lite, gemini-3.1-flash-lite, gemini-3.1-flash-lite-preview, gemini-2.5-flash-lite, gemini-flash-lite-latest",
-    "gemini-3-flash-preview: 503 반복 → 다른 모델 우선",
-    "gemini-3.8-flash: 503 반복 → 다른 모델 우선",
-    "gemini-3.7-flash: 503 반복 → 다른 모델 우선",
-    "gemini-3.6-flash: 503 반복 → 다른 모델 우선",
-    "gemini-3.5-flash: 503 반복 → 다른 모델 우선",
-    "gemini-2.5-flash: 모델 사용 불가(404)",
-    "gemini-flash-latest: 503 반복 → 다른 모델 우선",
-    "gemini-omni-1.1-flash: 무료 한도 0(이 모델/기능은 무료 미지원) — GenerateContentInputTokensPerModelPerMinute-FreeTier, GenerateRequestsPerMinutePerProjectPerModel-FreeTier, GenerateRequestsPerDayPerProjectPerModel-FreeTier — You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usa",
-    "gemini-omni-flash-preview: 무료 한도 0(이 모델/기능은 무료 미지원) — GenerateContentInputTokensPerModelPerMinute-FreeTier, GenerateRequestsPerMinutePerProjectPerModel-FreeTier, GenerateRequestsPerDayPerProjectPerModel-FreeTier — You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usa"
+    "후보 모델: gemini-3.5-flash-lite, gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-flash-latest, gemini-omni-1.1-flash, gemini-omni-flash-preview, gemini-3.1-flash-lite, gemini-3.1-flash-lite-preview, gemini-2.5-flash-lite, gemini-flash-lite-latest"
   ],
   "quotaStop": null,
   "stats": {
-    "added": 12,
+    "added": 2,
     "updated": 21,
-    "unchanged": 22
+    "unchanged": 23
   },
-  "finishedAt": "2026-11-04T17:35:47.899Z"
+  "finishedAt": "2026-11-05T01:31:15.435Z"
 }
