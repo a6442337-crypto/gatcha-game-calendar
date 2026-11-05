@@ -1,15 +1,15 @@
 {
   "lastCollected": {
-    "genshin:kr": "2026-11-05T01:28:06.296Z",
-    "bluearchive:kr": "2026-11-05T01:28:06.296Z",
-    "starrail:kr": "2026-11-05T01:28:06.296Z",
-    "zzz:kr": "2026-11-05T01:28:06.296Z",
-    "wuwa:kr": "2026-11-05T01:28:06.296Z",
-    "nikke:kr": "2026-11-05T01:28:06.296Z",
-    "umamusume:kr": "2026-11-05T01:28:06.296Z",
-    "limbus:kr": "2026-11-05T01:28:06.296Z",
-    "endfield:kr": "2026-11-05T01:28:06.296Z",
-    "arknights:kr": "2026-11-05T01:28:06.296Z"
+    "genshin:kr": "2026-11-05T17:26:32.911Z",
+    "bluearchive:kr": "2026-11-05T17:26:32.911Z",
+    "starrail:kr": "2026-11-05T17:26:32.911Z",
+    "zzz:kr": "2026-11-05T17:26:32.911Z",
+    "wuwa:kr": "2026-11-05T17:26:32.911Z",
+    "nikke:kr": "2026-11-05T17:26:32.911Z",
+    "umamusume:kr": "2026-11-05T17:26:32.911Z",
+    "limbus:kr": "2026-11-05T17:26:32.911Z",
+    "endfield:kr": "2026-11-05T17:26:32.911Z",
+    "arknights:kr": "2026-11-05T17:26:32.911Z"
   },
-  "lastGoodModel": "gemini-3.5-flash-lite"
+  "lastGoodModel": "gemini-3.1-flash-lite"
 }
