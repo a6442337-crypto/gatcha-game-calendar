@@ -1,23 +1,23 @@
 {
-  "startedAt": "2026-11-06T01:34:16.099Z",
+  "startedAt": "2026-11-06T16:47:08.042Z",
   "model": "gemini-3.1-flash-lite",
   "runs": [
     {
       "game": "genshin",
       "server": "kr",
-      "found": 5,
-      "accepted": 5,
+      "found": 4,
+      "accepted": 4,
       "rejected": [],
       "search": {
         "providers": {
           "googleNews": {
             "ok": 2,
-            "results": 9,
+            "results": 10,
             "errors": []
           },
           "bing": {
             "ok": 2,
-            "results": 20,
+            "results": 0,
             "errors": []
           },
           "duckduckgo": {
@@ -28,7 +28,7 @@
         },
         "pagesFetched": 6,
         "pageErrors": 0,
-        "irrelevant": 0,
+        "irrelevant": 1,
         "newsResolved": 6,
         "official": 0,
         "results": 25,
@@ -38,8 +38,8 @@
     {
       "game": "starrail",
       "server": "kr",
-      "found": 4,
-      "accepted": 4,
+      "found": 5,
+      "accepted": 5,
       "rejected": [],
       "search": {
         "providers": {
@@ -50,7 +50,7 @@
           },
           "bing": {
             "ok": 2,
-            "results": 20,
+            "results": 0,
             "errors": []
           },
           "duckduckgo": {
@@ -61,10 +61,10 @@
         },
         "pagesFetched": 6,
         "pageErrors": 0,
-        "irrelevant": 7,
+        "irrelevant": 17,
         "newsResolved": 1,
         "official": 0,
-        "results": 21,
+        "results": 17,
         "pages": 6
       }
     },
@@ -78,12 +78,12 @@
         "providers": {
           "googleNews": {
             "ok": 2,
-            "results": 6,
+            "results": 7,
             "errors": []
           },
           "bing": {
             "ok": 2,
-            "results": 10,
+            "results": 0,
             "errors": []
           },
           "duckduckgo": {
@@ -94,18 +94,18 @@
         },
         "pagesFetched": 6,
         "pageErrors": 0,
-        "irrelevant": 16,
-        "newsResolved": 4,
+        "irrelevant": 6,
+        "newsResolved": 5,
         "official": 0,
-        "results": 19,
+        "results": 20,
         "pages": 6
       }
     },
     {
       "game": "bluearchive",
       "server": "kr",
-      "found": 8,
-      "accepted": 8,
+      "found": 9,
+      "accepted": 9,
       "rejected": [],
       "search": {
         "providers": {
@@ -116,42 +116,42 @@
           },
           "bing": {
             "ok": 3,
-            "results": 16,
+            "results": 0,
             "errors": []
           },
           "duckduckgo": {
             "ok": 2,
-            "results": 16,
+            "results": 14,
             "errors": [
               "블루아카이브 이벤트 업데이트 일정: HTTP 202"
             ]
           }
         },
-        "pagesFetched": 4,
-        "pageErrors": 2,
+        "pagesFetched": 6,
+        "pageErrors": 0,
         "irrelevant": 7,
         "newsResolved": 6,
         "official": 0,
-        "results": 22,
-        "pages": 4
+        "results": 19,
+        "pages": 6
       }
     },
     {
       "game": "nikke",
       "server": "kr",
-      "found": 4,
-      "accepted": 4,
+      "found": 5,
+      "accepted": 5,
       "rejected": [],
       "search": {
         "providers": {
           "googleNews": {
             "ok": 2,
-            "results": 20,
+            "results": 19,
             "errors": []
           },
           "bing": {
             "ok": 2,
-            "results": 10,
+            "results": 0,
             "errors": []
           },
           "duckduckgo": {
@@ -163,13 +163,13 @@
             ]
           }
         },
-        "pagesFetched": 5,
-        "pageErrors": 1,
-        "irrelevant": 0,
+        "pagesFetched": 6,
+        "pageErrors": 0,
+        "irrelevant": 11,
         "newsResolved": 6,
         "official": 0,
-        "results": 25,
-        "pages": 5
+        "results": 18,
+        "pages": 6
       }
     },
     {
@@ -212,8 +212,8 @@
     {
       "game": "arknights",
       "server": "kr",
-      "found": 7,
-      "accepted": 7,
+      "found": 8,
+      "accepted": 8,
       "rejected": [],
       "search": {
         "providers": {
@@ -275,7 +275,7 @@
         },
         "pagesFetched": 1,
         "pageErrors": 0,
-        "irrelevant": 22,
+        "irrelevant": 11,
         "newsResolved": 0,
         "official": 0,
         "results": 7,
@@ -285,14 +285,14 @@
     {
       "game": "wuwa",
       "server": "kr",
-      "found": 1,
-      "accepted": 1,
+      "found": 0,
+      "accepted": 0,
       "rejected": [],
       "search": {
         "providers": {
           "googleNews": {
             "ok": 2,
-            "results": 4,
+            "results": 6,
             "errors": []
           },
           "bing": {
@@ -311,10 +311,10 @@
         },
         "pagesFetched": 0,
         "pageErrors": 0,
-        "irrelevant": 13,
+        "irrelevant": 14,
         "newsResolved": 0,
         "official": 0,
-        "results": 4,
+        "results": 5,
         "pages": 0
       }
     },
@@ -348,7 +348,7 @@
         },
         "pagesFetched": 1,
         "pageErrors": 0,
-        "irrelevant": 1,
+        "irrelevant": 11,
         "newsResolved": 0,
         "official": 0,
         "results": 0,
@@ -368,7 +368,7 @@
         "교복",
         "리오"
       ],
-      "posts": 156,
+      "posts": 157,
       "attached": 3,
       "errors": []
     },
@@ -395,9 +395,9 @@
   ],
   "quotaStop": null,
   "stats": {
-    "added": 1,
-    "updated": 15,
-    "unchanged": 23
+    "added": 3,
+    "updated": 18,
+    "unchanged": 20
   },
-  "finishedAt": "2026-11-06T01:37:37.665Z"
+  "finishedAt": "2026-11-06T16:50:09.265Z"
 }
