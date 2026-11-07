@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T01:00:35.418Z",
+  "updatedAt": "2026-11-07T15:44:25.223Z",
   "events": [
     {
       "id": "0ce40d1a53e3",
@@ -51,8 +51,8 @@
         }
       ],
       "firstSeen": "2026-10-31T14:28:00.518Z",
-      "lastSeen": "2026-11-07T00:57:01.855Z",
-      "seenCount": 6,
+      "lastSeen": "2026-11-07T15:41:18.208Z",
+      "seenCount": 7,
       "history": [],
       "rerun": false
     },
@@ -81,8 +81,8 @@
         }
       ],
       "firstSeen": "2026-11-01T00:09:03.774Z",
-      "lastSeen": "2026-11-07T00:57:01.855Z",
-      "seenCount": 4,
+      "lastSeen": "2026-11-07T15:41:18.208Z",
+      "seenCount": 5,
       "history": []
     },
     {
@@ -658,7 +658,7 @@
       "title": "우마무스메 신규 육성 시나리오 '무인도 개척' 및 서포트 카드 80회 무료 이벤트",
       "description": "우마무스메 프리티 더비의 신규 육성 시나리오 '무인도 개척'이 공개되었으며, 서포트 카드 80회 무료 획득 이벤트가 진행됩니다.",
       "start": "2026-10-15T15:00:00.000Z",
-      "end": null,
+      "end": "2026-10-24T15:00:00.000Z",
       "allDay": true,
       "confidence": 0.85,
       "status": "confirmed",
@@ -676,11 +676,15 @@
         {
           "title": "우마무스메 신규 육성 시나리오 무인도 개척 공개 \"서포트 카드 80회 무료 이벤트\" - ER 이코노믹리뷰",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE02X19KanY5b2lta2tCM2Q4S243QTN5ODMxVmZBdDloWE5FUmtubG5jdk9VV0Qxam9tUHhPWXpyWkl4R1o2NzBic1dGR1VLY2VrNzh1TFZyS29ZeWdsUWpoYmpTOVpVNWFHclRyaA?oc=5"
+        },
+        {
+          "title": "우마무스메 신규 육성 시나리오 무인도 개척 공개 \"서포트 카드 80회 무료 이벤트\" - ER 이코노믹리뷰",
+          "url": "https://www.econovill.com/news/articleView.html?idxno=753902"
         }
       ],
       "firstSeen": "2026-10-31T14:18:40.901Z",
-      "lastSeen": "2026-11-07T00:57:01.855Z",
-      "seenCount": 2,
+      "lastSeen": "2026-11-07T15:41:18.208Z",
+      "seenCount": 3,
       "history": []
     },
     {
@@ -709,12 +713,64 @@
       "history": []
     },
     {
+      "id": "18805123a0d2",
+      "game": "umamusume",
+      "server": "kr",
+      "type": "update",
+      "title": "신규 육성 시나리오 '무인도에 어서오세요 -DESIGN YOUR ISLAND-' 업데이트",
+      "description": "신규 육성 시나리오 '무인도에 어서오세요'가 업데이트되었습니다.",
+      "start": "2026-10-15T15:00:00.000Z",
+      "end": null,
+      "allDay": true,
+      "confidence": 0.95,
+      "status": "unverified",
+      "basis": "official",
+      "major": false,
+      "rerun": false,
+      "sources": [
+        {
+          "title": "우마무스메 신규 육성 시나리오 무인도 개척 공개 \"서포트 카드 80회 무료 이벤트\" - ER 이코노믹리뷰",
+          "url": "https://www.econovill.com/news/articleView.html?idxno=753902"
+        }
+      ],
+      "firstSeen": "2026-11-07T15:41:18.208Z",
+      "lastSeen": "2026-11-07T15:41:18.208Z",
+      "seenCount": 1,
+      "history": []
+    },
+    {
+      "id": "90c525e89c4b",
+      "game": "umamusume",
+      "server": "kr",
+      "type": "event",
+      "title": "공개 기념 쥬얼 1500개 지급 이벤트",
+      "description": "11월 19일까지 로그인한 이용자에게 쥬얼 1500개를 지급합니다.",
+      "start": "2026-10-15T15:00:00.000Z",
+      "end": "2026-11-19T15:00:00.000Z",
+      "allDay": true,
+      "confidence": 0.95,
+      "status": "unverified",
+      "basis": "official",
+      "major": false,
+      "rerun": false,
+      "sources": [
+        {
+          "title": "우마무스메 신규 육성 시나리오 무인도 개척 공개 \"서포트 카드 80회 무료 이벤트\" - ER 이코노믹리뷰",
+          "url": "https://www.econovill.com/news/articleView.html?idxno=753902"
+        }
+      ],
+      "firstSeen": "2026-11-07T15:41:18.208Z",
+      "lastSeen": "2026-11-07T15:41:18.208Z",
+      "seenCount": 1,
+      "history": []
+    },
+    {
       "id": "f833285106cf",
       "game": "umamusume",
       "server": "kr",
       "type": "banner",
       "title": "[Boho Flare] 골드 시티 및 SSR 터커 브라인·타마모 크로스 픽업",
-      "description": "신규 육성 우마무스메 골드 시티와 서포트 카드 터커 브라인, 타마모 크로스 등이 추가되었다.",
+      "description": "신규 서포트 카드 SSR 터커 브라인과 SSR 타마모 크로스가 추가됩니다.",
       "start": "2026-10-15T15:00:00.000Z",
       "end": null,
       "allDay": true,
@@ -729,9 +785,10 @@
         }
       ],
       "firstSeen": "2026-10-31T14:28:00.518Z",
-      "lastSeen": "2026-10-31T14:28:00.518Z",
-      "seenCount": 1,
-      "history": []
+      "lastSeen": "2026-11-07T15:41:18.208Z",
+      "seenCount": 3,
+      "history": [],
+      "rerun": false
     },
     {
       "id": "1af3c7144701",
@@ -840,8 +897,8 @@
         }
       ],
       "firstSeen": "2026-10-31T13:31:58.842Z",
-      "lastSeen": "2026-11-07T00:57:01.855Z",
-      "seenCount": 25,
+      "lastSeen": "2026-11-07T15:41:18.208Z",
+      "seenCount": 27,
       "history": [
         {
           "at": "2026-11-03T01:37:35.318Z",
@@ -1264,7 +1321,7 @@
       "game": "arknights",
       "server": "kr",
       "type": "banner",
-      "title": "지향 헤드헌팅 (레이즈 더 썬더브링어, 프라마닉스 더 프레리타, 쏜즈 더 로드스타, 티폰, 로고스, 페넌스 등)",
+      "title": "지향 헤드헌팅 (레이즈 더 썬더브링어, 프라마닉스 더 프레리타, 쏜즈 더 로드스타, 티폰, 로고스, 페넌스)",
       "description": "지정된 6성 및 5성 오퍼레이터의 획득 확률이 상승하는 이벤트 헤드헌팅입니다.",
       "start": "2026-10-28T07:00:00.000Z",
       "end": "2026-11-10T18:59:00.000Z",
@@ -1281,8 +1338,8 @@
         }
       ],
       "firstSeen": "2026-11-03T00:55:35.183Z",
-      "lastSeen": "2026-11-07T00:57:01.855Z",
-      "seenCount": 16,
+      "lastSeen": "2026-11-07T15:41:18.208Z",
+      "seenCount": 17,
       "history": []
     },
     {
@@ -1391,8 +1448,8 @@
         }
       ],
       "firstSeen": "2026-11-01T16:04:04.104Z",
-      "lastSeen": "2026-11-07T00:57:01.855Z",
-      "seenCount": 15,
+      "lastSeen": "2026-11-07T15:41:18.208Z",
+      "seenCount": 16,
       "history": [],
       "rerun": false
     },
@@ -1481,6 +1538,50 @@
       "rerun": false
     },
     {
+      "id": "8a807e16c1e0",
+      "game": "nikke",
+      "server": "kr",
+      "type": "update",
+      "title": "4주년 기념 업데이트",
+      "description": "승리의 여신: 니케 4주년 기념 대규모 업데이트 및 이벤트 시작.",
+      "start": "2026-10-28T15:00:00.000Z",
+      "end": "2026-11-19T15:00:00.000Z",
+      "allDay": true,
+      "confidence": 0.95,
+      "status": "confirmed",
+      "basis": "official",
+      "major": true,
+      "rerun": false,
+      "sources": [
+        {
+          "title": "‘승리의 여신: 니케’, 4주년 기념 신규 스토리·캐릭터 업데이트",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1BRlMzMVBGOTRFX3BOWlU5eU0xSnpYU1k1eUVjaWtVV0NacGlBQzc3Q0VNekRXTmx3VFJXRzlaZkREeERFZXRkMXl2b3E0Ui1UNWtLQlI1LWl5R1ktM1FvWGhiOHBQUTBL?oc=5"
+        },
+        {
+          "title": "'승리의 여신: 니케’, 4주년 업데이트…방주 운명 건 결전 시작",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5vcGdaQmxWMFptSGhuOWVKLU1VUXdNRkw4bmNjbXNXa1RXWk1mUGNEUkF3NFE1MDNBWFJwb1pDTHFjNTUwNHFWVTIwQ0RSS1JXTTZKTFFB?oc=5"
+        },
+        {
+          "title": "승리의 여신: 니케( Goddess of Victory: Nikke) 4주년 완벽 가이드: 무료 259회 모집, SSR 라푼젤 및 특별 보상 총정리 - MMOEXP",
+          "url": "https://www.mmoexp.com/News/nikke-4th-anniversary-guide-free-recruitment-and-ssr-rewards.html"
+        },
+        {
+          "title": "[정보] 230뽑 무료에 탈배포급 니케까지! 4주년, 지금이 시작·복귀각 - 인벤",
+          "url": "https://www.inven.co.kr/webzine/news/?news=322708&site=nikke"
+        }
+      ],
+      "firstSeen": "2026-11-03T17:06:02.102Z",
+      "lastSeen": "2026-11-07T15:41:18.208Z",
+      "seenCount": 2,
+      "history": [
+        {
+          "at": "2026-11-07T15:41:18.208Z",
+          "start": "2026-10-28T15:00:00.000Z",
+          "end": null
+        }
+      ]
+    },
+    {
       "id": "2d3c99a4ce61",
       "game": "nikke",
       "server": "kr",
@@ -1502,6 +1603,84 @@
       ],
       "firstSeen": "2026-11-01T16:04:04.104Z",
       "lastSeen": "2026-11-01T16:04:04.104Z",
+      "seenCount": 1,
+      "history": []
+    },
+    {
+      "id": "ee86c8226d8e",
+      "game": "nikke",
+      "server": "kr",
+      "type": "event",
+      "title": "FULL BURST DAY",
+      "description": "요격전 및 시뮬레이션 룸 추가 보상 이벤트.",
+      "start": "2026-10-28T15:00:00.000Z",
+      "end": "2026-11-08T15:00:00.000Z",
+      "allDay": true,
+      "confidence": 0.95,
+      "status": "unverified",
+      "basis": "official",
+      "major": false,
+      "rerun": false,
+      "sources": [
+        {
+          "title": "승리의 여신: 니케( Goddess of Victory: Nikke) 4주년 완벽 가이드: 무료 259회 모집, SSR 라푼젤 및 특별 보상 총정리 - MMOEXP",
+          "url": "https://www.mmoexp.com/News/nikke-4th-anniversary-guide-free-recruitment-and-ssr-rewards.html"
+        }
+      ],
+      "firstSeen": "2026-11-07T00:57:01.855Z",
+      "lastSeen": "2026-11-07T15:41:18.208Z",
+      "seenCount": 2,
+      "history": []
+    },
+    {
+      "id": "ceeb577d3c78",
+      "game": "nikke",
+      "server": "kr",
+      "type": "event",
+      "title": "14일 출석 이벤트",
+      "description": "모집 티켓 및 SSR 선택 보상을 제공하는 14일 출석 이벤트.",
+      "start": "2026-10-28T15:00:00.000Z",
+      "end": "2026-11-19T15:00:00.000Z",
+      "allDay": true,
+      "confidence": 0.95,
+      "status": "unverified",
+      "basis": "official",
+      "major": false,
+      "rerun": false,
+      "sources": [
+        {
+          "title": "승리의 여신: 니케( Goddess of Victory: Nikke) 4주년 완벽 가이드: 무료 259회 모집, SSR 라푼젤 및 특별 보상 총정리 - MMOEXP",
+          "url": "https://www.mmoexp.com/News/nikke-4th-anniversary-guide-free-recruitment-and-ssr-rewards.html"
+        }
+      ],
+      "firstSeen": "2026-11-07T00:57:01.855Z",
+      "lastSeen": "2026-11-07T15:41:18.208Z",
+      "seenCount": 2,
+      "history": []
+    },
+    {
+      "id": "9a4659324cd0",
+      "game": "nikke",
+      "server": "kr",
+      "type": "event",
+      "title": "일일 보너스 보상",
+      "description": "선택 모집 티켓 등을 획득할 수 있는 일일 보너스 이벤트.",
+      "start": "2026-10-28T15:00:00.000Z",
+      "end": "2026-11-08T15:00:00.000Z",
+      "allDay": true,
+      "confidence": 0.95,
+      "status": "unverified",
+      "basis": "official",
+      "major": false,
+      "rerun": false,
+      "sources": [
+        {
+          "title": "승리의 여신: 니케( Goddess of Victory: Nikke) 4주년 완벽 가이드: 무료 259회 모집, SSR 라푼젤 및 특별 보상 총정리 - MMOEXP",
+          "url": "https://www.mmoexp.com/News/nikke-4th-anniversary-guide-free-recruitment-and-ssr-rewards.html"
+        }
+      ],
+      "firstSeen": "2026-11-07T15:41:18.208Z",
+      "lastSeen": "2026-11-07T15:41:18.208Z",
       "seenCount": 1,
       "history": []
     },
@@ -1532,58 +1711,6 @@
       "history": []
     },
     {
-      "id": "ee86c8226d8e",
-      "game": "nikke",
-      "server": "kr",
-      "type": "event",
-      "title": "FULL BURST DAY",
-      "description": "요격전 및 시뮬레이션 룸 보너스 이벤트입니다.",
-      "start": "2026-10-28T15:00:00.000Z",
-      "end": "2026-11-08T15:00:00.000Z",
-      "allDay": true,
-      "confidence": 0.9,
-      "status": "unverified",
-      "basis": "official",
-      "major": false,
-      "rerun": false,
-      "sources": [
-        {
-          "title": "승리의 여신: 니케( Goddess of Victory: Nikke) 4주년 완벽 가이드: 무료 259회 모집, SSR 라푼젤 및 특별 보상 총정리 - MMOEXP",
-          "url": "https://www.mmoexp.com/News/nikke-4th-anniversary-guide-free-recruitment-and-ssr-rewards.html"
-        }
-      ],
-      "firstSeen": "2026-11-07T00:57:01.855Z",
-      "lastSeen": "2026-11-07T00:57:01.855Z",
-      "seenCount": 1,
-      "history": []
-    },
-    {
-      "id": "ceeb577d3c78",
-      "game": "nikke",
-      "server": "kr",
-      "type": "event",
-      "title": "4주년 14일 출석 이벤트",
-      "description": "모집 티켓 및 SSR 선택 보상을 획득할 수 있는 출석 이벤트입니다.",
-      "start": "2026-10-28T15:00:00.000Z",
-      "end": "2026-11-19T15:00:00.000Z",
-      "allDay": true,
-      "confidence": 0.9,
-      "status": "unverified",
-      "basis": "official",
-      "major": false,
-      "rerun": false,
-      "sources": [
-        {
-          "title": "승리의 여신: 니케( Goddess of Victory: Nikke) 4주년 완벽 가이드: 무료 259회 모집, SSR 라푼젤 및 특별 보상 총정리 - MMOEXP",
-          "url": "https://www.mmoexp.com/News/nikke-4th-anniversary-guide-free-recruitment-and-ssr-rewards.html"
-        }
-      ],
-      "firstSeen": "2026-11-07T00:57:01.855Z",
-      "lastSeen": "2026-11-07T00:57:01.855Z",
-      "seenCount": 1,
-      "history": []
-    },
-    {
       "id": "c8b9d1450f97",
       "game": "nikke",
       "server": "kr",
@@ -1605,36 +1732,6 @@
       ],
       "firstSeen": "2026-10-31T14:18:40.901Z",
       "lastSeen": "2026-10-31T14:18:40.901Z",
-      "seenCount": 1,
-      "history": []
-    },
-    {
-      "id": "8a807e16c1e0",
-      "game": "nikke",
-      "server": "kr",
-      "type": "update",
-      "title": "4주년 대규모 업데이트",
-      "description": "승리의 여신: 니케 4주년을 맞아 대규모 신규 스토리 및 필그림 캐릭터가 추가되는 업데이트가 진행됩니다.",
-      "start": "2026-10-28T15:00:00.000Z",
-      "end": null,
-      "allDay": true,
-      "confidence": 0.85,
-      "status": "unverified",
-      "basis": "community",
-      "major": true,
-      "rerun": false,
-      "sources": [
-        {
-          "title": "‘승리의 여신: 니케’, 4주년 기념 신규 스토리·캐릭터 업데이트",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1BRlMzMVBGOTRFX3BOWlU5eU0xSnpYU1k1eUVjaWtVV0NacGlBQzc3Q0VNekRXTmx3VFJXRzlaZkREeERFZXRkMXl2b3E0Ui1UNWtLQlI1LWl5R1ktM1FvWGhiOHBQUTBL?oc=5"
-        },
-        {
-          "title": "'승리의 여신: 니케’, 4주년 업데이트…방주 운명 건 결전 시작",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5vcGdaQmxWMFptSGhuOWVKLU1VUXdNRkw4bmNjbXNXa1RXWk1mUGNEUkF3NFE1MDNBWFJwb1pDTHFjNTUwNHFWVTIwQ0RSS1JXTTZKTFFB?oc=5"
-        }
-      ],
-      "firstSeen": "2026-11-03T17:06:02.102Z",
-      "lastSeen": "2026-11-03T17:06:02.102Z",
       "seenCount": 1,
       "history": []
     },
@@ -1711,8 +1808,8 @@
         }
       ],
       "firstSeen": "2026-11-01T00:09:03.774Z",
-      "lastSeen": "2026-11-07T00:57:01.855Z",
-      "seenCount": 27,
+      "lastSeen": "2026-11-07T15:41:18.208Z",
+      "seenCount": 29,
       "history": []
     },
     {
@@ -1736,8 +1833,8 @@
         }
       ],
       "firstSeen": "2026-11-01T00:09:03.774Z",
-      "lastSeen": "2026-11-07T00:57:01.855Z",
-      "seenCount": 27,
+      "lastSeen": "2026-11-07T15:41:18.208Z",
+      "seenCount": 29,
       "history": []
     },
     {
@@ -1798,8 +1895,8 @@
         }
       ],
       "firstSeen": "2026-11-01T00:09:03.774Z",
-      "lastSeen": "2026-11-07T00:57:01.855Z",
-      "seenCount": 17,
+      "lastSeen": "2026-11-07T15:41:18.208Z",
+      "seenCount": 18,
       "history": [
         {
           "at": "2026-11-01T00:09:03.774Z",
@@ -1854,9 +1951,9 @@
       "id": "66784dcb323d",
       "game": "arknights",
       "server": "kr",
-      "type": "update",
+      "type": "event",
       "title": "신규 섬멸 작전 '주홍담장 식당'",
-      "description": "신규 섬멸 작전 스테이지가 개방됩니다.",
+      "description": "신규 섬멸 작전 스테이지 '주홍담장 식당'이 개방됩니다.",
       "start": "2026-11-01T19:00:00.000Z",
       "end": "2027-01-31T18:59:00.000Z",
       "allDay": false,
@@ -1872,8 +1969,8 @@
         }
       ],
       "firstSeen": "2026-11-03T00:55:35.183Z",
-      "lastSeen": "2026-11-07T00:57:01.855Z",
-      "seenCount": 13,
+      "lastSeen": "2026-11-07T15:41:18.208Z",
+      "seenCount": 14,
       "history": []
     },
     {
@@ -1988,7 +2085,7 @@
       "server": "kr",
       "type": "banner",
       "title": "커널 헤드헌팅 (사일라흐, 유넥티스, 프란카, 위스퍼레인, 애쉬락)",
-      "description": "커널 헤드헌팅 이벤트가 진행됩니다.",
+      "description": "커널 헤드헌팅을 통해 지정 오퍼레이터의 채용 확률이 상승합니다.",
       "start": "2026-11-02T19:00:00.000Z",
       "end": "2026-11-16T18:59:00.000Z",
       "allDay": false,
@@ -2004,8 +2101,8 @@
         }
       ],
       "firstSeen": "2026-11-03T00:55:35.183Z",
-      "lastSeen": "2026-11-07T00:57:01.855Z",
-      "seenCount": 14,
+      "lastSeen": "2026-11-07T15:41:18.208Z",
+      "seenCount": 15,
       "history": []
     },
     {
@@ -2037,8 +2134,8 @@
         }
       ],
       "firstSeen": "2026-10-31T14:28:00.518Z",
-      "lastSeen": "2026-11-07T00:57:01.855Z",
-      "seenCount": 53,
+      "lastSeen": "2026-11-07T15:41:18.208Z",
+      "seenCount": 60,
       "history": [
         {
           "at": "2026-11-05T01:28:06.296Z",
@@ -2052,8 +2149,8 @@
         }
       ],
       "community": {
-        "posts": 9,
-        "authors": 9,
+        "posts": 7,
+        "authors": 6,
         "recommended": 0,
         "reliable": 0,
         "sites": [
@@ -2061,11 +2158,11 @@
         ],
         "by": {
           "dcinside": {
-            "posts": 9,
-            "authors": 9
+            "posts": 7,
+            "authors": 6
           }
         },
-        "at": "2026-11-03T17:06:02.102Z"
+        "at": "2026-11-07T15:41:18.208Z"
       },
       "rerun": true
     },
@@ -2155,8 +2252,8 @@
       "game": "zzz",
       "server": "kr",
       "type": "event",
-      "title": "선발 현상금-구역 순찰 이벤트",
-      "description": "이벤트 기간 동안 구역 순찰 도전 보상 2배 획득.",
+      "title": "선발 현상금-구역 순찰",
+      "description": "이벤트 기간 동안 구역 순찰 도전 보상 2배 획득",
       "start": "2026-11-03T20:00:00.000Z",
       "end": "2026-11-08T19:59:00.000Z",
       "allDay": false,
@@ -2171,8 +2268,8 @@
         }
       ],
       "firstSeen": "2026-10-31T14:28:00.518Z",
-      "lastSeen": "2026-11-07T00:57:01.855Z",
-      "seenCount": 9,
+      "lastSeen": "2026-11-07T15:41:18.208Z",
+      "seenCount": 10,
       "history": [
         {
           "at": "2026-11-03T02:55:38.900Z",
@@ -2310,11 +2407,15 @@
         {
           "title": "[원신] 2026년 픽업 미리보기: 7.2~7.8 버전 라인업 총정리!",
           "url": "https://www.gamsgo.com/ko/blog/%EC%9B%90%EC%8B%A0-%EC%BA%90%EB%A6%AD%ED%84%B0"
+        },
+        {
+          "title": "원신 7.2 픽업 미탸·푸리나 복각, 11월 4일 업데이트 일정",
+          "url": "https://blog.naver.com/mola__mola/224458295687"
         }
       ],
       "firstSeen": "2026-10-31T13:31:58.842Z",
-      "lastSeen": "2026-11-07T00:57:01.855Z",
-      "seenCount": 30,
+      "lastSeen": "2026-11-07T15:41:18.208Z",
+      "seenCount": 32,
       "history": [
         {
           "at": "2026-11-03T01:17:00.695Z",
@@ -2586,7 +2687,7 @@
       "server": "kr",
       "type": "banner",
       "title": "홍련: 갓데스 특수 모집",
-      "description": "4주년 2차 업데이트와 함께 시작된 홍련: 갓데스 신규 픽업입니다.",
+      "description": "4주년 2차 업데이트와 함께 진행되는 홍련: 갓데스 신규 캐릭터 픽업.",
       "start": "2026-11-04T15:00:00.000Z",
       "end": null,
       "allDay": true,
@@ -2602,8 +2703,8 @@
         }
       ],
       "firstSeen": "2026-11-07T00:57:01.855Z",
-      "lastSeen": "2026-11-07T00:57:01.855Z",
-      "seenCount": 1,
+      "lastSeen": "2026-11-07T15:41:18.208Z",
+      "seenCount": 2,
       "history": []
     },
     {
@@ -2633,14 +2734,40 @@
       "rerun": false
     },
     {
+      "id": "86127c180cfa",
+      "game": "limbus",
+      "server": "kr",
+      "type": "event",
+      "title": "11월 5일 업데이트 보상 및 오류 수정 보상",
+      "description": "정기 업데이트 및 오류 수정에 따른 광기 보상 지급 이벤트입니다.",
+      "start": "2026-11-05T03:00:00.000Z",
+      "end": "2026-11-12T01:00:00.000Z",
+      "allDay": false,
+      "confidence": 0.9,
+      "status": "unverified",
+      "basis": "official",
+      "major": false,
+      "rerun": false,
+      "sources": [
+        {
+          "title": "",
+          "url": "https://www.pickupcal.com/games/limbus/"
+        }
+      ],
+      "firstSeen": "2026-11-07T15:41:18.208Z",
+      "lastSeen": "2026-11-07T15:41:18.208Z",
+      "seenCount": 1,
+      "history": []
+    },
+    {
       "id": "84296c6b8a74",
       "game": "arknights",
       "server": "kr",
       "type": "event",
       "title": "재개방 SideStory '중생의 여정'",
-      "description": "재개방 사이드 스토리 '중생의 여정'이 시작됩니다.",
+      "description": "재개방된 사이드 스토리 이벤트로, 관련 가구 재판매 및 BINGO 이벤트가 함께 진행됩니다.",
       "start": "2026-11-05T07:00:00.000Z",
-      "end": null,
+      "end": "2026-11-19T14:59:00.000Z",
       "allDay": false,
       "confidence": 0.95,
       "status": "confirmed",
@@ -2662,9 +2789,15 @@
         }
       ],
       "firstSeen": "2026-11-03T17:06:02.102Z",
-      "lastSeen": "2026-11-07T00:57:01.855Z",
-      "seenCount": 7,
-      "history": []
+      "lastSeen": "2026-11-07T15:41:18.208Z",
+      "seenCount": 8,
+      "history": [
+        {
+          "at": "2026-11-07T15:41:18.208Z",
+          "start": "2026-11-05T07:00:00.000Z",
+          "end": null
+        }
+      ]
     },
     {
       "id": "d876713fd456",
@@ -2753,6 +2886,58 @@
       "rerun": false
     },
     {
+      "id": "54c5fc4b1d01",
+      "game": "wuwa",
+      "server": "kr",
+      "type": "update",
+      "title": "명조 3.8 버전 업데이트: 신 연방",
+      "description": "명조 3.8 버전 '신 연방' 업데이트가 진행되었습니다.",
+      "start": "2026-11-06T16:00:00.000Z",
+      "end": null,
+      "allDay": true,
+      "confidence": 0.9,
+      "status": "unverified",
+      "basis": "community",
+      "major": false,
+      "rerun": false,
+      "sources": [
+        {
+          "title": "명조 3.8 '신 연방' 서막, 첫 공명자는 조향사 '릴리' - 게임메카",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBNZmpVMUFlcXhtVmZqOHlvNFlhRFppaXNNOEo1VzJOSFlNcUl6bUpXTXB5T2lfNHM1XzZNRzREazBQa0hacG92dWQ5WERJVTRPRk1fQkgzekzSAVtBVV95cUxPcWM1ME5LalBHblNtWnJFeDBuS3hoelhrQ3VRd0txNzNiLXVsZkJhbzUtVjRUVlFBRlBLdDk1OHo5RGxaZ1k4VWFhZUl4SkZNa2hkcVB0QzdnRldR?oc=5"
+        }
+      ],
+      "firstSeen": "2026-11-07T15:41:18.208Z",
+      "lastSeen": "2026-11-07T15:41:18.208Z",
+      "seenCount": 1,
+      "history": []
+    },
+    {
+      "id": "997710a8d77d",
+      "game": "wuwa",
+      "server": "kr",
+      "type": "banner",
+      "title": "릴리 픽업 튜닝",
+      "description": "3.8 버전 업데이트와 함께 신규 공명자 '릴리'의 픽업이 시작되었습니다.",
+      "start": "2026-11-06T16:00:00.000Z",
+      "end": null,
+      "allDay": true,
+      "confidence": 0.9,
+      "status": "unverified",
+      "basis": "community",
+      "major": false,
+      "rerun": false,
+      "sources": [
+        {
+          "title": "명조 3.8 '신 연방' 서막, 첫 공명자는 조향사 '릴리' - 게임메카",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBNZmpVMUFlcXhtVmZqOHlvNFlhRFppaXNNOEo1VzJOSFlNcUl6bUpXTXB5T2lfNHM1XzZNRzREazBQa0hacG92dWQ5WERJVTRPRk1fQkgzekzSAVtBVV95cUxPcWM1ME5LalBHblNtWnJFeDBuS3hoelhrQ3VRd0txNzNiLXVsZkJhbzUtVjRUVlFBRlBLdDk1OHo5RGxaZ1k4VWFhZUl4SkZNa2hkcVB0QzdnRldR?oc=5"
+        }
+      ],
+      "firstSeen": "2026-11-07T15:41:18.208Z",
+      "lastSeen": "2026-11-07T15:41:18.208Z",
+      "seenCount": 1,
+      "history": []
+    },
+    {
       "id": "6b2671163aed",
       "game": "bluearchive",
       "server": "kr",
@@ -2773,8 +2958,8 @@
         }
       ],
       "firstSeen": "2026-10-31T14:28:00.518Z",
-      "lastSeen": "2026-11-07T00:57:01.855Z",
-      "seenCount": 8,
+      "lastSeen": "2026-11-07T15:41:18.208Z",
+      "seenCount": 9,
       "history": [],
       "rerun": false
     },
@@ -2867,8 +3052,8 @@
         }
       ],
       "firstSeen": "2026-10-31T14:28:00.518Z",
-      "lastSeen": "2026-11-07T00:57:01.855Z",
-      "seenCount": 18,
+      "lastSeen": "2026-11-07T15:41:18.208Z",
+      "seenCount": 19,
       "history": [
         {
           "at": "2026-11-03T02:55:38.900Z",
@@ -2914,8 +3099,8 @@
         }
       ],
       "firstSeen": "2026-11-03T02:55:38.900Z",
-      "lastSeen": "2026-11-07T00:57:01.855Z",
-      "seenCount": 6,
+      "lastSeen": "2026-11-07T15:41:18.208Z",
+      "seenCount": 7,
       "history": []
     },
     {
@@ -2977,8 +3162,8 @@
         }
       ],
       "firstSeen": "2026-10-31T14:28:00.518Z",
-      "lastSeen": "2026-11-07T00:57:01.855Z",
-      "seenCount": 29,
+      "lastSeen": "2026-11-07T15:41:18.208Z",
+      "seenCount": 31,
       "history": [],
       "rerun": false
     },
@@ -3047,8 +3232,8 @@
       "seenCount": 7,
       "history": [],
       "community": {
-        "posts": 14,
-        "authors": 11,
+        "posts": 9,
+        "authors": 9,
         "recommended": 0,
         "reliable": 0,
         "sites": [
@@ -3056,11 +3241,11 @@
         ],
         "by": {
           "dcinside": {
-            "posts": 14,
-            "authors": 11
+            "posts": 9,
+            "authors": 9
           }
         },
-        "at": "2026-11-07T00:57:01.855Z"
+        "at": "2026-11-07T15:41:18.208Z"
       }
     },
     {
@@ -3231,8 +3416,8 @@
         }
       ],
       "firstSeen": "2026-10-31T13:31:58.842Z",
-      "lastSeen": "2026-11-07T00:57:01.855Z",
-      "seenCount": 22,
+      "lastSeen": "2026-11-07T15:41:18.208Z",
+      "seenCount": 24,
       "history": [
         {
           "at": "2026-10-31T14:28:00.518Z",
@@ -3353,14 +3538,14 @@
       "game": "starrail",
       "server": "kr",
       "type": "banner",
-      "title": "아케론·단항•음월·경원 기원",
-      "description": "붕괴: 스타레일 4.7 버전 하반기 경원 복각 픽업 배너입니다.",
+      "title": "아케론, 단항·음월, 경원 복각 기원",
+      "description": "4.7 버전 하반기에 진행되는 아케론, 단항·음월, 경원의 복각 캐릭터 이벤트 워프입니다.",
       "start": "2026-12-02T04:00:00.000Z",
       "end": "2026-12-22T07:00:00.000Z",
       "allDay": false,
       "confidence": 0.9,
       "status": "confirmed",
-      "basis": "community",
+      "basis": "official",
       "major": false,
       "sources": [
         {
@@ -3369,8 +3554,8 @@
         }
       ],
       "firstSeen": "2026-10-31T14:28:00.518Z",
-      "lastSeen": "2026-11-04T17:16:53.474Z",
-      "seenCount": 10,
+      "lastSeen": "2026-11-07T15:41:18.208Z",
+      "seenCount": 11,
       "history": [],
       "rerun": true
     },
@@ -3406,7 +3591,7 @@
       "server": "kr",
       "type": "other",
       "title": "명일방주 x AGF 2026 참가",
-      "description": "일산 킨텍스에서 열리는 AGF 2026 행사에 명일방주가 참가합니다.",
+      "description": "일산 킨텍스에서 개최되는 AGF 2026에 명일방주 부스가 참가합니다.",
       "start": "2026-12-03T15:00:00.000Z",
       "end": "2026-12-06T15:00:00.000Z",
       "allDay": true,
@@ -3422,8 +3607,8 @@
         }
       ],
       "firstSeen": "2026-11-05T17:26:32.911Z",
-      "lastSeen": "2026-11-07T00:57:01.855Z",
-      "seenCount": 4,
+      "lastSeen": "2026-11-07T15:41:18.208Z",
+      "seenCount": 5,
       "history": []
     },
     {
