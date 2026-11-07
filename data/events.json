@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T16:50:09.265Z",
+  "updatedAt": "2026-11-07T01:00:35.418Z",
   "events": [
     {
       "id": "0ce40d1a53e3",
@@ -51,8 +51,8 @@
         }
       ],
       "firstSeen": "2026-10-31T14:28:00.518Z",
-      "lastSeen": "2026-11-06T16:47:08.042Z",
-      "seenCount": 5,
+      "lastSeen": "2026-11-07T00:57:01.855Z",
+      "seenCount": 6,
       "history": [],
       "rerun": false
     },
@@ -81,8 +81,8 @@
         }
       ],
       "firstSeen": "2026-11-01T00:09:03.774Z",
-      "lastSeen": "2026-11-06T16:47:08.042Z",
-      "seenCount": 3,
+      "lastSeen": "2026-11-07T00:57:01.855Z",
+      "seenCount": 4,
       "history": []
     },
     {
@@ -672,11 +672,15 @@
         {
           "title": "恒生指數及分類指數 | Index Details",
           "url": "https://www.hsi.com.hk/zh-hk/indexes/all-indexes/index-details/?seriesCode=hsi"
+        },
+        {
+          "title": "우마무스메 신규 육성 시나리오 무인도 개척 공개 \"서포트 카드 80회 무료 이벤트\" - ER 이코노믹리뷰",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE02X19KanY5b2lta2tCM2Q4S243QTN5ODMxVmZBdDloWE5FUmtubG5jdk9VV0Qxam9tUHhPWXpyWkl4R1o2NzBic1dGR1VLY2VrNzh1TFZyS29ZeWdsUWpoYmpTOVpVNWFHclRyaA?oc=5"
         }
       ],
       "firstSeen": "2026-10-31T14:18:40.901Z",
-      "lastSeen": "2026-10-31T14:18:40.901Z",
-      "seenCount": 1,
+      "lastSeen": "2026-11-07T00:57:01.855Z",
+      "seenCount": 2,
       "history": []
     },
     {
@@ -836,8 +840,8 @@
         }
       ],
       "firstSeen": "2026-10-31T13:31:58.842Z",
-      "lastSeen": "2026-11-06T16:47:08.042Z",
-      "seenCount": 23,
+      "lastSeen": "2026-11-07T00:57:01.855Z",
+      "seenCount": 25,
       "history": [
         {
           "at": "2026-11-03T01:37:35.318Z",
@@ -1277,8 +1281,8 @@
         }
       ],
       "firstSeen": "2026-11-03T00:55:35.183Z",
-      "lastSeen": "2026-11-06T16:47:08.042Z",
-      "seenCount": 15,
+      "lastSeen": "2026-11-07T00:57:01.855Z",
+      "seenCount": 16,
       "history": []
     },
     {
@@ -1380,11 +1384,15 @@
         {
           "title": "[니케 4주년] 최대 230뽑기! '최종 결전' 니케 4주년 특별 방송 - 인벤",
           "url": "https://www.inven.co.kr/webzine/news/?news=322531&site=vr"
+        },
+        {
+          "title": "승리의 여신: 니케( Goddess of Victory: Nikke) 4주년 완벽 가이드: 무료 259회 모집, SSR 라푼젤 및 특별 보상 총정리 - MMOEXP",
+          "url": "https://www.mmoexp.com/News/nikke-4th-anniversary-guide-free-recruitment-and-ssr-rewards.html"
         }
       ],
       "firstSeen": "2026-11-01T16:04:04.104Z",
-      "lastSeen": "2026-11-06T16:47:08.042Z",
-      "seenCount": 14,
+      "lastSeen": "2026-11-07T00:57:01.855Z",
+      "seenCount": 15,
       "history": [],
       "rerun": false
     },
@@ -1433,6 +1441,46 @@
       "rerun": false
     },
     {
+      "id": "c1a258313709",
+      "game": "nikke",
+      "server": "kr",
+      "type": "update",
+      "title": "승리의 여신: 니케 4주년 업데이트",
+      "description": "4주년 기념 대규모 업데이트로 신규 스토리, 무료 모집 캠페인 등이 시작되었습니다.",
+      "start": "2026-10-28T15:00:00.000Z",
+      "end": "2026-11-19T15:00:00.000Z",
+      "allDay": true,
+      "confidence": 0.95,
+      "status": "confirmed",
+      "basis": "official",
+      "major": true,
+      "sources": [
+        {
+          "title": "‘승리의 여신: 니케’, 4주년 기념 신규 스토리·캐릭터 업데이트",
+          "url": "https://www.ipnn.co.kr/news/articleView.html?idxno=418063"
+        },
+        {
+          "title": "승리의 여신: 니케( Goddess of Victory: Nikke) 4주년 완벽 가이드: 무료 259회 모집, SSR 라푼젤 및 특별 보상 총정리 - MMOEXP",
+          "url": "https://www.mmoexp.com/News/nikke-4th-anniversary-guide-free-recruitment-and-ssr-rewards.html"
+        },
+        {
+          "title": "[정보] 230뽑 무료에 탈배포급 니케까지! 4주년, 지금이 시작·복귀각 - 인벤",
+          "url": "https://www.inven.co.kr/webzine/news/?news=322708&site=nikke"
+        }
+      ],
+      "firstSeen": "2026-11-02T00:46:15.667Z",
+      "lastSeen": "2026-11-07T00:57:01.855Z",
+      "seenCount": 3,
+      "history": [
+        {
+          "at": "2026-11-07T00:57:01.855Z",
+          "start": "2026-10-28T15:00:00.000Z",
+          "end": null
+        }
+      ],
+      "rerun": false
+    },
+    {
       "id": "2d3c99a4ce61",
       "game": "nikke",
       "server": "kr",
@@ -1458,31 +1506,6 @@
       "history": []
     },
     {
-      "id": "c1a258313709",
-      "game": "nikke",
-      "server": "kr",
-      "type": "update",
-      "title": "승리의 여신: 니케 4주년 업데이트",
-      "description": "메인 스토리 49, 50챕터 및 신규 필그림 3종과 각종 시스템 개편이 적용되는 4주년 대규모 업데이트입니다.",
-      "start": "2026-10-28T15:00:00.000Z",
-      "end": null,
-      "allDay": true,
-      "confidence": 0.95,
-      "status": "unverified",
-      "basis": "official",
-      "major": true,
-      "sources": [
-        {
-          "title": "‘승리의 여신: 니케’, 4주년 기념 신규 스토리·캐릭터 업데이트",
-          "url": "https://www.ipnn.co.kr/news/articleView.html?idxno=418063"
-        }
-      ],
-      "firstSeen": "2026-11-02T00:46:15.667Z",
-      "lastSeen": "2026-11-03T01:37:35.318Z",
-      "seenCount": 2,
-      "history": []
-    },
-    {
       "id": "20baacbeada3",
       "game": "nikke",
       "server": "kr",
@@ -1505,6 +1528,58 @@
       ],
       "firstSeen": "2026-11-06T01:34:16.099Z",
       "lastSeen": "2026-11-06T01:34:16.099Z",
+      "seenCount": 1,
+      "history": []
+    },
+    {
+      "id": "ee86c8226d8e",
+      "game": "nikke",
+      "server": "kr",
+      "type": "event",
+      "title": "FULL BURST DAY",
+      "description": "요격전 및 시뮬레이션 룸 보너스 이벤트입니다.",
+      "start": "2026-10-28T15:00:00.000Z",
+      "end": "2026-11-08T15:00:00.000Z",
+      "allDay": true,
+      "confidence": 0.9,
+      "status": "unverified",
+      "basis": "official",
+      "major": false,
+      "rerun": false,
+      "sources": [
+        {
+          "title": "승리의 여신: 니케( Goddess of Victory: Nikke) 4주년 완벽 가이드: 무료 259회 모집, SSR 라푼젤 및 특별 보상 총정리 - MMOEXP",
+          "url": "https://www.mmoexp.com/News/nikke-4th-anniversary-guide-free-recruitment-and-ssr-rewards.html"
+        }
+      ],
+      "firstSeen": "2026-11-07T00:57:01.855Z",
+      "lastSeen": "2026-11-07T00:57:01.855Z",
+      "seenCount": 1,
+      "history": []
+    },
+    {
+      "id": "ceeb577d3c78",
+      "game": "nikke",
+      "server": "kr",
+      "type": "event",
+      "title": "4주년 14일 출석 이벤트",
+      "description": "모집 티켓 및 SSR 선택 보상을 획득할 수 있는 출석 이벤트입니다.",
+      "start": "2026-10-28T15:00:00.000Z",
+      "end": "2026-11-19T15:00:00.000Z",
+      "allDay": true,
+      "confidence": 0.9,
+      "status": "unverified",
+      "basis": "official",
+      "major": false,
+      "rerun": false,
+      "sources": [
+        {
+          "title": "승리의 여신: 니케( Goddess of Victory: Nikke) 4주년 완벽 가이드: 무료 259회 모집, SSR 라푼젤 및 특별 보상 총정리 - MMOEXP",
+          "url": "https://www.mmoexp.com/News/nikke-4th-anniversary-guide-free-recruitment-and-ssr-rewards.html"
+        }
+      ],
+      "firstSeen": "2026-11-07T00:57:01.855Z",
+      "lastSeen": "2026-11-07T00:57:01.855Z",
       "seenCount": 1,
       "history": []
     },
@@ -1636,8 +1711,8 @@
         }
       ],
       "firstSeen": "2026-11-01T00:09:03.774Z",
-      "lastSeen": "2026-11-06T16:47:08.042Z",
-      "seenCount": 25,
+      "lastSeen": "2026-11-07T00:57:01.855Z",
+      "seenCount": 27,
       "history": []
     },
     {
@@ -1661,8 +1736,8 @@
         }
       ],
       "firstSeen": "2026-11-01T00:09:03.774Z",
-      "lastSeen": "2026-11-06T16:47:08.042Z",
-      "seenCount": 25,
+      "lastSeen": "2026-11-07T00:57:01.855Z",
+      "seenCount": 27,
       "history": []
     },
     {
@@ -1723,8 +1798,8 @@
         }
       ],
       "firstSeen": "2026-11-01T00:09:03.774Z",
-      "lastSeen": "2026-11-06T16:47:08.042Z",
-      "seenCount": 16,
+      "lastSeen": "2026-11-07T00:57:01.855Z",
+      "seenCount": 17,
       "history": [
         {
           "at": "2026-11-01T00:09:03.774Z",
@@ -1759,7 +1834,7 @@
       "start": "2026-10-29T20:00:00.000Z",
       "end": "2026-11-10T19:59:00.000Z",
       "allDay": false,
-      "confidence": 0.95,
+      "confidence": 1,
       "status": "unverified",
       "basis": "official",
       "major": false,
@@ -1771,8 +1846,8 @@
         }
       ],
       "firstSeen": "2026-11-05T17:26:32.911Z",
-      "lastSeen": "2026-11-05T17:26:32.911Z",
-      "seenCount": 1,
+      "lastSeen": "2026-11-07T00:57:01.855Z",
+      "seenCount": 2,
       "history": []
     },
     {
@@ -1797,8 +1872,8 @@
         }
       ],
       "firstSeen": "2026-11-03T00:55:35.183Z",
-      "lastSeen": "2026-11-06T16:47:08.042Z",
-      "seenCount": 12,
+      "lastSeen": "2026-11-07T00:57:01.855Z",
+      "seenCount": 13,
       "history": []
     },
     {
@@ -1929,8 +2004,8 @@
         }
       ],
       "firstSeen": "2026-11-03T00:55:35.183Z",
-      "lastSeen": "2026-11-06T16:47:08.042Z",
-      "seenCount": 13,
+      "lastSeen": "2026-11-07T00:57:01.855Z",
+      "seenCount": 14,
       "history": []
     },
     {
@@ -1962,8 +2037,8 @@
         }
       ],
       "firstSeen": "2026-10-31T14:28:00.518Z",
-      "lastSeen": "2026-11-06T16:47:08.042Z",
-      "seenCount": 46,
+      "lastSeen": "2026-11-07T00:57:01.855Z",
+      "seenCount": 53,
       "history": [
         {
           "at": "2026-11-05T01:28:06.296Z",
@@ -2081,7 +2156,7 @@
       "server": "kr",
       "type": "event",
       "title": "선발 현상금-구역 순찰 이벤트",
-      "description": "이벤트 기간 동안 구역 순찰 도전 보상 2배 획득",
+      "description": "이벤트 기간 동안 구역 순찰 도전 보상 2배 획득.",
       "start": "2026-11-03T20:00:00.000Z",
       "end": "2026-11-08T19:59:00.000Z",
       "allDay": false,
@@ -2096,8 +2171,8 @@
         }
       ],
       "firstSeen": "2026-10-31T14:28:00.518Z",
-      "lastSeen": "2026-11-06T16:47:08.042Z",
-      "seenCount": 8,
+      "lastSeen": "2026-11-07T00:57:01.855Z",
+      "seenCount": 9,
       "history": [
         {
           "at": "2026-11-03T02:55:38.900Z",
@@ -2198,7 +2273,7 @@
       "server": "kr",
       "type": "banner",
       "title": "미탸·푸리나 기원 (7.2 제1기)",
-      "description": "7.2 버전 제1기 푸리나 복각 픽업",
+      "description": "7.2 버전 전반부 5성 캐릭터 푸리나 복각 픽업입니다.",
       "start": "2026-11-04T03:00:00.000Z",
       "end": "2026-11-24T10:00:00.000Z",
       "allDay": false,
@@ -2231,11 +2306,15 @@
         {
           "title": "Reddit 언급 8건(작성자 6명)",
           "url": "https://www.reddit.com/r/Genshin_Impact_Leaks/"
+        },
+        {
+          "title": "[원신] 2026년 픽업 미리보기: 7.2~7.8 버전 라인업 총정리!",
+          "url": "https://www.gamsgo.com/ko/blog/%EC%9B%90%EC%8B%A0-%EC%BA%90%EB%A6%AD%ED%84%B0"
         }
       ],
       "firstSeen": "2026-10-31T13:31:58.842Z",
-      "lastSeen": "2026-11-06T16:47:08.042Z",
-      "seenCount": 28,
+      "lastSeen": "2026-11-07T00:57:01.855Z",
+      "seenCount": 30,
       "history": [
         {
           "at": "2026-11-03T01:17:00.695Z",
@@ -2471,8 +2550,8 @@
         }
       ],
       "firstSeen": "2026-11-05T17:26:32.911Z",
-      "lastSeen": "2026-11-06T16:47:08.042Z",
-      "seenCount": 3,
+      "lastSeen": "2026-11-07T00:57:01.855Z",
+      "seenCount": 4,
       "history": []
     },
     {
@@ -2497,8 +2576,34 @@
         }
       ],
       "firstSeen": "2026-11-05T17:26:32.911Z",
-      "lastSeen": "2026-11-06T16:47:08.042Z",
-      "seenCount": 3,
+      "lastSeen": "2026-11-07T00:57:01.855Z",
+      "seenCount": 4,
+      "history": []
+    },
+    {
+      "id": "c52c100b5298",
+      "game": "nikke",
+      "server": "kr",
+      "type": "banner",
+      "title": "홍련: 갓데스 특수 모집",
+      "description": "4주년 2차 업데이트와 함께 시작된 홍련: 갓데스 신규 픽업입니다.",
+      "start": "2026-11-04T15:00:00.000Z",
+      "end": null,
+      "allDay": true,
+      "confidence": 0.9,
+      "status": "unverified",
+      "basis": "official",
+      "major": false,
+      "rerun": false,
+      "sources": [
+        {
+          "title": "승리의 여신: 니케( Goddess of Victory: Nikke) 4주년 완벽 가이드: 무료 259회 모집, SSR 라푼젤 및 특별 보상 총정리 - MMOEXP",
+          "url": "https://www.mmoexp.com/News/nikke-4th-anniversary-guide-free-recruitment-and-ssr-rewards.html"
+        }
+      ],
+      "firstSeen": "2026-11-07T00:57:01.855Z",
+      "lastSeen": "2026-11-07T00:57:01.855Z",
+      "seenCount": 1,
       "history": []
     },
     {
@@ -2557,8 +2662,8 @@
         }
       ],
       "firstSeen": "2026-11-03T17:06:02.102Z",
-      "lastSeen": "2026-11-06T16:47:08.042Z",
-      "seenCount": 6,
+      "lastSeen": "2026-11-07T00:57:01.855Z",
+      "seenCount": 7,
       "history": []
     },
     {
@@ -2609,8 +2714,8 @@
         }
       ],
       "firstSeen": "2026-11-05T17:26:32.911Z",
-      "lastSeen": "2026-11-06T16:47:08.042Z",
-      "seenCount": 3,
+      "lastSeen": "2026-11-07T00:57:01.855Z",
+      "seenCount": 4,
       "history": []
     },
     {
@@ -2668,8 +2773,8 @@
         }
       ],
       "firstSeen": "2026-10-31T14:28:00.518Z",
-      "lastSeen": "2026-11-06T16:47:08.042Z",
-      "seenCount": 7,
+      "lastSeen": "2026-11-07T00:57:01.855Z",
+      "seenCount": 8,
       "history": [],
       "rerun": false
     },
@@ -2735,11 +2840,11 @@
       "server": "kr",
       "type": "banner",
       "title": "4.7 버전 아하·은랑·스파키·효광·아케론·단항•음월·경원 픽업",
-      "description": "은랑 LV.999, 스파키, 효광의 복각 이벤트 워프입니다.",
+      "description": "4.7 버전 상반기 은랑, 스파키, 효광 복각 캐릭터 이벤트 워프입니다.",
       "start": "2026-11-11T03:00:00.000Z",
       "end": "2026-12-02T03:59:00.000Z",
       "allDay": false,
-      "confidence": 0.9,
+      "confidence": 0.95,
       "status": "confirmed",
       "basis": "official",
       "major": false,
@@ -2762,8 +2867,8 @@
         }
       ],
       "firstSeen": "2026-10-31T14:28:00.518Z",
-      "lastSeen": "2026-11-06T16:47:08.042Z",
-      "seenCount": 17,
+      "lastSeen": "2026-11-07T00:57:01.855Z",
+      "seenCount": 18,
       "history": [
         {
           "at": "2026-11-03T02:55:38.900Z",
@@ -2789,11 +2894,11 @@
       "server": "kr",
       "type": "banner",
       "title": "에이언즈★아하 픽업 (뭇별을 향한 희롱)",
-      "description": "4.7 버전 신규 한정 5성 캐릭터 에이언즈★아하의 이벤트 워프입니다.",
+      "description": "4.7 버전 신규 캐릭터 에이언즈★아하의 캐릭터 이벤트 워프입니다.",
       "start": "2026-11-11T03:00:00.000Z",
       "end": "2026-12-22T07:00:00.000Z",
       "allDay": false,
-      "confidence": 0.9,
+      "confidence": 0.95,
       "status": "confirmed",
       "basis": "official",
       "major": false,
@@ -2809,8 +2914,8 @@
         }
       ],
       "firstSeen": "2026-11-03T02:55:38.900Z",
-      "lastSeen": "2026-11-06T01:34:16.099Z",
-      "seenCount": 5,
+      "lastSeen": "2026-11-07T00:57:01.855Z",
+      "seenCount": 6,
       "history": []
     },
     {
@@ -2872,8 +2977,8 @@
         }
       ],
       "firstSeen": "2026-10-31T14:28:00.518Z",
-      "lastSeen": "2026-11-06T16:47:08.042Z",
-      "seenCount": 27,
+      "lastSeen": "2026-11-07T00:57:01.855Z",
+      "seenCount": 29,
       "history": [],
       "rerun": false
     },
@@ -2943,7 +3048,7 @@
       "history": [],
       "community": {
         "posts": 14,
-        "authors": 12,
+        "authors": 11,
         "recommended": 0,
         "reliable": 0,
         "sites": [
@@ -2952,94 +3057,10 @@
         "by": {
           "dcinside": {
             "posts": 14,
-            "authors": 12
+            "authors": 11
           }
         },
-        "at": "2026-11-06T16:47:08.042Z"
-      }
-    },
-    {
-      "id": "9c6bfa13693b",
-      "game": "bluearchive",
-      "server": "kr",
-      "type": "banner",
-      "title": "네루(교복) 픽업 모집",
-      "description": "한정 학생 네루(교복)의 복각 픽업 모집이 진행될 예정입니다.",
-      "start": "2026-11-16T15:00:00.000Z",
-      "end": "2026-11-24T15:00:00.000Z",
-      "allDay": true,
-      "confidence": 0.7,
-      "status": "predicted",
-      "basis": "futuresight",
-      "major": false,
-      "rerun": true,
-      "sources": [
-        {
-          "title": "몰루로그",
-          "url": "https://mollulog.net/futures"
-        }
-      ],
-      "community": {
-        "posts": 4,
-        "authors": 4,
-        "recommended": 0,
-        "reliable": 0,
-        "sites": [
-          "dcinside"
-        ],
-        "by": {
-          "dcinside": {
-            "posts": 4,
-            "authors": 4
-          }
-        },
-        "at": "2026-11-06T16:47:08.042Z"
-      },
-      "firstSeen": "2026-11-03T17:06:02.102Z",
-      "lastSeen": "2026-11-03T17:06:02.102Z",
-      "seenCount": 1,
-      "history": []
-    },
-    {
-      "id": "f9e56dce3e67",
-      "game": "bluearchive",
-      "server": "kr",
-      "type": "banner",
-      "title": "리오 픽업 모집",
-      "description": "한정 학생 리오의 복각 픽업 모집이 진행될 예정입니다.",
-      "start": "2026-11-16T15:00:00.000Z",
-      "end": "2026-11-24T15:00:00.000Z",
-      "allDay": true,
-      "confidence": 0.7,
-      "status": "predicted",
-      "basis": "futuresight",
-      "major": false,
-      "rerun": true,
-      "sources": [
-        {
-          "title": "몰루로그",
-          "url": "https://mollulog.net/futures"
-        }
-      ],
-      "firstSeen": "2026-11-03T17:06:02.102Z",
-      "lastSeen": "2026-11-03T17:06:02.102Z",
-      "seenCount": 1,
-      "history": [],
-      "community": {
-        "posts": 8,
-        "authors": 7,
-        "recommended": 0,
-        "reliable": 0,
-        "sites": [
-          "dcinside"
-        ],
-        "by": {
-          "dcinside": {
-            "posts": 8,
-            "authors": 7
-          }
-        },
-        "at": "2026-11-06T16:47:08.042Z"
+        "at": "2026-11-07T00:57:01.855Z"
       }
     },
     {
@@ -3210,8 +3231,8 @@
         }
       ],
       "firstSeen": "2026-10-31T13:31:58.842Z",
-      "lastSeen": "2026-11-06T01:34:16.099Z",
-      "seenCount": 20,
+      "lastSeen": "2026-11-07T00:57:01.855Z",
+      "seenCount": 22,
       "history": [
         {
           "at": "2026-10-31T14:28:00.518Z",
@@ -3401,8 +3422,8 @@
         }
       ],
       "firstSeen": "2026-11-05T17:26:32.911Z",
-      "lastSeen": "2026-11-06T16:47:08.042Z",
-      "seenCount": 3,
+      "lastSeen": "2026-11-07T00:57:01.855Z",
+      "seenCount": 4,
       "history": []
     },
     {

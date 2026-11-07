@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-11-06T16:47:08.042Z",
+  "startedAt": "2026-11-07T00:57:01.855Z",
   "model": "gemini-3.1-flash-lite",
   "runs": [
     {
@@ -12,17 +12,17 @@
         "providers": {
           "googleNews": {
             "ok": 2,
-            "results": 10,
+            "results": 12,
             "errors": []
           },
           "bing": {
             "ok": 2,
-            "results": 0,
+            "results": 20,
             "errors": []
           },
           "duckduckgo": {
             "ok": 2,
-            "results": 20,
+            "results": 19,
             "errors": []
           }
         },
@@ -50,7 +50,7 @@
           },
           "bing": {
             "ok": 2,
-            "results": 0,
+            "results": 19,
             "errors": []
           },
           "duckduckgo": {
@@ -61,10 +61,10 @@
         },
         "pagesFetched": 6,
         "pageErrors": 0,
-        "irrelevant": 17,
+        "irrelevant": 8,
         "newsResolved": 1,
         "official": 0,
-        "results": 17,
+        "results": 23,
         "pages": 6
       }
     },
@@ -83,18 +83,18 @@
           },
           "bing": {
             "ok": 2,
-            "results": 0,
+            "results": 10,
             "errors": []
           },
           "duckduckgo": {
             "ok": 2,
-            "results": 20,
+            "results": 19,
             "errors": []
           }
         },
         "pagesFetched": 6,
         "pageErrors": 0,
-        "irrelevant": 6,
+        "irrelevant": 17,
         "newsResolved": 5,
         "official": 0,
         "results": 20,
@@ -104,8 +104,8 @@
     {
       "game": "bluearchive",
       "server": "kr",
-      "found": 9,
-      "accepted": 9,
+      "found": 8,
+      "accepted": 8,
       "rejected": [],
       "search": {
         "providers": {
@@ -116,24 +116,24 @@
           },
           "bing": {
             "ok": 3,
-            "results": 0,
+            "results": 15,
             "errors": []
           },
           "duckduckgo": {
             "ok": 2,
-            "results": 14,
+            "results": 16,
             "errors": [
               "블루아카이브 이벤트 업데이트 일정: HTTP 202"
             ]
           }
         },
-        "pagesFetched": 6,
-        "pageErrors": 0,
-        "irrelevant": 7,
+        "pagesFetched": 4,
+        "pageErrors": 2,
+        "irrelevant": 20,
         "newsResolved": 6,
         "official": 0,
-        "results": 19,
-        "pages": 6
+        "results": 22,
+        "pages": 4
       }
     },
     {
@@ -146,12 +146,12 @@
         "providers": {
           "googleNews": {
             "ok": 2,
-            "results": 19,
+            "results": 21,
             "errors": []
           },
           "bing": {
             "ok": 2,
-            "results": 0,
+            "results": 10,
             "errors": []
           },
           "duckduckgo": {
@@ -163,26 +163,26 @@
             ]
           }
         },
-        "pagesFetched": 6,
-        "pageErrors": 0,
-        "irrelevant": 11,
+        "pagesFetched": 5,
+        "pageErrors": 1,
+        "irrelevant": 10,
         "newsResolved": 6,
         "official": 0,
-        "results": 18,
-        "pages": 6
+        "results": 25,
+        "pages": 5
       }
     },
     {
       "game": "umamusume",
       "server": "kr",
-      "found": 0,
-      "accepted": 0,
+      "found": 1,
+      "accepted": 1,
       "rejected": [],
       "search": {
         "providers": {
           "googleNews": {
             "ok": 3,
-            "results": 4,
+            "results": 5,
             "errors": []
           },
           "bing": {
@@ -200,13 +200,13 @@
             ]
           }
         },
-        "pagesFetched": 4,
+        "pagesFetched": 0,
         "pageErrors": 1,
-        "irrelevant": 21,
-        "newsResolved": 4,
+        "irrelevant": 31,
+        "newsResolved": 0,
         "official": 0,
-        "results": 4,
-        "pages": 4
+        "results": 5,
+        "pages": 0
       }
     },
     {
@@ -239,7 +239,7 @@
         },
         "pagesFetched": 1,
         "pageErrors": 0,
-        "irrelevant": 20,
+        "irrelevant": 30,
         "newsResolved": 0,
         "official": 15,
         "results": 0,
@@ -275,7 +275,7 @@
         },
         "pagesFetched": 1,
         "pageErrors": 0,
-        "irrelevant": 11,
+        "irrelevant": 20,
         "newsResolved": 0,
         "official": 0,
         "results": 7,
@@ -311,7 +311,7 @@
         },
         "pagesFetched": 0,
         "pageErrors": 0,
-        "irrelevant": 14,
+        "irrelevant": 24,
         "newsResolved": 0,
         "official": 0,
         "results": 5,
@@ -348,7 +348,7 @@
         },
         "pagesFetched": 1,
         "pageErrors": 0,
-        "irrelevant": 11,
+        "irrelevant": 31,
         "newsResolved": 0,
         "official": 0,
         "results": 0,
@@ -368,7 +368,7 @@
         "교복",
         "리오"
       ],
-      "posts": 157,
+      "posts": 155,
       "attached": 3,
       "errors": []
     },
@@ -396,8 +396,8 @@
   "quotaStop": null,
   "stats": {
     "added": 3,
-    "updated": 18,
-    "unchanged": 20
+    "updated": 15,
+    "unchanged": 23
   },
-  "finishedAt": "2026-11-06T16:50:09.265Z"
+  "finishedAt": "2026-11-07T01:00:35.418Z"
 }
