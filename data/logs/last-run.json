@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-11-07T15:41:18.208Z",
+  "startedAt": "2026-11-08T00:37:42.099Z",
   "model": "gemini-3.1-flash-lite",
   "runs": [
     {
@@ -17,18 +17,18 @@
           },
           "bing": {
             "ok": 2,
-            "results": 20,
+            "results": 0,
             "errors": []
           },
           "duckduckgo": {
             "ok": 2,
-            "results": 20,
+            "results": 19,
             "errors": []
           }
         },
         "pagesFetched": 6,
         "pageErrors": 0,
-        "irrelevant": 1,
+        "irrelevant": 21,
         "newsResolved": 6,
         "official": 0,
         "results": 25,
@@ -38,8 +38,8 @@
     {
       "game": "starrail",
       "server": "kr",
-      "found": 5,
-      "accepted": 5,
+      "found": 6,
+      "accepted": 6,
       "rejected": [],
       "search": {
         "providers": {
@@ -50,22 +50,22 @@
           },
           "bing": {
             "ok": 2,
-            "results": 10,
+            "results": 20,
             "errors": []
           },
           "duckduckgo": {
             "ok": 2,
-            "results": 19,
+            "results": 18,
             "errors": []
           }
         },
-        "pagesFetched": 5,
-        "pageErrors": 1,
-        "irrelevant": 18,
+        "pagesFetched": 6,
+        "pageErrors": 0,
+        "irrelevant": 9,
         "newsResolved": 2,
         "official": 0,
         "results": 21,
-        "pages": 5
+        "pages": 6
       }
     },
     {
@@ -78,7 +78,7 @@
         "providers": {
           "googleNews": {
             "ok": 2,
-            "results": 7,
+            "results": 6,
             "errors": []
           },
           "bing": {
@@ -88,24 +88,24 @@
           },
           "duckduckgo": {
             "ok": 2,
-            "results": 19,
+            "results": 20,
             "errors": []
           }
         },
         "pagesFetched": 6,
         "pageErrors": 0,
         "irrelevant": 16,
-        "newsResolved": 5,
+        "newsResolved": 4,
         "official": 0,
-        "results": 21,
+        "results": 19,
         "pages": 6
       }
     },
     {
       "game": "bluearchive",
       "server": "kr",
-      "found": 8,
-      "accepted": 8,
+      "found": 13,
+      "accepted": 13,
       "rejected": [],
       "search": {
         "providers": {
@@ -121,7 +121,7 @@
           },
           "duckduckgo": {
             "ok": 2,
-            "results": 16,
+            "results": 15,
             "errors": [
               "블루아카이브 이벤트 업데이트 일정: HTTP 202"
             ]
@@ -129,18 +129,18 @@
         },
         "pagesFetched": 4,
         "pageErrors": 2,
-        "irrelevant": 19,
+        "irrelevant": 20,
         "newsResolved": 6,
         "official": 0,
-        "results": 24,
+        "results": 22,
         "pages": 4
       }
     },
     {
       "game": "nikke",
       "server": "kr",
-      "found": 6,
-      "accepted": 6,
+      "found": 5,
+      "accepted": 5,
       "rejected": [],
       "search": {
         "providers": {
@@ -151,7 +151,7 @@
           },
           "bing": {
             "ok": 2,
-            "results": 10,
+            "results": 0,
             "errors": []
           },
           "duckduckgo": {
@@ -163,13 +163,13 @@
             ]
           }
         },
-        "pagesFetched": 5,
-        "pageErrors": 1,
-        "irrelevant": 1,
+        "pagesFetched": 6,
+        "pageErrors": 0,
+        "irrelevant": 20,
         "newsResolved": 6,
         "official": 0,
-        "results": 25,
-        "pages": 5
+        "results": 21,
+        "pages": 6
       }
     },
     {
@@ -202,7 +202,7 @@
         },
         "pagesFetched": 4,
         "pageErrors": 1,
-        "irrelevant": 30,
+        "irrelevant": 31,
         "newsResolved": 4,
         "official": 0,
         "results": 4,
@@ -239,7 +239,7 @@
         },
         "pagesFetched": 1,
         "pageErrors": 0,
-        "irrelevant": 20,
+        "irrelevant": 30,
         "newsResolved": 0,
         "official": 15,
         "results": 0,
@@ -275,7 +275,7 @@
         },
         "pagesFetched": 1,
         "pageErrors": 0,
-        "irrelevant": 21,
+        "irrelevant": 11,
         "newsResolved": 0,
         "official": 0,
         "results": 8,
@@ -311,7 +311,7 @@
         },
         "pagesFetched": 0,
         "pageErrors": 0,
-        "irrelevant": 13,
+        "irrelevant": 22,
         "newsResolved": 0,
         "official": 0,
         "results": 5,
@@ -363,19 +363,17 @@
       "searched": [
         "페스",
         "이부키",
-        "이로하",
-        "마코토",
-        "사츠키"
+        "이로하"
       ],
-      "posts": 123,
-      "attached": 3,
+      "posts": 97,
+      "attached": 2,
       "errors": []
     },
     {
       "game": "umamusume",
       "gallery": "umamusu",
       "searched": [],
-      "posts": 61,
+      "posts": 62,
       "attached": 0,
       "errors": []
     },
@@ -383,20 +381,20 @@
       "game": "arknights",
       "gallery": "mibj",
       "searched": [],
-      "posts": 69,
+      "posts": 68,
       "attached": 0,
       "errors": []
     }
   ],
-  "apiCalls": 10,
+  "apiCalls": 11,
   "modelNotes": [
     "후보 모델: gemini-3.1-flash-lite, gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-flash-latest, gemini-omni-1.1-flash, gemini-omni-1.2-flash, gemini-omni-flash-preview, gemini-3.5-flash-lite, gemini-3.1-flash-lite-preview, gemini-2.5-flash-lite, gemini-flash-lite-latest"
   ],
   "quotaStop": null,
   "stats": {
-    "added": 6,
-    "updated": 16,
-    "unchanged": 24
+    "added": 3,
+    "updated": 25,
+    "unchanged": 23
   },
-  "finishedAt": "2026-11-07T15:44:25.223Z"
+  "finishedAt": "2026-11-08T00:41:32.668Z"
 }
