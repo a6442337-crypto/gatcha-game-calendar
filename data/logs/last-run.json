@@ -1,23 +1,23 @@
 {
-  "startedAt": "2026-11-08T15:59:49.680Z",
+  "startedAt": "2026-11-09T00:55:43.037Z",
   "model": "gemini-3.1-flash-lite",
   "runs": [
     {
       "game": "genshin",
       "server": "kr",
-      "found": 5,
-      "accepted": 5,
+      "found": 4,
+      "accepted": 4,
       "rejected": [],
       "search": {
         "providers": {
           "googleNews": {
             "ok": 2,
-            "results": 8,
+            "results": 9,
             "errors": []
           },
           "bing": {
             "ok": 2,
-            "results": 0,
+            "results": 20,
             "errors": []
           },
           "duckduckgo": {
@@ -28,7 +28,7 @@
         },
         "pagesFetched": 6,
         "pageErrors": 0,
-        "irrelevant": 23,
+        "irrelevant": 2,
         "newsResolved": 6,
         "official": 0,
         "results": 25,
@@ -38,34 +38,34 @@
     {
       "game": "starrail",
       "server": "kr",
-      "found": 5,
-      "accepted": 5,
+      "found": 7,
+      "accepted": 7,
       "rejected": [],
       "search": {
         "providers": {
           "googleNews": {
             "ok": 2,
-            "results": 3,
+            "results": 2,
             "errors": []
           },
           "bing": {
             "ok": 2,
-            "results": 0,
+            "results": 9,
             "errors": []
           },
           "duckduckgo": {
             "ok": 2,
-            "results": 18,
+            "results": 19,
             "errors": []
           }
         },
-        "pagesFetched": 6,
-        "pageErrors": 0,
-        "irrelevant": 8,
-        "newsResolved": 3,
+        "pagesFetched": 5,
+        "pageErrors": 1,
+        "irrelevant": 18,
+        "newsResolved": 2,
         "official": 0,
-        "results": 20,
-        "pages": 6
+        "results": 21,
+        "pages": 5
       }
     },
     {
@@ -78,34 +78,34 @@
         "providers": {
           "googleNews": {
             "ok": 2,
-            "results": 6,
+            "results": 7,
             "errors": []
           },
           "bing": {
             "ok": 2,
-            "results": 0,
+            "results": 10,
             "errors": []
           },
           "duckduckgo": {
             "ok": 2,
-            "results": 19,
+            "results": 20,
             "errors": []
           }
         },
         "pagesFetched": 6,
         "pageErrors": 0,
-        "irrelevant": 17,
-        "newsResolved": 4,
+        "irrelevant": 15,
+        "newsResolved": 5,
         "official": 0,
-        "results": 18,
+        "results": 19,
         "pages": 6
       }
     },
     {
       "game": "bluearchive",
       "server": "kr",
-      "found": 5,
-      "accepted": 5,
+      "found": 8,
+      "accepted": 8,
       "rejected": [],
       "search": {
         "providers": {
@@ -116,7 +116,7 @@
           },
           "bing": {
             "ok": 3,
-            "results": 0,
+            "results": 15,
             "errors": []
           },
           "duckduckgo": {
@@ -127,13 +127,13 @@
             ]
           }
         },
-        "pagesFetched": 6,
-        "pageErrors": 0,
-        "irrelevant": 35,
+        "pagesFetched": 4,
+        "pageErrors": 2,
+        "irrelevant": 10,
         "newsResolved": 6,
         "official": 0,
-        "results": 24,
-        "pages": 6
+        "results": 25,
+        "pages": 4
       }
     },
     {
@@ -202,7 +202,7 @@
         },
         "pagesFetched": 3,
         "pageErrors": 1,
-        "irrelevant": 21,
+        "irrelevant": 31,
         "newsResolved": 3,
         "official": 0,
         "results": 3,
@@ -275,7 +275,7 @@
         },
         "pagesFetched": 1,
         "pageErrors": 0,
-        "irrelevant": 11,
+        "irrelevant": 21,
         "newsResolved": 0,
         "official": 0,
         "results": 8,
@@ -311,7 +311,7 @@
         },
         "pagesFetched": 0,
         "pageErrors": 0,
-        "irrelevant": 12,
+        "irrelevant": 22,
         "newsResolved": 0,
         "official": 0,
         "results": 5,
@@ -348,7 +348,7 @@
         },
         "pagesFetched": 1,
         "pageErrors": 0,
-        "irrelevant": 10,
+        "irrelevant": 30,
         "newsResolved": 0,
         "official": 0,
         "results": 0,
@@ -360,20 +360,16 @@
     {
       "game": "bluearchive",
       "gallery": "projectmx",
-      "searched": [
-        "페스",
-        "이부키",
-        "이로하"
-      ],
-      "posts": 109,
-      "attached": 1,
+      "searched": [],
+      "posts": 57,
+      "attached": 0,
       "errors": []
     },
     {
       "game": "umamusume",
       "gallery": "umamusu",
       "searched": [],
-      "posts": 60,
+      "posts": 61,
       "attached": 0,
       "errors": []
     },
@@ -392,9 +388,9 @@
   ],
   "quotaStop": null,
   "stats": {
-    "added": 2,
-    "updated": 17,
-    "unchanged": 21
+    "added": 0,
+    "updated": 11,
+    "unchanged": 33
   },
-  "finishedAt": "2026-11-08T16:02:58.927Z"
+  "finishedAt": "2026-11-09T00:59:01.848Z"
 }
