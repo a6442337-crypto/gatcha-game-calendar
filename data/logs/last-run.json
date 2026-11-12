@@ -1,18 +1,18 @@
 {
-  "startedAt": "2026-11-11T17:10:45.431Z",
+  "startedAt": "2026-11-12T02:16:34.161Z",
   "model": "gemini-3.1-flash-lite-preview",
   "runs": [
     {
       "game": "genshin",
       "server": "kr",
-      "found": 5,
-      "accepted": 5,
+      "found": 6,
+      "accepted": 6,
       "rejected": [],
       "search": {
         "providers": {
           "googleNews": {
             "ok": 2,
-            "results": 11,
+            "results": 10,
             "errors": []
           },
           "bing": {
@@ -38,14 +38,14 @@
     {
       "game": "starrail",
       "server": "kr",
-      "found": 9,
-      "accepted": 9,
+      "found": 8,
+      "accepted": 8,
       "rejected": [],
       "search": {
         "providers": {
           "googleNews": {
             "ok": 2,
-            "results": 3,
+            "results": 2,
             "errors": []
           },
           "bing": {
@@ -61,8 +61,8 @@
         },
         "pagesFetched": 6,
         "pageErrors": 0,
-        "irrelevant": 26,
-        "newsResolved": 3,
+        "irrelevant": 27,
+        "newsResolved": 2,
         "official": 0,
         "results": 19,
         "pages": 6
@@ -88,30 +88,30 @@
           },
           "duckduckgo": {
             "ok": 2,
-            "results": 17,
+            "results": 18,
             "errors": []
           }
         },
         "pagesFetched": 6,
         "pageErrors": 0,
-        "irrelevant": 29,
+        "irrelevant": 18,
         "newsResolved": 5,
         "official": 0,
-        "results": 18,
+        "results": 20,
         "pages": 6
       }
     },
     {
       "game": "bluearchive",
       "server": "kr",
-      "found": 7,
-      "accepted": 7,
+      "found": 5,
+      "accepted": 5,
       "rejected": [],
       "search": {
         "providers": {
           "googleNews": {
             "ok": 3,
-            "results": 17,
+            "results": 16,
             "errors": []
           },
           "bing": {
@@ -121,13 +121,13 @@
           },
           "duckduckgo": {
             "ok": 3,
-            "results": 24,
+            "results": 23,
             "errors": []
           }
         },
         "pagesFetched": 6,
         "pageErrors": 0,
-        "irrelevant": 38,
+        "irrelevant": 29,
         "newsResolved": 6,
         "official": 0,
         "results": 25,
@@ -144,7 +144,7 @@
         "providers": {
           "googleNews": {
             "ok": 2,
-            "results": 22,
+            "results": 21,
             "errors": []
           },
           "bing": {
@@ -170,8 +170,8 @@
     {
       "game": "umamusume",
       "server": "kr",
-      "found": 4,
-      "accepted": 4,
+      "found": 2,
+      "accepted": 2,
       "rejected": [],
       "search": {
         "providers": {
@@ -182,29 +182,29 @@
           },
           "bing": {
             "ok": 3,
-            "results": 8,
+            "results": 0,
             "errors": []
           },
           "duckduckgo": {
             "ok": 3,
-            "results": 27,
+            "results": 25,
             "errors": []
           }
         },
-        "pagesFetched": 3,
-        "pageErrors": 3,
+        "pagesFetched": 5,
+        "pageErrors": 1,
         "irrelevant": 26,
-        "newsResolved": 0,
+        "newsResolved": 4,
         "official": 0,
-        "results": 25,
-        "pages": 3
+        "results": 22,
+        "pages": 5
       }
     },
     {
       "game": "arknights",
       "server": "kr",
-      "found": 8,
-      "accepted": 8,
+      "found": 6,
+      "accepted": 6,
       "rejected": [],
       "search": {
         "providers": {
@@ -215,7 +215,7 @@
           },
           "bing": {
             "ok": 3,
-            "results": 10,
+            "results": 0,
             "errors": []
           },
           "duckduckgo": {
@@ -226,10 +226,10 @@
         },
         "pagesFetched": 5,
         "pageErrors": 1,
-        "irrelevant": 21,
+        "irrelevant": 11,
         "newsResolved": 0,
         "official": 15,
-        "results": 23,
+        "results": 21,
         "pages": 20
       }
     },
@@ -259,7 +259,7 @@
         },
         "pagesFetched": 6,
         "pageErrors": 0,
-        "irrelevant": 13,
+        "irrelevant": 23,
         "newsResolved": 0,
         "official": 0,
         "results": 25,
@@ -269,8 +269,8 @@
     {
       "game": "wuwa",
       "server": "kr",
-      "found": 5,
-      "accepted": 5,
+      "found": 3,
+      "accepted": 3,
       "rejected": [],
       "search": {
         "providers": {
@@ -281,7 +281,7 @@
           },
           "bing": {
             "ok": 2,
-            "results": 9,
+            "results": 0,
             "errors": []
           },
           "duckduckgo": {
@@ -314,7 +314,7 @@
           },
           "bing": {
             "ok": 3,
-            "results": 30,
+            "results": 0,
             "errors": []
           },
           "duckduckgo": {
@@ -325,10 +325,10 @@
         },
         "pagesFetched": 6,
         "pageErrors": 0,
-        "irrelevant": 2,
+        "irrelevant": 12,
         "newsResolved": 0,
         "official": 0,
-        "results": 25,
+        "results": 21,
         "pages": 6
       }
     }
@@ -337,9 +337,13 @@
     {
       "game": "bluearchive",
       "gallery": "projectmx",
-      "searched": [],
-      "posts": 58,
-      "attached": 0,
+      "searched": [
+        "이로하",
+        "페스",
+        "이부키"
+      ],
+      "posts": 106,
+      "attached": 2,
       "errors": []
     },
     {
@@ -352,7 +356,7 @@
         "비블로스"
       ],
       "posts": 112,
-      "attached": 4,
+      "attached": 2,
       "errors": []
     },
     {
@@ -364,15 +368,15 @@
       "errors": []
     }
   ],
-  "apiCalls": 11,
+  "apiCalls": 10,
   "modelNotes": [
     "후보 모델: gemini-3.1-flash-lite-preview, gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-flash-latest, gemini-omni-1.1-flash, gemini-omni-1.2-flash, gemini-omni-flash-preview, gemini-3.5-flash-lite, gemini-3.1-flash-lite, gemini-2.5-flash-lite, gemini-flash-lite-latest"
   ],
   "quotaStop": null,
   "stats": {
-    "added": 13,
-    "updated": 21,
-    "unchanged": 23
+    "added": 2,
+    "updated": 26,
+    "unchanged": 21
   },
-  "finishedAt": "2026-11-11T17:14:34.869Z"
+  "finishedAt": "2026-11-12T02:20:59.005Z"
 }
