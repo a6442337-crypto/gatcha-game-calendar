@@ -1,18 +1,18 @@
 {
-  "startedAt": "2026-11-12T02:16:34.161Z",
+  "startedAt": "2026-11-12T17:36:56.499Z",
   "model": "gemini-3.1-flash-lite-preview",
   "runs": [
     {
       "game": "genshin",
       "server": "kr",
-      "found": 6,
-      "accepted": 6,
+      "found": 5,
+      "accepted": 5,
       "rejected": [],
       "search": {
         "providers": {
           "googleNews": {
             "ok": 2,
-            "results": 10,
+            "results": 8,
             "errors": []
           },
           "bing": {
@@ -45,7 +45,7 @@
         "providers": {
           "googleNews": {
             "ok": 2,
-            "results": 2,
+            "results": 3,
             "errors": []
           },
           "bing": {
@@ -61,10 +61,10 @@
         },
         "pagesFetched": 6,
         "pageErrors": 0,
-        "irrelevant": 27,
-        "newsResolved": 2,
+        "irrelevant": 7,
+        "newsResolved": 3,
         "official": 0,
-        "results": 19,
+        "results": 20,
         "pages": 6
       }
     },
@@ -94,18 +94,18 @@
         },
         "pagesFetched": 6,
         "pageErrors": 0,
-        "irrelevant": 18,
+        "irrelevant": 28,
         "newsResolved": 5,
         "official": 0,
-        "results": 20,
+        "results": 19,
         "pages": 6
       }
     },
     {
       "game": "bluearchive",
       "server": "kr",
-      "found": 5,
-      "accepted": 5,
+      "found": 8,
+      "accepted": 8,
       "rejected": [],
       "search": {
         "providers": {
@@ -121,13 +121,13 @@
           },
           "duckduckgo": {
             "ok": 3,
-            "results": 23,
+            "results": 24,
             "errors": []
           }
         },
         "pagesFetched": 6,
         "pageErrors": 0,
-        "irrelevant": 29,
+        "irrelevant": 18,
         "newsResolved": 6,
         "official": 0,
         "results": 25,
@@ -137,24 +137,24 @@
     {
       "game": "nikke",
       "server": "kr",
-      "found": 4,
-      "accepted": 4,
+      "found": 2,
+      "accepted": 2,
       "rejected": [],
       "search": {
         "providers": {
           "googleNews": {
             "ok": 2,
-            "results": 21,
+            "results": 20,
             "errors": []
           },
           "bing": {
             "ok": 2,
-            "results": 0,
+            "results": 10,
             "errors": []
           },
           "duckduckgo": {
             "ok": 2,
-            "results": 19,
+            "results": 20,
             "errors": []
           }
         },
@@ -170,8 +170,8 @@
     {
       "game": "umamusume",
       "server": "kr",
-      "found": 2,
-      "accepted": 2,
+      "found": 4,
+      "accepted": 4,
       "rejected": [],
       "search": {
         "providers": {
@@ -187,17 +187,17 @@
           },
           "duckduckgo": {
             "ok": 3,
-            "results": 25,
+            "results": 26,
             "errors": []
           }
         },
-        "pagesFetched": 5,
-        "pageErrors": 1,
-        "irrelevant": 26,
-        "newsResolved": 4,
+        "pagesFetched": 2,
+        "pageErrors": 4,
+        "irrelevant": 5,
+        "newsResolved": 0,
         "official": 0,
-        "results": 22,
-        "pages": 5
+        "results": 25,
+        "pages": 2
       }
     },
     {
@@ -215,7 +215,7 @@
           },
           "bing": {
             "ok": 3,
-            "results": 0,
+            "results": 27,
             "errors": []
           },
           "duckduckgo": {
@@ -226,10 +226,10 @@
         },
         "pagesFetched": 5,
         "pageErrors": 1,
-        "irrelevant": 11,
+        "irrelevant": 4,
         "newsResolved": 0,
         "official": 15,
-        "results": 21,
+        "results": 25,
         "pages": 20
       }
     },
@@ -248,18 +248,18 @@
           },
           "bing": {
             "ok": 2,
-            "results": 0,
+            "results": 1,
             "errors": []
           },
           "duckduckgo": {
             "ok": 2,
-            "results": 18,
+            "results": 19,
             "errors": []
           }
         },
         "pagesFetched": 6,
         "pageErrors": 0,
-        "irrelevant": 23,
+        "irrelevant": 20,
         "newsResolved": 0,
         "official": 0,
         "results": 25,
@@ -269,14 +269,14 @@
     {
       "game": "wuwa",
       "server": "kr",
-      "found": 3,
-      "accepted": 3,
+      "found": 5,
+      "accepted": 5,
       "rejected": [],
       "search": {
         "providers": {
           "googleNews": {
             "ok": 2,
-            "results": 7,
+            "results": 8,
             "errors": []
           },
           "bing": {
@@ -290,13 +290,13 @@
             "errors": []
           }
         },
-        "pagesFetched": 5,
-        "pageErrors": 1,
-        "irrelevant": 14,
+        "pagesFetched": 4,
+        "pageErrors": 2,
+        "irrelevant": 23,
         "newsResolved": 0,
         "official": 0,
         "results": 25,
-        "pages": 5
+        "pages": 4
       }
     },
     {
@@ -319,16 +319,16 @@
           },
           "duckduckgo": {
             "ok": 3,
-            "results": 28,
+            "results": 29,
             "errors": []
           }
         },
         "pagesFetched": 6,
         "pageErrors": 0,
-        "irrelevant": 12,
+        "irrelevant": 22,
         "newsResolved": 0,
         "official": 0,
-        "results": 21,
+        "results": 22,
         "pages": 6
       }
     }
@@ -340,10 +340,13 @@
       "searched": [
         "이로하",
         "페스",
-        "이부키"
+        "이부키",
+        "리오",
+        "네루",
+        "교복"
       ],
-      "posts": 106,
-      "attached": 2,
+      "posts": 147,
+      "attached": 4,
       "errors": []
     },
     {
@@ -355,8 +358,8 @@
         "크라운",
         "비블로스"
       ],
-      "posts": 112,
-      "attached": 2,
+      "posts": 116,
+      "attached": 4,
       "errors": []
     },
     {
@@ -368,15 +371,15 @@
       "errors": []
     }
   ],
-  "apiCalls": 10,
+  "apiCalls": 11,
   "modelNotes": [
     "후보 모델: gemini-3.1-flash-lite-preview, gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-flash-latest, gemini-omni-1.1-flash, gemini-omni-1.2-flash, gemini-omni-flash-preview, gemini-3.5-flash-lite, gemini-3.1-flash-lite, gemini-2.5-flash-lite, gemini-flash-lite-latest"
   ],
   "quotaStop": null,
   "stats": {
-    "added": 2,
-    "updated": 26,
-    "unchanged": 21
+    "added": 4,
+    "updated": 29,
+    "unchanged": 20
   },
-  "finishedAt": "2026-11-12T02:20:59.005Z"
+  "finishedAt": "2026-11-12T17:41:35.154Z"
 }
