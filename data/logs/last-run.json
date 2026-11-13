@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-11-12T17:36:56.499Z",
+  "startedAt": "2026-11-13T01:50:14.100Z",
   "model": "gemini-3.1-flash-lite-preview",
   "runs": [
     {
@@ -22,13 +22,13 @@
           },
           "duckduckgo": {
             "ok": 2,
-            "results": 18,
+            "results": 19,
             "errors": []
           }
         },
         "pagesFetched": 6,
         "pageErrors": 0,
-        "irrelevant": 22,
+        "irrelevant": 12,
         "newsResolved": 6,
         "official": 0,
         "results": 23,
@@ -38,14 +38,14 @@
     {
       "game": "starrail",
       "server": "kr",
-      "found": 8,
-      "accepted": 8,
+      "found": 4,
+      "accepted": 4,
       "rejected": [],
       "search": {
         "providers": {
           "googleNews": {
             "ok": 2,
-            "results": 3,
+            "results": 4,
             "errors": []
           },
           "bing": {
@@ -59,13 +59,13 @@
             "errors": []
           }
         },
-        "pagesFetched": 6,
-        "pageErrors": 0,
-        "irrelevant": 7,
-        "newsResolved": 3,
+        "pagesFetched": 5,
+        "pageErrors": 1,
+        "irrelevant": 17,
+        "newsResolved": 4,
         "official": 0,
-        "results": 20,
-        "pages": 6
+        "results": 21,
+        "pages": 5
       }
     },
     {
@@ -78,7 +78,7 @@
         "providers": {
           "googleNews": {
             "ok": 2,
-            "results": 6,
+            "results": 5,
             "errors": []
           },
           "bing": {
@@ -94,10 +94,10 @@
         },
         "pagesFetched": 6,
         "pageErrors": 0,
-        "irrelevant": 28,
-        "newsResolved": 5,
+        "irrelevant": 10,
+        "newsResolved": 4,
         "official": 0,
-        "results": 19,
+        "results": 17,
         "pages": 6
       }
     },
@@ -111,7 +111,7 @@
         "providers": {
           "googleNews": {
             "ok": 3,
-            "results": 16,
+            "results": 17,
             "errors": []
           },
           "bing": {
@@ -137,30 +137,30 @@
     {
       "game": "nikke",
       "server": "kr",
-      "found": 2,
-      "accepted": 2,
+      "found": 5,
+      "accepted": 5,
       "rejected": [],
       "search": {
         "providers": {
           "googleNews": {
             "ok": 2,
-            "results": 20,
+            "results": 22,
             "errors": []
           },
           "bing": {
             "ok": 2,
-            "results": 10,
+            "results": 0,
             "errors": []
           },
           "duckduckgo": {
             "ok": 2,
-            "results": 20,
+            "results": 19,
             "errors": []
           }
         },
         "pagesFetched": 5,
         "pageErrors": 1,
-        "irrelevant": 11,
+        "irrelevant": 1,
         "newsResolved": 6,
         "official": 0,
         "results": 25,
@@ -170,8 +170,8 @@
     {
       "game": "umamusume",
       "server": "kr",
-      "found": 4,
-      "accepted": 4,
+      "found": 2,
+      "accepted": 2,
       "rejected": [],
       "search": {
         "providers": {
@@ -187,17 +187,17 @@
           },
           "duckduckgo": {
             "ok": 3,
-            "results": 26,
+            "results": 27,
             "errors": []
           }
         },
-        "pagesFetched": 2,
-        "pageErrors": 4,
-        "irrelevant": 5,
-        "newsResolved": 0,
+        "pagesFetched": 5,
+        "pageErrors": 1,
+        "irrelevant": 14,
+        "newsResolved": 4,
         "official": 0,
-        "results": 25,
-        "pages": 2
+        "results": 22,
+        "pages": 5
       }
     },
     {
@@ -215,7 +215,7 @@
           },
           "bing": {
             "ok": 3,
-            "results": 27,
+            "results": 0,
             "errors": []
           },
           "duckduckgo": {
@@ -226,10 +226,10 @@
         },
         "pagesFetched": 5,
         "pageErrors": 1,
-        "irrelevant": 4,
+        "irrelevant": 11,
         "newsResolved": 0,
         "official": 15,
-        "results": 25,
+        "results": 21,
         "pages": 20
       }
     },
@@ -248,21 +248,21 @@
           },
           "bing": {
             "ok": 2,
-            "results": 1,
+            "results": 0,
             "errors": []
           },
           "duckduckgo": {
             "ok": 2,
-            "results": 19,
+            "results": 17,
             "errors": []
           }
         },
         "pagesFetched": 6,
         "pageErrors": 0,
-        "irrelevant": 20,
+        "irrelevant": 4,
         "newsResolved": 0,
         "official": 0,
-        "results": 25,
+        "results": 24,
         "pages": 6
       }
     },
@@ -281,7 +281,7 @@
           },
           "bing": {
             "ok": 2,
-            "results": 0,
+            "results": 10,
             "errors": []
           },
           "duckduckgo": {
@@ -290,13 +290,13 @@
             "errors": []
           }
         },
-        "pagesFetched": 4,
-        "pageErrors": 2,
-        "irrelevant": 23,
+        "pagesFetched": 6,
+        "pageErrors": 0,
+        "irrelevant": 3,
         "newsResolved": 0,
         "official": 0,
         "results": 25,
-        "pages": 4
+        "pages": 6
       }
     },
     {
@@ -325,7 +325,7 @@
         },
         "pagesFetched": 6,
         "pageErrors": 0,
-        "irrelevant": 22,
+        "irrelevant": 23,
         "newsResolved": 0,
         "official": 0,
         "results": 22,
@@ -339,13 +339,12 @@
       "gallery": "projectmx",
       "searched": [
         "이로하",
-        "페스",
         "이부키",
         "리오",
         "네루",
         "교복"
       ],
-      "posts": 147,
+      "posts": 128,
       "attached": 4,
       "errors": []
     },
@@ -358,28 +357,28 @@
         "크라운",
         "비블로스"
       ],
-      "posts": 116,
-      "attached": 4,
+      "posts": 117,
+      "attached": 2,
       "errors": []
     },
     {
       "game": "arknights",
       "gallery": "mibj",
       "searched": [],
-      "posts": 69,
+      "posts": 68,
       "attached": 0,
       "errors": []
     }
   ],
-  "apiCalls": 11,
+  "apiCalls": 10,
   "modelNotes": [
     "후보 모델: gemini-3.1-flash-lite-preview, gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-flash-latest, gemini-omni-1.1-flash, gemini-omni-1.2-flash, gemini-omni-flash-preview, gemini-3.5-flash-lite, gemini-3.1-flash-lite, gemini-2.5-flash-lite, gemini-flash-lite-latest"
   ],
   "quotaStop": null,
   "stats": {
-    "added": 4,
-    "updated": 29,
-    "unchanged": 20
+    "added": 2,
+    "updated": 25,
+    "unchanged": 23
   },
-  "finishedAt": "2026-11-12T17:41:35.154Z"
+  "finishedAt": "2026-11-13T01:54:04.736Z"
 }
