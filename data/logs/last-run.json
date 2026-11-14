@@ -1,78 +1,12 @@
 {
-  "startedAt": "2026-11-14T01:27:43.409Z",
+  "startedAt": "2026-11-14T15:50:38.057Z",
   "model": "gemini-3.1-flash-lite-preview",
   "runs": [
     {
       "game": "genshin",
       "server": "kr",
-      "found": 4,
-      "accepted": 4,
-      "rejected": [],
-      "search": {
-        "providers": {
-          "googleNews": {
-            "ok": 2,
-            "results": 9,
-            "errors": []
-          },
-          "bing": {
-            "ok": 2,
-            "results": 10,
-            "errors": []
-          },
-          "duckduckgo": {
-            "ok": 2,
-            "results": 19,
-            "errors": []
-          }
-        },
-        "pagesFetched": 5,
-        "pageErrors": 1,
-        "irrelevant": 12,
-        "newsResolved": 6,
-        "official": 0,
-        "results": 25,
-        "pages": 5
-      }
-    },
-    {
-      "game": "starrail",
-      "server": "kr",
-      "found": 8,
-      "accepted": 8,
-      "rejected": [],
-      "search": {
-        "providers": {
-          "googleNews": {
-            "ok": 2,
-            "results": 4,
-            "errors": []
-          },
-          "bing": {
-            "ok": 2,
-            "results": 0,
-            "errors": []
-          },
-          "duckduckgo": {
-            "ok": 2,
-            "results": 18,
-            "errors": []
-          }
-        },
-        "pagesFetched": 5,
-        "pageErrors": 1,
-        "irrelevant": 29,
-        "newsResolved": 4,
-        "official": 0,
-        "results": 21,
-        "pages": 5
-      }
-    },
-    {
-      "game": "zzz",
-      "server": "kr",
-      "found": 7,
-      "accepted": 7,
+      "found": 5,
+      "accepted": 5,
       "rejected": [],
       "search": {
         "providers": {
@@ -83,73 +17,7 @@
           },
           "bing": {
             "ok": 2,
-            "results": 10,
-            "errors": []
-          },
-          "duckduckgo": {
-            "ok": 2,
-            "results": 18,
-            "errors": []
-          }
-        },
-        "pagesFetched": 6,
-        "pageErrors": 0,
-        "irrelevant": 17,
-        "newsResolved": 5,
-        "official": 0,
-        "results": 23,
-        "pages": 6
-      }
-    },
-    {
-      "game": "bluearchive",
-      "server": "kr",
-      "found": 9,
-      "accepted": 9,
-      "rejected": [],
-      "search": {
-        "providers": {
-          "googleNews": {
-            "ok": 3,
-            "results": 22,
-            "errors": []
-          },
-          "bing": {
-            "ok": 3,
-            "results": 24,
-            "errors": []
-          },
-          "duckduckgo": {
-            "ok": 3,
-            "results": 26,
-            "errors": []
-          }
-        },
-        "pagesFetched": 5,
-        "pageErrors": 1,
-        "irrelevant": 12,
-        "newsResolved": 6,
-        "official": 0,
-        "results": 25,
-        "pages": 5
-      }
-    },
-    {
-      "game": "nikke",
-      "server": "kr",
-      "found": 5,
-      "accepted": 5,
-      "rejected": [],
-      "search": {
-        "providers": {
-          "googleNews": {
-            "ok": 2,
-            "results": 20,
-            "errors": []
-          },
-          "bing": {
-            "ok": 2,
-            "results": 9,
+            "results": 0,
             "errors": []
           },
           "duckduckgo": {
@@ -160,18 +28,150 @@
         },
         "pagesFetched": 6,
         "pageErrors": 0,
-        "irrelevant": 11,
-        "newsResolved": 0,
+        "irrelevant": 2,
+        "newsResolved": 6,
+        "official": 0,
+        "results": 21,
+        "pages": 6
+      }
+    },
+    {
+      "game": "starrail",
+      "server": "kr",
+      "found": 4,
+      "accepted": 4,
+      "rejected": [],
+      "search": {
+        "providers": {
+          "googleNews": {
+            "ok": 2,
+            "results": 4,
+            "errors": []
+          },
+          "bing": {
+            "ok": 2,
+            "results": 0,
+            "errors": []
+          },
+          "duckduckgo": {
+            "ok": 2,
+            "results": 19,
+            "errors": []
+          }
+        },
+        "pagesFetched": 5,
+        "pageErrors": 1,
+        "irrelevant": 8,
+        "newsResolved": 4,
+        "official": 0,
+        "results": 22,
+        "pages": 5
+      }
+    },
+    {
+      "game": "zzz",
+      "server": "kr",
+      "found": 6,
+      "accepted": 6,
+      "rejected": [],
+      "search": {
+        "providers": {
+          "googleNews": {
+            "ok": 2,
+            "results": 5,
+            "errors": []
+          },
+          "bing": {
+            "ok": 2,
+            "results": 0,
+            "errors": []
+          },
+          "duckduckgo": {
+            "ok": 2,
+            "results": 18,
+            "errors": []
+          }
+        },
+        "pagesFetched": 6,
+        "pageErrors": 0,
+        "irrelevant": 6,
+        "newsResolved": 4,
+        "official": 0,
+        "results": 16,
+        "pages": 6
+      }
+    },
+    {
+      "game": "bluearchive",
+      "server": "kr",
+      "found": 8,
+      "accepted": 8,
+      "rejected": [],
+      "search": {
+        "providers": {
+          "googleNews": {
+            "ok": 3,
+            "results": 22,
+            "errors": []
+          },
+          "bing": {
+            "ok": 3,
+            "results": 0,
+            "errors": []
+          },
+          "duckduckgo": {
+            "ok": 3,
+            "results": 23,
+            "errors": []
+          }
+        },
+        "pagesFetched": 6,
+        "pageErrors": 0,
+        "irrelevant": 9,
+        "newsResolved": 6,
         "official": 0,
         "results": 25,
         "pages": 6
       }
     },
     {
-      "game": "umamusume",
+      "game": "nikke",
       "server": "kr",
       "found": 4,
       "accepted": 4,
+      "rejected": [],
+      "search": {
+        "providers": {
+          "googleNews": {
+            "ok": 2,
+            "results": 25,
+            "errors": []
+          },
+          "bing": {
+            "ok": 2,
+            "results": 0,
+            "errors": []
+          },
+          "duckduckgo": {
+            "ok": 2,
+            "results": 19,
+            "errors": []
+          }
+        },
+        "pagesFetched": 5,
+        "pageErrors": 1,
+        "irrelevant": 2,
+        "newsResolved": 6,
+        "official": 0,
+        "results": 25,
+        "pages": 5
+      }
+    },
+    {
+      "game": "umamusume",
+      "server": "kr",
+      "found": 3,
+      "accepted": 3,
       "rejected": [],
       "search": {
         "providers": {
@@ -187,120 +187,21 @@
           },
           "duckduckgo": {
             "ok": 3,
-            "results": 27,
-            "errors": []
-          }
-        },
-        "pagesFetched": 3,
-        "pageErrors": 3,
-        "irrelevant": 34,
-        "newsResolved": 0,
-        "official": 0,
-        "results": 25,
-        "pages": 3
-      }
-    },
-    {
-      "game": "arknights",
-      "server": "kr",
-      "found": 7,
-      "accepted": 7,
-      "rejected": [],
-      "search": {
-        "providers": {
-          "googleNews": {
-            "ok": 3,
-            "results": 0,
-            "errors": []
-          },
-          "bing": {
-            "ok": 3,
-            "results": 29,
-            "errors": []
-          },
-          "duckduckgo": {
-            "ok": 3,
-            "results": 29,
-            "errors": []
-          }
-        },
-        "pagesFetched": 6,
-        "pageErrors": 0,
-        "irrelevant": 2,
-        "newsResolved": 0,
-        "official": 15,
-        "results": 25,
-        "pages": 21
-      }
-    },
-    {
-      "game": "endfield",
-      "server": "kr",
-      "found": 1,
-      "accepted": 1,
-      "rejected": [],
-      "search": {
-        "providers": {
-          "googleNews": {
-            "ok": 2,
-            "results": 8,
-            "errors": []
-          },
-          "bing": {
-            "ok": 2,
-            "results": 8,
-            "errors": []
-          },
-          "duckduckgo": {
-            "ok": 2,
-            "results": 19,
+            "results": 25,
             "errors": []
           }
         },
         "pagesFetched": 5,
         "pageErrors": 1,
-        "irrelevant": 4,
-        "newsResolved": 0,
+        "irrelevant": 6,
+        "newsResolved": 4,
         "official": 0,
         "results": 25,
         "pages": 5
       }
     },
     {
-      "game": "wuwa",
-      "server": "kr",
-      "found": 3,
-      "accepted": 3,
-      "rejected": [],
-      "search": {
-        "providers": {
-          "googleNews": {
-            "ok": 2,
-            "results": 9,
-            "errors": []
-          },
-          "bing": {
-            "ok": 2,
-            "results": 10,
-            "errors": []
-          },
-          "duckduckgo": {
-            "ok": 2,
-            "results": 19,
-            "errors": []
-          }
-        },
-        "pagesFetched": 6,
-        "pageErrors": 0,
-        "irrelevant": 13,
-        "newsResolved": 0,
-        "official": 0,
-        "results": 25,
-        "pages": 6
-      }
-    },
-    {
-      "game": "limbus",
+      "game": "arknights",
       "server": "kr",
       "found": 6,
       "accepted": 6,
@@ -325,11 +226,110 @@
         },
         "pagesFetched": 5,
         "pageErrors": 1,
-        "irrelevant": 39,
+        "irrelevant": 1,
+        "newsResolved": 0,
+        "official": 15,
+        "results": 20,
+        "pages": 20
+      }
+    },
+    {
+      "game": "endfield",
+      "server": "kr",
+      "found": 2,
+      "accepted": 2,
+      "rejected": [],
+      "search": {
+        "providers": {
+          "googleNews": {
+            "ok": 2,
+            "results": 8,
+            "errors": []
+          },
+          "bing": {
+            "ok": 2,
+            "results": 0,
+            "errors": []
+          },
+          "duckduckgo": {
+            "ok": 2,
+            "results": 18,
+            "errors": []
+          }
+        },
+        "pagesFetched": 6,
+        "pageErrors": 0,
+        "irrelevant": 3,
+        "newsResolved": 0,
+        "official": 0,
+        "results": 24,
+        "pages": 6
+      }
+    },
+    {
+      "game": "wuwa",
+      "server": "kr",
+      "found": 5,
+      "accepted": 5,
+      "rejected": [],
+      "search": {
+        "providers": {
+          "googleNews": {
+            "ok": 2,
+            "results": 8,
+            "errors": []
+          },
+          "bing": {
+            "ok": 2,
+            "results": 0,
+            "errors": []
+          },
+          "duckduckgo": {
+            "ok": 2,
+            "results": 20,
+            "errors": []
+          }
+        },
+        "pagesFetched": 5,
+        "pageErrors": 1,
+        "irrelevant": 3,
+        "newsResolved": 0,
+        "official": 0,
+        "results": 24,
+        "pages": 5
+      }
+    },
+    {
+      "game": "limbus",
+      "server": "kr",
+      "found": 6,
+      "accepted": 6,
+      "rejected": [],
+      "search": {
+        "providers": {
+          "googleNews": {
+            "ok": 3,
+            "results": 0,
+            "errors": []
+          },
+          "bing": {
+            "ok": 3,
+            "results": 0,
+            "errors": []
+          },
+          "duckduckgo": {
+            "ok": 3,
+            "results": 30,
+            "errors": []
+          }
+        },
+        "pagesFetched": 6,
+        "pageErrors": 0,
+        "irrelevant": 18,
         "newsResolved": 0,
         "official": 0,
         "results": 22,
-        "pages": 5
+        "pages": 6
       }
     }
   ],
@@ -337,9 +337,15 @@
     {
       "game": "bluearchive",
       "gallery": "projectmx",
-      "searched": [],
-      "posts": 51,
-      "attached": 0,
+      "searched": [
+        "이로하",
+        "이부키",
+        "리오",
+        "네루",
+        "교복"
+      ],
+      "posts": 136,
+      "attached": 4,
       "errors": []
     },
     {
@@ -351,15 +357,15 @@
         "크라운",
         "비블로스"
       ],
-      "posts": 112,
-      "attached": 4,
+      "posts": 118,
+      "attached": 2,
       "errors": []
     },
     {
       "game": "arknights",
       "gallery": "mibj",
       "searched": [],
-      "posts": 68,
+      "posts": 67,
       "attached": 0,
       "errors": []
     }
@@ -370,9 +376,9 @@
   ],
   "quotaStop": null,
   "stats": {
-    "added": 3,
-    "updated": 33,
+    "added": 1,
+    "updated": 30,
     "unchanged": 18
   },
-  "finishedAt": "2026-11-14T01:30:56.370Z"
+  "finishedAt": "2026-11-14T15:54:37.310Z"
 }
