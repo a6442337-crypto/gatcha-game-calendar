@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T16:27:33.616Z",
+  "updatedAt": "2026-11-16T01:06:50.909Z",
   "events": [
     {
       "id": "0ce40d1a53e3",
@@ -1929,7 +1929,7 @@
       "server": "kr",
       "type": "banner",
       "title": "탕탕 재구축 헤드헌팅 - 선조의 샘의 새로운 물결",
-      "description": "재구축 헤드헌팅을 통해 6성 오퍼레이터 탕탕의 획득 확률이 증가합니다.",
+      "description": "재구축 헤드헌팅#1을 통해 6성 오퍼레이터 탕탕의 획득 확률이 증가합니다.",
       "start": "2026-10-29T04:00:00.000Z",
       "end": "2026-11-19T03:59:00.000Z",
       "allDay": false,
@@ -1968,8 +1968,8 @@
         }
       ],
       "firstSeen": "2026-11-01T00:09:03.774Z",
-      "lastSeen": "2026-11-15T16:23:58.252Z",
-      "seenCount": 34,
+      "lastSeen": "2026-11-16T01:03:33.361Z",
+      "seenCount": 35,
       "history": [
         {
           "at": "2026-11-01T00:09:03.774Z",
@@ -2005,7 +2005,7 @@
       "server": "kr",
       "type": "banner",
       "title": "4주년 신규 필그림 '마리안' 픽업 모집",
-      "description": "4주년 기념 신규 필그림 니케 마리안 : 퀸의 특수 모집이 진행됩니다.",
+      "description": "4주년 기념 신규 필그림 니케 마리안 : 퀸의 픽업 모집입니다.",
       "start": "2026-10-29T09:00:00.000Z",
       "end": "2026-11-18T19:59:00.000Z",
       "allDay": false,
@@ -2048,8 +2048,8 @@
         }
       ],
       "firstSeen": "2026-10-31T14:28:00.518Z",
-      "lastSeen": "2026-11-15T16:23:58.252Z",
-      "seenCount": 28,
+      "lastSeen": "2026-11-16T01:03:33.361Z",
+      "seenCount": 29,
       "history": [
         {
           "at": "2026-11-01T00:09:03.774Z",
@@ -2080,7 +2080,7 @@
       "server": "kr",
       "type": "banner",
       "title": "라푼젤 : 생츄어리 픽업",
-      "description": "4주년 기념 무료 배포 니케 라푼젤 : 생츄어리의 특수 모집이 진행됩니다.",
+      "description": "4주년 기념 신규 니케 라푼젤 : 생츄어리의 픽업 모집입니다.",
       "start": "2026-10-29T09:00:00.000Z",
       "end": "2026-11-18T19:59:00.000Z",
       "allDay": false,
@@ -2100,8 +2100,8 @@
         }
       ],
       "firstSeen": "2026-11-10T17:04:46.203Z",
-      "lastSeen": "2026-11-15T16:23:58.252Z",
-      "seenCount": 7,
+      "lastSeen": "2026-11-16T01:03:33.361Z",
+      "seenCount": 8,
       "history": []
     },
     {
@@ -2344,8 +2344,8 @@
         }
       ],
       "firstSeen": "2026-11-03T00:55:35.183Z",
-      "lastSeen": "2026-11-15T16:23:58.252Z",
-      "seenCount": 35,
+      "lastSeen": "2026-11-16T01:03:33.361Z",
+      "seenCount": 36,
       "history": []
     },
     {
@@ -2638,66 +2638,6 @@
       "rerun": false
     },
     {
-      "id": "405218ed123a",
-      "game": "genshin",
-      "server": "kr",
-      "type": "banner",
-      "title": "미탸·푸리나 기원 (7.2 제1기)",
-      "description": "7.2 버전 전반기 푸리나 복각 픽업",
-      "start": "2026-11-04T03:00:00.000Z",
-      "end": "2026-11-24T10:00:00.000Z",
-      "allDay": false,
-      "confidence": 0.95,
-      "status": "confirmed",
-      "basis": "official",
-      "major": false,
-      "rerun": true,
-      "sources": [
-        {
-          "title": "원신에서 7.2 패치 1부의 기도 및 이벤트를 발표했습니다.",
-          "url": "https://wotpack.ru/ko/v-genshin-impact-obyavili-molitvy-i-sobytiya-1-y-fazy-versii-7-2/"
-        },
-        {
-          "title": "원신 픽업 일정 · 이벤트 기원 이력 | BannerHistory",
-          "url": "https://bannerhistory.app/ko/genshin-pickup-history"
-        },
-        {
-          "title": "원신 7.2 종말의 서막, 11월 4일 업데이트 | 웹진 인벤",
-          "url": "https://www.inven.co.kr/webzine/news/?news=322566&site=indie"
-        },
-        {
-          "title": "원신 7.2 업데이트 총정리: 미티아·발레리 신캐릭터부터 신규 맵, 프리미나 복각까지",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOR2U2RVE4VDhYbGJzbG9vekZIVUdVNVBydzI4dTdQdXNUN05qa0NpZFV1TFhOM0hRWUItNTRfbEc3bnJyM3ZPeHhkdDBXOGxCNTNPWF8xd1pLWmFPZzZWMmJhdV9HTkNQWER2aGhwcWh5MFZFWFBLVDhBcnlEek84VlA0aDRLb0NRWlpiV2FtRXVuVTUtSWJJZE9pRVZsTVFxX2FwcEVXaXNoVnFFYmFmenhFc3JvOTduYjM2RGRxX04xZU1PaGRydUdoRnNKdDYyek9B?oc=5"
-        },
-        {
-          "title": "디시인사이드 언급 1건(작성자 1명)",
-          "url": "https://gall.dcinside.com/mgallery/board/lists/?id=onshinproject&s_type=search_subject_memo&s_keyword=%EC%9C%A0%EC%B6%9C"
-        },
-        {
-          "title": "Reddit 언급 8건(작성자 6명)",
-          "url": "https://www.reddit.com/r/Genshin_Impact_Leaks/"
-        },
-        {
-          "title": "[원신] 2026년 픽업 미리보기: 7.2~7.8 버전 라인업 총정리!",
-          "url": "https://www.gamsgo.com/ko/blog/%EC%9B%90%EC%8B%A0-%EC%BA%90%EB%A6%AD%ED%84%B0"
-        },
-        {
-          "title": "원신 7.2 픽업 미탸·푸리나 복각, 11월 4일 업데이트 일정",
-          "url": "https://blog.naver.com/mola__mola/224458295687"
-        }
-      ],
-      "firstSeen": "2026-10-31T13:31:58.842Z",
-      "lastSeen": "2026-11-15T16:23:58.252Z",
-      "seenCount": 60,
-      "history": [
-        {
-          "at": "2026-11-03T01:17:00.695Z",
-          "start": "2026-11-03T16:00:00.000Z",
-          "end": "2026-11-24T16:00:00.000Z"
-        }
-      ]
-    },
-    {
       "id": "c0ee28d02e14",
       "game": "genshin",
       "server": "kr",
@@ -2850,6 +2790,71 @@
       "history": []
     },
     {
+      "id": "405218ed123a",
+      "game": "genshin",
+      "server": "kr",
+      "type": "banner",
+      "title": "미탸·푸리나 기원 (7.2 제1기)",
+      "description": "7.2 버전 전반부 푸리나 복각 픽업",
+      "start": "2026-11-04T04:00:00.000Z",
+      "end": "2026-11-24T11:00:00.000Z",
+      "allDay": false,
+      "confidence": 0.95,
+      "status": "confirmed",
+      "basis": "official",
+      "major": false,
+      "rerun": true,
+      "sources": [
+        {
+          "title": "원신에서 7.2 패치 1부의 기도 및 이벤트를 발표했습니다.",
+          "url": "https://wotpack.ru/ko/v-genshin-impact-obyavili-molitvy-i-sobytiya-1-y-fazy-versii-7-2/"
+        },
+        {
+          "title": "원신 픽업 일정 · 이벤트 기원 이력 | BannerHistory",
+          "url": "https://bannerhistory.app/ko/genshin-pickup-history"
+        },
+        {
+          "title": "원신 7.2 종말의 서막, 11월 4일 업데이트 | 웹진 인벤",
+          "url": "https://www.inven.co.kr/webzine/news/?news=322566&site=indie"
+        },
+        {
+          "title": "원신 7.2 업데이트 총정리: 미티아·발레리 신캐릭터부터 신규 맵, 프리미나 복각까지",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOR2U2RVE4VDhYbGJzbG9vekZIVUdVNVBydzI4dTdQdXNUN05qa0NpZFV1TFhOM0hRWUItNTRfbEc3bnJyM3ZPeHhkdDBXOGxCNTNPWF8xd1pLWmFPZzZWMmJhdV9HTkNQWER2aGhwcWh5MFZFWFBLVDhBcnlEek84VlA0aDRLb0NRWlpiV2FtRXVuVTUtSWJJZE9pRVZsTVFxX2FwcEVXaXNoVnFFYmFmenhFc3JvOTduYjM2RGRxX04xZU1PaGRydUdoRnNKdDYyek9B?oc=5"
+        },
+        {
+          "title": "디시인사이드 언급 1건(작성자 1명)",
+          "url": "https://gall.dcinside.com/mgallery/board/lists/?id=onshinproject&s_type=search_subject_memo&s_keyword=%EC%9C%A0%EC%B6%9C"
+        },
+        {
+          "title": "Reddit 언급 8건(작성자 6명)",
+          "url": "https://www.reddit.com/r/Genshin_Impact_Leaks/"
+        },
+        {
+          "title": "[원신] 2026년 픽업 미리보기: 7.2~7.8 버전 라인업 총정리!",
+          "url": "https://www.gamsgo.com/ko/blog/%EC%9B%90%EC%8B%A0-%EC%BA%90%EB%A6%AD%ED%84%B0"
+        },
+        {
+          "title": "원신 7.2 픽업 미탸·푸리나 복각, 11월 4일 업데이트 일정",
+          "url": "https://blog.naver.com/mola__mola/224458295687"
+        }
+      ],
+      "firstSeen": "2026-10-31T13:31:58.842Z",
+      "lastSeen": "2026-11-16T01:03:33.361Z",
+      "seenCount": 62,
+      "history": [
+        {
+          "at": "2026-11-03T01:17:00.695Z",
+          "start": "2026-11-03T16:00:00.000Z",
+          "end": "2026-11-24T16:00:00.000Z"
+        },
+        {
+          "at": "2026-11-16T01:03:33.361Z",
+          "start": "2026-11-04T03:00:00.000Z",
+          "end": "2026-11-24T10:00:00.000Z"
+        }
+      ]
+    },
+    {
       "id": "469343b7d9c5",
       "game": "arknights",
       "server": "kr",
@@ -2923,8 +2928,8 @@
         }
       ],
       "firstSeen": "2026-11-05T17:26:32.911Z",
-      "lastSeen": "2026-11-12T17:36:56.499Z",
-      "seenCount": 8,
+      "lastSeen": "2026-11-16T01:03:33.361Z",
+      "seenCount": 9,
       "history": []
     },
     {
@@ -2985,7 +2990,7 @@
       "server": "kr",
       "type": "banner",
       "title": "홍련 : 신살 픽업",
-      "description": "4주년 기념 신규 필그림 니케 홍련 : 신살의 특수 모집이 진행됩니다.",
+      "description": "4주년 기념 신규 필그림 니케 홍련 : 신살의 픽업 모집입니다.",
       "start": "2026-11-04T20:00:00.000Z",
       "end": "2026-11-25T19:59:00.000Z",
       "allDay": false,
@@ -3028,8 +3033,8 @@
         }
       ],
       "firstSeen": "2026-10-31T14:28:00.518Z",
-      "lastSeen": "2026-11-15T16:23:58.252Z",
-      "seenCount": 21,
+      "lastSeen": "2026-11-16T01:03:33.361Z",
+      "seenCount": 22,
       "history": [
         {
           "at": "2026-11-01T00:09:03.774Z",
@@ -3281,8 +3286,8 @@
         }
       ],
       "firstSeen": "2026-11-05T17:26:32.911Z",
-      "lastSeen": "2026-11-15T16:23:58.252Z",
-      "seenCount": 16,
+      "lastSeen": "2026-11-16T01:03:33.361Z",
+      "seenCount": 17,
       "history": []
     },
     {
@@ -3351,7 +3356,7 @@
       "server": "kr",
       "type": "event",
       "title": "출항! 만마선 ~마코토 의장님의 화려한 피서~ 이벤트",
-      "description": "신규 이벤트 스토리 '출항! 만마선 ~마코토 의장님의 화려한 피서~'가 진행됩니다.",
+      "description": "신규 이벤트 스토리 및 200회 무료 모집 이벤트가 진행됩니다.",
       "start": "2026-11-09T15:00:00.000Z",
       "end": "2026-11-24T15:00:00.000Z",
       "allDay": true,
@@ -3370,8 +3375,8 @@
         }
       ],
       "firstSeen": "2026-10-31T14:28:00.518Z",
-      "lastSeen": "2026-11-15T16:23:58.252Z",
-      "seenCount": 24,
+      "lastSeen": "2026-11-16T01:03:33.361Z",
+      "seenCount": 25,
       "history": [],
       "rerun": false
     },
@@ -3461,8 +3466,8 @@
         }
       ],
       "firstSeen": "2026-11-11T01:15:10.567Z",
-      "lastSeen": "2026-11-15T16:23:58.252Z",
-      "seenCount": 12,
+      "lastSeen": "2026-11-16T01:03:33.361Z",
+      "seenCount": 14,
       "history": [
         {
           "at": "2026-11-11T17:10:45.431Z",
@@ -3477,7 +3482,7 @@
       "server": "kr",
       "type": "banner",
       "title": "마코토(수영복) 픽업 모집",
-      "description": "신규 한정 캐릭터 마코토(수영복) 픽업 모집입니다.",
+      "description": "마코토(수영복) 신규 한정 픽업 모집입니다.",
       "start": "2026-11-10T02:00:00.000Z",
       "end": "2026-11-17T01:59:00.000Z",
       "allDay": false,
@@ -3505,8 +3510,8 @@
         }
       ],
       "firstSeen": "2026-11-08T00:37:42.099Z",
-      "lastSeen": "2026-11-15T16:23:58.252Z",
-      "seenCount": 11,
+      "lastSeen": "2026-11-16T01:03:33.361Z",
+      "seenCount": 12,
       "history": [
         {
           "at": "2026-11-09T19:51:11.090Z",
@@ -3526,7 +3531,7 @@
       "server": "kr",
       "type": "banner",
       "title": "사츠키(수영복) 픽업 모집",
-      "description": "신규 한정 캐릭터 사츠키(수영복) 픽업 모집입니다.",
+      "description": "사츠키(수영복) 신규 한정 픽업 모집입니다.",
       "start": "2026-11-10T02:00:00.000Z",
       "end": "2026-11-17T01:59:00.000Z",
       "allDay": false,
@@ -3554,8 +3559,8 @@
         }
       ],
       "firstSeen": "2026-11-08T00:37:42.099Z",
-      "lastSeen": "2026-11-15T16:23:58.252Z",
-      "seenCount": 11,
+      "lastSeen": "2026-11-16T01:03:33.361Z",
+      "seenCount": 12,
       "history": [
         {
           "at": "2026-11-09T19:51:11.090Z",
@@ -3631,7 +3636,7 @@
       "server": "kr",
       "type": "update",
       "title": "붕괴: 스타레일 4.7 버전 업데이트",
-      "description": "4.7 버전 '지금, 뭇별을 웃음으로' 업데이트가 2026년 11월 11일에 정식 출시되었습니다.",
+      "description": "4.7 버전 '지금, 뭇별을 웃음으로' 업데이트가 2026년 11월 11일에 진행되었습니다.",
       "start": "2026-11-10T16:00:00.000Z",
       "end": null,
       "allDay": true,
@@ -3670,8 +3675,8 @@
         }
       ],
       "firstSeen": "2026-11-02T19:30:53.445Z",
-      "lastSeen": "2026-11-15T16:23:58.252Z",
-      "seenCount": 21,
+      "lastSeen": "2026-11-16T01:03:33.361Z",
+      "seenCount": 22,
       "history": [
         {
           "at": "2026-11-13T01:50:14.100Z",
@@ -3728,7 +3733,7 @@
       "server": "kr",
       "type": "banner",
       "title": "4.7 버전 아하·은랑·스파키·효광·아케론·단항•음월·경원 픽업",
-      "description": "효광의 복각 픽업이 진행됩니다.",
+      "description": "은랑, 스파키, 효광의 복각 픽업이 진행됩니다.",
       "start": "2026-11-11T03:00:00.000Z",
       "end": "2026-12-02T03:59:00.000Z",
       "allDay": false,
@@ -3759,8 +3764,8 @@
         }
       ],
       "firstSeen": "2026-10-31T14:28:00.518Z",
-      "lastSeen": "2026-11-15T16:23:58.252Z",
-      "seenCount": 51,
+      "lastSeen": "2026-11-16T01:03:33.361Z",
+      "seenCount": 52,
       "history": [
         {
           "at": "2026-11-03T02:55:38.900Z",
@@ -3805,8 +3810,8 @@
       "game": "starrail",
       "server": "kr",
       "type": "banner",
-      "title": "에이언즈★아하 픽업 (뭇별을 향한 희롱)",
-      "description": "신규 5성 캐릭터 에이언즈★아하의 픽업이 진행됩니다.",
+      "title": "아하 픽업 (뭇별을 향한 희롱)",
+      "description": "신규 5성 캐릭터 아하의 픽업이 진행됩니다.",
       "start": "2026-11-11T03:00:00.000Z",
       "end": "2026-12-22T07:00:00.000Z",
       "allDay": false,
@@ -3834,8 +3839,8 @@
         }
       ],
       "firstSeen": "2026-11-03T02:55:38.900Z",
-      "lastSeen": "2026-11-15T16:23:58.252Z",
-      "seenCount": 20,
+      "lastSeen": "2026-11-16T01:03:33.361Z",
+      "seenCount": 21,
       "history": []
     },
     {
@@ -3905,8 +3910,8 @@
         }
       ],
       "firstSeen": "2026-10-31T14:28:00.518Z",
-      "lastSeen": "2026-11-15T16:23:58.252Z",
-      "seenCount": 60,
+      "lastSeen": "2026-11-16T01:03:33.361Z",
+      "seenCount": 61,
       "history": [],
       "rerun": false
     },
@@ -3940,8 +3945,8 @@
         }
       ],
       "firstSeen": "2026-11-03T01:46:11.174Z",
-      "lastSeen": "2026-11-15T16:23:58.252Z",
-      "seenCount": 5,
+      "lastSeen": "2026-11-16T01:03:33.361Z",
+      "seenCount": 6,
       "history": [
         {
           "at": "2026-11-03T02:55:38.900Z",
@@ -3981,12 +3986,12 @@
       "game": "nikke",
       "server": "kr",
       "type": "event",
-      "title": "AGF 2026 니케 승리의 날개호 코스플레이어 모집",
-      "description": "AGF 2026 행사장에서 활동할 공식 코스플레이어를 모집하는 이벤트입니다.",
+      "title": "AGF 2026 니케 코스플레이어 모집",
+      "description": "AGF 2026 행사장에서 활동할 니케 공식 코스플레이어를 모집합니다.",
       "start": "2026-11-11T15:00:00.000Z",
       "end": "2026-11-22T15:00:00.000Z",
       "allDay": true,
-      "confidence": 0.9,
+      "confidence": 0.95,
       "status": "confirmed",
       "basis": "official",
       "major": false,
@@ -3998,34 +4003,8 @@
         }
       ],
       "firstSeen": "2026-11-12T17:36:56.499Z",
-      "lastSeen": "2026-11-12T17:36:56.499Z",
-      "seenCount": 1,
-      "history": []
-    },
-    {
-      "id": "d3c45ba7b001",
-      "game": "nikke",
-      "server": "kr",
-      "type": "other",
-      "title": "AGF 2026 니케 코스플레이어 모집",
-      "description": "AGF 2026 행사 공식 코스플레이어 모집 이벤트.",
-      "start": "2026-11-11T15:00:00.000Z",
-      "end": "2026-11-22T15:00:00.000Z",
-      "allDay": true,
-      "confidence": 0.9,
-      "status": "confirmed",
-      "basis": "official",
-      "major": false,
-      "rerun": false,
-      "sources": [
-        {
-          "title": "승리의 여신: 니케 - 4주년 기념 신규 업데이트 on X: \" <승리의 ...",
-          "url": "https://x.com/NIKKE_kr/status/2120796700596158560"
-        }
-      ],
-      "firstSeen": "2026-11-13T17:14:24.190Z",
-      "lastSeen": "2026-11-13T17:14:24.190Z",
-      "seenCount": 1,
+      "lastSeen": "2026-11-16T01:03:33.361Z",
+      "seenCount": 3,
       "history": []
     },
     {
@@ -4050,8 +4029,8 @@
         }
       ],
       "firstSeen": "2026-11-12T17:36:56.499Z",
-      "lastSeen": "2026-11-15T16:23:58.252Z",
-      "seenCount": 7,
+      "lastSeen": "2026-11-16T01:03:33.361Z",
+      "seenCount": 8,
       "history": []
     },
     {
@@ -4160,8 +4139,8 @@
         }
       ],
       "firstSeen": "2026-11-07T15:41:18.208Z",
-      "lastSeen": "2026-11-15T16:23:58.252Z",
-      "seenCount": 29,
+      "lastSeen": "2026-11-16T01:03:33.361Z",
+      "seenCount": 32,
       "history": [
         {
           "at": "2026-11-10T17:04:46.203Z",
@@ -4220,8 +4199,8 @@
         }
       ],
       "firstSeen": "2026-11-10T17:04:46.203Z",
-      "lastSeen": "2026-11-15T16:23:58.252Z",
-      "seenCount": 11,
+      "lastSeen": "2026-11-16T01:03:33.361Z",
+      "seenCount": 12,
       "history": [
         {
           "at": "2026-11-11T17:10:45.431Z",
@@ -4291,8 +4270,8 @@
         }
       ],
       "firstSeen": "2026-11-10T17:04:46.203Z",
-      "lastSeen": "2026-11-15T16:23:58.252Z",
-      "seenCount": 22,
+      "lastSeen": "2026-11-16T01:03:33.361Z",
+      "seenCount": 24,
       "history": []
     },
     {
@@ -4317,8 +4296,8 @@
         }
       ],
       "firstSeen": "2026-11-10T17:04:46.203Z",
-      "lastSeen": "2026-11-15T16:23:58.252Z",
-      "seenCount": 9,
+      "lastSeen": "2026-11-16T01:03:33.361Z",
+      "seenCount": 10,
       "history": []
     },
     {
@@ -4327,7 +4306,7 @@
       "server": "kr",
       "type": "banner",
       "title": "발푸르기스의 밤 추출 아나운서 호크마 픽업",
-      "description": "과거 진행되었던 제5회 및 제6회 발푸르기스의 밤 한정 인격 및 E.G.O의 복각 추출이 진행됩니다.",
+      "description": "과거 발푸르기스의 밤 인격 및 E.G.O 복각 추출이 진행됩니다.",
       "start": "2026-11-12T03:00:00.000Z",
       "end": "2026-11-26T01:00:00.000Z",
       "allDay": false,
@@ -4342,8 +4321,8 @@
         }
       ],
       "firstSeen": "2026-11-01T00:09:03.774Z",
-      "lastSeen": "2026-11-15T16:23:58.252Z",
-      "seenCount": 60,
+      "lastSeen": "2026-11-16T01:03:33.361Z",
+      "seenCount": 62,
       "history": [
         {
           "at": "2026-11-14T01:27:43.409Z",
@@ -4359,7 +4338,7 @@
       "server": "kr",
       "type": "banner",
       "title": "눈물로 벼려낸 검 홍루 픽업",
-      "description": "신규 인격 '눈물로 벼려낸 검 홍루'의 픽업 추출이 진행됩니다.",
+      "description": "신규 인격 '눈물로 벼려낸 검 홍루' 픽업이 진행됩니다.",
       "start": "2026-11-12T03:00:00.000Z",
       "end": "2026-11-26T01:00:00.000Z",
       "allDay": false,
@@ -4375,8 +4354,8 @@
         }
       ],
       "firstSeen": "2026-11-10T17:04:46.203Z",
-      "lastSeen": "2026-11-15T16:23:58.252Z",
-      "seenCount": 11,
+      "lastSeen": "2026-11-16T01:03:33.361Z",
+      "seenCount": 12,
       "history": []
     },
     {
@@ -4505,8 +4484,8 @@
         }
       ],
       "firstSeen": "2026-11-15T01:04:27.768Z",
-      "lastSeen": "2026-11-15T16:23:58.252Z",
-      "seenCount": 2,
+      "lastSeen": "2026-11-16T01:03:33.361Z",
+      "seenCount": 3,
       "history": []
     },
     {
@@ -4515,7 +4494,7 @@
       "server": "kr",
       "type": "banner",
       "title": "신규 육성 우마무스메 '라인 크라프트' 픽업",
-      "description": "신규 육성 우마무스메 라인 크라프트가 픽업 대상입니다.",
+      "description": "신규 육성 우마무스메 라인 크라프트 픽업이 진행 중입니다.",
       "start": "2026-11-15T15:00:00.000Z",
       "end": null,
       "allDay": true,
@@ -4551,8 +4530,8 @@
         "at": "2026-11-11T01:15:10.567Z"
       },
       "firstSeen": "2026-11-10T17:04:46.203Z",
-      "lastSeen": "2026-11-15T16:23:58.252Z",
-      "seenCount": 5,
+      "lastSeen": "2026-11-16T01:03:33.361Z",
+      "seenCount": 6,
       "history": [
         {
           "at": "2026-11-11T01:15:10.567Z",
@@ -4657,8 +4636,8 @@
         }
       ],
       "firstSeen": "2026-11-12T17:36:56.499Z",
-      "lastSeen": "2026-11-15T16:23:58.252Z",
-      "seenCount": 8,
+      "lastSeen": "2026-11-16T01:03:33.361Z",
+      "seenCount": 9,
       "history": [
         {
           "at": "2026-11-13T17:14:24.190Z",
@@ -4681,6 +4660,32 @@
           "end": "2026-11-30T15:00:00.000Z"
         }
       ]
+    },
+    {
+      "id": "80114ec9bd82",
+      "game": "arknights",
+      "server": "kr",
+      "type": "event",
+      "title": "포영을 뚫는 창뢰",
+      "description": "신규 사이드 스토리 이벤트로 신규 오퍼레이터 레코드, 모듈, 한국어 더빙 등이 추가됩니다.",
+      "start": "2026-11-16T07:00:00.000Z",
+      "end": "2026-11-29T18:59:00.000Z",
+      "allDay": false,
+      "confidence": 0.95,
+      "status": "confirmed",
+      "basis": "official",
+      "major": false,
+      "rerun": false,
+      "sources": [
+        {
+          "title": "[공식 공지] 11/16 (월) 16:00~16:10 리소스 업데이트 안내",
+          "url": "https://cafe.naver.com/arknightskor/1250216"
+        }
+      ],
+      "firstSeen": "2026-11-16T01:03:33.361Z",
+      "lastSeen": "2026-11-16T01:03:33.361Z",
+      "seenCount": 1,
+      "history": []
     },
     {
       "id": "8e2700da00ca",
@@ -4744,8 +4749,8 @@
         }
       ],
       "firstSeen": "2026-10-31T14:28:00.518Z",
-      "lastSeen": "2026-11-15T16:23:58.252Z",
-      "seenCount": 32,
+      "lastSeen": "2026-11-16T01:03:33.361Z",
+      "seenCount": 34,
       "history": [
         {
           "at": "2026-11-10T17:04:46.203Z",
@@ -4754,8 +4759,8 @@
         }
       ],
       "community": {
-        "posts": 6,
-        "authors": 5,
+        "posts": 15,
+        "authors": 12,
         "recommended": 0,
         "reliable": 0,
         "sites": [
@@ -4763,11 +4768,11 @@
         ],
         "by": {
           "dcinside": {
-            "posts": 6,
-            "authors": 5
+            "posts": 15,
+            "authors": 12
           }
         },
-        "at": "2026-11-15T16:23:58.252Z"
+        "at": "2026-11-16T01:03:33.361Z"
       },
       "rerun": false
     },
@@ -4797,12 +4802,12 @@
         }
       ],
       "firstSeen": "2026-11-10T17:04:46.203Z",
-      "lastSeen": "2026-11-15T16:23:58.252Z",
-      "seenCount": 10,
+      "lastSeen": "2026-11-16T01:03:33.361Z",
+      "seenCount": 11,
       "history": [],
       "community": {
-        "posts": 5,
-        "authors": 5,
+        "posts": 7,
+        "authors": 6,
         "recommended": 0,
         "reliable": 0,
         "sites": [
@@ -4810,11 +4815,11 @@
         ],
         "by": {
           "dcinside": {
-            "posts": 5,
-            "authors": 5
+            "posts": 7,
+            "authors": 6
           }
         },
-        "at": "2026-11-15T16:23:58.252Z"
+        "at": "2026-11-16T01:03:33.361Z"
       }
     },
     {
@@ -4843,24 +4848,24 @@
         }
       ],
       "firstSeen": "2026-11-10T17:04:46.203Z",
-      "lastSeen": "2026-11-15T16:23:58.252Z",
-      "seenCount": 10,
+      "lastSeen": "2026-11-16T01:03:33.361Z",
+      "seenCount": 11,
       "history": [],
       "community": {
-        "posts": 7,
-        "authors": 7,
-        "recommended": 2,
+        "posts": 5,
+        "authors": 5,
+        "recommended": 0,
         "reliable": 0,
         "sites": [
           "dcinside"
         ],
         "by": {
           "dcinside": {
-            "posts": 7,
-            "authors": 7
+            "posts": 5,
+            "authors": 5
           }
         },
-        "at": "2026-11-15T16:23:58.252Z"
+        "at": "2026-11-16T01:03:33.361Z"
       }
     },
     {
@@ -4869,7 +4874,7 @@
       "server": "kr",
       "type": "event",
       "title": "메이플스토리 콜라보 이벤트",
-      "description": "메이플스토리와 블루 아카이브 콜라보 이벤트 진행",
+      "description": "메이플스토리와의 콜라보 이벤트가 진행됩니다.",
       "start": "2026-11-18T15:00:00.000Z",
       "end": "2026-12-16T15:00:00.000Z",
       "allDay": true,
@@ -4889,8 +4894,8 @@
         }
       ],
       "firstSeen": "2026-11-13T01:50:14.100Z",
-      "lastSeen": "2026-11-15T01:04:27.768Z",
-      "seenCount": 3,
+      "lastSeen": "2026-11-16T01:03:33.361Z",
+      "seenCount": 4,
       "history": []
     },
     {
@@ -4915,8 +4920,8 @@
         }
       ],
       "community": {
-        "posts": 13,
-        "authors": 12,
+        "posts": 8,
+        "authors": 8,
         "recommended": 0,
         "reliable": 0,
         "sites": [
@@ -4924,11 +4929,11 @@
         ],
         "by": {
           "dcinside": {
-            "posts": 13,
-            "authors": 12
+            "posts": 8,
+            "authors": 8
           }
         },
-        "at": "2026-11-15T16:23:58.252Z"
+        "at": "2026-11-16T01:03:33.361Z"
       },
       "firstSeen": "2026-11-10T17:04:46.203Z",
       "lastSeen": "2026-11-15T01:04:27.768Z",
@@ -4970,7 +4975,7 @@
       "server": "kr",
       "type": "event",
       "title": "숨겨진 구역의 여행자 - 그림 너머에 남은 빛 (2차 개방)",
-      "description": "숨겨진 구역의 여행자 이벤트의 나머지 프로토콜 공간 3개가 추가로 개방됩니다.",
+      "description": "숨겨진 구역의 여행자 이벤트 내 나머지 프로토콜 공간 3개가 추가로 개방됩니다.",
       "start": "2026-11-18T20:00:00.000Z",
       "end": null,
       "allDay": false,
@@ -4986,8 +4991,8 @@
         }
       ],
       "firstSeen": "2026-11-15T16:23:58.252Z",
-      "lastSeen": "2026-11-15T16:23:58.252Z",
-      "seenCount": 1,
+      "lastSeen": "2026-11-16T01:03:33.361Z",
+      "seenCount": 2,
       "history": []
     },
     {
@@ -5027,8 +5032,8 @@
         }
       ],
       "firstSeen": "2026-10-31T14:28:00.518Z",
-      "lastSeen": "2026-11-15T16:23:58.252Z",
-      "seenCount": 24,
+      "lastSeen": "2026-11-16T01:03:33.361Z",
+      "seenCount": 25,
       "history": [
         {
           "at": "2026-11-12T17:36:56.499Z",
@@ -5090,8 +5095,8 @@
         }
       ],
       "firstSeen": "2026-11-14T01:27:43.409Z",
-      "lastSeen": "2026-11-15T16:23:58.252Z",
-      "seenCount": 2,
+      "lastSeen": "2026-11-16T01:03:33.361Z",
+      "seenCount": 3,
       "history": [
         {
           "at": "2026-11-15T16:23:58.252Z",
@@ -5183,46 +5188,6 @@
       "history": []
     },
     {
-      "id": "3160e7ae9a5d",
-      "game": "genshin",
-      "server": "kr",
-      "type": "banner",
-      "title": "자백·린네아 기원",
-      "description": "7.2 버전 후반기 신규 캐릭터 린네아 픽업",
-      "start": "2026-11-24T10:00:00.000Z",
-      "end": "2026-12-15T07:00:00.000Z",
-      "allDay": false,
-      "confidence": 0.95,
-      "status": "confirmed",
-      "sources": [
-        {
-          "title": "원신 픽업 일정 · 이벤트 기원 이력 | BannerHistory",
-          "url": "https://bannerhistory.app/ko/genshin-pickup-history"
-        },
-        {
-          "title": "원신 7.2 종말의 서막, 11월 4일 업데이트 | 웹진 인벤",
-          "url": "https://www.inven.co.kr/webzine/news/?news=322566&site=indie"
-        },
-        {
-          "title": "원신 7.2 픽업 미탸·푸리나 복각, 11월 4일 업데이트 일정",
-          "url": "https://blog.naver.com/mola__mola/224458295687"
-        }
-      ],
-      "firstSeen": "2026-10-31T13:31:58.842Z",
-      "lastSeen": "2026-11-15T16:23:58.252Z",
-      "seenCount": 52,
-      "history": [
-        {
-          "at": "2026-10-31T14:28:00.518Z",
-          "start": "2026-11-24T11:00:00.000Z",
-          "end": "2026-12-15T08:00:00.000Z"
-        }
-      ],
-      "basis": "official",
-      "major": false,
-      "rerun": false
-    },
-    {
       "id": "219b449d20a4",
       "game": "genshin",
       "server": "kr",
@@ -5246,36 +5211,6 @@
       "firstSeen": "2026-11-04T17:16:53.474Z",
       "lastSeen": "2026-11-10T17:04:46.203Z",
       "seenCount": 4,
-      "history": []
-    },
-    {
-      "id": "65269ed0f4c5",
-      "game": "genshin",
-      "server": "kr",
-      "type": "banner",
-      "title": "7.2 버전 묶음 기원",
-      "description": "바레사, 차스카, 실로닌, 말라니, 키니치 포함 묶음 기원",
-      "start": "2026-11-24T10:00:00.000Z",
-      "end": "2026-12-15T07:00:00.000Z",
-      "allDay": false,
-      "confidence": 0.95,
-      "status": "confirmed",
-      "basis": "official",
-      "major": false,
-      "rerun": true,
-      "sources": [
-        {
-          "title": "원신 픽업 일정 · 이벤트 기원 이력 | BannerHistory",
-          "url": "https://bannerhistory.app/ko/genshin-pickup-history"
-        },
-        {
-          "title": "원신 픽업 공식 · 6주 수요일 주기와 역대 부합도 통계",
-          "url": "https://bannerhistory.app/ko/genshin-pickup-formula"
-        }
-      ],
-      "firstSeen": "2026-11-05T01:28:06.296Z",
-      "lastSeen": "2026-11-15T16:23:58.252Z",
-      "seenCount": 13,
       "history": []
     },
     {
@@ -5363,6 +5298,87 @@
       "lastSeen": "2026-11-10T17:04:46.203Z",
       "seenCount": 3,
       "history": []
+    },
+    {
+      "id": "3160e7ae9a5d",
+      "game": "genshin",
+      "server": "kr",
+      "type": "banner",
+      "title": "자백·린네아 기원",
+      "description": "7.2 버전 후반부 신규 캐릭터 린네아 픽업",
+      "start": "2026-11-24T11:00:00.000Z",
+      "end": "2026-12-15T08:00:00.000Z",
+      "allDay": false,
+      "confidence": 0.95,
+      "status": "confirmed",
+      "sources": [
+        {
+          "title": "원신 픽업 일정 · 이벤트 기원 이력 | BannerHistory",
+          "url": "https://bannerhistory.app/ko/genshin-pickup-history"
+        },
+        {
+          "title": "원신 7.2 종말의 서막, 11월 4일 업데이트 | 웹진 인벤",
+          "url": "https://www.inven.co.kr/webzine/news/?news=322566&site=indie"
+        },
+        {
+          "title": "원신 7.2 픽업 미탸·푸리나 복각, 11월 4일 업데이트 일정",
+          "url": "https://blog.naver.com/mola__mola/224458295687"
+        }
+      ],
+      "firstSeen": "2026-10-31T13:31:58.842Z",
+      "lastSeen": "2026-11-16T01:03:33.361Z",
+      "seenCount": 54,
+      "history": [
+        {
+          "at": "2026-10-31T14:28:00.518Z",
+          "start": "2026-11-24T11:00:00.000Z",
+          "end": "2026-12-15T08:00:00.000Z"
+        },
+        {
+          "at": "2026-11-16T01:03:33.361Z",
+          "start": "2026-11-24T10:00:00.000Z",
+          "end": "2026-12-15T07:00:00.000Z"
+        }
+      ],
+      "basis": "official",
+      "major": false,
+      "rerun": false
+    },
+    {
+      "id": "65269ed0f4c5",
+      "game": "genshin",
+      "server": "kr",
+      "type": "banner",
+      "title": "묶음 기원 (7.2)",
+      "description": "바레사, 차스카, 실로닌, 말라니, 키니치 포함 묶음 기원",
+      "start": "2026-11-24T11:00:00.000Z",
+      "end": "2026-12-15T08:00:00.000Z",
+      "allDay": false,
+      "confidence": 0.95,
+      "status": "confirmed",
+      "basis": "official",
+      "major": false,
+      "rerun": true,
+      "sources": [
+        {
+          "title": "원신 픽업 일정 · 이벤트 기원 이력 | BannerHistory",
+          "url": "https://bannerhistory.app/ko/genshin-pickup-history"
+        },
+        {
+          "title": "원신 픽업 공식 · 6주 수요일 주기와 역대 부합도 통계",
+          "url": "https://bannerhistory.app/ko/genshin-pickup-formula"
+        }
+      ],
+      "firstSeen": "2026-11-05T01:28:06.296Z",
+      "lastSeen": "2026-11-16T01:03:33.361Z",
+      "seenCount": 14,
+      "history": [
+        {
+          "at": "2026-11-16T01:03:33.361Z",
+          "start": "2026-11-24T10:00:00.000Z",
+          "end": "2026-12-15T07:00:00.000Z"
+        }
+      ]
     },
     {
       "id": "9d4139681a95",
@@ -5477,8 +5493,8 @@
       "game": "starrail",
       "server": "kr",
       "type": "banner",
-      "title": "아케론, 단항•음월, 경원 기원",
-      "description": "경원의 복각 픽업이 진행됩니다.",
+      "title": "아케론, 단항•음월, 경원 픽업 (결집된 명심)",
+      "description": "아케론, 단항•음월, 경원의 복각 픽업이 12월 2일부터 진행될 예정입니다.",
       "start": "2026-12-02T04:00:00.000Z",
       "end": "2026-12-22T07:00:00.000Z",
       "allDay": false,
@@ -5497,8 +5513,8 @@
         }
       ],
       "firstSeen": "2026-10-31T14:28:00.518Z",
-      "lastSeen": "2026-11-15T16:23:58.252Z",
-      "seenCount": 39,
+      "lastSeen": "2026-11-16T01:03:33.361Z",
+      "seenCount": 40,
       "history": [],
       "rerun": true
     },
@@ -5524,20 +5540,20 @@
         }
       ],
       "community": {
-        "posts": 13,
-        "authors": 12,
-        "recommended": 0,
+        "posts": 12,
+        "authors": 10,
+        "recommended": 3,
         "reliable": 0,
         "sites": [
           "dcinside"
         ],
         "by": {
           "dcinside": {
-            "posts": 13,
-            "authors": 12
+            "posts": 12,
+            "authors": 10
           }
         },
-        "at": "2026-11-15T16:23:58.252Z"
+        "at": "2026-11-16T01:03:33.361Z"
       },
       "firstSeen": "2026-11-10T17:04:46.203Z",
       "lastSeen": "2026-11-15T01:04:27.768Z",
@@ -5550,7 +5566,7 @@
       "server": "kr",
       "type": "banner",
       "title": "3.8 버전 하반기 이벤트 튜닝 (히유키, 양양·현령, 수수)",
-      "description": "5성 공명자 히유키 및 4성 공명자 양양·현령, 수수 픽업",
+      "description": "3.8 버전 하반기 픽업으로 수수가 등장합니다.",
       "start": "2026-12-03T02:00:00.000Z",
       "end": "2026-12-21T03:59:00.000Z",
       "allDay": false,
@@ -5570,8 +5586,8 @@
         }
       ],
       "firstSeen": "2026-11-10T17:04:46.203Z",
-      "lastSeen": "2026-11-15T16:23:58.252Z",
-      "seenCount": 11,
+      "lastSeen": "2026-11-16T01:03:33.361Z",
+      "seenCount": 14,
       "history": []
     },
     {
@@ -5652,20 +5668,20 @@
       "seenCount": 5,
       "history": [],
       "community": {
-        "posts": 15,
-        "authors": 15,
-        "recommended": 1,
+        "posts": 12,
+        "authors": 10,
+        "recommended": 0,
         "reliable": 0,
         "sites": [
           "dcinside"
         ],
         "by": {
           "dcinside": {
-            "posts": 15,
-            "authors": 15
+            "posts": 12,
+            "authors": 10
           }
         },
-        "at": "2026-11-15T16:23:58.252Z"
+        "at": "2026-11-16T01:03:33.361Z"
       }
     },
     {
