@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-11-16T01:03:33.361Z",
+  "startedAt": "2026-11-16T19:38:07.227Z",
   "model": "gemini-3.1-flash-lite-preview",
   "runs": [
     {
@@ -11,13 +11,15 @@
       "search": {
         "providers": {
           "googleNews": {
-            "ok": 2,
-            "results": 7,
-            "errors": []
+            "ok": 1,
+            "results": 8,
+            "errors": [
+              "원신 픽업 기원 일정: HTTP 429"
+            ]
           },
           "bing": {
             "ok": 2,
-            "results": 10,
+            "results": 0,
             "errors": []
           },
           "duckduckgo": {
@@ -26,20 +28,20 @@
             "errors": []
           }
         },
-        "pagesFetched": 5,
-        "pageErrors": 1,
-        "irrelevant": 12,
+        "pagesFetched": 6,
+        "pageErrors": 0,
+        "irrelevant": 2,
         "newsResolved": 6,
         "official": 0,
         "results": 24,
-        "pages": 5
+        "pages": 6
       }
     },
     {
       "game": "starrail",
       "server": "kr",
-      "found": 4,
-      "accepted": 4,
+      "found": 6,
+      "accepted": 6,
       "rejected": [],
       "search": {
         "providers": {
@@ -55,16 +57,16 @@
           },
           "duckduckgo": {
             "ok": 2,
-            "results": 20,
+            "results": 18,
             "errors": []
           }
         },
         "pagesFetched": 5,
         "pageErrors": 1,
-        "irrelevant": 27,
+        "irrelevant": 8,
         "newsResolved": 4,
         "official": 0,
-        "results": 24,
+        "results": 20,
         "pages": 5
       }
     },
@@ -77,13 +79,15 @@
       "search": {
         "providers": {
           "googleNews": {
-            "ok": 2,
-            "results": 7,
-            "errors": []
+            "ok": 1,
+            "results": 6,
+            "errors": [
+              "젠레스 존 제로 픽업 일정: HTTP 429"
+            ]
           },
           "bing": {
             "ok": 2,
-            "results": 10,
+            "results": 0,
             "errors": []
           },
           "duckduckgo": {
@@ -92,13 +96,13 @@
             "errors": []
           }
         },
-        "pagesFetched": 5,
-        "pageErrors": 1,
-        "irrelevant": 6,
-        "newsResolved": 5,
+        "pagesFetched": 6,
+        "pageErrors": 0,
+        "irrelevant": 14,
+        "newsResolved": 6,
         "official": 0,
         "results": 20,
-        "pages": 5
+        "pages": 6
       }
     },
     {
@@ -110,13 +114,16 @@
       "search": {
         "providers": {
           "googleNews": {
-            "ok": 3,
-            "results": 16,
-            "errors": []
+            "ok": 1,
+            "results": 9,
+            "errors": [
+              "블루아카이브 미래시 픽업: HTTP 429",
+              "블루아카이브 이벤트 업데이트 일정: HTTP 429"
+            ]
           },
           "bing": {
             "ok": 3,
-            "results": 23,
+            "results": 0,
             "errors": []
           },
           "duckduckgo": {
@@ -127,7 +134,7 @@
         },
         "pagesFetched": 6,
         "pageErrors": 0,
-        "irrelevant": 15,
+        "irrelevant": 36,
         "newsResolved": 6,
         "official": 0,
         "results": 25,
@@ -137,15 +144,18 @@
     {
       "game": "nikke",
       "server": "kr",
-      "found": 5,
-      "accepted": 5,
+      "found": 4,
+      "accepted": 4,
       "rejected": [],
       "search": {
         "providers": {
           "googleNews": {
-            "ok": 2,
-            "results": 20,
-            "errors": []
+            "ok": 0,
+            "results": 0,
+            "errors": [
+              "니케 픽업 모집 일정: HTTP 429",
+              "승리의 여신 니케 업데이트 이벤트: HTTP 429"
+            ]
           },
           "bing": {
             "ok": 2,
@@ -154,57 +164,59 @@
           },
           "duckduckgo": {
             "ok": 2,
-            "results": 19,
+            "results": 20,
             "errors": []
           }
         },
         "pagesFetched": 5,
         "pageErrors": 1,
-        "irrelevant": 21,
-        "newsResolved": 6,
+        "irrelevant": 10,
+        "newsResolved": 0,
         "official": 0,
-        "results": 25,
+        "results": 19,
         "pages": 5
       }
     },
     {
       "game": "umamusume",
       "server": "kr",
-      "found": 3,
-      "accepted": 3,
+      "found": 1,
+      "accepted": 1,
       "rejected": [],
       "search": {
         "providers": {
           "googleNews": {
-            "ok": 3,
+            "ok": 2,
             "results": 4,
-            "errors": []
+            "errors": [
+              "우마무스메 한섭 미래시 픽업: HTTP 429"
+            ]
           },
           "bing": {
             "ok": 3,
-            "results": 19,
+            "results": 0,
             "errors": []
           },
           "duckduckgo": {
             "ok": 3,
-            "results": 27,
+            "results": 25,
             "errors": []
           }
         },
-        "pagesFetched": 5,
-        "pageErrors": 1,
-        "irrelevant": 15,
+        "pagesFetched": 4,
+        "pageErrors": 2,
+        "irrelevant": 16,
         "newsResolved": 4,
         "official": 0,
-        "results": 25,
-        "pages": 5
+        "results": 24,
+        "pages": 4
       }
     },
     {
       "game": "arknights",
       "server": "kr",
-      "found": 5,
-      "accepted": 5,
+      "found": 7,
+      "accepted": 7,
       "rejected": [],
       "search": {
         "providers": {
@@ -215,40 +227,40 @@
           },
           "bing": {
             "ok": 3,
-            "results": 19,
+            "results": 0,
             "errors": []
           },
           "duckduckgo": {
             "ok": 3,
-            "results": 30,
+            "results": 29,
             "errors": []
           }
         },
         "pagesFetched": 5,
         "pageErrors": 1,
-        "irrelevant": 1,
+        "irrelevant": 21,
         "newsResolved": 0,
         "official": 15,
-        "results": 23,
+        "results": 21,
         "pages": 20
       }
     },
     {
       "game": "endfield",
       "server": "kr",
-      "found": 2,
-      "accepted": 2,
+      "found": 1,
+      "accepted": 1,
       "rejected": [],
       "search": {
         "providers": {
           "googleNews": {
             "ok": 2,
-            "results": 9,
+            "results": 7,
             "errors": []
           },
           "bing": {
             "ok": 2,
-            "results": 19,
+            "results": 0,
             "errors": []
           },
           "duckduckgo": {
@@ -257,31 +269,33 @@
             "errors": []
           }
         },
-        "pagesFetched": 6,
-        "pageErrors": 0,
-        "irrelevant": 4,
+        "pagesFetched": 5,
+        "pageErrors": 1,
+        "irrelevant": 13,
         "newsResolved": 0,
         "official": 0,
-        "results": 25,
-        "pages": 6
+        "results": 22,
+        "pages": 5
       }
     },
     {
       "game": "wuwa",
       "server": "kr",
-      "found": 7,
-      "accepted": 7,
+      "found": 5,
+      "accepted": 5,
       "rejected": [],
       "search": {
         "providers": {
           "googleNews": {
-            "ok": 2,
-            "results": 8,
-            "errors": []
+            "ok": 1,
+            "results": 2,
+            "errors": [
+              "명조 워더링 웨이브 업데이트 이벤트: HTTP 429"
+            ]
           },
           "bing": {
             "ok": 2,
-            "results": 20,
+            "results": 0,
             "errors": []
           },
           "duckduckgo": {
@@ -290,20 +304,20 @@
             "errors": []
           }
         },
-        "pagesFetched": 6,
-        "pageErrors": 0,
-        "irrelevant": 1,
+        "pagesFetched": 4,
+        "pageErrors": 2,
+        "irrelevant": 0,
         "newsResolved": 0,
         "official": 0,
-        "results": 25,
-        "pages": 6
+        "results": 19,
+        "pages": 4
       }
     },
     {
       "game": "limbus",
       "server": "kr",
-      "found": 6,
-      "accepted": 6,
+      "found": 3,
+      "accepted": 3,
       "rejected": [],
       "search": {
         "providers": {
@@ -325,10 +339,10 @@
         },
         "pagesFetched": 6,
         "pageErrors": 0,
-        "irrelevant": 30,
+        "irrelevant": 28,
         "newsResolved": 0,
         "official": 0,
-        "results": 21,
+        "results": 20,
         "pages": 6
       }
     }
@@ -339,13 +353,12 @@
       "gallery": "projectmx",
       "searched": [
         "이로하",
-        "페스",
         "이부키",
         "리오",
         "네루",
         "교복"
       ],
-      "posts": 156,
+      "posts": 135,
       "attached": 4,
       "errors": []
     },
@@ -360,7 +373,7 @@
         "스틸",
         "러브"
       ],
-      "posts": 136,
+      "posts": 146,
       "attached": 3,
       "errors": []
     },
@@ -368,20 +381,20 @@
       "game": "arknights",
       "gallery": "mibj",
       "searched": [],
-      "posts": 66,
+      "posts": 67,
       "attached": 0,
       "errors": []
     }
   ],
-  "apiCalls": 10,
+  "apiCalls": 11,
   "modelNotes": [
     "후보 모델: gemini-3.1-flash-lite-preview, gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-flash-latest, gemini-omni-1.1-flash, gemini-omni-1.2-flash, gemini-omni-flash-preview, gemini-3.5-flash-lite, gemini-3.1-flash-lite, gemini-2.5-flash-lite, gemini-flash-lite-latest"
   ],
   "quotaStop": null,
   "stats": {
-    "added": 1,
-    "updated": 26,
-    "unchanged": 23
+    "added": 6,
+    "updated": 18,
+    "unchanged": 21
   },
-  "finishedAt": "2026-11-16T01:06:50.909Z"
+  "finishedAt": "2026-11-16T19:42:44.298Z"
 }
