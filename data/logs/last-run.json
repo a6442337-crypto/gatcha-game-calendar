@@ -1,18 +1,18 @@
 {
-  "startedAt": "2026-11-18T02:54:39.622Z",
-  "model": "gemini-3.1-flash-lite-preview",
+  "startedAt": "2026-11-18T18:06:42.836Z",
+  "model": "gemini-3.1-flash-lite",
   "runs": [
     {
       "game": "genshin",
       "server": "kr",
-      "found": 5,
-      "accepted": 5,
+      "found": 6,
+      "accepted": 6,
       "rejected": [],
       "search": {
         "providers": {
           "googleNews": {
             "ok": 2,
-            "results": 9,
+            "results": 10,
             "errors": []
           },
           "bing": {
@@ -26,20 +26,20 @@
             "errors": []
           }
         },
-        "pagesFetched": 6,
-        "pageErrors": 0,
+        "pagesFetched": 5,
+        "pageErrors": 1,
         "irrelevant": 1,
         "newsResolved": 6,
         "official": 0,
         "results": 25,
-        "pages": 6
+        "pages": 5
       }
     },
     {
       "game": "starrail",
       "server": "kr",
-      "found": 8,
-      "accepted": 8,
+      "found": 7,
+      "accepted": 7,
       "rejected": [],
       "search": {
         "providers": {
@@ -59,26 +59,26 @@
             "errors": []
           }
         },
-        "pagesFetched": 5,
-        "pageErrors": 1,
-        "irrelevant": 9,
+        "pagesFetched": 4,
+        "pageErrors": 2,
+        "irrelevant": 19,
         "newsResolved": 4,
         "official": 0,
-        "results": 20,
-        "pages": 5
+        "results": 21,
+        "pages": 4
       }
     },
     {
       "game": "zzz",
       "server": "kr",
-      "found": 5,
-      "accepted": 5,
+      "found": 3,
+      "accepted": 3,
       "rejected": [],
       "search": {
         "providers": {
           "googleNews": {
             "ok": 2,
-            "results": 10,
+            "results": 9,
             "errors": []
           },
           "bing": {
@@ -88,24 +88,24 @@
           },
           "duckduckgo": {
             "ok": 2,
-            "results": 18,
+            "results": 20,
             "errors": []
           }
         },
         "pagesFetched": 6,
         "pageErrors": 0,
-        "irrelevant": 16,
+        "irrelevant": 15,
         "newsResolved": 6,
         "official": 0,
-        "results": 22,
+        "results": 23,
         "pages": 6
       }
     },
     {
       "game": "bluearchive",
       "server": "kr",
-      "found": 7,
-      "accepted": 7,
+      "found": 6,
+      "accepted": 6,
       "rejected": [],
       "search": {
         "providers": {
@@ -116,7 +116,7 @@
           },
           "bing": {
             "ok": 3,
-            "results": 15,
+            "results": 0,
             "errors": []
           },
           "duckduckgo": {
@@ -127,7 +127,7 @@
         },
         "pagesFetched": 6,
         "pageErrors": 0,
-        "irrelevant": 12,
+        "irrelevant": 18,
         "newsResolved": 6,
         "official": 0,
         "results": 25,
@@ -137,8 +137,8 @@
     {
       "game": "nikke",
       "server": "kr",
-      "found": 3,
-      "accepted": 3,
+      "found": 2,
+      "accepted": 2,
       "rejected": [],
       "search": {
         "providers": {
@@ -149,29 +149,29 @@
           },
           "bing": {
             "ok": 2,
-            "results": 10,
+            "results": 0,
             "errors": []
           },
           "duckduckgo": {
             "ok": 2,
-            "results": 18,
+            "results": 19,
             "errors": []
           }
         },
-        "pagesFetched": 5,
-        "pageErrors": 1,
-        "irrelevant": 2,
+        "pagesFetched": 4,
+        "pageErrors": 2,
+        "irrelevant": 1,
         "newsResolved": 6,
         "official": 0,
         "results": 25,
-        "pages": 5
+        "pages": 4
       }
     },
     {
       "game": "umamusume",
       "server": "kr",
-      "found": 2,
-      "accepted": 2,
+      "found": 5,
+      "accepted": 5,
       "rejected": [],
       "search": {
         "providers": {
@@ -182,29 +182,29 @@
           },
           "bing": {
             "ok": 3,
-            "results": 18,
+            "results": 9,
             "errors": []
           },
           "duckduckgo": {
             "ok": 3,
-            "results": 28,
+            "results": 27,
             "errors": []
           }
         },
-        "pagesFetched": 4,
-        "pageErrors": 2,
-        "irrelevant": 5,
-        "newsResolved": 2,
+        "pagesFetched": 3,
+        "pageErrors": 3,
+        "irrelevant": 25,
+        "newsResolved": 0,
         "official": 0,
-        "results": 25,
-        "pages": 4
+        "results": 22,
+        "pages": 3
       }
     },
     {
       "game": "arknights",
       "server": "kr",
-      "found": 6,
-      "accepted": 6,
+      "found": 4,
+      "accepted": 4,
       "rejected": [],
       "search": {
         "providers": {
@@ -215,7 +215,7 @@
           },
           "bing": {
             "ok": 3,
-            "results": 29,
+            "results": 0,
             "errors": []
           },
           "duckduckgo": {
@@ -226,18 +226,18 @@
         },
         "pagesFetched": 5,
         "pageErrors": 1,
-        "irrelevant": 1,
+        "irrelevant": 20,
         "newsResolved": 0,
         "official": 15,
-        "results": 21,
+        "results": 22,
         "pages": 20
       }
     },
     {
       "game": "endfield",
       "server": "kr",
-      "found": 3,
-      "accepted": 3,
+      "found": 1,
+      "accepted": 1,
       "rejected": [],
       "search": {
         "providers": {
@@ -247,12 +247,9 @@
             "errors": []
           },
           "bing": {
-            "ok": 0,
-            "results": 0,
-            "errors": [
-              "엔드필드 픽업 일정: RSS 아님",
-              "명일방주 엔드필드 업데이트 이벤트: RSS 아님"
-            ]
+            "ok": 2,
+            "results": 20,
+            "errors": []
           },
           "duckduckgo": {
             "ok": 2,
@@ -265,15 +262,15 @@
         "irrelevant": 2,
         "newsResolved": 0,
         "official": 0,
-        "results": 23,
+        "results": 25,
         "pages": 6
       }
     },
     {
       "game": "wuwa",
       "server": "kr",
-      "found": 6,
-      "accepted": 6,
+      "found": 4,
+      "accepted": 4,
       "rejected": [],
       "search": {
         "providers": {
@@ -284,7 +281,7 @@
           },
           "bing": {
             "ok": 2,
-            "results": 10,
+            "results": 0,
             "errors": []
           },
           "duckduckgo": {
@@ -293,13 +290,13 @@
             "errors": []
           }
         },
-        "pagesFetched": 5,
-        "pageErrors": 1,
-        "irrelevant": 2,
+        "pagesFetched": 4,
+        "pageErrors": 2,
+        "irrelevant": 11,
         "newsResolved": 0,
         "official": 0,
         "results": 25,
-        "pages": 5
+        "pages": 4
       }
     },
     {
@@ -317,21 +314,21 @@
           },
           "bing": {
             "ok": 3,
-            "results": 10,
+            "results": 0,
             "errors": []
           },
           "duckduckgo": {
             "ok": 3,
-            "results": 28,
+            "results": 29,
             "errors": []
           }
         },
         "pagesFetched": 6,
         "pageErrors": 0,
-        "irrelevant": 4,
+        "irrelevant": 12,
         "newsResolved": 0,
         "official": 0,
-        "results": 23,
+        "results": 22,
         "pages": 6
       }
     }
@@ -352,10 +349,12 @@
         "육성",
         "사토노",
         "크라운",
-        "비블로스"
+        "비블로스",
+        "스틸",
+        "러브"
       ],
-      "posts": 100,
-      "attached": 2,
+      "posts": 140,
+      "attached": 4,
       "errors": []
     },
     {
@@ -367,15 +366,27 @@
       "errors": []
     }
   ],
-  "apiCalls": 10,
+  "apiCalls": 33,
   "modelNotes": [
-    "후보 모델: gemini-3.1-flash-lite-preview, gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-flash-latest, gemini-omni-1.1-flash, gemini-omni-1.2-flash, gemini-omni-flash-preview, gemini-3.5-flash-lite, gemini-3.1-flash-lite, gemini-2.5-flash-lite, gemini-flash-lite-latest"
+    "후보 모델: gemini-3.1-flash-lite-preview, gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-flash-latest, gemini-omni-1.1-flash, gemini-omni-1.2-flash, gemini-omni-flash-preview, gemini-3.5-flash-lite, gemini-3.1-flash-lite, gemini-2.5-flash-lite, gemini-flash-lite-latest",
+    "gemini-3.1-flash-lite-preview: 503 반복 → 다른 모델 우선",
+    "gemini-3.8-flash: 503 반복 → 다른 모델 우선",
+    "gemini-3.7-flash: 503 반복 → 다른 모델 우선",
+    "gemini-3.6-flash: 503 반복 → 다른 모델 우선",
+    "gemini-3.5-flash: 503 반복 → 다른 모델 우선",
+    "gemini-3-flash-preview: 503 반복 → 다른 모델 우선",
+    "gemini-2.5-flash: 모델 사용 불가(404)",
+    "gemini-flash-latest: 503 반복 → 다른 모델 우선",
+    "gemini-omni-1.1-flash: 무료 한도 0(이 모델/기능은 무료 미지원) — GenerateContentInputTokensPerModelPerMinute-FreeTier, GenerateRequestsPerMinutePerProjectPerModel-FreeTier, GenerateRequestsPerDayPerProjectPerModel-FreeTier — You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, h",
+    "gemini-omni-1.2-flash: 무료 한도 0(이 모델/기능은 무료 미지원) — GenerateRequestsPerDayPerProjectPerModel-FreeTier, GenerateRequestsPerMinutePerProjectPerModel-FreeTier, GenerateContentInputTokensPerModelPerMinute-FreeTier — You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, h",
+    "gemini-omni-flash-preview: 무료 한도 0(이 모델/기능은 무료 미지원) — GenerateRequestsPerDayPerProjectPerModel-FreeTier, GenerateRequestsPerMinutePerProjectPerModel-FreeTier, GenerateContentInputTokensPerModelPerMinute-FreeTier — You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, h",
+    "gemini-3.5-flash-lite: 503 반복 → 다른 모델 우선"
   ],
   "quotaStop": null,
   "stats": {
-    "added": 5,
-    "updated": 21,
-    "unchanged": 24
+    "added": 3,
+    "updated": 18,
+    "unchanged": 22
   },
-  "finishedAt": "2026-11-18T02:57:57.390Z"
+  "finishedAt": "2026-11-18T18:19:17.358Z"
 }
