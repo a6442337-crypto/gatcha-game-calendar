@@ -1,45 +1,12 @@
 {
-  "startedAt": "2026-11-20T02:20:02.010Z",
-  "model": "gemini-3.5-flash-lite",
+  "startedAt": "2026-11-20T17:50:09.319Z",
+  "model": "gemini-3.6-flash",
   "runs": [
-    {
-      "game": "endfield",
-      "server": "kr",
-      "found": 1,
-      "accepted": 1,
-      "rejected": [],
-      "search": {
-        "providers": {
-          "googleNews": {
-            "ok": 2,
-            "results": 14,
-            "errors": []
-          },
-          "bing": {
-            "ok": 2,
-            "results": 0,
-            "errors": []
-          },
-          "duckduckgo": {
-            "ok": 2,
-            "results": 18,
-            "errors": []
-          }
-        },
-        "pagesFetched": 6,
-        "pageErrors": 0,
-        "irrelevant": 24,
-        "newsResolved": 6,
-        "official": 0,
-        "results": 25,
-        "pages": 6
-      }
-    },
     {
       "game": "genshin",
       "server": "kr",
-      "found": 5,
-      "accepted": 5,
+      "found": 6,
+      "accepted": 6,
       "rejected": [],
       "search": {
         "providers": {
@@ -61,7 +28,7 @@
         },
         "pagesFetched": 6,
         "pageErrors": 0,
-        "irrelevant": 0,
+        "irrelevant": 20,
         "newsResolved": 6,
         "official": 0,
         "results": 25,
@@ -71,8 +38,8 @@
     {
       "game": "starrail",
       "server": "kr",
-      "found": 4,
-      "accepted": 4,
+      "found": 8,
+      "accepted": 8,
       "rejected": [],
       "search": {
         "providers": {
@@ -97,7 +64,7 @@
         "irrelevant": 28,
         "newsResolved": 4,
         "official": 0,
-        "results": 21,
+        "results": 23,
         "pages": 5
       }
     },
@@ -111,7 +78,7 @@
         "providers": {
           "googleNews": {
             "ok": 2,
-            "results": 8,
+            "results": 9,
             "errors": []
           },
           "bing": {
@@ -127,7 +94,7 @@
         },
         "pagesFetched": 6,
         "pageErrors": 0,
-        "irrelevant": 15,
+        "irrelevant": 17,
         "newsResolved": 6,
         "official": 0,
         "results": 23,
@@ -137,14 +104,14 @@
     {
       "game": "bluearchive",
       "server": "kr",
-      "found": 7,
-      "accepted": 7,
+      "found": 17,
+      "accepted": 17,
       "rejected": [],
       "search": {
         "providers": {
           "googleNews": {
             "ok": 3,
-            "results": 19,
+            "results": 18,
             "errors": []
           },
           "bing": {
@@ -154,13 +121,13 @@
           },
           "duckduckgo": {
             "ok": 3,
-            "results": 25,
+            "results": 21,
             "errors": []
           }
         },
         "pagesFetched": 6,
         "pageErrors": 0,
-        "irrelevant": 16,
+        "irrelevant": 40,
         "newsResolved": 6,
         "official": 0,
         "results": 25,
@@ -203,14 +170,14 @@
     {
       "game": "umamusume",
       "server": "kr",
-      "found": 5,
-      "accepted": 5,
+      "found": 3,
+      "accepted": 3,
       "rejected": [],
       "search": {
         "providers": {
           "googleNews": {
             "ok": 3,
-            "results": 4,
+            "results": 5,
             "errors": []
           },
           "bing": {
@@ -224,20 +191,20 @@
             "errors": []
           }
         },
-        "pagesFetched": 5,
-        "pageErrors": 1,
-        "irrelevant": 15,
-        "newsResolved": 4,
+        "pagesFetched": 2,
+        "pageErrors": 4,
+        "irrelevant": 27,
+        "newsResolved": 0,
         "official": 0,
         "results": 24,
-        "pages": 5
+        "pages": 2
       }
     },
     {
       "game": "arknights",
       "server": "kr",
-      "found": 5,
-      "accepted": 5,
+      "found": 8,
+      "accepted": 8,
       "rejected": [],
       "search": {
         "providers": {
@@ -257,26 +224,28 @@
             "errors": []
           }
         },
-        "pagesFetched": 5,
-        "pageErrors": 1,
+        "pagesFetched": 6,
+        "pageErrors": 0,
         "irrelevant": 30,
         "newsResolved": 0,
         "official": 15,
-        "results": 25,
-        "pages": 20
+        "results": 23,
+        "pages": 21
       }
     },
     {
-      "game": "wuwa",
+      "game": "endfield",
       "server": "kr",
-      "found": 10,
-      "accepted": 10,
-      "rejected": [],
+      "found": 2,
+      "accepted": 1,
+      "rejected": [
+        "「불꽃으로 맺은 인연」 흥미 이벤트: 이미 지난 일정"
+      ],
       "search": {
         "providers": {
           "googleNews": {
             "ok": 2,
-            "results": 10,
+            "results": 8,
             "errors": []
           },
           "bing": {
@@ -292,18 +261,51 @@
         },
         "pagesFetched": 5,
         "pageErrors": 1,
+        "irrelevant": 21,
+        "newsResolved": 0,
+        "official": 0,
+        "results": 24,
+        "pages": 5
+      }
+    },
+    {
+      "game": "wuwa",
+      "server": "kr",
+      "found": 6,
+      "accepted": 6,
+      "rejected": [],
+      "search": {
+        "providers": {
+          "googleNews": {
+            "ok": 2,
+            "results": 11,
+            "errors": []
+          },
+          "bing": {
+            "ok": 2,
+            "results": 0,
+            "errors": []
+          },
+          "duckduckgo": {
+            "ok": 2,
+            "results": 20,
+            "errors": []
+          }
+        },
+        "pagesFetched": 4,
+        "pageErrors": 2,
         "irrelevant": 11,
         "newsResolved": 0,
         "official": 0,
         "results": 25,
-        "pages": 5
+        "pages": 4
       }
     },
     {
       "game": "limbus",
       "server": "kr",
-      "found": 5,
-      "accepted": 5,
+      "found": 6,
+      "accepted": 6,
       "rejected": [],
       "search": {
         "providers": {
@@ -319,16 +321,16 @@
           },
           "duckduckgo": {
             "ok": 3,
-            "results": 28,
+            "results": 29,
             "errors": []
           }
         },
         "pagesFetched": 6,
         "pageErrors": 0,
-        "irrelevant": 3,
+        "irrelevant": 32,
         "newsResolved": 0,
         "official": 0,
-        "results": 24,
+        "results": 23,
         "pages": 6
       }
     }
@@ -337,9 +339,16 @@
     {
       "game": "bluearchive",
       "gallery": "projectmx",
-      "searched": [],
-      "posts": 57,
-      "attached": 0,
+      "searched": [
+        "세나",
+        "사복",
+        "주리",
+        "아르바이트",
+        "코코로",
+        "코토네"
+      ],
+      "posts": 127,
+      "attached": 4,
       "errors": []
     },
     {
@@ -353,8 +362,8 @@
         "서포트",
         "카드"
       ],
-      "posts": 148,
-      "attached": 2,
+      "posts": 153,
+      "attached": 4,
       "errors": []
     },
     {
@@ -366,15 +375,18 @@
       "errors": []
     }
   ],
-  "apiCalls": 10,
+  "apiCalls": 17,
   "modelNotes": [
-    "후보 모델: gemini-3.5-flash-lite, gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-flash-latest, gemini-omni-1.1-flash, gemini-omni-1.2-flash, gemini-omni-flash-preview, gemini-3.1-flash-lite, gemini-3.1-flash-lite-preview, gemini-2.5-flash-lite, gemini-flash-lite-latest"
+    "후보 모델: gemini-3.5-flash-lite, gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-flash-latest, gemini-omni-1.1-flash, gemini-omni-1.2-flash, gemini-omni-flash-preview, gemini-3.1-flash-lite, gemini-3.1-flash-lite-preview, gemini-2.5-flash-lite, gemini-flash-lite-latest",
+    "gemini-3.5-flash-lite: 503 반복 → 다른 모델 우선",
+    "gemini-3.8-flash: 503 반복 → 다른 모델 우선",
+    "gemini-3.7-flash: 503 반복 → 다른 모델 우선"
   ],
   "quotaStop": null,
   "stats": {
-    "added": 1,
-    "updated": 25,
-    "unchanged": 26
+    "added": 17,
+    "updated": 12,
+    "unchanged": 36
   },
-  "finishedAt": "2026-11-20T02:23:15.947Z"
+  "finishedAt": "2026-11-20T18:04:27.531Z"
 }
