@@ -1,41 +1,40 @@
 {
-  "startedAt": "2026-11-24T05:20:07.320Z",
+  "startedAt": "2026-11-24T20:11:08.464Z",
   "model": "gemini-3.5-flash",
   "runs": [
     {
       "game": "genshin",
       "server": "kr",
-      "found": 8,
-      "accepted": 8,
+      "found": 5,
+      "accepted": 5,
       "rejected": [],
       "search": {
         "providers": {
           "googleNews": {
-            "ok": 2,
-            "results": 12,
-            "errors": []
+            "ok": 1,
+            "results": 1,
+            "errors": [
+              "원신 업데이트 이벤트 일정: HTTP 429"
+            ]
           },
           "bing": {
             "ok": 2,
-            "results": 20,
+            "results": 0,
             "errors": []
           },
           "duckduckgo": {
-            "ok": 0,
-            "results": 0,
-            "errors": [
-              "원신 픽업 기원 일정: HTTP 202",
-              "원신 업데이트 이벤트 일정: HTTP 202"
-            ]
+            "ok": 2,
+            "results": 20,
+            "errors": []
           }
         },
-        "pagesFetched": 4,
-        "pageErrors": 2,
-        "irrelevant": 0,
-        "newsResolved": 6,
+        "pagesFetched": 5,
+        "pageErrors": 1,
+        "irrelevant": 10,
+        "newsResolved": 1,
         "official": 0,
-        "results": 25,
-        "pages": 4
+        "results": 19,
+        "pages": 5
       }
     },
     {
@@ -48,79 +47,73 @@
         "providers": {
           "googleNews": {
             "ok": 2,
-            "results": 5,
+            "results": 8,
             "errors": []
           },
           "bing": {
             "ok": 2,
-            "results": 9,
+            "results": 0,
             "errors": []
           },
           "duckduckgo": {
-            "ok": 0,
-            "results": 0,
-            "errors": [
-              "스타레일 워프 픽업 일정: HTTP 202",
-              "붕괴 스타레일 업데이트 이벤트 일정: HTTP 202"
-            ]
+            "ok": 2,
+            "results": 19,
+            "errors": []
           }
         },
-        "pagesFetched": 5,
-        "pageErrors": 1,
-        "irrelevant": 3,
-        "newsResolved": 5,
+        "pagesFetched": 6,
+        "pageErrors": 0,
+        "irrelevant": 19,
+        "newsResolved": 6,
         "official": 0,
-        "results": 14,
-        "pages": 5
+        "results": 25,
+        "pages": 6
       }
     },
     {
       "game": "zzz",
       "server": "kr",
-      "found": 9,
-      "accepted": 9,
+      "found": 8,
+      "accepted": 8,
       "rejected": [],
       "search": {
         "providers": {
           "googleNews": {
             "ok": 2,
-            "results": 7,
+            "results": 10,
             "errors": []
           },
           "bing": {
             "ok": 2,
-            "results": 20,
+            "results": 0,
             "errors": []
           },
           "duckduckgo": {
-            "ok": 0,
-            "results": 0,
-            "errors": [
-              "젠레스 존 제로 픽업 일정: HTTP 202",
-              "젠레스 존 제로 업데이트 이벤트 일정: HTTP 202"
-            ]
+            "ok": 2,
+            "results": 20,
+            "errors": []
           }
         },
         "pagesFetched": 5,
         "pageErrors": 1,
-        "irrelevant": 3,
-        "newsResolved": 0,
+        "irrelevant": 25,
+        "newsResolved": 6,
         "official": 0,
-        "results": 23,
+        "results": 25,
         "pages": 5
       }
     },
     {
       "game": "bluearchive",
       "server": "kr",
-      "found": 9,
-      "accepted": 9,
+      "found": 10,
+      "accepted": 10,
       "rejected": [],
       "search": {
         "providers": {
           "googleNews": {
             "ok": 3,
-            "results": 20,
+            "results": 22,
             "errors": []
           },
           "bing": {
@@ -129,19 +122,15 @@
             "errors": []
           },
           "duckduckgo": {
-            "ok": 0,
-            "results": 0,
-            "errors": [
-              "블루아카이브 픽업 모집 일정: HTTP 202",
-              "블루아카이브 미래시 픽업: HTTP 202",
-              "블루아카이브 이벤트 업데이트 일정: HTTP 202"
-            ]
+            "ok": 3,
+            "results": 22,
+            "errors": []
           }
         },
         "pagesFetched": 6,
         "pageErrors": 0,
-        "irrelevant": 18,
-        "newsResolved": 0,
+        "irrelevant": 26,
+        "newsResolved": 6,
         "official": 0,
         "results": 25,
         "pages": 6
@@ -157,7 +146,7 @@
         "providers": {
           "googleNews": {
             "ok": 2,
-            "results": 26,
+            "results": 21,
             "errors": []
           },
           "bing": {
@@ -166,38 +155,26 @@
             "errors": []
           },
           "duckduckgo": {
-            "ok": 0,
-            "results": 0,
-            "errors": [
-              "니케 픽업 모집 일정: HTTP 202",
-              "승리의 여신 니케 업데이트 이벤트: HTTP 202"
-            ]
+            "ok": 2,
+            "results": 20,
+            "errors": []
           }
         },
-        "pagesFetched": 6,
-        "pageErrors": 0,
-        "irrelevant": 3,
+        "pagesFetched": 5,
+        "pageErrors": 1,
+        "irrelevant": 11,
         "newsResolved": 0,
         "official": 0,
         "results": 25,
-        "pages": 6
+        "pages": 5
       }
     },
     {
       "game": "umamusume",
       "server": "kr",
-      "found": 8,
-      "accepted": 0,
-      "rejected": [
-        "스틸 인 러브 픽업 가챠: 시작일 해석 불가: 2026-12",
-        "SSR 호시노 키요코 서포트 카드 픽업: 시작일 해석 불가: 2027-02",
-        "스테이 골드 픽업 가챠: 시작일 해석 불가: 2027-04",
-        "SSR 에어 그루브(스피드) 서포트 카드 픽업: 시작일 해석 불가: 2027-04",
-        "아몬드 아이 픽업 가챠: 시작일 해석 불가: 2027-06",
-        "SSR 포에버 영(지능) 서포트 카드 픽업: 시작일 해석 불가: 2027-06",
-        "SSR 카지노 드라이브 서포트 카드 픽업: 시작일 해석 불가: 2027-06",
-        "레드 디자이어 픽업 가챠: 시작일 해석 불가: 2027-09"
-      ],
+      "found": 6,
+      "accepted": 6,
+      "rejected": [],
       "search": {
         "providers": {
           "googleNews": {
@@ -207,22 +184,18 @@
           },
           "bing": {
             "ok": 3,
-            "results": 27,
+            "results": 18,
             "errors": []
           },
           "duckduckgo": {
-            "ok": 0,
-            "results": 0,
-            "errors": [
-              "우마무스메 한섭 픽업 가챠 일정: HTTP 202",
-              "우마무스메 한섭 미래시 픽업: HTTP 202",
-              "우마무스메 이벤트 업데이트 일정: HTTP 202"
-            ]
+            "ok": 3,
+            "results": 26,
+            "errors": []
           }
         },
         "pagesFetched": 3,
         "pageErrors": 3,
-        "irrelevant": 7,
+        "irrelevant": 20,
         "newsResolved": 0,
         "official": 0,
         "results": 25,
@@ -232,8 +205,8 @@
     {
       "game": "arknights",
       "server": "kr",
-      "found": 6,
-      "accepted": 6,
+      "found": 7,
+      "accepted": 7,
       "rejected": [],
       "search": {
         "providers": {
@@ -244,26 +217,22 @@
           },
           "bing": {
             "ok": 3,
-            "results": 20,
+            "results": 0,
             "errors": []
           },
           "duckduckgo": {
-            "ok": 0,
-            "results": 0,
-            "errors": [
-              "명일방주 헤드헌팅 픽업 일정 -엔드필드: HTTP 202",
-              "명일방주 한섭 미래시 헤드헌팅: HTTP 202",
-              "명일방주 이벤트 업데이트 일정 -엔드필드: HTTP 202"
-            ]
+            "ok": 3,
+            "results": 30,
+            "errors": []
           }
         },
-        "pagesFetched": 6,
-        "pageErrors": 0,
-        "irrelevant": 10,
+        "pagesFetched": 5,
+        "pageErrors": 1,
+        "irrelevant": 20,
         "newsResolved": 0,
         "official": 15,
-        "results": 17,
-        "pages": 21
+        "results": 24,
+        "pages": 20
       }
     },
     {
@@ -276,7 +245,7 @@
         "providers": {
           "googleNews": {
             "ok": 2,
-            "results": 11,
+            "results": 16,
             "errors": []
           },
           "bing": {
@@ -285,28 +254,25 @@
             "errors": []
           },
           "duckduckgo": {
-            "ok": 0,
-            "results": 0,
-            "errors": [
-              "엔드필드 픽업 일정: HTTP 202",
-              "명일방주 엔드필드 업데이트 이벤트: HTTP 202"
-            ]
+            "ok": 2,
+            "results": 19,
+            "errors": []
           }
         },
-        "pagesFetched": 1,
+        "pagesFetched": 6,
         "pageErrors": 0,
-        "irrelevant": 25,
+        "irrelevant": 24,
         "newsResolved": 0,
         "official": 0,
-        "results": 9,
-        "pages": 1
+        "results": 25,
+        "pages": 6
       }
     },
     {
       "game": "wuwa",
       "server": "kr",
-      "found": 2,
-      "accepted": 2,
+      "found": 11,
+      "accepted": 11,
       "rejected": [],
       "search": {
         "providers": {
@@ -321,28 +287,25 @@
             "errors": []
           },
           "duckduckgo": {
-            "ok": 0,
-            "results": 0,
-            "errors": [
-              "명조 픽업 공명자 일정: HTTP 202",
-              "명조 워더링 웨이브 업데이트 이벤트: HTTP 202"
-            ]
+            "ok": 2,
+            "results": 20,
+            "errors": []
           }
         },
-        "pagesFetched": 0,
-        "pageErrors": 0,
-        "irrelevant": 2,
+        "pagesFetched": 4,
+        "pageErrors": 2,
+        "irrelevant": 12,
         "newsResolved": 0,
         "official": 0,
-        "results": 9,
-        "pages": 0
+        "results": 25,
+        "pages": 4
       }
     },
     {
       "game": "limbus",
       "server": "kr",
-      "found": 8,
-      "accepted": 8,
+      "found": 9,
+      "accepted": 9,
       "rejected": [],
       "search": {
         "providers": {
@@ -357,22 +320,18 @@
             "errors": []
           },
           "duckduckgo": {
-            "ok": 0,
-            "results": 0,
-            "errors": [
-              "림버스 컴퍼니 신규 인격 추출 일정: HTTP 202",
-              "림버스 컴퍼니 발푸르기스의 밤 일정: HTTP 202",
-              "림버스 컴퍼니 업데이트 예정: HTTP 202"
-            ]
+            "ok": 3,
+            "results": 29,
+            "errors": []
           }
         },
-        "pagesFetched": 1,
+        "pagesFetched": 6,
         "pageErrors": 0,
-        "irrelevant": 31,
+        "irrelevant": 12,
         "newsResolved": 0,
         "official": 0,
-        "results": 1,
-        "pages": 1
+        "results": 24,
+        "pages": 6
       }
     }
   ],
@@ -381,14 +340,12 @@
       "game": "bluearchive",
       "gallery": "projectmx",
       "searched": [
-        "세나",
-        "사복",
-        "주리",
-        "아르바이트",
-        "나구사",
-        "니야"
+        "코코로",
+        "코토네",
+        "이치카",
+        "세이아"
       ],
-      "posts": 138,
+      "posts": 130,
       "attached": 6,
       "errors": []
     },
@@ -403,28 +360,28 @@
         "스틸",
         "러브"
       ],
-      "posts": 172,
-      "attached": 6,
+      "posts": 173,
+      "attached": 10,
       "errors": []
     },
     {
       "game": "arknights",
       "gallery": "mibj",
       "searched": [],
-      "posts": 69,
+      "posts": 68,
       "attached": 0,
       "errors": []
     }
   ],
-  "apiCalls": 11,
+  "apiCalls": 10,
   "modelNotes": [
     "후보 모델: gemini-3.5-flash, gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-flash-latest, gemini-omni-1.1-flash, gemini-omni-1.2-flash, gemini-omni-flash-preview, gemini-3.5-flash-lite, gemini-3.1-flash-lite, gemini-3.1-flash-lite-preview, gemini-2.5-flash-lite, gemini-flash-lite-latest"
   ],
   "quotaStop": null,
   "stats": {
-    "added": 1,
-    "updated": 20,
-    "unchanged": 34
+    "added": 7,
+    "updated": 15,
+    "unchanged": 47
   },
-  "finishedAt": "2026-11-24T05:28:03.617Z"
+  "finishedAt": "2026-11-24T20:19:08.436Z"
 }
