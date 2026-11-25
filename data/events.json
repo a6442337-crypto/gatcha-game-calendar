@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T07:13:13.379Z",
+  "updatedAt": "2026-11-25T08:11:15.377Z",
   "events": [
     {
       "id": "0ce40d1a53e3",
@@ -973,7 +973,7 @@
       "title": "젠레스 존 제로 3.3 버전 '다시 하늘을 향해' 업데이트",
       "description": "3.3 버전 업데이트가 2026년 10월 21일에 진행되었습니다.",
       "start": "2026-10-20T16:00:00.000Z",
-      "end": null,
+      "end": "2026-12-02T16:00:00.000Z",
       "allDay": true,
       "confidence": 0.95,
       "status": "confirmed",
@@ -1004,8 +1004,8 @@
         }
       ],
       "firstSeen": "2026-10-31T13:31:58.842Z",
-      "lastSeen": "2026-11-18T18:06:42.836Z",
-      "seenCount": 11,
+      "lastSeen": "2026-11-25T07:54:27.191Z",
+      "seenCount": 12,
       "history": [
         {
           "at": "2026-11-03T02:55:38.900Z",
@@ -1189,8 +1189,8 @@
         }
       ],
       "firstSeen": "2026-11-11T17:10:45.431Z",
-      "lastSeen": "2026-11-25T06:42:03.184Z",
-      "seenCount": 17,
+      "lastSeen": "2026-11-25T07:54:27.191Z",
+      "seenCount": 18,
       "history": []
     },
     {
@@ -4044,45 +4044,15 @@
       "history": []
     },
     {
-      "id": "d46ac4f8ed11",
-      "game": "starrail",
-      "server": "kr",
-      "type": "banner",
-      "title": "Aha (4.7)",
-      "description": "Aha appears as a new playable character, featured in the 4.7 banner throughout the version.",
-      "start": "2026-11-10T16:00:00.000Z",
-      "end": null,
-      "allDay": true,
-      "confidence": 0.7,
-      "status": "unverified",
-      "basis": "community",
-      "major": false,
-      "rerun": false,
-      "sources": [
-        {
-          "title": "붕괴 스타레일 4.7 버전 업데이트, 5성 한정 캐릭터 지급과 신규 캐릭터 아하까지 - 게임메카",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9ORnBUTGVfb3BPVl9sRTAzV0RZMmdpZWswMFZwbllBUzZESFU1bElfTEE4cnFWcHN5d3E5Qi1zUHpPNktsSGhaY01ScHhFNmJtNmJrbTZDS2c1emNCajJuUmtKVlI1ekQyWkRtZUVYdTRRY1Ryc3Eza2ZxbHJLTmM?oc=5"
-        },
-        {
-          "title": "붕괴 스타레일 픽업 일정 2026: 4.7 아하와 4.8 예정 캐릭터",
-          "url": "https://www.gamsgo.com/ko/blog/hsr-upcoming-banners"
-        }
-      ],
-      "firstSeen": "2026-11-25T06:42:03.184Z",
-      "lastSeen": "2026-11-25T06:42:03.184Z",
-      "seenCount": 1,
-      "history": []
-    },
-    {
       "id": "29a3ea19efbb",
       "game": "starrail",
       "server": "kr",
       "type": "update",
-      "title": "4.7 버전 「지금, 뭇별을 웃음으로」 업데이트",
-      "description": "붕괴: 스타레일 4.7 버전 「지금, 뭇별을 웃음으로」 신규 버전 업데이트가 진행됩니다.",
-      "start": "2026-11-10T22:00:00.000Z",
-      "end": "2026-12-22T07:00:00.000Z",
-      "allDay": false,
+      "title": "4.7 버전 업데이트 「지금, 뭇별을 웃음으로」",
+      "description": "붕괴: 스타레일 4.7 버전이 2026년 11월 11일 업데이트되었습니다. 신규 캐릭터 아하와 5성 한정 캐릭터 지급 등이 포함됩니다.",
+      "start": "2026-11-10T16:00:00.000Z",
+      "end": null,
+      "allDay": true,
       "confidence": 0.95,
       "status": "confirmed",
       "basis": "official",
@@ -4122,8 +4092,8 @@
         }
       ],
       "firstSeen": "2026-11-02T19:30:53.445Z",
-      "lastSeen": "2026-11-25T06:22:24.261Z",
-      "seenCount": 37,
+      "lastSeen": "2026-11-25T07:54:27.191Z",
+      "seenCount": 38,
       "history": [
         {
           "at": "2026-11-13T01:50:14.100Z",
@@ -4164,9 +4134,44 @@
           "at": "2026-11-25T05:55:42.720Z",
           "start": "2026-11-11T03:00:00.000Z",
           "end": "2026-12-22T07:00:00.000Z"
+        },
+        {
+          "at": "2026-11-25T07:54:27.191Z",
+          "start": "2026-11-10T22:00:00.000Z",
+          "end": "2026-12-22T07:00:00.000Z"
         }
       ],
       "rerun": false
+    },
+    {
+      "id": "d46ac4f8ed11",
+      "game": "starrail",
+      "server": "kr",
+      "type": "banner",
+      "title": "Aha (4.7)",
+      "description": "Aha appears as a new playable character, featured in the 4.7 banner throughout the version.",
+      "start": "2026-11-10T16:00:00.000Z",
+      "end": null,
+      "allDay": true,
+      "confidence": 0.7,
+      "status": "unverified",
+      "basis": "community",
+      "major": false,
+      "rerun": false,
+      "sources": [
+        {
+          "title": "붕괴 스타레일 4.7 버전 업데이트, 5성 한정 캐릭터 지급과 신규 캐릭터 아하까지 - 게임메카",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9ORnBUTGVfb3BPVl9sRTAzV0RZMmdpZWswMFZwbllBUzZESFU1bElfTEE4cnFWcHN5d3E5Qi1zUHpPNktsSGhaY01ScHhFNmJtNmJrbTZDS2c1emNCajJuUmtKVlI1ekQyWkRtZUVYdTRRY1Ryc3Eza2ZxbHJLTmM?oc=5"
+        },
+        {
+          "title": "붕괴 스타레일 픽업 일정 2026: 4.7 아하와 4.8 예정 캐릭터",
+          "url": "https://www.gamsgo.com/ko/blog/hsr-upcoming-banners"
+        }
+      ],
+      "firstSeen": "2026-11-25T06:42:03.184Z",
+      "lastSeen": "2026-11-25T06:42:03.184Z",
+      "seenCount": 1,
+      "history": []
     },
     {
       "id": "e0742b43ed28",
@@ -4236,11 +4241,15 @@
         {
           "title": "2026-11-12 Honkai: Star Rail 4.7, 1단계 워프에 플레이어블 Aha 추가",
           "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOUzBxS041YjJ6T09LTUVJdm8xZk5tUWZBZkFESTk1dFllVGRzMXoxdERzU2RJMy1VYzEwRkZnOUgtMUhJMjBzSTZiYkpLTEs2TTVHd1MybEJ1ZFFmQ2lvYXFxV2xObGp2enJYSkNQWnZpRk1yLVYyZWc0dnZ4MzYyalcwejZNVTFNbUpZc0xKWDh0MEFydzY5OUlsQVZKdHBBazl0QTIyX050QTA0LUNoUklQVlU0SjMzaks3Y2thb2w3aDdDRVpUSlhqaUdkeGsxQS0yaHNkeVotOWdIeDVwa3BRa0lFNHY4UHk3Y3R0MjZ0U0Nn?oc=5"
+        },
+        {
+          "title": "붕스 4.7 픽업 총정리",
+          "url": "https://www.gamsgo.com/ko/blog/honkai-star-rail-4-7-banners"
         }
       ],
       "firstSeen": "2026-10-31T14:28:00.518Z",
-      "lastSeen": "2026-11-25T07:02:12.754Z",
-      "seenCount": 102,
+      "lastSeen": "2026-11-25T07:54:27.191Z",
+      "seenCount": 103,
       "history": [
         {
           "at": "2026-11-19T02:35:08.122Z",
@@ -4300,14 +4309,14 @@
       "game": "starrail",
       "server": "kr",
       "type": "banner",
-      "title": "아하 픽업 (뭇별을 향한 희롱)",
-      "description": "신규 5성 캐릭터 아하의 픽업이 진행됩니다.",
+      "title": "에이언즈★아하 픽업 - 뭇별을 향한 희롱",
+      "description": "4.7 버전 신규 한정 5성 캐릭터 에이언즈★아하의 캐릭터 이벤트 워프입니다. 한국 서버 기준 2026년 11월 11일 12:00부터 12월 22일 16:00까지 진행됩니다.",
       "start": "2026-11-11T03:00:00.000Z",
       "end": "2026-12-22T07:00:00.000Z",
       "allDay": false,
       "confidence": 0.95,
       "status": "confirmed",
-      "basis": "official",
+      "basis": "community",
       "major": false,
       "rerun": false,
       "sources": [
@@ -4326,11 +4335,19 @@
         {
           "title": "붕괴 스타레일 4.7 버전 전반 이벤트 워프 정보 (11/11 업데이트 예정)",
           "url": "https://memic.at/articles/850875"
+        },
+        {
+          "title": "Honkai: Star Rail 4.7, 1단계 워프에 플레이어블 Aha 추가",
+          "url": "https://games.gg/ko/news/honkai-star-rail-47-1%EB%8B%A8%EA%B3%84-%EC%9B%8C%ED%94%84%EC%97%90-%ED%94%8C%EB%A0%88%EC%9D%B4%EC%96%B4%EB%B8%94-aha-%EC%B6%94%EA%B0%80/"
+        },
+        {
+          "title": "붕스 4.7 픽업 총정리",
+          "url": "https://www.gamsgo.com/ko/blog/honkai-star-rail-4-7-banners"
         }
       ],
       "firstSeen": "2026-11-03T02:55:38.900Z",
-      "lastSeen": "2026-11-22T17:10:58.255Z",
-      "seenCount": 23,
+      "lastSeen": "2026-11-25T07:54:27.191Z",
+      "seenCount": 27,
       "history": []
     },
     {
@@ -4398,40 +4415,6 @@
       "history": []
     },
     {
-      "id": "d6f59d03824d",
-      "game": "starrail",
-      "server": "kr",
-      "type": "banner",
-      "title": "「뭇별을 향한 희롱」 에이언즈★아하 픽업",
-      "description": "4.7 버전 메인 픽업으로 에이언즈★아하가 등장하는 캐릭터 이벤트 워프입니다.",
-      "start": "2026-11-11T03:00:00.000Z",
-      "end": "2026-12-22T07:00:00.000Z",
-      "allDay": false,
-      "confidence": 0.95,
-      "status": "confirmed",
-      "basis": "community",
-      "major": false,
-      "rerun": false,
-      "sources": [
-        {
-          "title": "붕괴: 스타레일 픽업·이벤트 일정 | 픽업캘린더",
-          "url": "https://www.pickupcal.com/games/hsr/"
-        },
-        {
-          "title": "스타레일 픽업 일정 · 이벤트 워프 이력 | BannerHistory",
-          "url": "https://bannerhistory.app/ko/hsr-pickup-history"
-        },
-        {
-          "title": "Honkai: Star Rail 4.7, 1단계 워프에 플레이어블 Aha 추가",
-          "url": "https://games.gg/ko/news/honkai-star-rail-47-1%EB%8B%A8%EA%B3%84-%EC%9B%8C%ED%94%84%EC%97%90-%ED%94%8C%EB%A0%88%EC%9D%B4%EC%96%B4%EB%B8%94-aha-%EC%B6%94%EA%B0%80/"
-        }
-      ],
-      "firstSeen": "2026-11-20T17:50:09.319Z",
-      "lastSeen": "2026-11-25T06:22:24.261Z",
-      "seenCount": 3,
-      "history": []
-    },
-    {
       "id": "83f4b9b0dcfc",
       "game": "zzz",
       "server": "kr",
@@ -4476,8 +4459,8 @@
         }
       ],
       "firstSeen": "2026-10-31T14:28:00.518Z",
-      "lastSeen": "2026-11-25T06:42:03.184Z",
-      "seenCount": 80,
+      "lastSeen": "2026-11-25T07:54:27.191Z",
+      "seenCount": 81,
       "history": [],
       "rerun": false
     },
@@ -4527,8 +4510,8 @@
         }
       ],
       "firstSeen": "2026-11-03T01:46:11.174Z",
-      "lastSeen": "2026-11-25T06:42:03.184Z",
-      "seenCount": 25,
+      "lastSeen": "2026-11-25T07:54:27.191Z",
+      "seenCount": 26,
       "history": [
         {
           "at": "2026-11-03T02:55:38.900Z",
@@ -4794,8 +4777,8 @@
         }
       ],
       "firstSeen": "2026-11-07T15:41:18.208Z",
-      "lastSeen": "2026-11-25T04:13:00.420Z",
-      "seenCount": 75,
+      "lastSeen": "2026-11-25T07:54:27.191Z",
+      "seenCount": 78,
       "history": [
         {
           "at": "2026-11-10T17:04:46.203Z",
@@ -4854,8 +4837,8 @@
         }
       ],
       "firstSeen": "2026-11-10T17:04:46.203Z",
-      "lastSeen": "2026-11-25T04:13:00.420Z",
-      "seenCount": 21,
+      "lastSeen": "2026-11-25T07:54:27.191Z",
+      "seenCount": 22,
       "history": [
         {
           "at": "2026-11-11T17:10:45.431Z",
@@ -4949,8 +4932,8 @@
         }
       ],
       "firstSeen": "2026-11-01T00:09:03.774Z",
-      "lastSeen": "2026-11-25T07:02:12.754Z",
-      "seenCount": 176,
+      "lastSeen": "2026-11-25T07:54:27.191Z",
+      "seenCount": 181,
       "history": []
     },
     {
@@ -4975,8 +4958,8 @@
         }
       ],
       "firstSeen": "2026-11-10T17:04:46.203Z",
-      "lastSeen": "2026-11-25T04:13:00.420Z",
-      "seenCount": 44,
+      "lastSeen": "2026-11-25T07:54:27.191Z",
+      "seenCount": 45,
       "history": []
     },
     {
@@ -5965,7 +5948,7 @@
             "authors": 14
           }
         },
-        "at": "2026-11-25T07:02:12.754Z"
+        "at": "2026-11-25T07:54:27.191Z"
       },
       "firstSeen": "2026-11-22T17:10:58.255Z",
       "lastSeen": "2026-11-22T17:10:58.255Z",
@@ -7256,8 +7239,8 @@
         }
       ],
       "firstSeen": "2026-11-19T02:35:08.122Z",
-      "lastSeen": "2026-11-25T06:42:03.184Z",
-      "seenCount": 13,
+      "lastSeen": "2026-11-25T07:54:27.191Z",
+      "seenCount": 14,
       "history": [
         {
           "at": "2026-11-19T18:18:57.113Z",
@@ -7415,25 +7398,37 @@
       "game": "limbus",
       "server": "kr",
       "type": "update",
-      "title": "정기 업데이트 (시즌 8) 2026-11-26",
-      "description": "시즌 8 신규 콘텐츠와 밸런스 조정이 포함된 정기 업데이트.",
+      "title": "2026년 11월 26일 정기 업데이트",
+      "description": "11월 26일 정기 업데이트가 진행됩니다. 업데이트 후 신규 픽업이 12:00부터 시작됩니다.",
       "start": "2026-11-25T15:00:00.000Z",
-      "end": null,
+      "end": "2026-11-26T03:00:00.000Z",
       "allDay": true,
-      "confidence": 0.7,
-      "status": "unverified",
-      "basis": "community",
+      "confidence": 0.95,
+      "status": "confirmed",
+      "basis": "official",
       "major": false,
       "rerun": false,
       "sources": [
         {
           "title": "림버스 컴퍼니 11월 26일 정기 업데이트 안내",
           "url": "https://haleta.tistory.com/284"
+        },
+        {
+          "title": "Limbus Company 공식 X 업데이트 안내",
+          "url": "https://x.com/LimbusCompany_B/status/2124790056783314979"
+        },
+        {
+          "title": "픽업캘린더",
+          "url": "https://www.pickupcal.com/games/limbus/"
+        },
+        {
+          "title": "림버스 픽업 — 11월 26일 특정 추출 일정·뽑을까 판단",
+          "url": "https://kazena.co.kr/limbus-company/guide/pickup"
         }
       ],
-      "firstSeen": "2026-11-25T07:02:12.754Z",
-      "lastSeen": "2026-11-25T07:02:12.754Z",
-      "seenCount": 1,
+      "firstSeen": "2026-11-24T20:11:08.464Z",
+      "lastSeen": "2026-11-25T07:54:27.191Z",
+      "seenCount": 4,
       "history": []
     },
     {
@@ -7441,12 +7436,12 @@
       "game": "wuwa",
       "server": "kr",
       "type": "event",
-      "title": "울림의 영역 이벤트",
-      "description": "음의 영역 붕괴가 심화되는 가운데, 울림 에너지를 활용한 육성 재료 한정 2배 이벤트",
-      "start": "2026-11-25T20:00:00.000Z",
-      "end": "2026-12-02T19:59:00.000Z",
+      "title": "울림의 영역 육성 재료 한정 2배 이벤트",
+      "description": "결정 웨이브 플레이트를 사용해 울림의 결정에서 육성 재료 보상을 2배로 획득할 수 있는 기간 한정 이벤트입니다.",
+      "start": "2026-11-25T21:00:00.000Z",
+      "end": "2026-12-02T20:59:00.000Z",
       "allDay": false,
-      "confidence": 0.9,
+      "confidence": 0.95,
       "status": "unverified",
       "basis": "official",
       "major": false,
@@ -7458,43 +7453,15 @@
         }
       ],
       "firstSeen": "2026-11-25T06:42:03.184Z",
-      "lastSeen": "2026-11-25T06:42:03.184Z",
-      "seenCount": 1,
-      "history": []
-    },
-    {
-      "id": "363b9e400d8b",
-      "game": "limbus",
-      "server": "kr",
-      "type": "maintenance",
-      "title": "2026년 11월 26일 정기 업데이트 점검",
-      "description": "정기 업데이트 및 점검 진행 시간으로 접속이 제한됩니다.",
-      "start": "2026-11-26T01:00:00.000Z",
-      "end": "2026-11-26T03:00:00.000Z",
-      "allDay": false,
-      "confidence": 0.95,
-      "status": "confirmed",
-      "basis": "official",
-      "major": false,
-      "rerun": false,
-      "sources": [
-        {
-          "title": "Limbus Company on X: \" [2026년 11월 26일 정기 업데이트 안내] [2026年11月 ...",
-          "url": "https://x.com/LimbusCompany_B/status/2124790056783314979"
-        },
-        {
-          "title": "림버스 픽업 — 11월 26일 특정 추출 일정·뽑을까 판단",
-          "url": "https://kazena.co.kr/limbus-company/guide/pickup"
-        },
-        {
-          "title": "림버스 컴퍼니 11월 26일 정기 업데이트 안내 정리｜시즌 8 신규 ...",
-          "url": "https://haleta.tistory.com/284"
-        }
-      ],
-      "firstSeen": "2026-11-24T20:11:08.464Z",
-      "lastSeen": "2026-11-25T04:13:00.420Z",
+      "lastSeen": "2026-11-25T07:54:27.191Z",
       "seenCount": 2,
-      "history": []
+      "history": [
+        {
+          "at": "2026-11-25T07:54:27.191Z",
+          "start": "2026-11-25T20:00:00.000Z",
+          "end": "2026-12-02T19:59:00.000Z"
+        }
+      ]
     },
     {
       "id": "99c5eeee4eb6",
@@ -7526,8 +7493,8 @@
         }
       ],
       "firstSeen": "2026-11-20T17:50:09.319Z",
-      "lastSeen": "2026-11-25T07:02:12.754Z",
-      "seenCount": 19,
+      "lastSeen": "2026-11-25T07:54:27.191Z",
+      "seenCount": 21,
       "history": []
     },
     {
@@ -7655,7 +7622,7 @@
             "authors": 13
           }
         },
-        "at": "2026-11-25T07:02:12.754Z"
+        "at": "2026-11-25T07:54:27.191Z"
       }
     },
     {
@@ -7693,7 +7660,7 @@
             "authors": 11
           }
         },
-        "at": "2026-11-25T07:02:12.754Z"
+        "at": "2026-11-25T07:54:27.191Z"
       },
       "firstSeen": "2026-11-25T04:13:00.420Z",
       "lastSeen": "2026-11-25T04:13:00.420Z",
@@ -7832,8 +7799,8 @@
         }
       ],
       "firstSeen": "2026-11-21T16:49:03.496Z",
-      "lastSeen": "2026-11-25T07:02:12.754Z",
-      "seenCount": 8,
+      "lastSeen": "2026-11-25T07:54:27.191Z",
+      "seenCount": 9,
       "history": [
         {
           "at": "2026-11-25T04:13:00.420Z",
@@ -7880,8 +7847,8 @@
         }
       ],
       "firstSeen": "2026-11-21T16:49:03.496Z",
-      "lastSeen": "2026-11-25T05:55:42.720Z",
-      "seenCount": 3,
+      "lastSeen": "2026-11-25T07:54:27.191Z",
+      "seenCount": 4,
       "history": [
         {
           "at": "2026-11-24T05:20:07.320Z",
@@ -7933,8 +7900,8 @@
         }
       ],
       "firstSeen": "2026-11-20T17:50:09.319Z",
-      "lastSeen": "2026-11-25T06:42:03.184Z",
-      "seenCount": 11,
+      "lastSeen": "2026-11-25T07:54:27.191Z",
+      "seenCount": 12,
       "history": [
         {
           "at": "2026-11-25T04:13:00.420Z",
@@ -7979,6 +7946,36 @@
       "history": []
     },
     {
+      "id": "b933e6f22c78",
+      "game": "zzz",
+      "server": "kr",
+      "type": "event",
+      "title": "로빈 무료 지급 이벤트",
+      "description": "3.4 버전 콜라보 기념으로 한정 S급 에이전트 로빈을 무료로 획득할 수 있는 이벤트.",
+      "start": "2026-12-01T16:00:00.000Z",
+      "end": "2027-02-24T16:00:00.000Z",
+      "allDay": true,
+      "confidence": 0.8,
+      "status": "confirmed",
+      "basis": "community",
+      "major": false,
+      "rerun": false,
+      "sources": [
+        {
+          "title": "뉴스탭 3.4 업데이트 기사",
+          "url": "https://www.newstap.co.kr/news/articleView.html?idxno=338300"
+        },
+        {
+          "title": "BannerHistory ZZZ",
+          "url": "https://bannerhistory.app/ko/zzz-pickup-formula"
+        }
+      ],
+      "firstSeen": "2026-11-25T07:54:27.191Z",
+      "lastSeen": "2026-11-25T07:54:27.191Z",
+      "seenCount": 1,
+      "history": []
+    },
+    {
       "id": "b19692887390",
       "game": "zzz",
       "server": "kr",
@@ -8000,8 +7997,8 @@
         }
       ],
       "firstSeen": "2026-11-25T05:55:42.720Z",
-      "lastSeen": "2026-11-25T05:55:42.720Z",
-      "seenCount": 1,
+      "lastSeen": "2026-11-25T07:54:27.191Z",
+      "seenCount": 2,
       "history": []
     },
     {
@@ -8127,8 +8124,8 @@
         }
       ],
       "firstSeen": "2026-10-31T14:28:00.518Z",
-      "lastSeen": "2026-11-25T06:22:24.261Z",
-      "seenCount": 83,
+      "lastSeen": "2026-11-25T07:54:27.191Z",
+      "seenCount": 84,
       "history": [],
       "rerun": true
     },
@@ -8171,7 +8168,7 @@
             "authors": 14
           }
         },
-        "at": "2026-11-25T07:02:12.754Z"
+        "at": "2026-11-25T07:54:27.191Z"
       },
       "firstSeen": "2026-11-10T17:04:46.203Z",
       "lastSeen": "2026-11-25T05:55:42.720Z",
@@ -8204,8 +8201,8 @@
         }
       ],
       "firstSeen": "2026-11-10T17:04:46.203Z",
-      "lastSeen": "2026-11-25T05:55:42.720Z",
-      "seenCount": 48,
+      "lastSeen": "2026-11-25T07:54:27.191Z",
+      "seenCount": 51,
       "history": []
     },
     {
@@ -8364,8 +8361,8 @@
         }
       ],
       "community": {
-        "posts": 10,
-        "authors": 10,
+        "posts": 9,
+        "authors": 9,
         "recommended": 0,
         "reliable": 0,
         "sites": [
@@ -8373,11 +8370,11 @@
         ],
         "by": {
           "dcinside": {
-            "posts": 10,
-            "authors": 10
+            "posts": 9,
+            "authors": 9
           }
         },
-        "at": "2026-11-25T07:02:12.754Z"
+        "at": "2026-11-25T07:54:27.191Z"
       },
       "firstSeen": "2026-11-20T17:50:09.319Z",
       "lastSeen": "2026-11-25T06:22:24.261Z",
@@ -8406,8 +8403,8 @@
         }
       ],
       "community": {
-        "posts": 11,
-        "authors": 10,
+        "posts": 10,
+        "authors": 9,
         "recommended": 1,
         "reliable": 0,
         "sites": [
@@ -8415,11 +8412,11 @@
         ],
         "by": {
           "dcinside": {
-            "posts": 11,
-            "authors": 10
+            "posts": 10,
+            "authors": 9
           }
         },
-        "at": "2026-11-25T07:02:12.754Z"
+        "at": "2026-11-25T07:54:27.191Z"
       },
       "firstSeen": "2026-11-20T17:50:09.319Z",
       "lastSeen": "2026-11-25T06:22:24.261Z",
@@ -8487,7 +8484,7 @@
             "authors": 14
           }
         },
-        "at": "2026-11-25T07:02:12.754Z"
+        "at": "2026-11-25T07:54:27.191Z"
       },
       "firstSeen": "2026-11-24T20:11:08.464Z",
       "lastSeen": "2026-11-24T20:11:08.464Z",
@@ -8691,7 +8688,7 @@
             "authors": 14
           }
         },
-        "at": "2026-11-25T07:02:12.754Z"
+        "at": "2026-11-25T07:54:27.191Z"
       }
     },
     {
@@ -8729,7 +8726,7 @@
             "authors": 14
           }
         },
-        "at": "2026-11-25T07:02:12.754Z"
+        "at": "2026-11-25T07:54:27.191Z"
       },
       "firstSeen": "2026-11-22T17:10:58.255Z",
       "lastSeen": "2026-11-24T20:11:08.464Z",
@@ -8797,7 +8794,7 @@
             "authors": 9
           }
         },
-        "at": "2026-11-25T07:02:12.754Z"
+        "at": "2026-11-25T07:54:27.191Z"
       },
       "firstSeen": "2026-11-24T20:11:08.464Z",
       "lastSeen": "2026-11-25T06:22:24.261Z",
@@ -8826,8 +8823,8 @@
         }
       ],
       "community": {
-        "posts": 9,
-        "authors": 8,
+        "posts": 10,
+        "authors": 9,
         "recommended": 1,
         "reliable": 0,
         "sites": [
@@ -8835,11 +8832,11 @@
         ],
         "by": {
           "dcinside": {
-            "posts": 9,
-            "authors": 8
+            "posts": 10,
+            "authors": 9
           }
         },
-        "at": "2026-11-25T07:02:12.754Z"
+        "at": "2026-11-25T07:54:27.191Z"
       },
       "firstSeen": "2026-11-24T20:11:08.464Z",
       "lastSeen": "2026-11-25T06:22:24.261Z",
@@ -8881,7 +8878,7 @@
             "authors": 6
           }
         },
-        "at": "2026-11-25T07:02:12.754Z"
+        "at": "2026-11-25T07:54:27.191Z"
       },
       "firstSeen": "2026-11-25T06:22:24.261Z",
       "lastSeen": "2026-11-25T06:22:24.261Z",
@@ -8923,7 +8920,7 @@
             "authors": 10
           }
         },
-        "at": "2026-11-25T07:02:12.754Z"
+        "at": "2026-11-25T07:54:27.191Z"
       },
       "firstSeen": "2026-11-25T06:22:24.261Z",
       "lastSeen": "2026-11-25T06:22:24.261Z",
@@ -8991,7 +8988,7 @@
             "authors": 6
           }
         },
-        "at": "2026-11-25T07:02:12.754Z"
+        "at": "2026-11-25T07:54:27.191Z"
       },
       "firstSeen": "2026-11-25T04:13:00.420Z",
       "lastSeen": "2026-11-25T04:13:00.420Z",
@@ -9037,7 +9034,7 @@
             "authors": 13
           }
         },
-        "at": "2026-11-25T07:02:12.754Z"
+        "at": "2026-11-25T07:54:27.191Z"
       }
     },
     {
@@ -9965,7 +9962,7 @@
             "authors": 3
           }
         },
-        "at": "2026-11-25T07:02:12.754Z"
+        "at": "2026-11-25T07:54:27.191Z"
       },
       "firstSeen": "2026-11-25T06:22:24.261Z",
       "lastSeen": "2026-11-25T06:22:24.261Z",
@@ -9995,6 +9992,32 @@
       ],
       "firstSeen": "2026-11-25T06:22:24.261Z",
       "lastSeen": "2026-11-25T06:22:24.261Z",
+      "seenCount": 1,
+      "history": []
+    },
+    {
+      "id": "c63e4e47cce1",
+      "game": "zzz",
+      "server": "kr",
+      "type": "event",
+      "title": "젠레스 존 제로 3주년",
+      "description": "젠레스 존 제로 서비스 3주년 기념 대형 이벤트.",
+      "start": "2027-07-03T16:00:00.000Z",
+      "end": null,
+      "allDay": true,
+      "confidence": 0.7,
+      "status": "unverified",
+      "basis": "community",
+      "major": true,
+      "rerun": false,
+      "sources": [
+        {
+          "title": "BannerHistory ZZZ",
+          "url": "https://bannerhistory.app/ko/zzz-pickup-formula"
+        }
+      ],
+      "firstSeen": "2026-11-25T07:54:27.191Z",
+      "lastSeen": "2026-11-25T07:54:27.191Z",
       "seenCount": 1,
       "history": []
     }
