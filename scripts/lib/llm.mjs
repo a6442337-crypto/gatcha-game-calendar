@@ -5,6 +5,8 @@
 import { extractJson } from './gemini.mjs';
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+// 공개 로그에 계정 식별자가 남지 않도록
+const redact = (t) => String(t).replace(/\b(org|user|proj|key)_[A-Za-z0-9]{6,}\b/g, '$1_***');
 
 export class OpenAICompatible {
   constructor({ name, baseUrl, apiKey, models = [], discover, maxPromptChars = 60000, minIntervalMs = 4000, timeoutMs = 90000, maxTries = 4, headers = {} }) {
@@ -46,10 +48,10 @@ export class OpenAICompatible {
     await this.#discover();
     let text = prompt;
     if (text.length > this.maxPromptChars) text = text.slice(0, this.maxPromptChars) + '\n…(자료 일부 생략)';
-    const body = (model) => JSON.stringify({
+    const body = (model, strict = true) => JSON.stringify({
       model,
       temperature: 0,
-      response_format: { type: 'json_object' },
+      ...(strict ? { response_format: { type: 'json_object' } } : {}),
       messages: [
         { role: 'system', content: `반드시 다음 JSON 스키마를 따르는 JSON 객체 하나만 출력하세요. 설명 문장은 쓰지 마세요.\n${JSON.stringify(schema)}` },
         { role: 'user', content: text },
@@ -61,12 +63,13 @@ export class OpenAICompatible {
       this.lastCall = Date.now();
       this.calls++;
       const model = this.model;
+      const strict = !this.lenient?.has(model);
       let res, raw;
       try {
         res = await fetch(`${this.baseUrl}/chat/completions`, {
           method: 'POST',
           headers: { 'content-type': 'application/json', authorization: `Bearer ${this.apiKey}`, ...this.headers },
-          body: body(model),
+          body: body(model, strict),
           signal: AbortSignal.timeout(this.timeoutMs),
         });
         raw = await res.text();
@@ -85,7 +88,9 @@ export class OpenAICompatible {
         this.models.push(this.models.shift());
         continue;
       }
-      this.notes.push(`${this.name}/${model}: HTTP ${res.status} ${raw.slice(0, 120)}`);
+      this.notes.push(`${this.name}/${model}: HTTP ${res.status} ${redact(raw).slice(0, 120)}`);
+      // 엄격한 JSON 검증 실패 → 같은 모델로 검증 없이 한 번 더 (우리 쪽에서 JSON 정리)
+      if (res.status === 400 && /validate JSON|json_validate|failed_generation/i.test(raw) && strict) { (this.lenient ||= new Set()).add(model); continue; }
       if (res.status === 401 || res.status === 403) { this.dead = true; break; } // 키 문제
       if (res.status === 429) { await sleep(20000); }
       this.models.push(this.models.shift()); // 404(모델 없음)·413(너무 김)·429·5xx → 다음 모델
@@ -128,8 +133,11 @@ export function fallbackProviders(env = process.env) {
       name: 'groq',
       baseUrl: 'https://api.groq.com/openai/v1',
       apiKey: env.GROQ_API_KEY,
-      models: (env.GROQ_MODELS || 'openai/gpt-oss-120b,qwen/qwen3.6-27b,openai/gpt-oss-20b').split(','),
-      maxPromptChars: 9000, // 분당 8K 토큰 한도 안에 들도록 (한국어는 글자 수 ≈ 토큰 수보다 약간 적음)
+      models: (env.GROQ_MODELS || 'openai/gpt-oss-120b,openai/gpt-oss-20b').split(','),
+      // 계정에서 실제 쓸 수 있는 텍스트 모델을 조회 (문서상 대체 모델이 없는 경우가 있음)
+      discover: (j) => (j.data || []).filter((m) => m.active !== false && !/(whisper|tts|guard|vision|orpheus|prompt-guard|compound)/i.test(m.id)).sort((a, b) => (/gpt-oss-120b/.test(b.id) - /gpt-oss-120b/.test(a.id)) || (/gpt-oss/.test(b.id) - /gpt-oss/.test(a.id)) || (b.context_window || 0) - (a.context_window || 0)).map((m) => m.id),
+      maxPromptChars: 5500, // 분당 8K 토큰 한도: 한국어는 글자당 토큰이 많아 넉넉히 줄임
+      maxTries: 3,
       minIntervalMs: 65000, // 분당 토큰 한도 회복 대기
     }));
   }

@@ -55,3 +55,22 @@ test('OpenRouter 무료 모델 선택: 검증된 대형 모델 우선, 소형·�
   ]);
   assert.deepEqual(ids, ['openai/gpt-oss-120b:free', 'deepseek/deepseek-v3.2:free', 'particle-ai/particle-1:free']);
 });
+
+test('JSON 검증 실패(400)면 같은 모델로 검증 없이 재시도, 로그의 계정 식별자는 가림', async () => {
+  const orig = globalThis.fetch;
+  const sent = [];
+  globalThis.fetch = async (url, opt) => {
+    const b = JSON.parse(opt.body);
+    sent.push(b);
+    if (b.response_format) return { status: 400, text: async () => '{"error":{"message":"Failed to validate JSON in organization `org_01abcdef123456`"}}' };
+    return okBody('결과: {"events":[{"title":"x"}],}');
+  };
+  try {
+    const p = new OpenAICompatible({ name: 'groq', baseUrl: 'https://api.groq.com/openai/v1', apiKey: 'k', models: ['gpt-oss'], minIntervalMs: 0 });
+    assert.deepEqual(await p.structured('p', {}), { events: [{ title: 'x' }] });
+    assert.equal(sent.length, 2);
+    assert.equal(sent[1].model, 'gpt-oss');
+    assert.ok(!sent[1].response_format);
+    assert.ok(p.notes.every((n) => !n.includes('org_01abcdef123456')));
+  } finally { globalThis.fetch = orig; }
+});
