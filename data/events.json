@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T06:40:29.368Z",
+  "updatedAt": "2026-11-25T07:00:33.844Z",
   "events": [
     {
       "id": "0ce40d1a53e3",
@@ -1169,12 +1169,12 @@
       "server": "kr",
       "type": "event",
       "title": "괴상한 오싹오싹 유령의 집",
-      "description": "유령의 집 탐험 테마의 게임 내 이벤트입니다.",
+      "description": "오싹오싹 유령의 집 이벤트（보상 2배）",
       "start": "2026-10-22T02:00:00.000Z",
       "end": "2026-11-29T19:59:00.000Z",
       "allDay": false,
-      "confidence": 0.95,
-      "status": "unverified",
+      "confidence": 0.9,
+      "status": "confirmed",
       "basis": "official",
       "major": false,
       "rerun": false,
@@ -1182,11 +1182,15 @@
         {
           "title": "젠레스 존 제로 픽업·이벤트 일정 | 픽업캘린더",
           "url": "https://www.pickupcal.com/games/zzz/"
+        },
+        {
+          "title": "Official News",
+          "url": "https://zenless.hoyoverse.com/ko-kr/news/161722"
         }
       ],
       "firstSeen": "2026-11-11T17:10:45.431Z",
-      "lastSeen": "2026-11-25T06:22:24.261Z",
-      "seenCount": 16,
+      "lastSeen": "2026-11-25T06:42:03.184Z",
+      "seenCount": 17,
       "history": []
     },
     {
@@ -2498,11 +2502,15 @@
         {
           "title": "넥슨게임즈 '블루 아카이브' 특별 픽업 시작 - 게임와이",
           "url": "http://www.gamey.kr/news/articleView.html?idxno=3019486"
+        },
+        {
+          "title": "블루 아카이브 11월 픽업 일정 (2026)",
+          "url": "https://www.gamsgo.com/ko/blog/blue-archive-fest-banner"
         }
       ],
       "firstSeen": "2026-10-31T14:28:00.518Z",
-      "lastSeen": "2026-11-16T19:38:07.227Z",
-      "seenCount": 82,
+      "lastSeen": "2026-11-25T06:42:03.184Z",
+      "seenCount": 84,
       "history": [
         {
           "at": "2026-11-05T01:28:06.296Z",
@@ -3472,6 +3480,32 @@
       "history": []
     },
     {
+      "id": "816b38ca4ca3",
+      "game": "bluearchive",
+      "server": "kr",
+      "type": "livestream",
+      "title": "키보토스 라이브",
+      "description": "5주년 업데이트와 BM 개편 등을 공개한 넥슨 공식 라이브 방송",
+      "start": "2026-11-07T15:00:00.000Z",
+      "end": null,
+      "allDay": true,
+      "confidence": 0.86,
+      "status": "unverified",
+      "basis": "official",
+      "major": false,
+      "rerun": false,
+      "sources": [
+        {
+          "title": "넥슨, ‘키보토스 라이브' 통해 '블루 아카이브' 5주년 업데이트 공개…BM 개편 · 컬래버 확대",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5HMWlIU2RkNDBMWHZPZmtnQ2hPQzZrUkZzejJKSExaV2l4Z2doWDQ2N0dHYzkwRWxvVHRGaGlGekdtSmxmaHB2cE93T1NwY0hLeWNBdmlLd2R5T0FPS0k1QTA0aVBmeFdWblhtWQ?oc=5"
+        }
+      ],
+      "firstSeen": "2026-11-25T06:42:03.184Z",
+      "lastSeen": "2026-11-25T06:42:03.184Z",
+      "seenCount": 1,
+      "history": []
+    },
+    {
       "id": "6b2671163aed",
       "game": "bluearchive",
       "server": "kr",
@@ -3610,6 +3644,58 @@
       ],
       "firstSeen": "2026-11-21T02:17:19.333Z",
       "lastSeen": "2026-11-21T02:17:19.333Z",
+      "seenCount": 1,
+      "history": []
+    },
+    {
+      "id": "e4fd3040ab2a",
+      "game": "bluearchive",
+      "server": "kr",
+      "type": "event",
+      "title": "5주년 무료 200회 모집",
+      "description": "무료 200회 모집 이벤트, 11월 10일 업데이트부터 11월 17일 11:00까지 진행",
+      "start": "2026-11-09T15:00:00.000Z",
+      "end": "2026-11-17T02:00:00.000Z",
+      "allDay": false,
+      "confidence": 0.75,
+      "status": "unverified",
+      "basis": "community",
+      "major": false,
+      "rerun": false,
+      "sources": [
+        {
+          "title": "블루 아카이브 5주년 무료 200회 모집 총정리",
+          "url": "https://blog.naver.com/lemon64246/224470532298"
+        }
+      ],
+      "firstSeen": "2026-11-25T06:42:03.184Z",
+      "lastSeen": "2026-11-25T06:42:03.184Z",
+      "seenCount": 1,
+      "history": []
+    },
+    {
+      "id": "5478d8f22df1",
+      "game": "bluearchive",
+      "server": "kr",
+      "type": "update",
+      "title": "모집 스택 도입",
+      "description": "11월 10일부터 모집 스택 시스템이 도입되어 200회 채우면 픽업 캐릭터가 확정 지급됩니다.",
+      "start": "2026-11-09T15:00:00.000Z",
+      "end": null,
+      "allDay": true,
+      "confidence": 0.68,
+      "status": "unverified",
+      "basis": "community",
+      "major": false,
+      "rerun": false,
+      "sources": [
+        {
+          "title": "블루 아카이브, 10일부터 모집 스택 도입…200회 채우면 픽업 캐릭터 확정 지급",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9oM1Z6aWhHMmoxWTVmLUtHa241UUhrdGU5MXYzc2xsdUxrVTZuVXFzc1hpTGVnMkNZQW8xM3RZdnJSalZFQ1FGSU9RZHhCWFM3ZVRkY293?oc=5"
+        }
+      ],
+      "firstSeen": "2026-11-25T06:42:03.184Z",
+      "lastSeen": "2026-11-25T06:42:03.184Z",
       "seenCount": 1,
       "history": []
     },
@@ -3765,6 +3851,36 @@
       "firstSeen": "2026-11-09T19:51:11.090Z",
       "lastSeen": "2026-11-21T02:17:19.333Z",
       "seenCount": 6,
+      "history": []
+    },
+    {
+      "id": "d46ac4f8ed11",
+      "game": "starrail",
+      "server": "kr",
+      "type": "banner",
+      "title": "Aha (4.7)",
+      "description": "Aha appears as a new playable character, featured in the 4.7 banner throughout the version.",
+      "start": "2026-11-10T16:00:00.000Z",
+      "end": null,
+      "allDay": true,
+      "confidence": 0.7,
+      "status": "unverified",
+      "basis": "community",
+      "major": false,
+      "rerun": false,
+      "sources": [
+        {
+          "title": "붕괴 스타레일 4.7 버전 업데이트, 5성 한정 캐릭터 지급과 신규 캐릭터 아하까지 - 게임메카",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9ORnBUTGVfb3BPVl9sRTAzV0RZMmdpZWswMFZwbllBUzZESFU1bElfTEE4cnFWcHN5d3E5Qi1zUHpPNktsSGhaY01ScHhFNmJtNmJrbTZDS2c1emNCajJuUmtKVlI1ekQyWkRtZUVYdTRRY1Ryc3Eza2ZxbHJLTmM?oc=5"
+        },
+        {
+          "title": "붕괴 스타레일 픽업 일정 2026: 4.7 아하와 4.8 예정 캐릭터",
+          "url": "https://www.gamsgo.com/ko/blog/hsr-upcoming-banners"
+        }
+      ],
+      "firstSeen": "2026-11-25T06:42:03.184Z",
+      "lastSeen": "2026-11-25T06:42:03.184Z",
+      "seenCount": 1,
       "history": []
     },
     {
@@ -4162,8 +4278,8 @@
         }
       ],
       "firstSeen": "2026-10-31T14:28:00.518Z",
-      "lastSeen": "2026-11-25T06:22:24.261Z",
-      "seenCount": 79,
+      "lastSeen": "2026-11-25T06:42:03.184Z",
+      "seenCount": 80,
       "history": [],
       "rerun": false
     },
@@ -4213,8 +4329,8 @@
         }
       ],
       "firstSeen": "2026-11-03T01:46:11.174Z",
-      "lastSeen": "2026-11-25T06:22:24.261Z",
-      "seenCount": 24,
+      "lastSeen": "2026-11-25T06:42:03.184Z",
+      "seenCount": 25,
       "history": [
         {
           "at": "2026-11-03T02:55:38.900Z",
@@ -4635,8 +4751,8 @@
         }
       ],
       "firstSeen": "2026-11-01T00:09:03.774Z",
-      "lastSeen": "2026-11-25T05:55:42.720Z",
-      "seenCount": 166,
+      "lastSeen": "2026-11-25T06:42:03.184Z",
+      "seenCount": 171,
       "history": []
     },
     {
@@ -4714,6 +4830,32 @@
       ],
       "firstSeen": "2026-11-09T19:51:11.090Z",
       "lastSeen": "2026-11-09T19:51:11.090Z",
+      "seenCount": 1,
+      "history": []
+    },
+    {
+      "id": "31f483569c1a",
+      "game": "zzz",
+      "server": "kr",
+      "type": "event",
+      "title": "Discord 꾸미기 대회",
+      "description": "Discord 서버 꾸미기 대회（보상 이벤트）",
+      "start": "2026-11-12T16:00:00.000Z",
+      "end": "2026-11-27T16:00:00.000Z",
+      "allDay": true,
+      "confidence": 0.9,
+      "status": "confirmed",
+      "basis": "official",
+      "major": false,
+      "rerun": false,
+      "sources": [
+        {
+          "title": "Official News",
+          "url": "https://zenless.hoyoverse.com/ko-kr/news/161722"
+        }
+      ],
+      "firstSeen": "2026-11-25T06:42:03.184Z",
+      "lastSeen": "2026-11-25T06:42:03.184Z",
       "seenCount": 1,
       "history": []
     },
@@ -5160,11 +5302,15 @@
         {
           "title": "블루아카이브 픽업 일정 · 모집 확률 UP 이력 (글로벌) | BannerHistory",
           "url": "https://bannerhistory.app/ko/ba-pickup-history"
+        },
+        {
+          "title": "블루 아카이브 11월 픽업 일정 (2026)",
+          "url": "https://www.gamsgo.com/ko/blog/blue-archive-fest-banner"
         }
       ],
       "firstSeen": "2026-10-31T14:28:00.518Z",
-      "lastSeen": "2026-11-23T01:44:55.939Z",
-      "seenCount": 60,
+      "lastSeen": "2026-11-25T06:42:03.184Z",
+      "seenCount": 61,
       "history": [
         {
           "at": "2026-11-10T17:04:46.203Z",
@@ -5535,6 +5681,32 @@
       "history": []
     },
     {
+      "id": "7ae5b675f39e",
+      "game": "umamusume",
+      "server": "kr",
+      "type": "update",
+      "title": "우마무스메 2026-11-19 업데이트",
+      "description": "카카오게임즈가 발표한 2026년 11월 19일 업데이트",
+      "start": "2026-11-18T15:00:00.000Z",
+      "end": null,
+      "allDay": false,
+      "confidence": 0.7,
+      "status": "unverified",
+      "basis": "community",
+      "major": false,
+      "rerun": false,
+      "sources": [
+        {
+          "title": "2026-11-19 카카오게임즈, 도깨비의세계 · 아키에이지 워 · 우마무스메 업데이트 - 워크투데이",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9HQ25CNTBjSU1tcThxMm9hc0JOQWlBR3RzWnFvaDhfaDh5bkUzZElwWnp1cmlwMmxnYi15bmtHNkdVYVRlblFrdmFmV2xpb1hWZ09ReFk2ZHJRQUV2dG5PdVlPNUxWUXVGTDdZOA?oc=5"
+        }
+      ],
+      "firstSeen": "2026-11-25T06:42:03.184Z",
+      "lastSeen": "2026-11-25T06:42:03.184Z",
+      "seenCount": 1,
+      "history": []
+    },
+    {
       "id": "dc769982df31",
       "game": "umamusume",
       "server": "kr",
@@ -5595,7 +5767,7 @@
             "authors": 14
           }
         },
-        "at": "2026-11-25T06:22:24.261Z"
+        "at": "2026-11-25T06:42:03.184Z"
       },
       "firstSeen": "2026-11-22T17:10:58.255Z",
       "lastSeen": "2026-11-22T17:10:58.255Z",
@@ -6019,8 +6191,8 @@
         }
       ],
       "firstSeen": "2026-10-31T14:18:40.901Z",
-      "lastSeen": "2026-11-03T01:17:00.695Z",
-      "seenCount": 5,
+      "lastSeen": "2026-11-25T06:42:03.184Z",
+      "seenCount": 6,
       "history": []
     },
     {
@@ -6866,12 +7038,12 @@
       "server": "kr",
       "type": "event",
       "title": "데이터 현상금-실전 시뮬레이션",
-      "description": "이벤트 기간 동안 실전 시뮬레이션룸 도전 보상을 2배로 획득할 수 있습니다.",
+      "description": "데이터 현상금 실전 시뮬레이션 이벤트（보상 2배）",
       "start": "2026-11-24T20:00:00.000Z",
       "end": "2026-11-29T19:59:00.000Z",
       "allDay": false,
-      "confidence": 0.95,
-      "status": "unverified",
+      "confidence": 0.9,
+      "status": "confirmed",
       "basis": "official",
       "major": false,
       "rerun": false,
@@ -6879,11 +7051,15 @@
         {
           "title": "젠레스 존 제로 픽업·이벤트 일정 | 픽업캘린더",
           "url": "https://www.pickupcal.com/games/zzz/"
+        },
+        {
+          "title": "Official News",
+          "url": "https://zenless.hoyoverse.com/ko-kr/news/161722"
         }
       ],
       "firstSeen": "2026-11-19T02:35:08.122Z",
-      "lastSeen": "2026-11-25T06:22:24.261Z",
-      "seenCount": 12,
+      "lastSeen": "2026-11-25T06:42:03.184Z",
+      "seenCount": 13,
       "history": [
         {
           "at": "2026-11-19T18:18:57.113Z",
@@ -7027,6 +7203,32 @@
           "end": "2026-12-16T03:59:00.000Z"
         }
       ]
+    },
+    {
+      "id": "c3115fd93790",
+      "game": "wuwa",
+      "server": "kr",
+      "type": "event",
+      "title": "울림의 영역 이벤트",
+      "description": "음의 영역 붕괴가 심화되는 가운데, 울림 에너지를 활용한 육성 재료 한정 2배 이벤트",
+      "start": "2026-11-25T20:00:00.000Z",
+      "end": "2026-12-02T19:59:00.000Z",
+      "allDay": false,
+      "confidence": 0.9,
+      "status": "unverified",
+      "basis": "official",
+      "major": false,
+      "rerun": false,
+      "sources": [
+        {
+          "title": "X 공식 트윗",
+          "url": "https://x.com/WW_KR_Official/status/2125424248692879777"
+        }
+      ],
+      "firstSeen": "2026-11-25T06:42:03.184Z",
+      "lastSeen": "2026-11-25T06:42:03.184Z",
+      "seenCount": 1,
+      "history": []
     },
     {
       "id": "363b9e400d8b",
@@ -7221,7 +7423,7 @@
             "authors": 13
           }
         },
-        "at": "2026-11-25T06:22:24.261Z"
+        "at": "2026-11-25T06:42:03.184Z"
       }
     },
     {
@@ -7246,8 +7448,8 @@
         }
       ],
       "community": {
-        "posts": 14,
-        "authors": 12,
+        "posts": 13,
+        "authors": 11,
         "recommended": 0,
         "reliable": 0,
         "sites": [
@@ -7255,11 +7457,11 @@
         ],
         "by": {
           "dcinside": {
-            "posts": 14,
-            "authors": 12
+            "posts": 13,
+            "authors": 11
           }
         },
-        "at": "2026-11-25T06:22:24.261Z"
+        "at": "2026-11-25T06:42:03.184Z"
       },
       "firstSeen": "2026-11-25T04:13:00.420Z",
       "lastSeen": "2026-11-25T04:13:00.420Z",
@@ -7462,7 +7664,7 @@
       "game": "zzz",
       "server": "kr",
       "type": "banner",
-      "title": "독점 채널 「밤을 태워 피운 낮」 - 태양을 가져온 자(선브링어) 픽업",
+      "title": "밤을 태워 피운 낮 - 태양을 가져온 자",
       "description": "3.4 버전 신규 S급 단조 에이전트 태양을 가져온 자의 독점 채널 픽업입니다.",
       "start": "2026-12-01T16:00:00.000Z",
       "end": "2027-01-12T06:59:00.000Z",
@@ -7495,8 +7697,8 @@
         }
       ],
       "firstSeen": "2026-11-20T17:50:09.319Z",
-      "lastSeen": "2026-11-25T06:22:24.261Z",
-      "seenCount": 10,
+      "lastSeen": "2026-11-25T06:42:03.184Z",
+      "seenCount": 11,
       "history": [
         {
           "at": "2026-11-25T04:13:00.420Z",
@@ -7563,6 +7765,36 @@
       ],
       "firstSeen": "2026-11-25T05:55:42.720Z",
       "lastSeen": "2026-11-25T05:55:42.720Z",
+      "seenCount": 1,
+      "history": []
+    },
+    {
+      "id": "db5d9fb44246",
+      "game": "starrail",
+      "server": "kr",
+      "type": "update",
+      "title": "Version 3.4 Update",
+      "description": "3.4 version update introduces Robin and Kafka as new characters.",
+      "start": "2026-12-01T16:00:00.000Z",
+      "end": null,
+      "allDay": true,
+      "confidence": 0.7,
+      "status": "unverified",
+      "basis": "community",
+      "major": false,
+      "rerun": false,
+      "sources": [
+        {
+          "title": "‘젠레스 존 제로’ 12월 2일 3.4 버전 업데이트…‘붕괴: 스타레일’ 로빈·카프카 합류 - 뉴스탭",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBCdV80c3R3b2U5MmFZZVZiNEJ5eEZSWVVhY1hpOW9JeFBXemlJTExTYzh0bUpCbVM3Nlo3a0M3UXVYMVQzcmFuMC16cWVPLWFLWWxFcUNKd1ZVRjJQaE9qZEF4VFVoTW9xWGR6ag?oc=5"
+        },
+        {
+          "title": "'스타레일' 컬래버도, '젠존제' 3.4 버전 12월 2일 업데이트 - PNN",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1pX3dGUmt6NGRKN0N5b1BEN2pLYzYzT2czWDZJMjJCQ3ZGWlUtWGFaRE8xdk1lb0R0TGoyWHpnWDNiTHFDLU8yTUlxWEZYRzZKYXJteGd0aV9zTDZMTU9GMFBmNnVXTWlT?oc=5"
+        }
+      ],
+      "firstSeen": "2026-11-25T06:42:03.184Z",
+      "lastSeen": "2026-11-25T06:42:03.184Z",
       "seenCount": 1,
       "history": []
     },
@@ -7673,7 +7905,7 @@
             "authors": 14
           }
         },
-        "at": "2026-11-25T06:22:24.261Z"
+        "at": "2026-11-25T06:42:03.184Z"
       },
       "firstSeen": "2026-11-10T17:04:46.203Z",
       "lastSeen": "2026-11-25T05:55:42.720Z",
@@ -7853,7 +8085,7 @@
             "authors": 11
           }
         },
-        "at": "2026-11-25T06:22:24.261Z"
+        "at": "2026-11-25T06:42:03.184Z"
       },
       "firstSeen": "2026-11-20T17:50:09.319Z",
       "lastSeen": "2026-11-25T06:22:24.261Z",
@@ -7882,8 +8114,8 @@
         }
       ],
       "community": {
-        "posts": 12,
-        "authors": 11,
+        "posts": 11,
+        "authors": 10,
         "recommended": 1,
         "reliable": 0,
         "sites": [
@@ -7891,11 +8123,11 @@
         ],
         "by": {
           "dcinside": {
-            "posts": 12,
-            "authors": 11
+            "posts": 11,
+            "authors": 10
           }
         },
-        "at": "2026-11-25T06:22:24.261Z"
+        "at": "2026-11-25T06:42:03.184Z"
       },
       "firstSeen": "2026-11-20T17:50:09.319Z",
       "lastSeen": "2026-11-25T06:22:24.261Z",
@@ -7963,7 +8195,7 @@
             "authors": 14
           }
         },
-        "at": "2026-11-25T06:22:24.261Z"
+        "at": "2026-11-25T06:42:03.184Z"
       },
       "firstSeen": "2026-11-24T20:11:08.464Z",
       "lastSeen": "2026-11-24T20:11:08.464Z",
@@ -8167,7 +8399,7 @@
             "authors": 14
           }
         },
-        "at": "2026-11-25T06:22:24.261Z"
+        "at": "2026-11-25T06:42:03.184Z"
       }
     },
     {
@@ -8205,7 +8437,7 @@
             "authors": 14
           }
         },
-        "at": "2026-11-25T06:22:24.261Z"
+        "at": "2026-11-25T06:42:03.184Z"
       },
       "firstSeen": "2026-11-22T17:10:58.255Z",
       "lastSeen": "2026-11-24T20:11:08.464Z",
@@ -8261,8 +8493,8 @@
       ],
       "community": {
         "posts": 14,
-        "authors": 10,
-        "recommended": 1,
+        "authors": 9,
+        "recommended": 0,
         "reliable": 0,
         "sites": [
           "dcinside"
@@ -8270,10 +8502,10 @@
         "by": {
           "dcinside": {
             "posts": 14,
-            "authors": 10
+            "authors": 9
           }
         },
-        "at": "2026-11-25T06:22:24.261Z"
+        "at": "2026-11-25T06:42:03.184Z"
       },
       "firstSeen": "2026-11-24T20:11:08.464Z",
       "lastSeen": "2026-11-25T06:22:24.261Z",
@@ -8304,7 +8536,7 @@
       "community": {
         "posts": 9,
         "authors": 8,
-        "recommended": 0,
+        "recommended": 1,
         "reliable": 0,
         "sites": [
           "dcinside"
@@ -8315,7 +8547,7 @@
             "authors": 8
           }
         },
-        "at": "2026-11-25T06:22:24.261Z"
+        "at": "2026-11-25T06:42:03.184Z"
       },
       "firstSeen": "2026-11-24T20:11:08.464Z",
       "lastSeen": "2026-11-25T06:22:24.261Z",
@@ -8344,8 +8576,8 @@
         }
       ],
       "community": {
-        "posts": 8,
-        "authors": 7,
+        "posts": 7,
+        "authors": 6,
         "recommended": 0,
         "reliable": 0,
         "sites": [
@@ -8353,11 +8585,11 @@
         ],
         "by": {
           "dcinside": {
-            "posts": 8,
-            "authors": 7
+            "posts": 7,
+            "authors": 6
           }
         },
-        "at": "2026-11-25T06:22:24.261Z"
+        "at": "2026-11-25T06:42:03.184Z"
       },
       "firstSeen": "2026-11-25T06:22:24.261Z",
       "lastSeen": "2026-11-25T06:22:24.261Z",
@@ -8386,8 +8618,8 @@
         }
       ],
       "community": {
-        "posts": 12,
-        "authors": 12,
+        "posts": 10,
+        "authors": 10,
         "recommended": 0,
         "reliable": 0,
         "sites": [
@@ -8395,11 +8627,11 @@
         ],
         "by": {
           "dcinside": {
-            "posts": 12,
-            "authors": 12
+            "posts": 10,
+            "authors": 10
           }
         },
-        "at": "2026-11-25T06:22:24.261Z"
+        "at": "2026-11-25T06:42:03.184Z"
       },
       "firstSeen": "2026-11-25T06:22:24.261Z",
       "lastSeen": "2026-11-25T06:22:24.261Z",
@@ -8467,7 +8699,7 @@
             "authors": 6
           }
         },
-        "at": "2026-11-25T06:22:24.261Z"
+        "at": "2026-11-25T06:42:03.184Z"
       },
       "firstSeen": "2026-11-25T04:13:00.420Z",
       "lastSeen": "2026-11-25T04:13:00.420Z",
@@ -8513,7 +8745,7 @@
             "authors": 13
           }
         },
-        "at": "2026-11-25T06:22:24.261Z"
+        "at": "2026-11-25T06:42:03.184Z"
       }
     },
     {
@@ -9441,7 +9673,7 @@
             "authors": 3
           }
         },
-        "at": "2026-11-25T06:22:24.261Z"
+        "at": "2026-11-25T06:42:03.184Z"
       },
       "firstSeen": "2026-11-25T06:22:24.261Z",
       "lastSeen": "2026-11-25T06:22:24.261Z",

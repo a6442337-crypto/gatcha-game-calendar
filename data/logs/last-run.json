@@ -1,23 +1,23 @@
 {
-  "startedAt": "2026-11-25T06:22:24.261Z",
-  "model": "openrouter:particle-ai/particle-1:free+openrouter:nvidia/nemotron-3.5-super-vl:free+openrouter:baidu/ernie-5.5-flash-preview:free",
+  "startedAt": "2026-11-25T06:42:03.184Z",
+  "model": "groq:openai/gpt-oss-20b+groq:openai/gpt-oss-120b",
   "runs": [
     {
-      "game": "genshin",
+      "game": "wuwa",
       "server": "kr",
-      "found": 7,
-      "accepted": 7,
+      "found": 1,
+      "accepted": 1,
       "rejected": [],
       "search": {
         "providers": {
           "googleNews": {
             "ok": 2,
-            "results": 11,
+            "results": 10,
             "errors": []
           },
           "bing": {
             "ok": 2,
-            "results": 19,
+            "results": 20,
             "errors": []
           },
           "duckduckgo": {
@@ -36,10 +36,77 @@
       }
     },
     {
+      "game": "limbus",
+      "server": "kr",
+      "found": 5,
+      "accepted": 5,
+      "rejected": [],
+      "search": {
+        "providers": {
+          "googleNews": {
+            "ok": 3,
+            "results": 2,
+            "errors": []
+          },
+          "bing": {
+            "ok": 3,
+            "results": 30,
+            "errors": []
+          },
+          "duckduckgo": {
+            "ok": 3,
+            "results": 29,
+            "errors": []
+          }
+        },
+        "pagesFetched": 6,
+        "pageErrors": 0,
+        "irrelevant": 2,
+        "newsResolved": 1,
+        "official": 0,
+        "results": 25,
+        "pages": 6
+      }
+    },
+    {
+      "game": "genshin",
+      "server": "kr",
+      "found": 0,
+      "accepted": 0,
+      "rejected": [],
+      "search": {
+        "providers": {
+          "googleNews": {
+            "ok": 2,
+            "results": 10,
+            "errors": []
+          },
+          "bing": {
+            "ok": 2,
+            "results": 19,
+            "errors": []
+          },
+          "duckduckgo": {
+            "ok": 2,
+            "results": 20,
+            "errors": []
+          }
+        },
+        "pagesFetched": 4,
+        "pageErrors": 2,
+        "irrelevant": 0,
+        "newsResolved": 6,
+        "official": 0,
+        "results": 25,
+        "pages": 4
+      },
+      "error": "groq: 사용 가능한 모델이 응답하지 않음"
+    },
+    {
       "game": "starrail",
       "server": "kr",
-      "found": 4,
-      "accepted": 4,
+      "found": 2,
+      "accepted": 2,
       "rejected": [],
       "search": {
         "providers": {
@@ -55,17 +122,17 @@
           },
           "duckduckgo": {
             "ok": 2,
-            "results": 18,
+            "results": 19,
             "errors": []
           }
         },
-        "pagesFetched": 6,
-        "pageErrors": 0,
-        "irrelevant": 11,
-        "newsResolved": 6,
+        "pagesFetched": 5,
+        "pageErrors": 1,
+        "irrelevant": 10,
+        "newsResolved": 0,
         "official": 0,
         "results": 25,
-        "pages": 6
+        "pages": 5
       }
     },
     {
@@ -77,9 +144,11 @@
       "search": {
         "providers": {
           "googleNews": {
-            "ok": 2,
-            "results": 10,
-            "errors": []
+            "ok": 1,
+            "results": 2,
+            "errors": [
+              "젠레스 존 제로 업데이트 이벤트 일정: HTTP 429"
+            ]
           },
           "bing": {
             "ok": 2,
@@ -88,24 +157,24 @@
           },
           "duckduckgo": {
             "ok": 2,
-            "results": 19,
+            "results": 20,
             "errors": []
           }
         },
         "pagesFetched": 6,
         "pageErrors": 0,
-        "irrelevant": 8,
-        "newsResolved": 6,
+        "irrelevant": 1,
+        "newsResolved": 0,
         "official": 0,
-        "results": 24,
+        "results": 17,
         "pages": 6
       }
     },
     {
       "game": "bluearchive",
       "server": "kr",
-      "found": 46,
-      "accepted": 46,
+      "found": 6,
+      "accepted": 6,
       "rejected": [],
       "search": {
         "providers": {
@@ -121,13 +190,13 @@
           },
           "duckduckgo": {
             "ok": 3,
-            "results": 23,
+            "results": 22,
             "errors": []
           }
         },
         "pagesFetched": 6,
         "pageErrors": 0,
-        "irrelevant": 16,
+        "irrelevant": 17,
         "newsResolved": 0,
         "official": 0,
         "results": 25,
@@ -137,14 +206,14 @@
     {
       "game": "nikke",
       "server": "kr",
-      "found": 2,
-      "accepted": 2,
+      "found": 0,
+      "accepted": 0,
       "rejected": [],
       "search": {
         "providers": {
           "googleNews": {
             "ok": 2,
-            "results": 21,
+            "results": 20,
             "errors": []
           },
           "bing": {
@@ -165,13 +234,14 @@
         "official": 0,
         "results": 25,
         "pages": 5
-      }
+      },
+      "error": "groq: 사용 가능한 모델이 응답하지 않음"
     },
     {
       "game": "umamusume",
       "server": "kr",
-      "found": 0,
-      "accepted": 0,
+      "found": 1,
+      "accepted": 1,
       "rejected": [],
       "search": {
         "providers": {
@@ -203,76 +273,10 @@
     {
       "game": "arknights",
       "server": "kr",
-      "found": 7,
-      "accepted": 7,
-      "rejected": [],
-      "search": {
-        "providers": {
-          "googleNews": {
-            "ok": 3,
-            "results": 1,
-            "errors": []
-          },
-          "bing": {
-            "ok": 3,
-            "results": 20,
-            "errors": []
-          },
-          "duckduckgo": {
-            "ok": 3,
-            "results": 28,
-            "errors": []
-          }
-        },
-        "pagesFetched": 5,
-        "pageErrors": 1,
-        "irrelevant": 12,
-        "newsResolved": 0,
-        "official": 15,
-        "results": 25,
-        "pages": 20
-      }
-    },
-    {
-      "game": "endfield",
-      "server": "kr",
-      "found": 6,
-      "accepted": 6,
-      "rejected": [],
-      "search": {
-        "providers": {
-          "googleNews": {
-            "ok": 2,
-            "results": 17,
-            "errors": []
-          },
-          "bing": {
-            "ok": 2,
-            "results": 20,
-            "errors": []
-          },
-          "duckduckgo": {
-            "ok": 2,
-            "results": 19,
-            "errors": []
-          }
-        },
-        "pagesFetched": 6,
-        "pageErrors": 0,
-        "irrelevant": 5,
-        "newsResolved": 0,
-        "official": 0,
-        "results": 25,
-        "pages": 6
-      }
-    },
-    {
-      "game": "wuwa",
-      "server": "kr",
       "skipped": "시간 예산 초과로 다음 실행에 수집"
     },
     {
-      "game": "limbus",
+      "game": "endfield",
       "server": "kr",
       "skipped": "시간 예산 초과로 다음 실행에 수집"
     }
@@ -289,8 +293,8 @@
         "하스미",
         "모에"
       ],
-      "posts": 171,
-      "attached": 11,
+      "posts": 170,
+      "attached": 7,
       "errors": []
     },
     {
@@ -304,7 +308,7 @@
         "시나리오",
         "링크"
       ],
-      "posts": 167,
+      "posts": 166,
       "attached": 7,
       "errors": []
     },
@@ -324,25 +328,26 @@
       "errors": []
     }
   ],
-  "apiCalls": 18,
+  "apiCalls": 17,
   "modelNotes": [
     "후보 모델: gemini-3.5-flash-lite, gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-flash-latest, gemini-omni-1.1-flash, gemini-omni-1.2-flash, gemini-omni-flash-preview, gemini-3.1-flash-lite, gemini-3.1-flash-lite-preview, gemini-2.5-flash-lite, gemini-flash-lite-latest",
-    "openrouter/inclusionai/ling-3.2-flash:free: HTTP 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"inclusionai/ling-3.2-flash:free is temporari",
-    "openrouter/particle-ai/particle-1:free: HTTP 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"particle-ai/particle-1:free is temporarily r",
-    "openrouter/baidu/ernie-5.5-flash-preview:free: 응답 지연",
-    "openrouter/nvidia/nemotron-3.5-super-vl:free: 응답 지연",
-    "openrouter/nvidia/nemotron-3.5-lightning:free: 응답 지연",
-    "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free: 응답 지연",
-    "openrouter/liquid/lfm-3-1.7b:free: JSON 해석 실패",
-    "openrouter/recursive/flint-v1.0:free: 응답 지연",
-    "openrouter/inclusionai/ling-3.2-flash:free: HTTP 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"inclusionai/ling-3.2-flash:free is temporari",
-    "openrouter/particle-ai/particle-1:free: HTTP 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"particle-ai/particle-1:free is temporarily r"
+    "groq/openai/gpt-oss-120b: HTTP 413 {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `org_01m88ntdewe9z8j5ga9jh042k5` ",
+    "groq/qwen/qwen3.6-27b: HTTP 404 {\"error\":{\"message\":\"The model `qwen/qwen3.6-27b` does not exist or you do not have access to it.\",\"type\":\"invalid_reque",
+    "groq/openai/gpt-oss-20b: HTTP 400 {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"typ",
+    "groq/openai/gpt-oss-120b: HTTP 413 {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `org_01m88ntdewe9z8j5ga9jh042k5` ",
+    "groq/qwen/qwen3.6-27b: HTTP 404 {\"error\":{\"message\":\"The model `qwen/qwen3.6-27b` does not exist or you do not have access to it.\",\"type\":\"invalid_reque",
+    "groq/openai/gpt-oss-20b: HTTP 400 {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"typ",
+    "groq/openai/gpt-oss-120b: HTTP 400 {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"typ",
+    "groq/qwen/qwen3.6-27b: HTTP 404 {\"error\":{\"message\":\"The model `qwen/qwen3.6-27b` does not exist or you do not have access to it.\",\"type\":\"invalid_reque",
+    "groq/openai/gpt-oss-20b: HTTP 400 {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"typ",
+    "groq/openai/gpt-oss-120b: HTTP 413 {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `org_01m88ntdewe9z8j5ga9jh042k5` ",
+    "groq/qwen/qwen3.6-27b: HTTP 404 {\"error\":{\"message\":\"The model `qwen/qwen3.6-27b` does not exist or you do not have access to it.\",\"type\":\"invalid_reque"
   ],
   "quotaStop": null,
   "stats": {
-    "added": 36,
-    "updated": 5,
-    "unchanged": 38
+    "added": 8,
+    "updated": 2,
+    "unchanged": 12
   },
-  "finishedAt": "2026-11-25T06:40:29.368Z"
+  "finishedAt": "2026-11-25T07:00:33.844Z"
 }
