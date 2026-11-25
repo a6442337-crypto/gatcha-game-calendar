@@ -26,6 +26,7 @@ permissions:
   contents: write
   pages: write
   id-token: write
+  models: read
 
 concurrency:
   group: update
@@ -51,6 +52,7 @@ jobs:
         if: inputs.diagnose == true || contains(github.event.head_commit.message, '[diagnose]')
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node scripts/diagnose.mjs
 
       - name: 일정 수집 (무료 검색 + Gemini)
