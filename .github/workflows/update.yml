@@ -66,6 +66,9 @@ jobs:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           COLLECT_BUDGET_MIN: '20'
+          # 대체 모델 시험: 커밋 메시지 [fallback-test] → Gemini 끄고 OpenRouter, [groq-test] → Groq만
+          DISABLE_GEMINI: ${{ (contains(github.event.head_commit.message, '[fallback-test]') || contains(github.event.head_commit.message, '[groq-test]')) && '1' || '' }}
+          FALLBACK_PROVIDERS: ${{ contains(github.event.head_commit.message, '[groq-test]') && 'groq' || (contains(github.event.head_commit.message, '[fallback-test]') && 'openrouter' || '') }}
         run: |
           if [ -z "$GEMINI_API_KEY" ]; then
             echo "::warning::GEMINI_API_KEY 시크릿이 없어 수집을 건너뜁니다. Settings → Secrets and variables → Actions 에서 추가하세요."

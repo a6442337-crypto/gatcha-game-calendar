@@ -95,6 +95,7 @@ export class OpenAICompatible {
 /** 환경 변수에 키가 있는 대체 제공자 목록 */
 export function fallbackProviders(env = process.env) {
   const out = [];
+  const only = (env.FALLBACK_PROVIDERS || '').split(',').filter(Boolean); // 테스트용: 특정 제공자만
   if (env.OPENROUTER_API_KEY) {
     out.push(new OpenAICompatible({
       name: 'openrouter',
@@ -118,7 +119,7 @@ export function fallbackProviders(env = process.env) {
       minIntervalMs: 65000, // 분당 토큰 한도 회복 대기
     }));
   }
-  return out;
+  return only.length ? out.filter((p) => only.includes(p.name)) : out;
 }
 
 /**
@@ -129,7 +130,7 @@ export class FallbackClient {
   constructor(primary, fallbacks = []) {
     this.primary = primary;
     this.fallbacks = fallbacks;
-    this.primaryDown = false; // Gemini가 연속 실패하면 이번 실행에서는 대체 모델부터 사용
+    this.primaryDown = process.env.DISABLE_GEMINI === '1'; // Gemini가 연속 실패하면 이번 실행에서는 대체 모델부터 사용 (테스트: DISABLE_GEMINI=1)
     this.primaryFails = 0;
     this.used = new Set();
   }
