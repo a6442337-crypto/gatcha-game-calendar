@@ -1,12 +1,12 @@
 {
-  "startedAt": "2026-11-25T06:42:03.184Z",
-  "model": "groq:openai/gpt-oss-20b+groq:openai/gpt-oss-120b",
+  "startedAt": "2026-11-25T07:02:12.754Z",
+  "model": "groq:openai/gpt-oss-120b",
   "runs": [
     {
-      "game": "wuwa",
+      "game": "genshin",
       "server": "kr",
-      "found": 1,
-      "accepted": 1,
+      "found": 5,
+      "accepted": 5,
       "rejected": [],
       "search": {
         "providers": {
@@ -17,40 +17,73 @@
           },
           "bing": {
             "ok": 2,
-            "results": 20,
+            "results": 0,
             "errors": []
           },
           "duckduckgo": {
             "ok": 2,
-            "results": 20,
+            "results": 19,
             "errors": []
           }
         },
-        "pagesFetched": 4,
-        "pageErrors": 2,
-        "irrelevant": 2,
+        "pagesFetched": 6,
+        "pageErrors": 0,
+        "irrelevant": 0,
         "newsResolved": 6,
         "official": 0,
         "results": 25,
-        "pages": 4
+        "pages": 6
       }
     },
     {
-      "game": "limbus",
+      "game": "nikke",
       "server": "kr",
-      "found": 5,
-      "accepted": 5,
+      "found": 2,
+      "accepted": 2,
+      "rejected": [],
+      "search": {
+        "providers": {
+          "googleNews": {
+            "ok": 2,
+            "results": 20,
+            "errors": []
+          },
+          "bing": {
+            "ok": 2,
+            "results": 0,
+            "errors": []
+          },
+          "duckduckgo": {
+            "ok": 2,
+            "results": 19,
+            "errors": []
+          }
+        },
+        "pagesFetched": 5,
+        "pageErrors": 1,
+        "irrelevant": 12,
+        "newsResolved": 6,
+        "official": 0,
+        "results": 25,
+        "pages": 5
+      }
+    },
+    {
+      "game": "arknights",
+      "server": "kr",
+      "found": 1,
+      "accepted": 1,
       "rejected": [],
       "search": {
         "providers": {
           "googleNews": {
             "ok": 3,
-            "results": 2,
+            "results": 1,
             "errors": []
           },
           "bing": {
             "ok": 3,
-            "results": 30,
+            "results": 0,
             "errors": []
           },
           "duckduckgo": {
@@ -59,48 +92,47 @@
             "errors": []
           }
         },
-        "pagesFetched": 6,
-        "pageErrors": 0,
-        "irrelevant": 2,
-        "newsResolved": 1,
-        "official": 0,
+        "pagesFetched": 5,
+        "pageErrors": 1,
+        "irrelevant": 21,
+        "newsResolved": 0,
+        "official": 15,
         "results": 25,
-        "pages": 6
+        "pages": 20
       }
     },
     {
-      "game": "genshin",
+      "game": "endfield",
       "server": "kr",
-      "found": 0,
-      "accepted": 0,
+      "found": 1,
+      "accepted": 1,
       "rejected": [],
       "search": {
         "providers": {
           "googleNews": {
             "ok": 2,
-            "results": 10,
+            "results": 17,
             "errors": []
           },
           "bing": {
             "ok": 2,
-            "results": 19,
+            "results": 0,
             "errors": []
           },
           "duckduckgo": {
             "ok": 2,
-            "results": 20,
+            "results": 19,
             "errors": []
           }
         },
-        "pagesFetched": 4,
-        "pageErrors": 2,
-        "irrelevant": 0,
-        "newsResolved": 6,
+        "pagesFetched": 6,
+        "pageErrors": 0,
+        "irrelevant": 5,
+        "newsResolved": 0,
         "official": 0,
         "results": 25,
-        "pages": 4
-      },
-      "error": "groq: 사용 가능한 모델이 응답하지 않음"
+        "pages": 6
+      }
     },
     {
       "game": "starrail",
@@ -117,7 +149,7 @@
           },
           "bing": {
             "ok": 2,
-            "results": 18,
+            "results": 0,
             "errors": []
           },
           "duckduckgo": {
@@ -126,99 +158,31 @@
             "errors": []
           }
         },
-        "pagesFetched": 5,
-        "pageErrors": 1,
-        "irrelevant": 10,
+        "pagesFetched": 4,
+        "pageErrors": 2,
+        "irrelevant": 9,
         "newsResolved": 0,
         "official": 0,
         "results": 25,
-        "pages": 5
+        "pages": 4
       }
     },
     {
       "game": "zzz",
       "server": "kr",
-      "found": 7,
-      "accepted": 7,
-      "rejected": [],
-      "search": {
-        "providers": {
-          "googleNews": {
-            "ok": 1,
-            "results": 2,
-            "errors": [
-              "젠레스 존 제로 업데이트 이벤트 일정: HTTP 429"
-            ]
-          },
-          "bing": {
-            "ok": 2,
-            "results": 20,
-            "errors": []
-          },
-          "duckduckgo": {
-            "ok": 2,
-            "results": 20,
-            "errors": []
-          }
-        },
-        "pagesFetched": 6,
-        "pageErrors": 0,
-        "irrelevant": 1,
-        "newsResolved": 0,
-        "official": 0,
-        "results": 17,
-        "pages": 6
-      }
-    },
-    {
-      "game": "bluearchive",
-      "server": "kr",
-      "found": 6,
-      "accepted": 6,
-      "rejected": [],
-      "search": {
-        "providers": {
-          "googleNews": {
-            "ok": 3,
-            "results": 22,
-            "errors": []
-          },
-          "bing": {
-            "ok": 3,
-            "results": 24,
-            "errors": []
-          },
-          "duckduckgo": {
-            "ok": 3,
-            "results": 22,
-            "errors": []
-          }
-        },
-        "pagesFetched": 6,
-        "pageErrors": 0,
-        "irrelevant": 17,
-        "newsResolved": 0,
-        "official": 0,
-        "results": 25,
-        "pages": 6
-      }
-    },
-    {
-      "game": "nikke",
-      "server": "kr",
-      "found": 0,
-      "accepted": 0,
+      "found": 1,
+      "accepted": 1,
       "rejected": [],
       "search": {
         "providers": {
           "googleNews": {
             "ok": 2,
-            "results": 20,
+            "results": 10,
             "errors": []
           },
           "bing": {
             "ok": 2,
-            "results": 20,
+            "results": 0,
             "errors": []
           },
           "duckduckgo": {
@@ -229,19 +193,51 @@
         },
         "pagesFetched": 5,
         "pageErrors": 1,
-        "irrelevant": 1,
+        "irrelevant": 27,
+        "newsResolved": 0,
+        "official": 0,
+        "results": 23,
+        "pages": 5
+      }
+    },
+    {
+      "game": "bluearchive",
+      "server": "kr",
+      "found": 4,
+      "accepted": 4,
+      "rejected": [],
+      "search": {
+        "providers": {
+          "googleNews": {
+            "ok": 3,
+            "results": 19,
+            "errors": []
+          },
+          "bing": {
+            "ok": 3,
+            "results": 9,
+            "errors": []
+          },
+          "duckduckgo": {
+            "ok": 3,
+            "results": 22,
+            "errors": []
+          }
+        },
+        "pagesFetched": 6,
+        "pageErrors": 0,
+        "irrelevant": 32,
         "newsResolved": 0,
         "official": 0,
         "results": 25,
-        "pages": 5
-      },
-      "error": "groq: 사용 가능한 모델이 응답하지 않음"
+        "pages": 6
+      }
     },
     {
       "game": "umamusume",
       "server": "kr",
-      "found": 1,
-      "accepted": 1,
+      "found": 0,
+      "accepted": 0,
       "rejected": [],
       "search": {
         "providers": {
@@ -252,18 +248,18 @@
           },
           "bing": {
             "ok": 3,
-            "results": 26,
+            "results": 0,
             "errors": []
           },
           "duckduckgo": {
             "ok": 3,
-            "results": 25,
+            "results": 27,
             "errors": []
           }
         },
         "pagesFetched": 3,
         "pageErrors": 3,
-        "irrelevant": 13,
+        "irrelevant": 27,
         "newsResolved": 0,
         "official": 0,
         "results": 25,
@@ -271,14 +267,70 @@
       }
     },
     {
-      "game": "arknights",
+      "game": "wuwa",
       "server": "kr",
-      "skipped": "시간 예산 초과로 다음 실행에 수집"
+      "found": 2,
+      "accepted": 2,
+      "rejected": [],
+      "search": {
+        "providers": {
+          "googleNews": {
+            "ok": 2,
+            "results": 10,
+            "errors": []
+          },
+          "bing": {
+            "ok": 2,
+            "results": 0,
+            "errors": []
+          },
+          "duckduckgo": {
+            "ok": 2,
+            "results": 20,
+            "errors": []
+          }
+        },
+        "pagesFetched": 3,
+        "pageErrors": 3,
+        "irrelevant": 12,
+        "newsResolved": 0,
+        "official": 0,
+        "results": 25,
+        "pages": 3
+      }
     },
     {
-      "game": "endfield",
+      "game": "limbus",
       "server": "kr",
-      "skipped": "시간 예산 초과로 다음 실행에 수집"
+      "found": 10,
+      "accepted": 10,
+      "rejected": [],
+      "search": {
+        "providers": {
+          "googleNews": {
+            "ok": 3,
+            "results": 2,
+            "errors": []
+          },
+          "bing": {
+            "ok": 3,
+            "results": 0,
+            "errors": []
+          },
+          "duckduckgo": {
+            "ok": 3,
+            "results": 29,
+            "errors": []
+          }
+        },
+        "pagesFetched": 5,
+        "pageErrors": 1,
+        "irrelevant": 2,
+        "newsResolved": 0,
+        "official": 0,
+        "results": 25,
+        "pages": 5
+      }
     }
   ],
   "community": [
@@ -328,26 +380,16 @@
       "errors": []
     }
   ],
-  "apiCalls": 17,
+  "apiCalls": 10,
   "modelNotes": [
     "후보 모델: gemini-3.5-flash-lite, gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-flash-latest, gemini-omni-1.1-flash, gemini-omni-1.2-flash, gemini-omni-flash-preview, gemini-3.1-flash-lite, gemini-3.1-flash-lite-preview, gemini-2.5-flash-lite, gemini-flash-lite-latest",
-    "groq/openai/gpt-oss-120b: HTTP 413 {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `org_***` ",
-    "groq/qwen/qwen3.6-27b: HTTP 404 {\"error\":{\"message\":\"The model `qwen/qwen3.6-27b` does not exist or you do not have access to it.\",\"type\":\"invalid_reque",
-    "groq/openai/gpt-oss-20b: HTTP 400 {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"typ",
-    "groq/openai/gpt-oss-120b: HTTP 413 {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `org_***` ",
-    "groq/qwen/qwen3.6-27b: HTTP 404 {\"error\":{\"message\":\"The model `qwen/qwen3.6-27b` does not exist or you do not have access to it.\",\"type\":\"invalid_reque",
-    "groq/openai/gpt-oss-20b: HTTP 400 {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"typ",
-    "groq/openai/gpt-oss-120b: HTTP 400 {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"typ",
-    "groq/qwen/qwen3.6-27b: HTTP 404 {\"error\":{\"message\":\"The model `qwen/qwen3.6-27b` does not exist or you do not have access to it.\",\"type\":\"invalid_reque",
-    "groq/openai/gpt-oss-20b: HTTP 400 {\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"typ",
-    "groq/openai/gpt-oss-120b: HTTP 413 {\"error\":{\"message\":\"Request too large for model `openai/gpt-oss-120b` in organization `org_***` ",
-    "groq/qwen/qwen3.6-27b: HTTP 404 {\"error\":{\"message\":\"The model `qwen/qwen3.6-27b` does not exist or you do not have access to it.\",\"type\":\"invalid_reque"
+    "groq 후보: openai/gpt-oss-120b, openai/gpt-oss-20b, qwen/qwen3.8-27b, allam-2-7b"
   ],
   "quotaStop": null,
   "stats": {
-    "added": 8,
-    "updated": 2,
-    "unchanged": 12
+    "added": 10,
+    "updated": 0,
+    "unchanged": 18
   },
-  "finishedAt": "2026-11-25T07:00:33.844Z"
+  "finishedAt": "2026-11-25T07:13:13.379Z"
 }

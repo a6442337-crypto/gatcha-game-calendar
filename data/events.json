@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T07:00:33.844Z",
+  "updatedAt": "2026-11-25T07:13:13.379Z",
   "events": [
     {
       "id": "0ce40d1a53e3",
@@ -1860,6 +1860,32 @@
       "history": []
     },
     {
+      "id": "982d6647ae1a",
+      "game": "nikke",
+      "server": "kr",
+      "type": "event",
+      "title": "4주년 230뽑 무료 및 복귀 이벤트",
+      "description": "4주년을 맞아 230회 무료 대원 모집과 복귀 보상이 제공됩니다.",
+      "start": "2026-10-28T15:00:00.000Z",
+      "end": null,
+      "allDay": true,
+      "confidence": 0.7,
+      "status": "unverified",
+      "basis": "community",
+      "major": false,
+      "rerun": false,
+      "sources": [
+        {
+          "title": "230뽑 무료에 탈배포급 니케까지! 4주년, 지금이 시작·복귀각",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9CSEF0WUxrM01hYXNRS3dQczRiWmVEdjNGVlBHMW9BQUR5UjNMaTVVUGRzVlNuS0NidEtGQ2E4a19uQmpCbWJ4dnhpRVZmWnVWQmJSSkMyUU9FTVR5aFE?oc=5"
+        }
+      ],
+      "firstSeen": "2026-11-25T07:02:12.754Z",
+      "lastSeen": "2026-11-25T07:02:12.754Z",
+      "seenCount": 1,
+      "history": []
+    },
+    {
       "id": "ad90266c45ca",
       "game": "nikke",
       "server": "kr",
@@ -2285,6 +2311,32 @@
       ]
     },
     {
+      "id": "78ec1bfc6fb4",
+      "game": "genshin",
+      "server": "kr",
+      "type": "livestream",
+      "title": "스네즈나야 특별 방송",
+      "description": "7.2 버전과 맞물려 7개국이 참여하는 스네즈나야 특별 방송이 진행됩니다.",
+      "start": "2026-11-01T16:00:00.000Z",
+      "end": null,
+      "allDay": true,
+      "confidence": 0.6,
+      "status": "unverified",
+      "basis": "community",
+      "major": false,
+      "rerun": false,
+      "sources": [
+        {
+          "title": "사상 초유, 원신 7.2 ‘스네즈나야’에 7개국이 집결한다",
+          "url": "https://www.gamemeca.com/view.php?gid=1782799"
+        }
+      ],
+      "firstSeen": "2026-11-25T07:02:12.754Z",
+      "lastSeen": "2026-11-25T07:02:12.754Z",
+      "seenCount": 1,
+      "history": []
+    },
+    {
       "id": "66784dcb323d",
       "game": "arknights",
       "server": "kr",
@@ -2614,8 +2666,8 @@
         }
       ],
       "firstSeen": "2026-10-31T13:31:58.842Z",
-      "lastSeen": "2026-11-25T06:22:24.261Z",
-      "seenCount": 29,
+      "lastSeen": "2026-11-25T07:02:12.754Z",
+      "seenCount": 30,
       "history": [
         {
           "at": "2026-11-01T16:04:04.104Z",
@@ -2844,8 +2896,8 @@
         }
       ],
       "firstSeen": "2026-10-31T13:31:58.842Z",
-      "lastSeen": "2026-11-24T05:20:07.320Z",
-      "seenCount": 86,
+      "lastSeen": "2026-11-25T07:02:12.754Z",
+      "seenCount": 88,
       "history": [
         {
           "at": "2026-11-20T02:20:02.010Z",
@@ -3069,6 +3121,32 @@
       "firstSeen": "2026-11-07T00:57:01.855Z",
       "lastSeen": "2026-11-07T15:41:18.208Z",
       "seenCount": 2,
+      "history": []
+    },
+    {
+      "id": "2fb0d8a3648f",
+      "game": "nikke",
+      "server": "kr",
+      "type": "event",
+      "title": "4주년 무료 259회 모집 (SSR 라푼젤 포함)",
+      "description": "4주년 기념으로 259회 무료 대원 모집이 진행되며 SSR 라푼젤이 포함됩니다.",
+      "start": "2026-11-04T15:00:00.000Z",
+      "end": null,
+      "allDay": true,
+      "confidence": 0.7,
+      "status": "unverified",
+      "basis": "community",
+      "major": false,
+      "rerun": false,
+      "sources": [
+        {
+          "title": "승리의 여신: 니케 4주년 완벽 가이드",
+          "url": "https://www.mmoexp.com/News/nikke-4th-anniversary-guide-free-recruitment-and-ssr-rewards.html"
+        }
+      ],
+      "firstSeen": "2026-11-25T07:02:12.754Z",
+      "lastSeen": "2026-11-25T07:02:12.754Z",
+      "seenCount": 1,
       "history": []
     },
     {
@@ -3420,6 +3498,36 @@
       "history": []
     },
     {
+      "id": "962dc050f0fc",
+      "game": "wuwa",
+      "server": "kr",
+      "type": "livestream",
+      "title": "3.8 버전 특별 방송",
+      "description": "3.8 버전 출시와 함께 연말 특별 이벤트를 예고하는 공식 방송이 진행됩니다.",
+      "start": "2026-11-05T16:00:00.000Z",
+      "end": null,
+      "allDay": true,
+      "confidence": 0.7,
+      "status": "confirmed",
+      "basis": "community",
+      "major": false,
+      "rerun": false,
+      "sources": [
+        {
+          "title": "『명조:워더링 웨이브』공식 홈페이지 - Wuthering Waves",
+          "url": "https://wutheringwaves.kurogames.com/kr/main"
+        },
+        {
+          "title": "명조 픽업 일정 · 공명자 이력 | BannerHistory",
+          "url": "https://bannerhistory.app/ko/wuwa-pickup-history"
+        }
+      ],
+      "firstSeen": "2026-11-25T07:02:12.754Z",
+      "lastSeen": "2026-11-25T07:02:12.754Z",
+      "seenCount": 1,
+      "history": []
+    },
+    {
       "id": "370c3a686d83",
       "game": "bluearchive",
       "server": "kr",
@@ -3452,6 +3560,36 @@
       "seenCount": 14,
       "history": [],
       "rerun": false
+    },
+    {
+      "id": "838cf7c1f94f",
+      "game": "wuwa",
+      "server": "kr",
+      "type": "update",
+      "title": "3.8 버전 업데이트 (New Federation)",
+      "description": "‘New Federation’ 업데이트가 2026‑11‑07에 적용되어 신규 공명자 릴리가 추가되었습니다.",
+      "start": "2026-11-06T16:00:00.000Z",
+      "end": null,
+      "allDay": true,
+      "confidence": 0.7,
+      "status": "confirmed",
+      "basis": "community",
+      "major": false,
+      "rerun": false,
+      "sources": [
+        {
+          "title": "『명조:워더링 웨이브』공식 홈페이지 - Wuthering Waves",
+          "url": "https://wutheringwaves.kurogames.com/kr/main"
+        },
+        {
+          "title": "명조 픽업 일정 · 공명자 이력 | BannerHistory",
+          "url": "https://bannerhistory.app/ko/wuwa-pickup-history"
+        }
+      ],
+      "firstSeen": "2026-11-25T07:02:12.754Z",
+      "lastSeen": "2026-11-25T07:02:12.754Z",
+      "seenCount": 1,
+      "history": []
     },
     {
       "id": "54c5fc4b1d01",
@@ -3501,7 +3639,33 @@
         }
       ],
       "firstSeen": "2026-11-25T06:42:03.184Z",
-      "lastSeen": "2026-11-25T06:42:03.184Z",
+      "lastSeen": "2026-11-25T07:02:12.754Z",
+      "seenCount": 2,
+      "history": []
+    },
+    {
+      "id": "c9b119b0d43a",
+      "game": "bluearchive",
+      "server": "kr",
+      "type": "event",
+      "title": "200회 무료 모집 이벤트",
+      "description": "5주년 맞아 200회 무료 모집 진행, 영입 부담 감소",
+      "start": "2026-11-07T15:00:00.000Z",
+      "end": null,
+      "allDay": true,
+      "confidence": 0.6,
+      "status": "unverified",
+      "basis": "community",
+      "major": false,
+      "rerun": false,
+      "sources": [
+        {
+          "title": "200회 무료 모집에 터진 함성…블루 아카이브, 5주년 맞아 영입 부담 낮춘다 - 데일리안",
+          "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQZTVMcmdzZVB4ZXIyUHNDeTNfQzJlOGhqRm0xZEVWa09aMkdkQVFxTDFrQ0dSSV8yMVBHdnRfMnJ4UkJfakZpM2UwSHkwbjZQMXdlR0tzVVhSVWQxX2s1cTFzT1NtOTVLWmpzbGJBREdRRDlaLS1rbzlKTUVEMFdyUVNialI0REViN1dQdy1sLVNiUUkxQjY2eGxYS2hmRlowRmp3U2lCM3pqUlAxTllOMWo5NEhSQ2hmNnZoSlNyclc2VFNBODE5WlR0WUVKLUZjUGl4bDljSFBuMmo0a240LXlfcHY5WlB4eVpOYXhydEFheWNNQ3VrLQ?oc=5"
+        }
+      ],
+      "firstSeen": "2026-11-25T07:02:12.754Z",
+      "lastSeen": "2026-11-25T07:02:12.754Z",
       "seenCount": 1,
       "history": []
     },
@@ -3695,8 +3859,8 @@
         }
       ],
       "firstSeen": "2026-11-25T06:42:03.184Z",
-      "lastSeen": "2026-11-25T06:42:03.184Z",
-      "seenCount": 1,
+      "lastSeen": "2026-11-25T07:02:12.754Z",
+      "seenCount": 2,
       "history": []
     },
     {
@@ -3851,6 +4015,32 @@
       "firstSeen": "2026-11-09T19:51:11.090Z",
       "lastSeen": "2026-11-21T02:17:19.333Z",
       "seenCount": 6,
+      "history": []
+    },
+    {
+      "id": "2e67a9225ff8",
+      "game": "bluearchive",
+      "server": "kr",
+      "type": "livestream",
+      "title": "5주년 기념 파레이돌리아 시연 바통",
+      "description": "5주년을 맞아 파레이돌리아 시연 바통 진행",
+      "start": "2026-11-10T15:00:00.000Z",
+      "end": null,
+      "allDay": true,
+      "confidence": 0.7,
+      "status": "unverified",
+      "basis": "community",
+      "major": false,
+      "rerun": false,
+      "sources": [
+        {
+          "title": "[요즘 넥슨게임즈] 블루아카 5주년→ 파레이돌리아 시연 바통 - 게임와이",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5NWUttTDhOdlVZZ0xlUjFxLVNpeWhhMEtpLXdqYXBPRDlHZFJJVF9EaUxRa1VHamZST3FfaHdVb3I5V2R0N3VPLWlJaTNNeEtoV3IxUGU2VUp4RmhfNzlWR3BMc2NNQdIBakFVX3lxTE9MZFhlTVlvX256bUhkUFRSVno4cVBHbkdUQlZUM3BqVTdCOEtGTGRHUjdXRE5mdnkxb1ZXWThMRGVlTkVRd2pURE8wWHN6amFMN04tc2RhTnkyYWNYNERrUG5VaEloV0NGQmc?oc=5"
+        }
+      ],
+      "firstSeen": "2026-11-25T07:02:12.754Z",
+      "lastSeen": "2026-11-25T07:02:12.754Z",
+      "seenCount": 1,
       "history": []
     },
     {
@@ -4038,11 +4228,19 @@
         {
           "title": "붕괴 스타레일 4.7 버전 전반 이벤트 워프 정보 (11/11 업데이트 예정)",
           "url": "https://memic.at/articles/850875"
+        },
+        {
+          "title": "붕괴 스타레일 픽업 일정 2026: 4.7 아하와 4.8 예정 캐릭터",
+          "url": "https://www.gamsgo.com/ko/blog/hsr-upcoming-banners"
+        },
+        {
+          "title": "2026-11-12 Honkai: Star Rail 4.7, 1단계 워프에 플레이어블 Aha 추가",
+          "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOUzBxS041YjJ6T09LTUVJdm8xZk5tUWZBZkFESTk1dFllVGRzMXoxdERzU2RJMy1VYzEwRkZnOUgtMUhJMjBzSTZiYkpLTEs2TTVHd1MybEJ1ZFFmQ2lvYXFxV2xObGp2enJYSkNQWnZpRk1yLVYyZWc0dnZ4MzYyalcwejZNVTFNbUpZc0xKWDh0MEFydzY5OUlsQVZKdHBBazl0QTIyX050QTA0LUNoUklQVlU0SjMzaks3Y2thb2w3aDdDRVpUSlhqaUdkeGsxQS0yaHNkeVotOWdIeDVwa3BRa0lFNHY4UHk3Y3R0MjZ0U0Nn?oc=5"
         }
       ],
       "firstSeen": "2026-10-31T14:28:00.518Z",
-      "lastSeen": "2026-11-25T06:22:24.261Z",
-      "seenCount": 101,
+      "lastSeen": "2026-11-25T07:02:12.754Z",
+      "seenCount": 102,
       "history": [
         {
           "at": "2026-11-19T02:35:08.122Z",
@@ -4751,8 +4949,8 @@
         }
       ],
       "firstSeen": "2026-11-01T00:09:03.774Z",
-      "lastSeen": "2026-11-25T06:42:03.184Z",
-      "seenCount": 171,
+      "lastSeen": "2026-11-25T07:02:12.754Z",
+      "seenCount": 176,
       "history": []
     },
     {
@@ -5767,7 +5965,7 @@
             "authors": 14
           }
         },
-        "at": "2026-11-25T06:42:03.184Z"
+        "at": "2026-11-25T07:02:12.754Z"
       },
       "firstSeen": "2026-11-22T17:10:58.255Z",
       "lastSeen": "2026-11-22T17:10:58.255Z",
@@ -6280,8 +6478,8 @@
         }
       ],
       "firstSeen": "2026-11-24T20:11:08.464Z",
-      "lastSeen": "2026-11-25T06:22:24.261Z",
-      "seenCount": 4,
+      "lastSeen": "2026-11-25T07:02:12.754Z",
+      "seenCount": 5,
       "history": [
         {
           "at": "2026-11-25T04:13:00.420Z",
@@ -7107,11 +7305,19 @@
         {
           "title": "공식 X 점검 공지",
           "url": "https://x.com/AKEndfieldKR/status/2125394036123107534"
+        },
+        {
+          "title": "거대한 버섯 왕국으로 떠난다…‘명일방주: 엔드필드’, 25일 신규 업데이트 - 뉴스탭",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE54RExTSWNNaHVZVDd4bV94dTNMSHpjUW1tYUlPWXB4V3VxUGxmdldLRkpOV0NoSHN3Tm9OUW5XcW1XeURxRHBWMnk5TURUbm9qSzZ6a0ZtSG8wLThBUVZ1UTdOQTk2X3VoOUFUaw?oc=5"
+        },
+        {
+          "title": "명일방주: 엔드필드, 신규 업데이트 '버섯동산 대모험' 25일 공개 - PNN",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1aMHh5WElqZGl6OUVMNTJYMHJaclE1WlVrUktLbTliN3JkY0pRRXJYYThDM0p4QmtCVnpZaEluUlhSYVdBR0owdkZXYUp4UHRrVFE4QmNFY3E2WUNwSzhFTFlOanhwelBz?oc=5"
         }
       ],
       "firstSeen": "2026-11-22T17:10:58.255Z",
-      "lastSeen": "2026-11-25T06:22:24.261Z",
-      "seenCount": 9,
+      "lastSeen": "2026-11-25T07:02:12.754Z",
+      "seenCount": 10,
       "history": [
         {
           "at": "2026-11-25T04:13:00.420Z",
@@ -7205,6 +7411,32 @@
       ]
     },
     {
+      "id": "c0395478a3a9",
+      "game": "limbus",
+      "server": "kr",
+      "type": "update",
+      "title": "정기 업데이트 (시즌 8) 2026-11-26",
+      "description": "시즌 8 신규 콘텐츠와 밸런스 조정이 포함된 정기 업데이트.",
+      "start": "2026-11-25T15:00:00.000Z",
+      "end": null,
+      "allDay": true,
+      "confidence": 0.7,
+      "status": "unverified",
+      "basis": "community",
+      "major": false,
+      "rerun": false,
+      "sources": [
+        {
+          "title": "림버스 컴퍼니 11월 26일 정기 업데이트 안내",
+          "url": "https://haleta.tistory.com/284"
+        }
+      ],
+      "firstSeen": "2026-11-25T07:02:12.754Z",
+      "lastSeen": "2026-11-25T07:02:12.754Z",
+      "seenCount": 1,
+      "history": []
+    },
+    {
       "id": "c3115fd93790",
       "game": "wuwa",
       "server": "kr",
@@ -7294,8 +7526,8 @@
         }
       ],
       "firstSeen": "2026-11-20T17:50:09.319Z",
-      "lastSeen": "2026-11-25T05:55:42.720Z",
-      "seenCount": 15,
+      "lastSeen": "2026-11-25T07:02:12.754Z",
+      "seenCount": 19,
       "history": []
     },
     {
@@ -7423,7 +7655,7 @@
             "authors": 13
           }
         },
-        "at": "2026-11-25T06:42:03.184Z"
+        "at": "2026-11-25T07:02:12.754Z"
       }
     },
     {
@@ -7461,7 +7693,7 @@
             "authors": 11
           }
         },
-        "at": "2026-11-25T06:42:03.184Z"
+        "at": "2026-11-25T07:02:12.754Z"
       },
       "firstSeen": "2026-11-25T04:13:00.420Z",
       "lastSeen": "2026-11-25T04:13:00.420Z",
@@ -7593,11 +7825,15 @@
         {
           "title": "엑스포츠뉴스",
           "url": "https://www.xportsnews.com/article/2222418"
+        },
+        {
+          "title": "‘젠레스 존 제로’ 12월 2일 3.4 버전 업데이트…‘붕괴: 스타레일’ 로빈·카프카 합류",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBCdV80c3R3b2U5MmFZZVZiNEJ5eEZSWVVhY1hpOW9JeFBXemlJTExTYzh0bUpCbVM3Nlo3a0M3UXVYMVQzcmFuMC16cWVPLWFLWWxFcUNKd1ZVRjJQaE9qZEF4VFVoTW9xWGR6ag?oc=5"
         }
       ],
       "firstSeen": "2026-11-21T16:49:03.496Z",
-      "lastSeen": "2026-11-25T06:22:24.261Z",
-      "seenCount": 7,
+      "lastSeen": "2026-11-25T07:02:12.754Z",
+      "seenCount": 8,
       "history": [
         {
           "at": "2026-11-25T04:13:00.420Z",
@@ -7769,6 +8005,36 @@
       "history": []
     },
     {
+      "id": "2fdf9d17e5ff",
+      "game": "starrail",
+      "server": "kr",
+      "type": "update",
+      "title": "3.4 버전 업데이트 (로빈·카프카 합류)",
+      "description": "3.4 버전이 12월 2일에 업데이트되어 로빈과 카프카가 신규 캐릭터로 합류",
+      "start": "2026-12-01T16:00:00.000Z",
+      "end": null,
+      "allDay": true,
+      "confidence": 0.8,
+      "status": "unverified",
+      "basis": "community",
+      "major": false,
+      "rerun": false,
+      "sources": [
+        {
+          "title": "2026-11-23 ‘젠레스 존 제로’ 12월 2일 3.4 버전 업데이트…‘붕괴: 스타레일’ 로빈·카프카 합류 - 뉴스탭",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBCdV80c3R3b2U5MmFZZVZiNEJ5eEZSWVVhY1hpOW9JeFBXemlJTExTYzh0bUpCbVM3Nlo3a0M3UXVYMVQzcmFuMC16cWVPLWFLWWxFcUNKd1ZVRjJQaE9qZEF4VFVoTW9xWGR6ag?oc=5"
+        },
+        {
+          "title": "2026-11-23 '스타레일' 컬래버도, '젠존제' 3.4 버전 12월 2일 업데이트 - PNN",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1pX3dGUmt6NGRKN0N5b1BEN2pLYzYzT2czWDZJMjJCQ3ZGWlUtWGFaRE8xdk1lb0R0TGoyWHpnWDNiTHFDLU8yTUlxWEZYRzZKYXJteGd0aV9zTDZMTU9GMFBmNnVXTWlT?oc=5"
+        }
+      ],
+      "firstSeen": "2026-11-25T07:02:12.754Z",
+      "lastSeen": "2026-11-25T07:02:12.754Z",
+      "seenCount": 1,
+      "history": []
+    },
+    {
       "id": "db5d9fb44246",
       "game": "starrail",
       "server": "kr",
@@ -7905,7 +8171,7 @@
             "authors": 14
           }
         },
-        "at": "2026-11-25T06:42:03.184Z"
+        "at": "2026-11-25T07:02:12.754Z"
       },
       "firstSeen": "2026-11-10T17:04:46.203Z",
       "lastSeen": "2026-11-25T05:55:42.720Z",
@@ -8025,6 +8291,32 @@
       "history": []
     },
     {
+      "id": "9a3cfb03e4bc",
+      "game": "genshin",
+      "server": "kr",
+      "type": "update",
+      "title": "3.3 버전 업데이트",
+      "description": "12월 7일에 3.3 버전이 업데이트됩니다.",
+      "start": "2026-12-06T16:00:00.000Z",
+      "end": null,
+      "allDay": true,
+      "confidence": 0.6,
+      "status": "unverified",
+      "basis": "community",
+      "major": false,
+      "rerun": false,
+      "sources": [
+        {
+          "title": "'방랑자-파루잔 추가' 원신, 12월 7일 3.3버전 업데이트",
+          "url": "https://www.gameinsight.co.kr/news/articleView.html?idxno=25298"
+        }
+      ],
+      "firstSeen": "2026-11-25T07:02:12.754Z",
+      "lastSeen": "2026-11-25T07:02:12.754Z",
+      "seenCount": 1,
+      "history": []
+    },
+    {
       "id": "d66c74eba279",
       "game": "bluearchive",
       "server": "kr",
@@ -8072,8 +8364,8 @@
         }
       ],
       "community": {
-        "posts": 11,
-        "authors": 11,
+        "posts": 10,
+        "authors": 10,
         "recommended": 0,
         "reliable": 0,
         "sites": [
@@ -8081,11 +8373,11 @@
         ],
         "by": {
           "dcinside": {
-            "posts": 11,
-            "authors": 11
+            "posts": 10,
+            "authors": 10
           }
         },
-        "at": "2026-11-25T06:42:03.184Z"
+        "at": "2026-11-25T07:02:12.754Z"
       },
       "firstSeen": "2026-11-20T17:50:09.319Z",
       "lastSeen": "2026-11-25T06:22:24.261Z",
@@ -8127,7 +8419,7 @@
             "authors": 10
           }
         },
-        "at": "2026-11-25T06:42:03.184Z"
+        "at": "2026-11-25T07:02:12.754Z"
       },
       "firstSeen": "2026-11-20T17:50:09.319Z",
       "lastSeen": "2026-11-25T06:22:24.261Z",
@@ -8195,7 +8487,7 @@
             "authors": 14
           }
         },
-        "at": "2026-11-25T06:42:03.184Z"
+        "at": "2026-11-25T07:02:12.754Z"
       },
       "firstSeen": "2026-11-24T20:11:08.464Z",
       "lastSeen": "2026-11-24T20:11:08.464Z",
@@ -8399,7 +8691,7 @@
             "authors": 14
           }
         },
-        "at": "2026-11-25T06:42:03.184Z"
+        "at": "2026-11-25T07:02:12.754Z"
       }
     },
     {
@@ -8437,7 +8729,7 @@
             "authors": 14
           }
         },
-        "at": "2026-11-25T06:42:03.184Z"
+        "at": "2026-11-25T07:02:12.754Z"
       },
       "firstSeen": "2026-11-22T17:10:58.255Z",
       "lastSeen": "2026-11-24T20:11:08.464Z",
@@ -8505,7 +8797,7 @@
             "authors": 9
           }
         },
-        "at": "2026-11-25T06:42:03.184Z"
+        "at": "2026-11-25T07:02:12.754Z"
       },
       "firstSeen": "2026-11-24T20:11:08.464Z",
       "lastSeen": "2026-11-25T06:22:24.261Z",
@@ -8547,7 +8839,7 @@
             "authors": 8
           }
         },
-        "at": "2026-11-25T06:42:03.184Z"
+        "at": "2026-11-25T07:02:12.754Z"
       },
       "firstSeen": "2026-11-24T20:11:08.464Z",
       "lastSeen": "2026-11-25T06:22:24.261Z",
@@ -8589,7 +8881,7 @@
             "authors": 6
           }
         },
-        "at": "2026-11-25T06:42:03.184Z"
+        "at": "2026-11-25T07:02:12.754Z"
       },
       "firstSeen": "2026-11-25T06:22:24.261Z",
       "lastSeen": "2026-11-25T06:22:24.261Z",
@@ -8631,7 +8923,7 @@
             "authors": 10
           }
         },
-        "at": "2026-11-25T06:42:03.184Z"
+        "at": "2026-11-25T07:02:12.754Z"
       },
       "firstSeen": "2026-11-25T06:22:24.261Z",
       "lastSeen": "2026-11-25T06:22:24.261Z",
@@ -8699,7 +8991,7 @@
             "authors": 6
           }
         },
-        "at": "2026-11-25T06:42:03.184Z"
+        "at": "2026-11-25T07:02:12.754Z"
       },
       "firstSeen": "2026-11-25T04:13:00.420Z",
       "lastSeen": "2026-11-25T04:13:00.420Z",
@@ -8745,7 +9037,7 @@
             "authors": 13
           }
         },
-        "at": "2026-11-25T06:42:03.184Z"
+        "at": "2026-11-25T07:02:12.754Z"
       }
     },
     {
@@ -9673,7 +9965,7 @@
             "authors": 3
           }
         },
-        "at": "2026-11-25T06:42:03.184Z"
+        "at": "2026-11-25T07:02:12.754Z"
       },
       "firstSeen": "2026-11-25T06:22:24.261Z",
       "lastSeen": "2026-11-25T06:22:24.261Z",
