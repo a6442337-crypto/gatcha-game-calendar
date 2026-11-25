@@ -7,7 +7,8 @@ import { extractJson } from './gemini.mjs';
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 export class OpenAICompatible {
-  constructor({ name, baseUrl, apiKey, models = [], discover, maxPromptChars = 60000, minIntervalMs = 4000, timeoutMs = 90000, headers = {} }) {
+  constructor({ name, baseUrl, apiKey, models = [], discover, maxPromptChars = 60000, minIntervalMs = 4000, timeoutMs = 90000, maxTries = 4, headers = {} }) {
+    this.maxTries = maxTries;
     this.name = name;
     this.baseUrl = baseUrl;
     this.apiKey = apiKey;
@@ -34,6 +35,7 @@ export class OpenAICompatible {
       if (res.status !== 200) throw new Error(`HTTP ${res.status}`);
       const found = this.discover(await res.json());
       if (found.length) this.models = [...new Set([...this.models.filter((m) => found.includes(m)), ...found])].slice(0, 8);
+      this.notes.push(`${this.name} 후보: ${this.models.join(', ')}`);
     } catch (e) {
       this.notes.push(`${this.name} 모델 목록 조회 실패: ${e.message}`);
     }
@@ -53,7 +55,7 @@ export class OpenAICompatible {
         { role: 'user', content: text },
       ],
     });
-    for (let attempt = 0; attempt < this.models.length * 2 && this.models.length; attempt++) {
+    for (let attempt = 0; attempt < Math.min(this.maxTries, this.models.length * 2) && this.models.length; attempt++) {
       const wait = this.lastCall + this.minIntervalMs - Date.now();
       if (wait > 0) await sleep(wait);
       this.lastCall = Date.now();
@@ -92,6 +94,16 @@ export class OpenAICompatible {
   }
 }
 
+const STRONG = [/gpt-oss-120b/, /deepseek/, /qwen3?.*(235b|480b|max|coder|next|-plus)/, /qwen/, /llama-(3\.3|4)/, /glm-[45]/, /kimi/, /gemma-[34]/, /mistral-(medium|large|small)/, /hermes/, /gpt-oss/];
+export function rankOpenRouterFree(models) {
+  const score = (id) => { const i = STRONG.findIndex((r) => r.test(id)); return i < 0 ? 99 : i; };
+  return models
+    .filter((m) => /:free$/.test(m.id) && (m.context_length || 0) >= 32000)
+    .filter((m) => !/(vision|-vl\b|-vl:|image|audio|embed|guard|\b(0\.\d|1|1\.\d|2|3|4|7|8|9)b\b)/i.test(m.id))
+    .sort((a, b) => score(a.id) - score(b.id) || (b.context_length || 0) - (a.context_length || 0))
+    .map((m) => m.id);
+}
+
 /** 환경 변수에 키가 있는 대체 제공자 목록 */
 export function fallbackProviders(env = process.env) {
   const out = [];
@@ -103,10 +115,12 @@ export function fallbackProviders(env = process.env) {
       apiKey: env.OPENROUTER_API_KEY,
       headers: { 'x-title': 'subcul-pickup-calendar' },
       models: (env.OPENROUTER_MODELS || 'openai/gpt-oss-120b:free,deepseek/deepseek-chat-v3.1:free,qwen/qwen3-235b-a22b:free').split(','),
-      // ':free' 모델 중 문맥 길이가 긴 것부터
-      discover: (j) => (j.data || []).filter((m) => /:free$/.test(m.id) && (m.context_length || 0) >= 32000 && !/vision|image|audio|embed/i.test(m.id)).sort((a, b) => (b.context_length || 0) - (a.context_length || 0)).map((m) => m.id),
+      // ':free' 모델 중 검증된 대형 모델 계열을 우선, 소형(≤9B)·비전 전용 모델은 제외
+      discover: (j) => rankOpenRouterFree(j.data || []),
       maxPromptChars: 40000,
       minIntervalMs: 4000,
+      timeoutMs: 60000,
+      maxTries: 3,
     }));
   }
   if (env.GROQ_API_KEY) {

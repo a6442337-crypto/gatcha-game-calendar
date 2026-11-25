@@ -41,3 +41,17 @@ test('대체 모델: 모델 없음(404)이면 다음 모델, 긴 프롬프트는
     assert.ok(sent[1].messages[1].content.length < 130);
   } finally { globalThis.fetch = orig; }
 });
+
+test('OpenRouter 무료 모델 선택: 검증된 대형 모델 우선, 소형·비전 제외', async () => {
+  const { rankOpenRouterFree } = await import('../scripts/lib/llm.mjs');
+  const ids = rankOpenRouterFree([
+    { id: 'particle-ai/particle-1:free', context_length: 1000000 },
+    { id: 'liquid/lfm-3-1.7b:free', context_length: 128000 },
+    { id: 'nvidia/nemotron-3.5-super-vl:free', context_length: 256000 },
+    { id: 'deepseek/deepseek-v3.2:free', context_length: 128000 },
+    { id: 'openai/gpt-oss-120b:free', context_length: 128000 },
+    { id: 'meta-llama/llama-3.1-8b-instruct:free', context_length: 128000 },
+    { id: 'paid/model', context_length: 1000000 },
+  ]);
+  assert.deepEqual(ids, ['openai/gpt-oss-120b:free', 'deepseek/deepseek-v3.2:free', 'particle-ai/particle-1:free']);
+});
