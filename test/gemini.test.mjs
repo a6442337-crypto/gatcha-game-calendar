@@ -51,3 +51,26 @@ test('extractJson: 코드 블록 / 앞뒤 설명 / 끝 쉼표', () => {
   assert.deepEqual(extractJson('결과: {"events":[{"a":1},]} 입니다'), { events: [{ a: 1 }] });
   assert.equal(extractJson('json 없음'), null);
 });
+
+test('응답 지연(타임아웃) → 같은 모델을 기다리지 않고 다른 모델로', async () => {
+  const orig = globalThis.fetch;
+  const calls = [];
+  globalThis.fetch = async (url, opt) => {
+    const model = String(url).match(/models\/([^:]+)/)?.[1];
+    calls.push(model);
+    if (calls.length === 1) { const e = new Error('timeout'); e.name = 'TimeoutError'; throw e; }
+    return { status: 200, text: async () => JSON.stringify({ candidates: [{ content: { parts: [{ text: 'ok' }] } }] }) };
+  };
+  try {
+    const g = new Gemini({ apiKey: 'k', minIntervalMs: 0, timeoutMs: 10 });
+    assert.equal((await g.searchGrounded('q')).text, 'ok');
+    assert.equal(calls.length, 2);
+    assert.notEqual(calls[0], calls[1]);
+  } finally { globalThis.fetch = orig; }
+});
+
+test('시간 예산이 지나면 새 요청을 보내지 않음', async () => {
+  const { TimeBudgetExceeded } = await import('../scripts/lib/gemini.mjs');
+  const g = new Gemini({ apiKey: 'k', minIntervalMs: 0, deadline: Date.now() - 1 });
+  await assert.rejects(() => g.searchGrounded('q'), TimeBudgetExceeded);
+});

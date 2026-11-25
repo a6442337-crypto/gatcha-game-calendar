@@ -12,6 +12,7 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 export const DEFAULT_MODELS = ['gemini-flash-latest', 'gemini-flash-lite-latest', 'gemini-2.5-flash', 'gemini-2.5-flash-lite'];
 
 export class QuotaExhausted extends Error {}
+export class TimeBudgetExceeded extends Error {}
 
 function describe429(json) {
   const err = json?.error || {};
@@ -28,12 +29,14 @@ function describe429(json) {
 }
 
 export class Gemini {
-  constructor({ apiKey, model, lastGood, minIntervalMs = 13000 }) {
+  constructor({ apiKey, model, lastGood, minIntervalMs = 13000, timeoutMs = 60000, deadline = Infinity }) {
     if (!apiKey) throw new Error('GEMINI_API_KEY 가 설정되지 않았습니다.');
     this.apiKey = apiKey;
     this.preferred = [model, lastGood].filter(Boolean); // 지정 모델 > 지난번에 성공한 모델
     this.models = [...new Set([...this.preferred, ...DEFAULT_MODELS])];
     this.lastSuccess = null;
+    this.timeoutMs = timeoutMs;
+    this.deadline = deadline; // 이 시각이 지나면 새 요청을 보내지 않음 (작업 시간 제한 대비)
     this.minIntervalMs = minIntervalMs; // 무료 등급 분당 요청 제한(RPM) 회피용 간격
     this.lastCall = 0;
     this.calls = 0;
@@ -76,12 +79,14 @@ export class Gemini {
           method: 'POST',
           headers: { 'content-type': 'application/json', 'x-goog-api-key': this.apiKey },
           body: JSON.stringify(body),
-          signal: AbortSignal.timeout(120000),
+          signal: AbortSignal.timeout(this.timeoutMs),
         });
         break;
       } catch (e) {
-        if (i >= 2) throw new Error(`Gemini 접속 실패: ${e.cause?.code || e.message}`);
-        await sleep(5000 * (i + 1)); // 일시적인 네트워크 오류(fetch failed) 재시도
+        // 응답 지연(타임아웃)은 같은 모델로 다시 기다리지 않고 다른 모델로 넘김
+        if (e.name === 'TimeoutError' || e.name === 'AbortError') return { status: 599, json: { error: { message: `응답 지연 ${this.timeoutMs / 1000}초 초과` } } };
+        if (i >= 1) throw new Error(`Gemini 접속 실패: ${e.cause?.code || e.message}`);
+        await sleep(5000); // 일시적인 네트워크 오류(fetch failed) 한 번 재시도
       }
     }
     const text = await res.text();
@@ -94,6 +99,7 @@ export class Gemini {
     let minuteRetries = 0;
     let serverRetries = 0;
     for (;;) {
+      if (Date.now() > this.deadline) throw new TimeBudgetExceeded('수집 시간 예산 초과');
       const { status, json } = await this.#request(`models/${this.model}:generateContent`, body);
       if (status === 200) { this.lastSuccess = this.model; return json; }
 
@@ -112,6 +118,14 @@ export class Gemini {
       }
       if (status === 404 || (status === 400 && /model/i.test(JSON.stringify(json).slice(0, 2000)) && !/schema|tool/i.test(JSON.stringify(json).slice(0, 2000)))) {
         this.#dropModel(`모델 사용 불가(${status})`);
+        continue;
+      }
+      if (status === 599) {
+        // 응답 지연: 바로 다른 모델로 (모든 모델이 한 번씩 지연되면 포기)
+        serverRetries++;
+        this.notes.push(`${this.model}: ${json.error.message}`);
+        if (serverRetries >= this.models.length || serverRetries >= 3) throw new Error(`Gemini 응답 지연 반복: ${json.error.message}`);
+        this.models.push(this.models.shift());
         continue;
       }
       if (status >= 500) {

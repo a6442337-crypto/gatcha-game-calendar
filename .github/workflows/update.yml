@@ -32,12 +32,11 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  collect-and-deploy:
+  collect-and-build:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
-    environment:
-      name: github-pages
-      url: ${{ steps.deploy.outputs.page_url }}
+    timeout-minutes: 40
+    outputs:
+      collect: ${{ steps.collect.outcome }}
     steps:
       - uses: actions/checkout@v5
 
@@ -57,11 +56,14 @@ jobs:
       - name: 일정 수집 (무료 검색 + Gemini)
         id: collect
         continue-on-error: true
+        # 수집이 늦어져도 커밋·배포는 하도록 단계 자체에 시간 제한 (스크립트는 20분 예산 안에서 스스로 멈춤)
+        timeout-minutes: 27
         if: (github.event_name != 'push' || contains(github.event.head_commit.message, '[collect]')) && inputs.skip_collect != true && inputs.diagnose != true
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
           GEMINI_GROUNDING: ${{ vars.GEMINI_GROUNDING }}
+          COLLECT_BUDGET_MIN: '20'
         run: |
           if [ -z "$GEMINI_API_KEY" ]; then
             echo "::warning::GEMINI_API_KEY 시크릿이 없어 수집을 건너뜁니다. Settings → Secrets and variables → Actions 에서 추가하세요."
@@ -89,11 +91,30 @@ jobs:
       - uses: actions/upload-pages-artifact@v4
         with:
           path: _site
-      - id: deploy
+
+  # 배포는 별도 작업으로: 업로드 직후 바로 찾으면 아티팩트가 아직 조회되지 않아 실패하는 경우가 있음
+  deploy:
+    needs: collect-and-build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy2.outputs.page_url || steps.deploy1.outputs.page_url }}
+    steps:
+      - id: deploy1
+        continue-on-error: true
+        uses: actions/deploy-pages@v4
+
+      - name: 배포 재시도 대기
+        if: steps.deploy1.outcome == 'failure'
+        run: sleep 45
+
+      - id: deploy2
+        if: steps.deploy1.outcome == 'failure'
         uses: actions/deploy-pages@v4
 
       - name: 수집 실패 시 실행을 실패로 표시
-        if: steps.collect.outcome == 'failure'
+        if: needs.collect-and-build.outputs.collect == 'failure'
         run: |
-          echo "::error::일정 수집 단계가 실패했습니다. 위의 주석과 data/logs/last-run.json 을 확인하세요."
+          echo "::error::일정 수집 단계가 실패했습니다(사이트는 기존 데이터로 배포됨). 주석과 data/logs/last-run.json 을 확인하세요."
           exit 1

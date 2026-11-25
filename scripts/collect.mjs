@@ -3,7 +3,7 @@
 // 사용법: GEMINI_API_KEY=... node scripts/collect.mjs [게임id ...]
 //        MOCK=1 node scripts/collect.mjs   (API 없이 test/fixtures 로 동작 확인)
 import { readFile, writeFile, mkdir } from 'node:fs/promises';
-import { Gemini, resolveRedirect, extractJson, QuotaExhausted } from './lib/gemini.mjs';
+import { Gemini, resolveRedirect, extractJson, QuotaExhausted, TimeBudgetExceeded } from './lib/gemini.mjs';
 import { normalize, mergeEvents, prune, consolidate, TYPES } from './lib/events.mjs';
 import { research as freeResearch } from './lib/search.mjs';
 import { fetchDcPosts, fetchDcNameMentions, extractClaims, attachCommunity } from './lib/community.mjs';
@@ -132,6 +132,12 @@ function ghError(title, msg) {
   console.log(`::error title=${title}::${clean}`);
 }
 
+// 작업 전체 시간 제한(30분) 안에 끝나도록 수집에 쓸 시간 예산 (기본 20분). 남은 게임은 다음 실행에서 이어서 수집
+const BUDGET_MS = Number(process.env.COLLECT_BUDGET_MIN || 20) * 60000;
+const startedAt = Date.now();
+const deadline = startedAt + BUDGET_MS;
+const overBudget = (reserveMin = 0) => Date.now() > deadline - reserveMin * 60000;
+
 async function main() {
   const { games, trustedDomains = [], preferredDomains = [] } = await readJson('config/games.json', { games: [] });
   for (const g of games) g.trustedDomains = [...trustedDomains, ...(g.trustedDomains || [])];
@@ -139,7 +145,7 @@ async function main() {
   const targets = games.filter((g) => g.enabled && (!only.length || only.includes(g.id)));
   const client = process.env.MOCK
     ? await mockClient()
-    : new Gemini({ apiKey: process.env.GEMINI_API_KEY, model: process.env.GEMINI_MODEL, lastGood: (await readJson('data/state.json', {})).lastGoodModel });
+    : new Gemini({ apiKey: process.env.GEMINI_API_KEY, model: process.env.GEMINI_MODEL, lastGood: (await readJson('data/state.json', {})).lastGoodModel, deadline });
   if (client.discoverModels) console.log('후보 모델:', (await client.discoverModels()).join(', '));
 
   const now = new Date();
@@ -158,6 +164,7 @@ async function main() {
   let quotaStop = null;
   for (const { game, server, key } of queue) {
     if (quotaStop) { log.runs.push({ game: game.id, server: server.id, skipped: '무료 한도 소진으로 다음 실행에 수집' }); continue; }
+    if (overBudget(3)) { log.runs.push({ game: game.id, server: server.id, skipped: '시간 예산 초과로 다음 실행에 수집' }); continue; }
     const run = { game: game.id, server: server.id, found: 0, accepted: 0, rejected: [] };
     try {
       let out;
@@ -208,7 +215,10 @@ async function main() {
       state.lastCollected[key] = now.toISOString();
     } catch (err) {
       run.error = String(err.message || err);
-      if (err instanceof QuotaExhausted) {
+      if (err instanceof TimeBudgetExceeded) {
+        run.skipped = '시간 예산 초과로 다음 실행에 수집';
+        delete run.error;
+      } else if (err instanceof QuotaExhausted) {
         quotaStop = run.error;
         console.warn(`[${game.id}/${server.id}] 무료 한도 소진 — 나머지는 다음 실행에서 수집합니다.`);
       } else {
@@ -227,6 +237,7 @@ async function main() {
     for (const game of targets) {
       const g = game.dcGallery;
       if (!g || !game.futuresight) continue;
+      if (Date.now() > startedAt + BUDGET_MS + 3 * 60000) { log.community.push({ game: game.id, skipped: '시간 예산 초과' }); continue; }
       const entry = { game: game.id, gallery: g.id };
       try {
         const known = [...existing, ...incoming].filter((e) => e.game === game.id && e.type === 'banner');
