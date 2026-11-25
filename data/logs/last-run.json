@@ -1,295 +1,25 @@
 {
-  "startedAt": "2026-11-25T07:54:27.191Z",
-  "model": "openrouter:particle-ai/particle-1:free",
+  "startedAt": "2026-11-25T09:51:07.031Z",
+  "model": "gemini:gemini-3.5-flash-lite+gemini:gemini-3.6-flash+gemini:gemini-3.5-flash",
   "runs": [
     {
       "game": "genshin",
       "server": "kr",
-      "found": 0,
-      "accepted": 0,
-      "rejected": [],
-      "search": {
-        "providers": {
-          "googleNews": {
-            "ok": 2,
-            "results": 10,
-            "errors": []
-          },
-          "bing": {
-            "ok": 2,
-            "results": 0,
-            "errors": []
-          },
-          "duckduckgo": {
-            "ok": 2,
-            "results": 20,
-            "errors": []
-          }
-        },
-        "pagesFetched": 6,
-        "pageErrors": 0,
-        "irrelevant": 20,
-        "newsResolved": 6,
-        "official": 0,
-        "results": 25,
-        "pages": 6
-      },
-      "error": "openrouter: 사용 가능한 모델이 응답하지 않음"
-    },
-    {
-      "game": "starrail",
-      "server": "kr",
-      "found": 4,
-      "accepted": 4,
-      "rejected": [],
-      "search": {
-        "providers": {
-          "googleNews": {
-            "ok": 2,
-            "results": 8,
-            "errors": []
-          },
-          "bing": {
-            "ok": 2,
-            "results": 0,
-            "errors": []
-          },
-          "duckduckgo": {
-            "ok": 2,
-            "results": 20,
-            "errors": []
-          }
-        },
-        "pagesFetched": 5,
-        "pageErrors": 1,
-        "irrelevant": 28,
-        "newsResolved": 6,
-        "official": 0,
-        "results": 25,
-        "pages": 5
-      }
-    },
-    {
-      "game": "zzz",
-      "server": "kr",
-      "found": 11,
-      "accepted": 11,
-      "rejected": [],
-      "search": {
-        "providers": {
-          "googleNews": {
-            "ok": 2,
-            "results": 8,
-            "errors": []
-          },
-          "bing": {
-            "ok": 2,
-            "results": 0,
-            "errors": []
-          },
-          "duckduckgo": {
-            "ok": 2,
-            "results": 19,
-            "errors": []
-          }
-        },
-        "pagesFetched": 6,
-        "pageErrors": 0,
-        "irrelevant": 23,
-        "newsResolved": 6,
-        "official": 0,
-        "results": 21,
-        "pages": 6
-      }
-    },
-    {
-      "game": "bluearchive",
-      "server": "kr",
-      "found": 0,
-      "accepted": 0,
-      "rejected": [],
-      "search": {
-        "providers": {
-          "googleNews": {
-            "ok": 3,
-            "results": 19,
-            "errors": []
-          },
-          "bing": {
-            "ok": 3,
-            "results": 0,
-            "errors": []
-          },
-          "duckduckgo": {
-            "ok": 3,
-            "results": 23,
-            "errors": []
-          }
-        },
-        "pagesFetched": 5,
-        "pageErrors": 1,
-        "irrelevant": 30,
-        "newsResolved": 0,
-        "official": 0,
-        "results": 25,
-        "pages": 5
-      },
-      "error": "openrouter: 사용 가능한 모델이 응답하지 않음"
-    },
-    {
-      "game": "nikke",
-      "server": "kr",
-      "found": 0,
-      "accepted": 0,
-      "rejected": [],
-      "search": {
-        "providers": {
-          "googleNews": {
-            "ok": 2,
-            "results": 20,
-            "errors": []
-          },
-          "bing": {
-            "ok": 2,
-            "results": 0,
-            "errors": []
-          },
-          "duckduckgo": {
-            "ok": 2,
-            "results": 20,
-            "errors": []
-          }
-        },
-        "pagesFetched": 5,
-        "pageErrors": 1,
-        "irrelevant": 21,
-        "newsResolved": 0,
-        "official": 0,
-        "results": 25,
-        "pages": 5
-      },
-      "error": "openrouter: 사용 가능한 모델이 응답하지 않음"
-    },
-    {
-      "game": "umamusume",
-      "server": "kr",
-      "found": 0,
-      "accepted": 0,
-      "rejected": [],
-      "search": {
-        "providers": {
-          "googleNews": {
-            "ok": 3,
-            "results": 6,
-            "errors": []
-          },
-          "bing": {
-            "ok": 3,
-            "results": 0,
-            "errors": []
-          },
-          "duckduckgo": {
-            "ok": 3,
-            "results": 27,
-            "errors": []
-          }
-        },
-        "pagesFetched": 3,
-        "pageErrors": 3,
-        "irrelevant": 35,
-        "newsResolved": 0,
-        "official": 0,
-        "results": 25,
-        "pages": 3
-      },
-      "error": "openrouter: 사용 가능한 모델이 응답하지 않음"
-    },
-    {
-      "game": "arknights",
-      "server": "kr",
-      "found": 0,
-      "accepted": 0,
-      "rejected": [],
-      "search": {
-        "providers": {
-          "googleNews": {
-            "ok": 3,
-            "results": 1,
-            "errors": []
-          },
-          "bing": {
-            "ok": 3,
-            "results": 0,
-            "errors": []
-          },
-          "duckduckgo": {
-            "ok": 3,
-            "results": 28,
-            "errors": []
-          }
-        },
-        "pagesFetched": 5,
-        "pageErrors": 1,
-        "irrelevant": 32,
-        "newsResolved": 0,
-        "official": 15,
-        "results": 24,
-        "pages": 20
-      },
-      "error": "openrouter: 사용 가능한 모델이 응답하지 않음"
-    },
-    {
-      "game": "endfield",
-      "server": "kr",
-      "found": 0,
-      "accepted": 0,
+      "found": 7,
+      "accepted": 7,
       "rejected": [],
       "search": {
         "providers": {
           "googleNews": {
             "ok": 1,
-            "results": 4,
+            "results": 1,
             "errors": [
-              "명일방주 엔드필드 업데이트 이벤트: HTTP 429"
+              "원신 업데이트 이벤트 일정: HTTP 429"
             ]
           },
           "bing": {
             "ok": 2,
-            "results": 0,
-            "errors": []
-          },
-          "duckduckgo": {
-            "ok": 2,
-            "results": 20,
-            "errors": []
-          }
-        },
-        "pagesFetched": 6,
-        "pageErrors": 0,
-        "irrelevant": 22,
-        "newsResolved": 0,
-        "official": 0,
-        "results": 22,
-        "pages": 6
-      },
-      "error": "openrouter: 사용 가능한 모델이 응답하지 않음"
-    },
-    {
-      "game": "wuwa",
-      "server": "kr",
-      "found": 8,
-      "accepted": 8,
-      "rejected": [],
-      "search": {
-        "providers": {
-          "googleNews": {
-            "ok": 2,
-            "results": 11,
-            "errors": []
-          },
-          "bing": {
-            "ok": 2,
-            "results": 0,
+            "results": 19,
             "errors": []
           },
           "duckduckgo": {
@@ -300,15 +30,114 @@
         },
         "pagesFetched": 4,
         "pageErrors": 2,
-        "irrelevant": 23,
-        "newsResolved": 0,
+        "irrelevant": 0,
+        "newsResolved": 1,
         "official": 0,
-        "results": 25,
+        "results": 24,
         "pages": 4
       }
     },
     {
-      "game": "limbus",
+      "game": "bluearchive",
+      "server": "kr",
+      "found": 11,
+      "accepted": 11,
+      "rejected": [],
+      "search": {
+        "providers": {
+          "googleNews": {
+            "ok": 3,
+            "results": 20,
+            "errors": []
+          },
+          "bing": {
+            "ok": 3,
+            "results": 15,
+            "errors": []
+          },
+          "duckduckgo": {
+            "ok": 3,
+            "results": 23,
+            "errors": []
+          }
+        },
+        "pagesFetched": 6,
+        "pageErrors": 0,
+        "irrelevant": 28,
+        "newsResolved": 6,
+        "official": 0,
+        "results": 25,
+        "pages": 6
+      }
+    },
+    {
+      "game": "nikke",
+      "server": "kr",
+      "found": 3,
+      "accepted": 3,
+      "rejected": [],
+      "search": {
+        "providers": {
+          "googleNews": {
+            "ok": 2,
+            "results": 25,
+            "errors": []
+          },
+          "bing": {
+            "ok": 2,
+            "results": 20,
+            "errors": []
+          },
+          "duckduckgo": {
+            "ok": 2,
+            "results": 20,
+            "errors": []
+          }
+        },
+        "pagesFetched": 6,
+        "pageErrors": 0,
+        "irrelevant": 2,
+        "newsResolved": 0,
+        "official": 0,
+        "results": 25,
+        "pages": 6
+      }
+    },
+    {
+      "game": "umamusume",
+      "server": "kr",
+      "found": 5,
+      "accepted": 5,
+      "rejected": [],
+      "search": {
+        "providers": {
+          "googleNews": {
+            "ok": 3,
+            "results": 6,
+            "errors": []
+          },
+          "bing": {
+            "ok": 3,
+            "results": 28,
+            "errors": []
+          },
+          "duckduckgo": {
+            "ok": 3,
+            "results": 28,
+            "errors": []
+          }
+        },
+        "pagesFetched": 3,
+        "pageErrors": 3,
+        "irrelevant": 8,
+        "newsResolved": 0,
+        "official": 0,
+        "results": 25,
+        "pages": 3
+      }
+    },
+    {
+      "game": "arknights",
       "server": "kr",
       "found": 9,
       "accepted": 9,
@@ -317,12 +146,12 @@
         "providers": {
           "googleNews": {
             "ok": 3,
-            "results": 2,
+            "results": 1,
             "errors": []
           },
           "bing": {
             "ok": 3,
-            "results": 0,
+            "results": 29,
             "errors": []
           },
           "duckduckgo": {
@@ -333,7 +162,172 @@
         },
         "pagesFetched": 6,
         "pageErrors": 0,
-        "irrelevant": 22,
+        "irrelevant": 2,
+        "newsResolved": 0,
+        "official": 15,
+        "results": 25,
+        "pages": 21
+      }
+    },
+    {
+      "game": "endfield",
+      "server": "kr",
+      "found": 5,
+      "accepted": 5,
+      "rejected": [],
+      "search": {
+        "providers": {
+          "googleNews": {
+            "ok": 2,
+            "results": 12,
+            "errors": []
+          },
+          "bing": {
+            "ok": 2,
+            "results": 19,
+            "errors": []
+          },
+          "duckduckgo": {
+            "ok": 2,
+            "results": 20,
+            "errors": []
+          }
+        },
+        "pagesFetched": 6,
+        "pageErrors": 0,
+        "irrelevant": 5,
+        "newsResolved": 0,
+        "official": 0,
+        "results": 25,
+        "pages": 6
+      }
+    },
+    {
+      "game": "starrail",
+      "server": "kr",
+      "found": 8,
+      "accepted": 8,
+      "rejected": [],
+      "search": {
+        "providers": {
+          "googleNews": {
+            "ok": 2,
+            "results": 4,
+            "errors": []
+          },
+          "bing": {
+            "ok": 2,
+            "results": 18,
+            "errors": []
+          },
+          "duckduckgo": {
+            "ok": 2,
+            "results": 20,
+            "errors": []
+          }
+        },
+        "pagesFetched": 4,
+        "pageErrors": 2,
+        "irrelevant": 5,
+        "newsResolved": 0,
+        "official": 0,
+        "results": 25,
+        "pages": 4
+      }
+    },
+    {
+      "game": "zzz",
+      "server": "kr",
+      "found": 10,
+      "accepted": 10,
+      "rejected": [],
+      "search": {
+        "providers": {
+          "googleNews": {
+            "ok": 2,
+            "results": 8,
+            "errors": []
+          },
+          "bing": {
+            "ok": 2,
+            "results": 20,
+            "errors": []
+          },
+          "duckduckgo": {
+            "ok": 2,
+            "results": 20,
+            "errors": []
+          }
+        },
+        "pagesFetched": 6,
+        "pageErrors": 0,
+        "irrelevant": 2,
+        "newsResolved": 0,
+        "official": 0,
+        "results": 25,
+        "pages": 6
+      }
+    },
+    {
+      "game": "wuwa",
+      "server": "kr",
+      "found": 11,
+      "accepted": 11,
+      "rejected": [],
+      "search": {
+        "providers": {
+          "googleNews": {
+            "ok": 2,
+            "results": 11,
+            "errors": []
+          },
+          "bing": {
+            "ok": 2,
+            "results": 20,
+            "errors": []
+          },
+          "duckduckgo": {
+            "ok": 2,
+            "results": 20,
+            "errors": []
+          }
+        },
+        "pagesFetched": 5,
+        "pageErrors": 1,
+        "irrelevant": 3,
+        "newsResolved": 0,
+        "official": 0,
+        "results": 25,
+        "pages": 5
+      }
+    },
+    {
+      "game": "limbus",
+      "server": "kr",
+      "found": 8,
+      "accepted": 8,
+      "rejected": [],
+      "search": {
+        "providers": {
+          "googleNews": {
+            "ok": 3,
+            "results": 2,
+            "errors": []
+          },
+          "bing": {
+            "ok": 3,
+            "results": 30,
+            "errors": []
+          },
+          "duckduckgo": {
+            "ok": 3,
+            "results": 29,
+            "errors": []
+          }
+        },
+        "pagesFetched": 6,
+        "pageErrors": 0,
+        "irrelevant": 2,
         "newsResolved": 0,
         "official": 0,
         "results": 25,
@@ -353,9 +347,11 @@
         "하스미",
         "모에"
       ],
-      "posts": 169,
-      "attached": 7,
-      "errors": []
+      "posts": 126,
+      "attached": 11,
+      "errors": [
+        "recommend: fetch failed"
+      ]
     },
     {
       "game": "umamusume",
@@ -368,7 +364,7 @@
         "시나리오",
         "링크"
       ],
-      "posts": 166,
+      "posts": 169,
       "attached": 7,
       "errors": []
     },
@@ -383,40 +379,24 @@
         "트라고디아",
         "Angelina"
       ],
-      "posts": 124,
-      "attached": 2,
+      "posts": 125,
+      "attached": 3,
       "errors": []
     }
   ],
-  "apiCalls": 23,
+  "apiCalls": 17,
   "modelNotes": [
     "후보 모델: gemini-3.5-flash-lite, gemini-3.8-flash, gemini-3.7-flash, gemini-3.6-flash, gemini-3.5-flash, gemini-3-flash-preview, gemini-2.5-flash, gemini-flash-latest, gemini-omni-1.1-flash, gemini-omni-1.2-flash, gemini-omni-flash-preview, gemini-3.1-flash-lite, gemini-3.1-flash-lite-preview, gemini-2.5-flash-lite, gemini-flash-lite-latest",
-    "openrouter 후보: google/gemma-4-26b-a4b-it:free, google/gemma-4-31b-it:free, inclusionai/ling-3.2-flash:free, particle-ai/particle-1:free, baidu/ernie-5.5-flash-preview:free, nvidia/nemotron-3.5-lightning:free, nvidia/nemotron-3-ultra-550b-a55b:free, recursive/flint-v1.0:free",
-    "openrouter/google/gemma-4-26b-a4b-it:free: HTTP 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
-    "openrouter/google/gemma-4-31b-it:free: HTTP 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-31b-it:free is temporarily ra",
-    "openrouter/inclusionai/ling-3.2-flash:free: HTTP 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"inclusionai/ling-3.2-flash:free is temporari",
-    "openrouter/particle-ai/particle-1:free: HTTP 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"particle-ai/particle-1:free is temporarily r",
-    "openrouter/baidu/ernie-5.5-flash-preview:free: HTTP 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"baidu/ernie-5.5-flash-preview:free is tempor",
-    "openrouter/nvidia/nemotron-3.5-lightning:free: 응답 지연",
-    "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free: 응답 지연",
-    "openrouter/recursive/flint-v1.0:free: 응답 지연",
-    "openrouter/google/gemma-4-26b-a4b-it:free: HTTP 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
-    "openrouter/google/gemma-4-31b-it:free: HTTP 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-31b-it:free is temporarily ra",
-    "openrouter/inclusionai/ling-3.2-flash:free: HTTP 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"inclusionai/ling-3.2-flash:free is temporari",
-    "openrouter/particle-ai/particle-1:free: HTTP 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"particle-ai/particle-1:free is temporarily r",
-    "openrouter/baidu/ernie-5.5-flash-preview:free: 응답 지연",
-    "openrouter/nvidia/nemotron-3.5-lightning:free: 응답 지연",
-    "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free: 응답 지연",
-    "openrouter/recursive/flint-v1.0:free: 응답 지연",
-    "openrouter/google/gemma-4-26b-a4b-it:free: HTTP 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
-    "openrouter/google/gemma-4-31b-it:free: HTTP 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-31b-it:free is temporarily ra",
-    "openrouter/inclusionai/ling-3.2-flash:free: HTTP 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"inclusionai/ling-3.2-flash:free is temporari"
+    "gemini-3.5-flash-lite: 503 반복 → 다른 모델 우선",
+    "gemini-3.8-flash: 503 반복 → 다른 모델 우선",
+    "gemini-3.7-flash: 503 반복 → 다른 모델 우선",
+    "gemini-3.6-flash: 응답 지연 60초 초과"
   ],
   "quotaStop": null,
   "stats": {
-    "added": 2,
-    "updated": 5,
-    "unchanged": 25
+    "added": 9,
+    "updated": 31,
+    "unchanged": 37
   },
-  "finishedAt": "2026-11-25T08:11:15.377Z"
+  "finishedAt": "2026-11-25T10:00:39.131Z"
 }
