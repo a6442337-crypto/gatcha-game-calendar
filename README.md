@@ -47,6 +47,18 @@ GitHub Actions (매일 06:17, 18:17 KST)
 4. **Actions** 탭에서 *일정 수집 및 배포* → *Run workflow*로 첫 수집을 실행합니다. 이후에는 자동으로 돕니다.
 5. 사이트 주소: https://a6442337-crypto.github.io/gatcha-game-calendar/
 
+## Gemini 대체 모델 (선택)
+
+Gemini 무료 등급이 혼잡(503)·한도 초과·응답 지연이면 아래 무료 모델로 자동 전환합니다. 키가 없는 제공자는 건너뜁니다.
+
+| 순서 | 제공자 | 시크릿 | 무료 한도(2026-11 기준) |
+|---|---|---|---|
+| 1 | Gemini | `GEMINI_API_KEY` | 모델당 하루 20회 |
+| 2 | OpenRouter `:free` 모델 | `OPENROUTER_API_KEY` | 하루 50회, 분당 20회 (카드 불필요) |
+| 3 | Groq (gpt-oss-120b 등) | `GROQ_API_KEY` | 분당 8K·하루 200K 토큰 → 요청을 짧게 잘라 사용 (카드 불필요) |
+
+GitHub Models는 2026년 7월 종료되어 사용할 수 없습니다.
+
 ## 미래시
 
 - **블루 아카이브·우마무스메(일본 서버 선행), 명일방주(중국 서버 선행)** 만 미래시 예상 일정을 다룹니다 (`config/games.json`의 `futuresight`).

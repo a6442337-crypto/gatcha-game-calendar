@@ -4,6 +4,7 @@
 //        MOCK=1 node scripts/collect.mjs   (API 없이 test/fixtures 로 동작 확인)
 import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { Gemini, resolveRedirect, extractJson, QuotaExhausted, TimeBudgetExceeded } from './lib/gemini.mjs';
+import { FallbackClient, fallbackProviders } from './lib/llm.mjs';
 import { normalize, mergeEvents, prune, consolidate, TYPES } from './lib/events.mjs';
 import { research as freeResearch } from './lib/search.mjs';
 import { fetchDcPosts, fetchDcNameMentions, extractClaims, attachCommunity } from './lib/community.mjs';
@@ -145,7 +146,10 @@ async function main() {
   const targets = games.filter((g) => g.enabled && (!only.length || only.includes(g.id)));
   const client = process.env.MOCK
     ? await mockClient()
-    : new Gemini({ apiKey: process.env.GEMINI_API_KEY, model: process.env.GEMINI_MODEL, lastGood: (await readJson('data/state.json', {})).lastGoodModel, deadline });
+    : new FallbackClient(
+        new Gemini({ apiKey: process.env.GEMINI_API_KEY, model: process.env.GEMINI_MODEL, lastGood: (await readJson('data/state.json', {})).lastGoodModel, deadline }),
+        fallbackProviders(), // OPENROUTER_API_KEY / GROQ_API_KEY 가 있으면 Gemini 실패 시 사용
+      );
   if (client.discoverModels) console.log('후보 모델:', (await client.discoverModels()).join(', '));
 
   const now = new Date();

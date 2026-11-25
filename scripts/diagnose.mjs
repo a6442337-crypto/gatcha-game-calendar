@@ -38,33 +38,3 @@ for (const m of candidates) {
 await mkdir(new URL('../data/logs/', import.meta.url), { recursive: true });
 await writeFile(new URL('../data/logs/diagnose.json', import.meta.url), JSON.stringify(report, null, 2) + '\n');
 
-// ---- GitHub Models (Actions 기본 토큰으로 사용 가능한지 확인) ----
-if (process.env.GITHUB_TOKEN) {
-  const gh = { authorization: `Bearer ${process.env.GITHUB_TOKEN}`, accept: 'application/vnd.github+json', 'x-github-api-version': '2022-11-28', 'content-type': 'application/json' };
-  report.githubModels = { catalog: null, tests: [] };
-  try {
-    const res = await fetch('https://models.github.ai/catalog/models', { headers: gh });
-    const body = await res.text();
-    let list = [];
-    try { list = JSON.parse(body); } catch {}
-    report.githubModels.catalog = { status: res.status, count: Array.isArray(list) ? list.length : 0, contentType: res.headers.get('content-type'), raw: body.slice(0, 1500) };
-    const ids = Array.isArray(list) ? list.map((m) => `${m.id}${m.rate_limit_tier ? `(${m.rate_limit_tier})` : ''}`) : [];
-    note(res.status === 200 ? 'notice' : 'warning', 'GitHub Models 카탈로그', `HTTP ${res.status} · ${ids.join(', ').slice(0, 800) || body.slice(0, 300)}`);
-    const want = ['openai/gpt-4.1-mini', 'openai/gpt-4o-mini', 'openai/gpt-4.1', 'meta/llama-3.3-70b-instruct', 'mistral-ai/mistral-medium-2505', 'deepseek/deepseek-v3-0324'];
-    const pick = Array.isArray(list) && list.length ? want.filter((w) => list.some((m) => m.id === w)).concat(list.map((m) => m.id).filter((id) => !want.includes(id)).slice(0, 2)).slice(0, 5) : want.slice(0, 2);
-    for (const model of pick) {
-      const r = await fetch('https://models.github.ai/inference/chat/completions', {
-        method: 'POST', headers: gh,
-        body: JSON.stringify({ model, messages: [{ role: 'user', content: '원신의 주인공 쌍둥이 이름을 한국어로 한 줄로.' }], max_tokens: 50 }),
-      });
-      const t = await r.text();
-      const limits = ['x-ratelimit-limit-requests', 'x-ratelimit-remaining-requests', 'x-ratelimit-limit-tokens', 'x-ratelimit-remaining-tokens'].map((h) => `${h.replace('x-ratelimit-', '')}=${r.headers.get(h)}`).join(' ');
-      let msg = t.slice(0, 200);
-      try { const j = JSON.parse(t); msg = j.choices?.[0]?.message?.content?.slice(0, 80) || j.error?.message?.slice(0, 200) || msg; } catch {}
-      report.githubModels.tests.push({ model, status: r.status, msg, limits, contentType: r.headers.get('content-type'), raw: t.slice(0, 600) });
-      note(r.status === 200 ? 'notice' : 'warning', `GitHub Models ${model}`, `HTTP ${r.status} · ${msg} · ${limits}`);
-      await new Promise((ok) => setTimeout(ok, 4000));
-    }
-  } catch (e) { note('warning', 'GitHub Models', e.message); }
-  await writeFile(new URL('../data/logs/diagnose.json', import.meta.url), JSON.stringify(report, null, 2) + '\n');
-}
