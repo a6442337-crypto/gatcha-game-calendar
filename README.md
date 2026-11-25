@@ -54,8 +54,8 @@ Gemini 무료 등급이 혼잡(503)·한도 초과·응답 지연이면 아래 �
 | 순서 | 제공자 | 시크릿 | 무료 한도(2026-11 기준) |
 |---|---|---|---|
 | 1 | Gemini | `GEMINI_API_KEY` | 모델당 하루 20회 |
-| 2 | OpenRouter `:free` 모델 | `OPENROUTER_API_KEY` | 하루 50회, 분당 20회 (카드 불필요) |
-| 3 | Groq (gpt-oss-120b 등) | `GROQ_API_KEY` | 분당 8K·하루 200K 토큰 → 요청을 짧게 잘라 사용 (카드 불필요) |
+| 2 | Groq (gpt-oss-120b 등) | `GROQ_API_KEY` | 분당 8K·하루 200K 토큰 → 요청을 짧게 잘라 사용 (카드 불필요). 시험에서 10/10 성공 |
+| 3 | OpenRouter `:free` 모델 | `OPENROUTER_API_KEY` | 하루 50회, 분당 20회 (카드 불필요). 무료 모델 혼잡이 잦아 시험에서 4/10 성공 |
 
 GitHub Models는 2026년 7월 종료되어 사용할 수 없습니다.
 

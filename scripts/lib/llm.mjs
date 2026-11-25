@@ -1,7 +1,7 @@
 // Gemini가 응답하지 않을 때 쓰는 무료 대체 모델 (OpenAI 호환 API, 2026-11 시험 완료)
 //  - OpenRouter ':free' 모델: OPENROUTER_API_KEY (카드 불필요, 하루 50회·분당 20회)
 //  - Groq: GROQ_API_KEY (카드 불필요, gpt-oss-120b 기준 분당 8K 토큰·하루 200K 토큰 → 요청을 짧게 자름)
-// 순서: Gemini → OpenRouter → Groq. 키가 없는 제공자는 건너뜀.
+// 순서: Gemini → Groq → OpenRouter. 키가 없는 제공자는 건너뜀.
 import { extractJson } from './gemini.mjs';
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -141,6 +141,9 @@ export function fallbackProviders(env = process.env) {
       minIntervalMs: 65000, // 분당 토큰 한도 회복 대기
     }));
   }
+  // 2026-11 시험 결과: Groq는 10개 게임 모두 안정적으로 성공, OpenRouter 무료 모델은 혼잡(429)이 잦아 4/10 → Groq 우선
+  const order = { groq: 0, openrouter: 1 };
+  out.sort((a, b) => order[a.name] - order[b.name]);
   return only.length ? out.filter((p) => only.includes(p.name)) : out;
 }
 
