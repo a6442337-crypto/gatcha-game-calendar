@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-03T02:10:14.839Z",
+  "at": "2026-11-25T06:12:02.706Z",
   "models": [
     "gemini-2.5-flash",
     "gemini-2.5-pro",
@@ -28,11 +28,15 @@
     "gemini-3.5-flash-lite",
     "gemini-omni-flash-preview",
     "gemini-omni-1.1-flash",
+    "gemini-omni-1.2-flash",
     "gemini-3.5-transcribe",
     "gemini-3.6-flash",
     "gemini-3.7-flash",
     "gemini-3.8-flash",
     "gemini-4-argon",
+    "gemini-4-carbon",
+    "gemini-4-hydrogen",
+    "gemini-4-neon",
     "lyria-3-clip-preview",
     "lyria-3-pro-preview",
     "lyria-3.5",
@@ -45,8 +49,7 @@
     "antigravity-preview-09-2026",
     "antigravity-preview-latest",
     "deep-research-max-preview-04-2026",
-    "deep-research-preview-04-2026",
-    "deep-research-pro-preview-12-2025"
+    "deep-research-preview-04-2026"
   ],
   "tests": [
     {
@@ -63,23 +66,23 @@
     {
       "model": "gemini-3.7-flash",
       "plain": {
-        "status": 200,
-        "info": "OK"
+        "status": 503,
+        "info": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
       },
       "grounded": {
-        "status": 429,
-        "info": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/"
+        "status": "-",
+        "info": "일반 호출 실패로 생략"
       }
     },
     {
       "model": "gemini-3.6-flash",
       "plain": {
-        "status": 200,
-        "info": "OK"
+        "status": 429,
+        "info": "GenerateRequestsPerDayPerProjectPerModel-FreeTier 한도=20 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-"
       },
       "grounded": {
-        "status": 429,
-        "info": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/"
+        "status": "-",
+        "info": "일반 호출 실패로 생략"
       }
     },
     {
@@ -90,7 +93,7 @@
       },
       "grounded": {
         "status": 429,
-        "info": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/"
+        "info": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-"
       }
     },
     {
@@ -101,7 +104,7 @@
       },
       "grounded": {
         "status": 429,
-        "info": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/"
+        "info": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-"
       }
     },
     {
@@ -112,7 +115,7 @@
       },
       "grounded": {
         "status": 429,
-        "info": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/"
+        "info": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-"
       }
     },
     {
@@ -123,7 +126,7 @@
       },
       "grounded": {
         "status": 429,
-        "info": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/"
+        "info": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-"
       }
     },
     {
@@ -137,5 +140,31 @@
         "info": "일반 호출 실패로 생략"
       }
     }
-  ]
+  ],
+  "githubModels": {
+    "catalog": {
+      "status": 200,
+      "count": 0,
+      "contentType": "text/plain",
+      "raw": "OK\r\n"
+    },
+    "tests": [
+      {
+        "model": "openai/gpt-4.1-mini",
+        "status": 200,
+        "msg": "OK\r\n",
+        "limits": "limit-requests=null remaining-requests=null limit-tokens=null remaining-tokens=null",
+        "contentType": "text/plain",
+        "raw": "OK\r\n"
+      },
+      {
+        "model": "openai/gpt-4o-mini",
+        "status": 200,
+        "msg": "OK\r\n",
+        "limits": "limit-requests=null remaining-requests=null limit-tokens=null remaining-tokens=null",
+        "contentType": "text/plain",
+        "raw": "OK\r\n"
+      }
+    ]
+  }
 }
