@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T03:42:09.897Z",
+  "updatedAt": "2026-11-27T19:04:11.531Z",
   "events": [
     {
       "id": "0ce40d1a53e3",
@@ -2901,8 +2901,8 @@
         }
       ],
       "firstSeen": "2026-10-31T13:31:58.842Z",
-      "lastSeen": "2026-11-27T03:38:38.435Z",
-      "seenCount": 94,
+      "lastSeen": "2026-11-27T19:00:42.152Z",
+      "seenCount": 96,
       "history": [
         {
           "at": "2026-11-20T02:20:02.010Z",
@@ -4102,8 +4102,8 @@
         }
       ],
       "firstSeen": "2026-11-02T19:30:53.445Z",
-      "lastSeen": "2026-11-25T07:54:27.191Z",
-      "seenCount": 38,
+      "lastSeen": "2026-11-27T19:00:42.152Z",
+      "seenCount": 39,
       "history": [
         {
           "at": "2026-11-13T01:50:14.100Z",
@@ -4258,8 +4258,8 @@
         }
       ],
       "firstSeen": "2026-10-31T14:28:00.518Z",
-      "lastSeen": "2026-11-27T03:38:38.435Z",
-      "seenCount": 110,
+      "lastSeen": "2026-11-27T19:00:42.152Z",
+      "seenCount": 112,
       "history": [
         {
           "at": "2026-11-19T02:35:08.122Z",
@@ -4356,8 +4356,8 @@
         }
       ],
       "firstSeen": "2026-11-03T02:55:38.900Z",
-      "lastSeen": "2026-11-27T03:38:38.435Z",
-      "seenCount": 30,
+      "lastSeen": "2026-11-27T19:00:42.152Z",
+      "seenCount": 31,
       "history": []
     },
     {
@@ -4430,7 +4430,7 @@
       "server": "kr",
       "type": "banner",
       "title": "세베리안 픽업 (답은 바람에 실려)",
-      "description": "젠레스 존 제로 3.3 버전 하반기 한정 S급 에이전트 세베리안 독점 채널 픽업입니다.",
+      "description": "젠레스 존 제로 3.3 버전 하반기 한정 S급 에이전트 세베리안 픽업 배너입니다.",
       "start": "2026-11-11T04:00:00.000Z",
       "end": "2026-12-01T06:59:00.000Z",
       "allDay": false,
@@ -4469,8 +4469,8 @@
         }
       ],
       "firstSeen": "2026-10-31T14:28:00.518Z",
-      "lastSeen": "2026-11-27T03:38:38.435Z",
-      "seenCount": 86,
+      "lastSeen": "2026-11-27T19:00:42.152Z",
+      "seenCount": 87,
       "history": [],
       "rerun": false
     },
@@ -4480,7 +4480,7 @@
       "server": "kr",
       "type": "banner",
       "title": "노르마 픽업 복각 (천재 부등식)",
-      "description": "젠레스 존 제로 3.3 버전 하반기 노르마 복각 픽업입니다.",
+      "description": "젠레스 존 제로 3.3 버전 하반기 S급 에이전트 노르마 복각 픽업 배너입니다.",
       "start": "2026-11-11T04:00:00.000Z",
       "end": "2026-12-01T06:59:00.000Z",
       "allDay": false,
@@ -4520,8 +4520,8 @@
         }
       ],
       "firstSeen": "2026-11-03T01:46:11.174Z",
-      "lastSeen": "2026-11-27T03:38:38.435Z",
-      "seenCount": 31,
+      "lastSeen": "2026-11-27T19:00:42.152Z",
+      "seenCount": 32,
       "history": [
         {
           "at": "2026-11-03T02:55:38.900Z",
@@ -4784,11 +4784,15 @@
         {
           "title": "3.8 버전 [캐릭터/무기 이벤트 튜닝 · 1차] : 명조:워더링 웨이브",
           "url": "https://game.naver.com/lounge/WutheringWaves/board/detail/8443278"
+        },
+        {
+          "title": "명조:워더링 웨이브 on X",
+          "url": "https://x.com/WW_KR_Official/status/2119739273335263559"
         }
       ],
       "firstSeen": "2026-11-07T15:41:18.208Z",
-      "lastSeen": "2026-11-27T03:38:38.435Z",
-      "seenCount": 87,
+      "lastSeen": "2026-11-27T19:00:42.152Z",
+      "seenCount": 88,
       "history": [
         {
           "at": "2026-11-10T17:04:46.203Z",
@@ -4952,13 +4956,13 @@
       "server": "kr",
       "type": "banner",
       "title": "여정이 남긴 캐릭터 튜닝 (카멜리아, 로코코, 페비, 브렌트)",
-      "description": "3.8 버전 여정이 남긴 캐릭터 튜닝을 통해 진행되는 브렌트 복각 픽업입니다.",
+      "description": "3.8 버전 여정이 남긴 캐릭터 튜닝으로 카멜리아, 로코코, 페비, 브렌트가 등장합니다.",
       "start": "2026-11-12T03:00:00.000Z",
       "end": "2026-12-21T03:59:00.000Z",
       "allDay": false,
       "confidence": 0.95,
       "status": "confirmed",
-      "basis": "community",
+      "basis": "official",
       "major": false,
       "rerun": true,
       "sources": [
@@ -4968,8 +4972,8 @@
         }
       ],
       "firstSeen": "2026-11-10T17:04:46.203Z",
-      "lastSeen": "2026-11-25T19:19:05.170Z",
-      "seenCount": 50,
+      "lastSeen": "2026-11-27T19:00:42.152Z",
+      "seenCount": 51,
       "history": []
     },
     {
@@ -5415,8 +5419,8 @@
         }
       ],
       "firstSeen": "2026-11-16T19:38:07.227Z",
-      "lastSeen": "2026-11-27T03:38:38.435Z",
-      "seenCount": 29,
+      "lastSeen": "2026-11-27T19:00:42.152Z",
+      "seenCount": 31,
       "history": []
     },
     {
@@ -5733,8 +5737,8 @@
         "at": "2026-11-25T05:55:42.720Z"
       },
       "firstSeen": "2026-11-10T17:04:46.203Z",
-      "lastSeen": "2026-11-27T03:38:38.435Z",
-      "seenCount": 36,
+      "lastSeen": "2026-11-27T19:00:42.152Z",
+      "seenCount": 37,
       "history": [
         {
           "at": "2026-11-18T18:06:42.836Z",
@@ -6247,7 +6251,7 @@
       "server": "kr",
       "type": "banner",
       "title": "스카이 특수 모집",
-      "description": "신규 SSR 스카이 특수 모집.",
+      "description": "신규 SSR 캐릭터 스카이의 특수 모집이 진행됩니다.",
       "start": "2026-11-19T09:00:00.000Z",
       "end": "2026-12-02T19:59:00.000Z",
       "allDay": false,
@@ -6279,8 +6283,8 @@
         }
       ],
       "firstSeen": "2026-11-14T01:27:43.409Z",
-      "lastSeen": "2026-11-27T03:38:38.435Z",
-      "seenCount": 23,
+      "lastSeen": "2026-11-27T19:00:42.152Z",
+      "seenCount": 24,
       "history": [
         {
           "at": "2026-11-15T16:23:58.252Z",
@@ -6399,8 +6403,8 @@
         }
       ],
       "firstSeen": "2026-11-20T17:50:09.319Z",
-      "lastSeen": "2026-11-27T03:38:38.435Z",
-      "seenCount": 15,
+      "lastSeen": "2026-11-27T19:00:42.152Z",
+      "seenCount": 17,
       "history": []
     },
     {
@@ -6702,8 +6706,8 @@
         }
       ],
       "firstSeen": "2026-11-20T17:50:09.319Z",
-      "lastSeen": "2026-11-26T03:34:39.425Z",
-      "seenCount": 12,
+      "lastSeen": "2026-11-27T19:00:42.152Z",
+      "seenCount": 13,
       "history": [
         {
           "at": "2026-11-21T02:17:19.333Z",
@@ -6829,8 +6833,8 @@
         }
       ],
       "firstSeen": "2026-11-17T18:36:28.203Z",
-      "lastSeen": "2026-11-27T03:38:38.435Z",
-      "seenCount": 20,
+      "lastSeen": "2026-11-27T19:00:42.152Z",
+      "seenCount": 21,
       "history": []
     },
     {
@@ -6909,8 +6913,8 @@
         "at": "2026-11-24T05:20:07.320Z"
       },
       "firstSeen": "2026-11-20T17:50:09.319Z",
-      "lastSeen": "2026-11-27T03:38:38.435Z",
-      "seenCount": 12,
+      "lastSeen": "2026-11-27T19:00:42.152Z",
+      "seenCount": 13,
       "history": [
         {
           "at": "2026-11-24T05:20:07.320Z",
@@ -6969,8 +6973,8 @@
         "at": "2026-11-24T05:20:07.320Z"
       },
       "firstSeen": "2026-11-20T17:50:09.319Z",
-      "lastSeen": "2026-11-27T03:38:38.435Z",
-      "seenCount": 12,
+      "lastSeen": "2026-11-27T19:00:42.152Z",
+      "seenCount": 13,
       "history": [
         {
           "at": "2026-11-24T05:20:07.320Z",
@@ -7013,8 +7017,8 @@
         }
       ],
       "firstSeen": "2026-11-22T17:10:58.255Z",
-      "lastSeen": "2026-11-27T03:38:38.435Z",
-      "seenCount": 11,
+      "lastSeen": "2026-11-27T19:00:42.152Z",
+      "seenCount": 12,
       "history": [
         {
           "at": "2026-11-24T05:20:07.320Z",
@@ -7073,8 +7077,8 @@
         }
       ],
       "firstSeen": "2026-11-22T17:10:58.255Z",
-      "lastSeen": "2026-11-27T03:38:38.435Z",
-      "seenCount": 11,
+      "lastSeen": "2026-11-27T19:00:42.152Z",
+      "seenCount": 12,
       "history": [
         {
           "at": "2026-11-24T05:20:07.320Z",
@@ -7133,8 +7137,8 @@
         }
       ],
       "firstSeen": "2026-11-04T17:16:53.474Z",
-      "lastSeen": "2026-11-27T03:38:38.435Z",
-      "seenCount": 18,
+      "lastSeen": "2026-11-27T19:00:42.152Z",
+      "seenCount": 19,
       "history": []
     },
     {
@@ -7183,8 +7187,8 @@
         }
       ],
       "firstSeen": "2026-10-31T13:31:58.842Z",
-      "lastSeen": "2026-11-27T03:38:38.435Z",
-      "seenCount": 83,
+      "lastSeen": "2026-11-27T19:00:42.152Z",
+      "seenCount": 84,
       "history": [
         {
           "at": "2026-11-20T02:20:02.010Z",
@@ -7320,8 +7324,8 @@
         }
       ],
       "firstSeen": "2026-11-25T05:55:42.720Z",
-      "lastSeen": "2026-11-27T03:38:38.435Z",
-      "seenCount": 6,
+      "lastSeen": "2026-11-27T19:00:42.152Z",
+      "seenCount": 7,
       "history": []
     },
     {
@@ -7434,8 +7438,8 @@
         }
       ],
       "firstSeen": "2026-11-22T17:10:58.255Z",
-      "lastSeen": "2026-11-26T19:03:44.239Z",
-      "seenCount": 14,
+      "lastSeen": "2026-11-27T19:00:42.152Z",
+      "seenCount": 15,
       "history": [
         {
           "at": "2026-11-25T04:13:00.420Z",
@@ -7602,8 +7606,8 @@
         }
       ],
       "firstSeen": "2026-11-21T16:49:03.496Z",
-      "lastSeen": "2026-11-27T03:38:38.435Z",
-      "seenCount": 12,
+      "lastSeen": "2026-11-27T19:00:42.152Z",
+      "seenCount": 13,
       "history": [
         {
           "at": "2026-11-22T17:10:58.255Z",
@@ -7642,8 +7646,8 @@
         }
       ],
       "firstSeen": "2026-11-21T16:49:03.496Z",
-      "lastSeen": "2026-11-27T03:38:38.435Z",
-      "seenCount": 12,
+      "lastSeen": "2026-11-27T19:00:42.152Z",
+      "seenCount": 13,
       "history": [
         {
           "at": "2026-11-24T05:20:07.320Z",
@@ -7854,8 +7858,8 @@
         }
       ],
       "firstSeen": "2026-11-20T17:50:09.319Z",
-      "lastSeen": "2026-11-27T03:38:38.435Z",
-      "seenCount": 36,
+      "lastSeen": "2026-11-27T19:00:42.152Z",
+      "seenCount": 39,
       "history": []
     },
     {
@@ -8051,48 +8055,6 @@
       ]
     },
     {
-      "id": "140b777c0f01",
-      "game": "arknights",
-      "server": "kr",
-      "type": "banner",
-      "title": "[미래시] 콜라보 복각 헤드헌팅 - 키린R 야토 픽업",
-      "description": "중국 서버 진행 이력을 기반으로 한 글로벌 서버 몬스터 헌터 콜라보 복각 헤드헌팅 예상 일정입니다.",
-      "start": "2026-11-29T15:00:00.000Z",
-      "end": null,
-      "allDay": true,
-      "confidence": 0.7,
-      "status": "predicted",
-      "basis": "futuresight",
-      "major": false,
-      "rerun": true,
-      "sources": [
-        {
-          "title": "명일방주 픽업 공식 (글로벌) · BannerHistory",
-          "url": "https://bannerhistory.app/ko/arknights-pickup-formula"
-        }
-      ],
-      "community": {
-        "posts": 8,
-        "authors": 8,
-        "recommended": 1,
-        "reliable": 0,
-        "sites": [
-          "dcinside"
-        ],
-        "by": {
-          "dcinside": {
-            "posts": 8,
-            "authors": 8
-          }
-        },
-        "at": "2026-11-27T03:38:38.435Z"
-      },
-      "firstSeen": "2026-11-25T04:13:00.420Z",
-      "lastSeen": "2026-11-25T09:51:07.031Z",
-      "seenCount": 2,
-      "history": []
-    },
-    {
       "id": "370eea6aa212",
       "game": "arknights",
       "server": "kr",
@@ -8114,8 +8076,8 @@
         }
       ],
       "firstSeen": "2026-11-27T03:38:38.435Z",
-      "lastSeen": "2026-11-27T03:38:38.435Z",
-      "seenCount": 1,
+      "lastSeen": "2026-11-27T19:00:42.152Z",
+      "seenCount": 2,
       "history": []
     },
     {
@@ -8143,6 +8105,58 @@
       "lastSeen": "2026-11-27T03:38:38.435Z",
       "seenCount": 1,
       "history": []
+    },
+    {
+      "id": "140b777c0f01",
+      "game": "arknights",
+      "server": "kr",
+      "type": "banner",
+      "title": "키린R 야토 픽업",
+      "description": "Sharpened by Flame 복각 콜라보 키린R 야토 스페셜리스트 픽업.",
+      "start": "2026-11-30T15:00:00.000Z",
+      "end": "2026-12-14T10:59:00.000Z",
+      "allDay": false,
+      "confidence": 0.9,
+      "status": "confirmed",
+      "basis": "official",
+      "major": false,
+      "rerun": true,
+      "sources": [
+        {
+          "title": "명일방주 픽업 공식 (글로벌) · BannerHistory",
+          "url": "https://bannerhistory.app/ko/arknights-pickup-formula"
+        },
+        {
+          "title": "명일방주 픽업 일정 · 헤드헌팅 이력 (글로벌) | BannerHistory",
+          "url": "https://bannerhistory.app/ko/arknights-pickup-history"
+        }
+      ],
+      "community": {
+        "posts": 7,
+        "authors": 7,
+        "recommended": 0,
+        "reliable": 0,
+        "sites": [
+          "dcinside"
+        ],
+        "by": {
+          "dcinside": {
+            "posts": 7,
+            "authors": 7
+          }
+        },
+        "at": "2026-11-27T19:00:42.152Z"
+      },
+      "firstSeen": "2026-11-25T04:13:00.420Z",
+      "lastSeen": "2026-11-27T19:00:42.152Z",
+      "seenCount": 3,
+      "history": [
+        {
+          "at": "2026-11-27T19:00:42.152Z",
+          "start": "2026-11-29T15:00:00.000Z",
+          "end": null
+        }
+      ]
     },
     {
       "id": "d7ce2aebcd6f",
@@ -8258,7 +8272,7 @@
       "server": "kr",
       "type": "update",
       "title": "젠레스 존 제로 3.4 버전 업데이트",
-      "description": "붕괴: 스타레일 컬래버레이션과 신규 콘텐츠를 포함한 3.4 버전 대규모 업데이트가 진행됩니다.",
+      "description": "젠레스 존 제로의 3.4 버전 「긴 나날의 끝자락」 업데이트가 진행됩니다.",
       "start": "2026-12-01T16:00:00.000Z",
       "end": null,
       "allDay": true,
@@ -8302,8 +8316,8 @@
         }
       ],
       "firstSeen": "2026-11-21T16:49:03.496Z",
-      "lastSeen": "2026-11-27T03:38:38.435Z",
-      "seenCount": 14,
+      "lastSeen": "2026-11-27T19:00:42.152Z",
+      "seenCount": 15,
       "history": [
         {
           "at": "2026-11-25T04:13:00.420Z",
@@ -8359,15 +8373,11 @@
         {
           "title": "젠레스 존 제로 3.4 태양을 가져온 자 픽업 일정, 젠존제 선브링어 ...",
           "url": "https://blog.naver.com/didcjddns/224485479119"
-        },
-        {
-          "title": "로그인만 해도 '로빈' 무료…'젠레스 존 제로' 3.4 업데이트 - 디스이즈게임",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1lSW43dWdhQThXM25XakNuMHZFU3JZMHF2em9NcjViUlYta21GbzIwdllUaWRpM3ptczRFbW53TWQ4Qmo5UkkyNGlKWlF1dDlhMmhVaQ?oc=5"
         }
       ],
       "firstSeen": "2026-11-21T16:49:03.496Z",
-      "lastSeen": "2026-11-26T19:03:44.239Z",
-      "seenCount": 12,
+      "lastSeen": "2026-11-27T19:00:42.152Z",
+      "seenCount": 13,
       "history": [
         {
           "at": "2026-11-24T05:20:07.320Z",
@@ -8595,8 +8605,8 @@
         }
       ],
       "firstSeen": "2026-11-20T17:50:09.319Z",
-      "lastSeen": "2026-11-27T03:38:38.435Z",
-      "seenCount": 17,
+      "lastSeen": "2026-11-27T19:00:42.152Z",
+      "seenCount": 18,
       "history": [
         {
           "at": "2026-11-25T04:13:00.420Z",
@@ -8747,8 +8757,8 @@
         "at": "2026-11-25T19:19:05.170Z"
       },
       "firstSeen": "2026-11-10T17:04:46.203Z",
-      "lastSeen": "2026-11-26T19:03:44.239Z",
-      "seenCount": 15,
+      "lastSeen": "2026-11-27T19:00:42.152Z",
+      "seenCount": 16,
       "history": [
         {
           "at": "2026-11-25T19:19:05.170Z",
@@ -8763,13 +8773,13 @@
       "server": "kr",
       "type": "banner",
       "title": "3.8 버전 하반기 이벤트 튜닝 (히유키, 양양·현령, 수수)",
-      "description": "3.8 버전 하반기 예정된 히유키의 복각 캐릭터 이벤트 튜닝입니다.",
+      "description": "명조 3.8 버전 하반기 이벤트 튜닝으로 히유키, 양양·현령, 수수가 픽업됩니다.",
       "start": "2026-12-03T02:00:00.000Z",
       "end": "2026-12-21T03:59:00.000Z",
       "allDay": false,
       "confidence": 0.95,
       "status": "confirmed",
-      "basis": "community",
+      "basis": "official",
       "major": false,
       "rerun": true,
       "sources": [
@@ -8783,8 +8793,8 @@
         }
       ],
       "firstSeen": "2026-11-10T17:04:46.203Z",
-      "lastSeen": "2026-11-27T03:38:38.435Z",
-      "seenCount": 63,
+      "lastSeen": "2026-11-27T19:00:42.152Z",
+      "seenCount": 64,
       "history": []
     },
     {
@@ -8851,8 +8861,8 @@
         }
       ],
       "firstSeen": "2026-11-20T17:50:09.319Z",
-      "lastSeen": "2026-11-27T03:38:38.435Z",
-      "seenCount": 12,
+      "lastSeen": "2026-11-27T19:00:42.152Z",
+      "seenCount": 13,
       "history": []
     },
     {
@@ -8934,6 +8944,32 @@
       "history": []
     },
     {
+      "id": "af8059fc39e1",
+      "game": "nikke",
+      "server": "kr",
+      "type": "event",
+      "title": "유니온 레이드 오픈",
+      "description": "새로운 시즌의 유니온 레이드가 오픈되어 유니온원들과 함께 랩쳐와 전투를 진행합니다.",
+      "start": "2026-12-03T20:00:00.000Z",
+      "end": "2026-12-09T19:59:00.000Z",
+      "allDay": false,
+      "confidence": 0.95,
+      "status": "confirmed",
+      "basis": "official",
+      "major": false,
+      "rerun": false,
+      "sources": [
+        {
+          "title": "승리의 여신: 니케 - 신규 업데이트(@NIKKE_kr) / X",
+          "url": "https://x.com/NIKKE_kr"
+        }
+      ],
+      "firstSeen": "2026-11-27T19:00:42.152Z",
+      "lastSeen": "2026-11-27T19:00:42.152Z",
+      "seenCount": 1,
+      "history": []
+    },
+    {
       "id": "9a3cfb03e4bc",
       "game": "genshin",
       "server": "kr",
@@ -8981,8 +9017,8 @@
         }
       ],
       "firstSeen": "2026-11-20T17:50:09.319Z",
-      "lastSeen": "2026-11-27T03:38:38.435Z",
-      "seenCount": 13,
+      "lastSeen": "2026-11-27T19:00:42.152Z",
+      "seenCount": 14,
       "history": []
     },
     {
@@ -9007,8 +9043,8 @@
         }
       ],
       "community": {
-        "posts": 14,
-        "authors": 13,
+        "posts": 17,
+        "authors": 14,
         "recommended": 0,
         "reliable": 0,
         "sites": [
@@ -9016,11 +9052,11 @@
         ],
         "by": {
           "dcinside": {
-            "posts": 14,
-            "authors": 13
+            "posts": 17,
+            "authors": 14
           }
         },
-        "at": "2026-11-27T03:38:38.435Z"
+        "at": "2026-11-27T19:00:42.152Z"
       },
       "firstSeen": "2026-11-20T17:50:09.319Z",
       "lastSeen": "2026-11-25T09:51:07.031Z",
@@ -9049,20 +9085,20 @@
         }
       ],
       "community": {
-        "posts": 5,
-        "authors": 5,
-        "recommended": 0,
+        "posts": 10,
+        "authors": 9,
+        "recommended": 1,
         "reliable": 0,
         "sites": [
           "dcinside"
         ],
         "by": {
           "dcinside": {
-            "posts": 5,
-            "authors": 5
+            "posts": 10,
+            "authors": 9
           }
         },
-        "at": "2026-11-27T03:38:38.435Z"
+        "at": "2026-11-27T19:00:42.152Z"
       },
       "firstSeen": "2026-11-20T17:50:09.319Z",
       "lastSeen": "2026-11-25T09:51:07.031Z",
@@ -9074,12 +9110,12 @@
       "game": "bluearchive",
       "server": "kr",
       "type": "update",
-      "title": "블루 아카이브 2부 Vol.2 오디세이아 편 제1장: 눈동자에 비친 수평선 (전편) 메인 스토리",
-      "description": "메인 스토리 2부 Vol.2 오디세이아 편 제1장 전편이 공개될 예정입니다.",
+      "title": "2부 Vol.2 오디세이아 편 제1장: 눈동자에 비친 수평선 (전편) 메인 스토리",
+      "description": "메인 스토리 2부 Vol.2 오디세이아 편 제1장 전편 공개.",
       "start": "2026-12-07T15:00:00.000Z",
       "end": null,
       "allDay": true,
-      "confidence": 0.7,
+      "confidence": 0.8,
       "status": "predicted",
       "basis": "futuresight",
       "major": false,
@@ -9091,8 +9127,8 @@
         }
       ],
       "firstSeen": "2026-11-25T04:13:00.420Z",
-      "lastSeen": "2026-11-27T03:38:38.435Z",
-      "seenCount": 6,
+      "lastSeen": "2026-11-27T19:00:42.152Z",
+      "seenCount": 7,
       "history": []
     },
     {
@@ -9130,7 +9166,7 @@
             "authors": 3
           }
         },
-        "at": "2026-11-25T19:19:05.170Z"
+        "at": "2026-11-27T19:00:42.152Z"
       },
       "firstSeen": "2026-11-24T20:11:08.464Z",
       "lastSeen": "2026-11-24T20:11:08.464Z",
@@ -9209,8 +9245,8 @@
         "at": "2026-11-25T19:19:05.170Z"
       },
       "firstSeen": "2026-11-18T18:06:42.836Z",
-      "lastSeen": "2026-11-26T19:03:44.239Z",
-      "seenCount": 18,
+      "lastSeen": "2026-11-27T19:00:42.152Z",
+      "seenCount": 19,
       "history": []
     },
     {
@@ -9291,8 +9327,8 @@
         }
       ],
       "firstSeen": "2026-11-17T03:55:27.871Z",
-      "lastSeen": "2026-11-27T03:38:38.435Z",
-      "seenCount": 28,
+      "lastSeen": "2026-11-27T19:00:42.152Z",
+      "seenCount": 30,
       "history": []
     },
     {
@@ -9347,8 +9383,8 @@
         }
       ],
       "firstSeen": "2026-11-18T18:06:42.836Z",
-      "lastSeen": "2026-11-26T19:03:44.239Z",
-      "seenCount": 8,
+      "lastSeen": "2026-11-27T19:00:42.152Z",
+      "seenCount": 9,
       "history": [],
       "community": {
         "posts": 18,
@@ -9389,7 +9425,7 @@
         }
       ],
       "community": {
-        "posts": 4,
+        "posts": 5,
         "authors": 4,
         "recommended": 0,
         "reliable": 0,
@@ -9398,11 +9434,11 @@
         ],
         "by": {
           "dcinside": {
-            "posts": 4,
+            "posts": 5,
             "authors": 4
           }
         },
-        "at": "2026-11-27T03:38:38.435Z"
+        "at": "2026-11-27T19:00:42.152Z"
       },
       "firstSeen": "2026-11-22T17:10:58.255Z",
       "lastSeen": "2026-11-24T20:11:08.464Z",
@@ -9431,8 +9467,8 @@
         }
       ],
       "firstSeen": "2026-11-20T17:50:09.319Z",
-      "lastSeen": "2026-11-25T19:19:05.170Z",
-      "seenCount": 7,
+      "lastSeen": "2026-11-27T19:00:42.152Z",
+      "seenCount": 8,
       "history": []
     },
     {
@@ -9457,20 +9493,20 @@
         }
       ],
       "community": {
-        "posts": 10,
-        "authors": 9,
-        "recommended": 0,
+        "posts": 11,
+        "authors": 8,
+        "recommended": 2,
         "reliable": 0,
         "sites": [
           "dcinside"
         ],
         "by": {
           "dcinside": {
-            "posts": 10,
-            "authors": 9
+            "posts": 11,
+            "authors": 8
           }
         },
-        "at": "2026-11-27T03:38:38.435Z"
+        "at": "2026-11-27T19:00:42.152Z"
       },
       "firstSeen": "2026-11-24T20:11:08.464Z",
       "lastSeen": "2026-11-25T09:51:07.031Z",
@@ -9499,8 +9535,8 @@
         }
       ],
       "community": {
-        "posts": 14,
-        "authors": 13,
+        "posts": 5,
+        "authors": 5,
         "recommended": 0,
         "reliable": 0,
         "sites": [
@@ -9508,11 +9544,11 @@
         ],
         "by": {
           "dcinside": {
-            "posts": 14,
-            "authors": 13
+            "posts": 5,
+            "authors": 5
           }
         },
-        "at": "2026-11-27T03:38:38.435Z"
+        "at": "2026-11-27T19:00:42.152Z"
       },
       "firstSeen": "2026-11-24T20:11:08.464Z",
       "lastSeen": "2026-11-25T09:51:07.031Z",
@@ -9541,20 +9577,20 @@
         }
       ],
       "community": {
-        "posts": 10,
+        "posts": 11,
         "authors": 9,
-        "recommended": 4,
+        "recommended": 3,
         "reliable": 0,
         "sites": [
           "dcinside"
         ],
         "by": {
           "dcinside": {
-            "posts": 10,
+            "posts": 11,
             "authors": 9
           }
         },
-        "at": "2026-11-27T03:38:38.435Z"
+        "at": "2026-11-27T19:00:42.152Z"
       },
       "firstSeen": "2026-11-25T06:22:24.261Z",
       "lastSeen": "2026-11-25T06:22:24.261Z",
@@ -9583,8 +9619,8 @@
         }
       ],
       "community": {
-        "posts": 7,
-        "authors": 7,
+        "posts": 6,
+        "authors": 6,
         "recommended": 0,
         "reliable": 0,
         "sites": [
@@ -9592,11 +9628,11 @@
         ],
         "by": {
           "dcinside": {
-            "posts": 7,
-            "authors": 7
+            "posts": 6,
+            "authors": 6
           }
         },
-        "at": "2026-11-27T03:38:38.435Z"
+        "at": "2026-11-27T19:00:42.152Z"
       },
       "firstSeen": "2026-11-25T06:22:24.261Z",
       "lastSeen": "2026-11-25T06:22:24.261Z",
@@ -9694,7 +9730,7 @@
             "authors": 5
           }
         },
-        "at": "2026-11-27T03:38:38.435Z"
+        "at": "2026-11-27T19:00:42.152Z"
       },
       "firstSeen": "2026-11-25T04:13:00.420Z",
       "lastSeen": "2026-11-25T04:13:00.420Z",
@@ -9837,8 +9873,8 @@
         }
       ],
       "firstSeen": "2026-11-22T17:10:58.255Z",
-      "lastSeen": "2026-11-27T03:38:38.435Z",
-      "seenCount": 9,
+      "lastSeen": "2026-11-27T19:00:42.152Z",
+      "seenCount": 10,
       "history": []
     },
     {
@@ -10272,7 +10308,7 @@
             "authors": 2
           }
         },
-        "at": "2026-11-27T03:38:38.435Z"
+        "at": "2026-11-27T19:00:42.152Z"
       }
     },
     {
@@ -10714,7 +10750,7 @@
       ],
       "community": {
         "posts": 3,
-        "authors": 3,
+        "authors": 2,
         "recommended": 0,
         "reliable": 0,
         "sites": [
@@ -10723,10 +10759,10 @@
         "by": {
           "dcinside": {
             "posts": 3,
-            "authors": 3
+            "authors": 2
           }
         },
-        "at": "2026-11-27T03:38:38.435Z"
+        "at": "2026-11-27T19:00:42.152Z"
       },
       "firstSeen": "2026-11-25T06:22:24.261Z",
       "lastSeen": "2026-11-25T06:22:24.261Z",
@@ -10759,8 +10795,8 @@
       "seenCount": 1,
       "history": [],
       "community": {
-        "posts": 2,
-        "authors": 2,
+        "posts": 4,
+        "authors": 4,
         "recommended": 0,
         "reliable": 0,
         "sites": [
@@ -10768,11 +10804,11 @@
         ],
         "by": {
           "dcinside": {
-            "posts": 2,
-            "authors": 2
+            "posts": 4,
+            "authors": 4
           }
         },
-        "at": "2026-11-27T03:38:38.435Z"
+        "at": "2026-11-27T19:00:42.152Z"
       }
     },
     {
