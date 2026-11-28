@@ -1,12 +1,12 @@
 {
-  "startedAt": "2026-11-27T19:00:42.152Z",
+  "startedAt": "2026-11-28T03:19:21.707Z",
   "model": "gemini:gemini-3.5-flash-lite",
   "runs": [
     {
       "game": "genshin",
       "server": "kr",
-      "found": 7,
-      "accepted": 7,
+      "found": 8,
+      "accepted": 8,
       "rejected": [],
       "search": {
         "providers": {
@@ -26,20 +26,20 @@
             "errors": []
           }
         },
-        "pagesFetched": 4,
-        "pageErrors": 2,
-        "irrelevant": 2,
-        "newsResolved": 0,
+        "pagesFetched": 6,
+        "pageErrors": 0,
+        "irrelevant": 23,
+        "newsResolved": 6,
         "official": 0,
-        "results": 25,
-        "pages": 4
+        "results": 23,
+        "pages": 6
       }
     },
     {
       "game": "starrail",
       "server": "kr",
-      "found": 4,
-      "accepted": 4,
+      "found": 6,
+      "accepted": 6,
       "rejected": [],
       "search": {
         "providers": {
@@ -61,10 +61,10 @@
         },
         "pagesFetched": 4,
         "pageErrors": 2,
-        "irrelevant": 16,
-        "newsResolved": 0,
+        "irrelevant": 21,
+        "newsResolved": 6,
         "official": 0,
-        "results": 23,
+        "results": 25,
         "pages": 4
       }
     },
@@ -78,7 +78,7 @@
         "providers": {
           "googleNews": {
             "ok": 2,
-            "results": 7,
+            "results": 8,
             "errors": []
           },
           "bing": {
@@ -88,24 +88,24 @@
           },
           "duckduckgo": {
             "ok": 2,
-            "results": 20,
+            "results": 19,
             "errors": []
           }
         },
-        "pagesFetched": 5,
-        "pageErrors": 1,
-        "irrelevant": 15,
-        "newsResolved": 0,
+        "pagesFetched": 6,
+        "pageErrors": 0,
+        "irrelevant": 31,
+        "newsResolved": 6,
         "official": 0,
-        "results": 20,
-        "pages": 5
+        "results": 21,
+        "pages": 6
       }
     },
     {
       "game": "bluearchive",
       "server": "kr",
-      "found": 8,
-      "accepted": 8,
+      "found": 13,
+      "accepted": 13,
       "rejected": [],
       "search": {
         "providers": {
@@ -116,22 +116,22 @@
           },
           "bing": {
             "ok": 3,
-            "results": 0,
+            "results": 1,
             "errors": []
           },
           "duckduckgo": {
             "ok": 3,
-            "results": 22,
+            "results": 23,
             "errors": []
           }
         },
-        "pagesFetched": 5,
-        "pageErrors": 1,
-        "irrelevant": 19,
-        "newsResolved": 0,
+        "pagesFetched": 6,
+        "pageErrors": 0,
+        "irrelevant": 37,
+        "newsResolved": 6,
         "official": 0,
         "results": 25,
-        "pages": 5
+        "pages": 6
       }
     },
     {
@@ -158,29 +158,27 @@
             "errors": []
           }
         },
-        "pagesFetched": 6,
-        "pageErrors": 0,
-        "irrelevant": 23,
-        "newsResolved": 0,
+        "pagesFetched": 5,
+        "pageErrors": 1,
+        "irrelevant": 13,
+        "newsResolved": 6,
         "official": 0,
         "results": 25,
-        "pages": 6
+        "pages": 5
       }
     },
     {
       "game": "umamusume",
       "server": "kr",
-      "found": 4,
-      "accepted": 4,
+      "found": 5,
+      "accepted": 5,
       "rejected": [],
       "search": {
         "providers": {
           "googleNews": {
-            "ok": 2,
+            "ok": 3,
             "results": 6,
-            "errors": [
-              "우마무스메 한섭 픽업 가챠 일정: HTTP 429"
-            ]
+            "errors": []
           },
           "bing": {
             "ok": 3,
@@ -189,17 +187,17 @@
           },
           "duckduckgo": {
             "ok": 3,
-            "results": 26,
+            "results": 27,
             "errors": []
           }
         },
-        "pagesFetched": 2,
-        "pageErrors": 4,
-        "irrelevant": 27,
-        "newsResolved": 0,
+        "pagesFetched": 5,
+        "pageErrors": 1,
+        "irrelevant": 36,
+        "newsResolved": 6,
         "official": 0,
         "results": 25,
-        "pages": 2
+        "pages": 5
       }
     },
     {
@@ -222,17 +220,17 @@
           },
           "duckduckgo": {
             "ok": 3,
-            "results": 30,
+            "results": 29,
             "errors": []
           }
         },
-        "pagesFetched": 6,
-        "pageErrors": 0,
-        "irrelevant": 15,
+        "pagesFetched": 5,
+        "pageErrors": 1,
+        "irrelevant": 22,
         "newsResolved": 0,
         "official": 15,
-        "results": 23,
-        "pages": 21
+        "results": 24,
+        "pages": 20
       }
     },
     {
@@ -261,7 +259,7 @@
         },
         "pagesFetched": 6,
         "pageErrors": 0,
-        "irrelevant": 12,
+        "irrelevant": 17,
         "newsResolved": 0,
         "official": 0,
         "results": 25,
@@ -271,14 +269,14 @@
     {
       "game": "wuwa",
       "server": "kr",
-      "found": 3,
-      "accepted": 3,
+      "found": 7,
+      "accepted": 7,
       "rejected": [],
       "search": {
         "providers": {
           "googleNews": {
             "ok": 2,
-            "results": 9,
+            "results": 10,
             "errors": []
           },
           "bing": {
@@ -288,13 +286,13 @@
           },
           "duckduckgo": {
             "ok": 2,
-            "results": 18,
+            "results": 20,
             "errors": []
           }
         },
         "pagesFetched": 4,
         "pageErrors": 2,
-        "irrelevant": 5,
+        "irrelevant": 3,
         "newsResolved": 0,
         "official": 0,
         "results": 25,
@@ -304,8 +302,8 @@
     {
       "game": "limbus",
       "server": "kr",
-      "found": 3,
-      "accepted": 3,
+      "found": 4,
+      "accepted": 4,
       "rejected": [],
       "search": {
         "providers": {
@@ -327,7 +325,7 @@
         },
         "pagesFetched": 6,
         "pageErrors": 0,
-        "irrelevant": 19,
+        "irrelevant": 23,
         "newsResolved": 0,
         "official": 0,
         "results": 25,
@@ -347,8 +345,8 @@
         "하스미",
         "모에"
       ],
-      "posts": 155,
-      "attached": 9,
+      "posts": 154,
+      "attached": 10,
       "errors": []
     },
     {
@@ -362,7 +360,7 @@
         "SSR",
         "호시노"
       ],
-      "posts": 84,
+      "posts": 83,
       "attached": 2,
       "errors": []
     },
@@ -370,15 +368,15 @@
       "game": "arknights",
       "gallery": "mibj",
       "searched": [
-        "키린R",
-        "야토",
         "Aphrissa",
         "트라고디아",
         "Angelina",
-        "the"
+        "the",
+        "Mellow",
+        "Wish"
       ],
-      "posts": 121,
-      "attached": 2,
+      "posts": 101,
+      "attached": 1,
       "errors": []
     }
   ],
@@ -388,9 +386,9 @@
   ],
   "quotaStop": null,
   "stats": {
-    "added": 1,
-    "updated": 8,
-    "unchanged": 39
+    "added": 6,
+    "updated": 29,
+    "unchanged": 27
   },
-  "finishedAt": "2026-11-27T19:04:11.531Z"
+  "finishedAt": "2026-11-28T03:23:09.169Z"
 }
